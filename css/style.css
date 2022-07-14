@@ -1,0 +1,133 @@
+.font {
+	font-family: Arial;
+}
+
+.nopadding {
+	padding: 0 !important;
+}
+
+#left_side{
+	border-right: 2px solid;
+	background-color: lavender;
+	height: 600px;
+}
+
+#right_side{
+	border-left: 2px solid;
+	background-color: lavender;
+}
+
+.rightButton{
+	float: right;
+}
+
+#eval{
+	height: 60px;
+	width: 200px;
+	/* background:url("../img/mirror.png"); */
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#mirror{
+	height: 100px;
+	width: 1000px;
+	/* background:url("../img/mirror.png"); */
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#mirror_txt {
+    padding: 15px 50px;
+	font-size: 30px;
+}
+
+#eval_txt {
+	font-size: 30px;
+}
+
+.blue{
+	color: blue;
+}
+
+.green{
+	color: green;
+}
+
+.red{
+	color: red;
+}
+
+.pink{
+	color: DeepPink;
+}
+
+.skill{
+	background-color: rgba(255, 255, 255, 0.8);
+	font-size: 100px;
+}
+.next{
+	font-size: 20px;
+}
+.skill_num{
+	color: red;
+}
+.next_num{
+	color: blue;
+}
+.font_30{
+	font-size: 30px;
+}
+.font_50{
+	font-size: 50px;
+}
+.font_80{
+	font-size: 80px;
+}
+.font_100{
+	font-size: 85px;
+}
+.white_50{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.white_80{
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.blink {
+    animation: blink 1s infinite; /* Параметры анимации */
+   }
+   @keyframes blink {
+    from { opacity: 1; /* Непрозрачный текст */ }
+    to { opacity: 0.2; /* Прозрачный текст */ }
+   }
+
+.pointer {
+	cursor: pointer;
+}
+
+.circle {
+      width: 25px;
+      height: 25px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: red;
+	  text-align: center;
+	  font-size: 130%;
+	  font-weight: bold;
+	  margin-left: auto;
+}
+
+.game_button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.game_button:hover {
+	text-decoration: green underline;
+}
