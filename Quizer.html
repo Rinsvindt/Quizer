@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/bootstrap.min.css" rel="stylesheet" ></script>
+<link href="css/style.css" rel="stylesheet" ></script>
+<script src="js/quizer.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body onload='load()'>
+
+<button id="learn" type="button" class="btn btn-success btn-lg btn-block" disabled='disabled' onclick="learn()">Угадай исполнителя!</button>
+
+<div id="container">	
+
+	<div id='left_side' class="side col-sm-2">
+		<h2>Песня: <span id='song_count'>0</span> / <span id='total'>?</span></h2>
+		<h2>Статус: <span id='status' class='pink'>Новичок</span></h2>
+		<h2>Секунды: <span id='sec' class='blue'>0</span></h2>
+		<img class='blink pointer' src="like.jpg" width="100" height="100" style="display:none" onclick="like()"/>
+		<img class='blink pointer' src="dislike.jpg" width="100" height="100" style="display:none" onclick="dislike()"/>
+		<div id="eval">
+			<marquee id="eval_txt" class="font text-center align-middle" direction="up" scrolldelay="1" scrollamount="15" behavior="slide">
+				<font id="road_text"></font>
+			</marquee>
+		</div>
+	</div>
+	
+	<div class="col-sm-8">
+		<div id="mirror">
+			<marquee id="mirror_txt" class="font text-center align-middle" direction="up" scrolldelay="1" scrollamount="15" behavior="slide">
+				<font id="road_text"></font>
+			</marquee>
+		</div>
+		<img id="album" src="img/1.1.jpg" width="480" height="480" style="display:none" onclick="nextPoster()"/>
+		<img id="group" src="img/1.2.jpg" width="480" height="480" style="display:none" onclick="nextPoster()"/>
+		<img id="mode_0" class="pointer" src="ru.jpg" width="300" height="200" onclick="mode(0)"/>
+		<img id="mode_1" class="pointer" src="clip.jpg" width="300" height="200" onclick="mode(1)"/>
+		<img id="mode_2" class="pointer" src="song.webp" width="300" height="200" onclick="mode(2)"/>
+		<video id="song" class='pointer' width="900" autoplay loop playsinline src="#" onclick='play_pause()'></video>
+		<div id="game">	
+			<h2><button class="game_button" disabled="disabled" onclick="choose(1)" id='option_1'></button>
+			<button class="rightButton game_button" disabled="disabled" onclick="choose(2)" id='option_2'></button></h2>
+			<h2><button class="game_button" disabled="disabled" onclick="choose(3)" id='option_3'></button>
+			<button class="rightButton game_button" disabled="disabled" onclick="choose(4)" id='option_4'></button></h2>
+		</div>
+	</div>
+	
+	<div id='right_side' class="col-sm-2" title='Подсказка'>
+		<h2>Нужно подучить: <span id='skill' class='red'></span></h2>
+		<h3>Рейтинг: <br/><span id='rate' class='blue'></span></h3>
+	</div>
+	
+</div>
+	
+</body>
+</html>
