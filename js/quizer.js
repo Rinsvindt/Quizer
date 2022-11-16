@@ -7449,6 +7449,7 @@ function mode(num){
 		finalMessage = ' Ура! Вы освоили "Дискотеку 2000-х"!';
 	}
 	if(num == 22){
+		lang='ru';
 		year = 'kish';
 		sec_per_turn = 60;
 		$('#learn').html('Угадай песню КиШа');
