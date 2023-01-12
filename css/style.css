@@ -9,7 +9,7 @@
 #left_side{
 	border-right: 2px solid;
 	background-color: lavender;
-	height: 600px;
+	height: 700px;
 }
 
 #right_side{
@@ -40,6 +40,10 @@
 #mirror_txt {
     padding: 15px 50px;
 	font-size: 30px;
+}
+
+.pack_artist {
+	padding-left: 30px;
 }
 
 #eval_txt {
@@ -119,7 +123,7 @@
 	  margin-left: auto;
 }
 
-.game_button {
+.answer {
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -128,11 +132,11 @@
     outline: none;
 }
 
-.game_button:hover {
+.answer:hover {
 	text-decoration: green underline;
 }
 
-#sec_15:hover {
+.onhover:hover {
 	opacity: 0.5;
 }
 
