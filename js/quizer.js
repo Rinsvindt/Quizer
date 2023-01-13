@@ -524,7 +524,7 @@ function load(){
 		return false;
 	  }
 	});	
-	mirror('Русская / Зарубежная музыка?', 10, 'blue');
+	mirror('Подготовка Паши и Алёны к квизу 21.01.2023 в 19:45 (Bar BQ Night), 2 Лиги', 10, 'blue');
 }
 
 function twoPlayersMode(flag){
@@ -5844,10 +5844,6 @@ let en_2000_m_2 = [
 			song : "Lift Me Up"
 		},
 		{
-			group : 'Alex Gaudino',
-			song : 'Destination Calabria (ft Crystal Waters)'
-		},
-		{
 			group : 'David Guetta',
 			song : 'The World Is Mine'
 		},
@@ -5858,6 +5854,10 @@ let en_2000_m_2 = [
 		{
 			group : 'David Guetta',
 			song : 'Love is gone'
+		},
+		{
+			group : 'Alex Gaudino',
+			song : 'Destination Calabria (ft Crystal Waters)'
 		},
 		{
 			group : 'Dj Bobo',
@@ -11432,10 +11432,6 @@ let ru_2000_gr_1 = [
 	},
 	{
 		group : "Т9",
-		song : "Вдох-выдох"
-	},
-	{
-		group : "Т9",
 		song : "Ода нашей любви"
 	},
 	{
@@ -11682,6 +11678,10 @@ let ru_2000_gr_2 = [
 	{
 		group : 'Фабрика',
 		song : "Зажигают огоньки"
+	},
+	{
+		group : 'Блестящие',
+		song : "Пальмы парами"
 	}
 ];
 
@@ -15631,16 +15631,16 @@ function mode(num){
 		gr_packages = 5;
 		gr_package_names[0] = 'green_day';
 		gr_package_names[1] = 'u2';
-		gr_package_names[2] = 'rock';
-		gr_package_names[3] = 'pop_1';
-		gr_package_names[4] = 'pop_2';
+		gr_package_names[2] = 'kasabian';
+		gr_package_names[3] = 'black_eyed_peas';
+		gr_package_names[4] = 'mgmt';
 		m_packages = 3;
 		m_package_names[0] = 'pop';
 		m_package_names[1] = 'dj';
 		m_package_names[2] = 'rap';
 		f_packages = 3;
-		f_package_names[0] = 'pop_1';
-		f_package_names[1] = 'pop_2';
+		f_package_names[0] = 'katy_perry';
+		f_package_names[1] = 'leona_lewis';
 		f_package_names[2] = 'rnb';
 		$('.artist').show();
 	}
@@ -15725,11 +15725,11 @@ function mode(num){
 	// 2000
 	if(num == 21){
 		year = '2000';
-		gr_packages = 5;
-		gr_package_names[0] = 'ru_pop_1';
-		gr_package_names[1] = 'ru_pop_2';
-		gr_package_names[2] = 'ru_pop_3';
-		gr_package_names[3] = 'ru_rock_1';
+		gr_packages = 4;
+		gr_package_names[0] = 'quest_pistols';
+		gr_package_names[1] = 'vintazh';
+		gr_package_names[2] = 'infinity';
+		gr_package_names[3] = 'ru_rock';
 		$('#song').hide();
 		$('.artist').show();
 	}
