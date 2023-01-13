@@ -3437,27 +3437,27 @@ let en_1990_gr_5 = [
 		},
 		{
 			id : 15,
-			group : 'The Verve',
+			group : 'Verve',
 			song : "Bitter Sweet Symphony"
 		},
 		{
 			id : 16,
-			group : 'The Cardigans',
+			group : 'Cardigans',
 			song : "Do You Believe"
 		},
 		{
 			id : 17,
-			group : 'The Cardigans',
+			group : 'Cardigans',
 			song : "My Favourite Game"
 		},
 		{
 			id : 18,
-			group : 'The Cardigans',
+			group : 'Cardigans',
 			song : "Erase / Rewind"
 		},
 		{
 			id : 19,
-			group : 'The Cardigans',
+			group : 'Cardigans',
 			song : "Lovefool"
 		},
 		{
@@ -3472,22 +3472,22 @@ let en_1990_gr_5 = [
 		},
 		{
 			id : 22,
-			group : 'The Cranberries',
+			group : 'Cranberries',
 			song : "Zombie"
 		},
 		{
 			id : 23,
-			group : 'The Cranberries',
+			group : 'Cranberries',
 			song : "Dreams"
 		},
 		{
 			id : 24,
-			group : 'The Cranberries',
+			group : 'Cranberries',
 			song : "Linger"
 		},
 		{
 			id : 25,
-			group : 'The Cranberries',
+			group : 'Cranberries',
 			song : "Ode To My Family"
 		},
 		{
@@ -3583,17 +3583,17 @@ let en_1990_gr_5 = [
 		},
 		{
 			id : 44,
-			group : 'The Verve',
+			group : 'Verve',
 			song : "The Drugs Don't Work"
 		},
 		{
 			id : 45,
-			group : 'The Verve',
+			group : 'Verve',
 			song : "Lucky Man"
 		},
 		{
 			id : 46,
-			group : 'The Verve',
+			group : 'Verve',
 			song : "Sonnet"
 		}
 ];
@@ -15615,14 +15615,18 @@ function mode(num){
 	if(num == 0){
 		year = '1990';
 		m_packages = 2;
+		m_package_names[0] = 'tom_petty';
+		m_package_names[1] = 'shaggy';
 		gr_packages = 6;
-		gr_package_names[0] = 'rock_1';
-		gr_package_names[1] = 'rock_2';
-		gr_package_names[2] = 'rock_3';
-		gr_package_names[3] = 'pop_1';
-		gr_package_names[4] = 'pop_2';
+		gr_package_names[0] = 'aerosmith';
+		gr_package_names[1] = 'rem';
+		gr_package_names[2] = 'inxs';
+		gr_package_names[3] = 'extreme';
+		gr_package_names[4] = 'blur';
 		gr_package_names[5] = 'eurodance';
 		f_packages = 2;
+		f_package_names[0] = 'janet_jackson';
+		f_package_names[1] = 'bjork';
 		$('.artist').show();
 	}
 	// 2000
