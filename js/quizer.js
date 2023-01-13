@@ -524,7 +524,7 @@ function load(){
 		return false;
 	  }
 	});	
-	mirror('Подготовка Паши и Алёны к квизу 21.01.2023 в 19:45 (Bar BQ Night), 2 Лиги', 10, 'blue');
+	mirror('Русская / Зарубежная музыка?', 10, 'blue');
 }
 
 function twoPlayersMode(flag){
