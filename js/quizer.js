@@ -65,6 +65,7 @@ function choose(num){
 		audio.play();
 	}
 	modeToggle();
+	let group = songs[song_count].group;
 	if(answer.toUpperCase() == songs[song_count].group.toUpperCase()){
 		mirror_eval(rightAnswer(), 20, "green");
 		$("#option_" + num).addClass("green");
@@ -87,7 +88,7 @@ function choose(num){
 			$('#mistakes').html(--mistakes);
 		}
 		if(isSingle){
-			$('#skill').html(skill+='<br/>' + songs[song_count].group + ',');
+			$('#skill').html(skill = '<br/>- ' + group + skill);
 		} else {
 			if(isP1Turn){
 				$('#p1_skill').html(p1_skill+='<br/>' + songs[song_count].group + ',');
