@@ -3792,6 +3792,46 @@ let en_1990_gr_6 = [
 			id : 38,
 			group : 'New Order',
 			song : "Regret"
+		},	
+		{
+			group : 'Eiffel 65',
+			song : "Back in Time"
+		},	
+		{
+			group : 'Eiffel 65',
+			song : "Too Much Of Heaven"
+		},	
+		{
+			group : 'Captain Jack',
+			song : "Get Up"
+		},	
+		{
+			group : 'Captain Jack',
+			song : "Together and Forever"
+		},	
+		{
+			group : 'Captain Jack',
+			song : "Only You"
+		},	
+		{
+			group : 'Captain Jack',
+			song : "Soldier Soldier"
+		},	
+		{
+			group : 'Captain Jack',
+			song : "Captain Jack"
+		},	
+		{
+			group : 'Captain Jack',
+			song : "Little Boy"
+		},	
+		{
+			group : 'Captain Jack',
+			song : "Drill Instructor"
+		},	
+		{
+			group : 'Captain Jack',
+			song : "Holiday"
 		}
 ];
 
