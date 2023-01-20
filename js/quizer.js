@@ -70,6 +70,9 @@ function choose(num){
 		$("#option_" + num).addClass("green");
 		if(isSingle){
 			correct++;
+			if (!~rate.indexOf('+ ' + group)){
+				$('#rate').html(rate = '+ ' + group + '<br/>' + rate);
+			}
 		} else if(isP1Turn){
 			p1_correct++;
 		} else {
@@ -101,7 +104,7 @@ function choose(num){
 			mirror('Game over!', 10, 'red');
 		} else {
 			toggleGameButton();
-			$('.blink').show();
+			next();
 		}
 	} else {
 		next_double();
