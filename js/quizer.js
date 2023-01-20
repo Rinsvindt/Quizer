@@ -54,6 +54,7 @@ $('#eval_txt').replaceWith( '<marquee id="eval_txt" class="font text-center alig
 }
 
 function choose(num){
+	$('#pause').show();
 	let answer = '';
 	if(num){
 		answer = options[num-1];
@@ -258,6 +259,7 @@ function learn(){
 	} else {
 		$('.answer').show();
 	}
+	$('#pause').hide();
 	$('#back').hide();
 	$('#package_content').hide();
 	$('#answer_input').val('');
@@ -281,6 +283,14 @@ async function sec_15(){
 		if(time_left < 15){
 			time_left = 15;
 		}
+	}
+}
+
+function song_pause() {
+	if(audio.paused){
+		audio.play();
+	} else {
+		audio.pause();
 	}
 }
 
