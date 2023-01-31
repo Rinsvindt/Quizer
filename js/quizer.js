@@ -16723,6 +16723,7 @@ function mode(num){
 		m_packages = 3;
 		m_package_names[0] = 'tom_petty';
 		m_package_names[1] = 'shaggy';
+		m_package_names[2] = 'eurodance';
 		gr_packages = 6;
 		gr_package_names[0] = 'aerosmith';
 		gr_package_names[1] = 'rem';
