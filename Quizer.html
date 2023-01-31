@@ -26,10 +26,14 @@
 			<input id='scoreSwitch' type="checkbox" onchange='enableScore(this);'>
 			<span class="checkbox-google-switch"></span>
 		</label> Счёт</h2>
-		<!-- <h2 class='settings'><label class="checkbox-google">
+		<h2 class='settings'><label class="checkbox-google">
 			<input id='tournement' type="checkbox" onchange='tournementMode(this);'>
 			<span class="checkbox-google-switch"></span>
-		</label> Турнир</h2> -->
+		</label> Турнир</h2>
+		<h2 class='settings'><label class="checkbox-google">
+			<input id='alphabet' type="checkbox" onchange='enableAlphabetMode(this);'>
+			<span class="checkbox-google-switch"></span>
+		</label> Алфавит</h2>
 		<span class='single'>
 			<h2 class='score' style="display:none">Счёт: <span id='score' class='green'>0</span></h2>
 			<h2>Песня: <span id='song_count'>0</span> / <span id='total'>?</span></h2>
@@ -38,21 +42,21 @@
 			<h2>Статус: <span id='status' class='pink'>Новичок</span></h2>
 			<h2 id='sec_h2' onclick="time_toggle()" class='pointer onhover'>Секунды: <span id='sec' class='blue pointer onhover'>0</span></h2>
 			<h2 id='min_h2' onclick="time_toggle()" class='pointer onhover' style="display:none">Минуты: <span id='min' class='green pointer onhover'>0</span></h2>
-			<img class='blink pointer' src="img/navi/like.jpg" width="100" height="100" style="display:none" onclick="like()"/>
-			<img class='blink pointer' src="img/navi/dislike.jpg" width="100" height="100" style="display:none" onclick="dislike()"/>
+			<!-- <img class='blink pointer' src="img/navi/like.jpg" width="100" height="100" style="display:none" onclick="like()"/> -->
+			<!-- <img class='blink pointer' src="img/navi/dislike.jpg" width="100" height="100" style="display:none" onclick="dislike()"/> -->
 			<img id='sec_15' class='pointer onhover' src="img/navi/15_sec.png" width="100" height="100" onclick="sec_15()"/>
 			<img id='pause' class='pointer onhover' src="img/navi/pause.png" width="100" height="100" onclick="song_pause()" style="display:none"/>
 			<img id='back' class='pointer onhover' src="img/navi/back.png" width="100" height="100" onclick="back()" style="display:none"/>
 			<img id='wheel' class='pointer onhover' src="img/navi/wheel.png" width="100" height="100" onclick="wheel()"/>
 		</span>
-		<!-- <span class='double' style="display:none"> -->
-			<!-- <h2 class='p1 green'></h2> -->
-			<!-- <h2>Песня: <span id='p1_song_count'>0</span> / <span id='p1_total'>?</span></h2> -->
-			<!-- <h2>Секунды: <span id='p1_sec' class='blue'>0</span></h2> -->
-			<!-- <h2 class='p2 green'></h2> -->
-			<!-- <h2>Песня: <span id='p2_song_count'>0</span> / <span id='p2_total'>?</span></h2> -->
-			<!-- <h2>Секунды: <span id='p2_sec' class='blue'>0</span></h2> -->
-		<!-- </span> -->
+		<span class='double' style="display:none">
+			<h2 class='p1 green'></h2>
+			<h2>Песня: <span id='p1_song_count'>0</span> / <span id='p1_total'>?</span></h2>
+			<h2>Секунды: <span id='p1_sec' class='blue'>0</span></h2>
+			<h2 class='p2 green'></h2>
+			<h2>Песня: <span id='p2_song_count'>0</span> / <span id='p2_total'>?</span></h2>
+			<h2>Секунды: <span id='p2_sec' class='blue'>0</span></h2>
+		</span>
 		<div id="eval">
 			<marquee id="eval_txt" class="font text-center align-middle" direction="up" scrolldelay="1" scrollamount="15" behavior="slide">
 				<font id="road_text"></font>
@@ -114,11 +118,8 @@
 		<!-- <img id="mode_8" class="en pointer mode" src="img/navi/en/en_1950.jpg" width="300" height="200" style="display:none" onclick="mode(8)"/> -->
 		<!-- <img id="mode_9" class="en pointer mode" src="img/navi/en/en_1960.jpg" width="300" height="200" style="display:none" onclick="mode(9)"/> -->
 		<!-- <img id="mode_15" class="en pointer mode" src="img/navi/en/en_1980.jpg" width="300" height="200" style="display:none" onclick="mode(15)"/> -->
-		<!-- <img id="mode_17" class="pointer en_1980" src="en_pop_1980.jpg" width="300" height="200" style="display:none" onclick="mode(17)"/> -->
-		<!-- <img id="mode_19" class="pointer en_1980" src="en_disco_1980.jpg" width="300" height="200" style="display:none" onclick="mode(19)"/> -->
-		<!-- <img id="mode_18" class="pointer en_1980" src="en_rock_1980.jpg" width="300" height="200" style="display:none" onclick="mode(18)"/> -->
-		<img id="mode_0" class="en pointer mode" src="img/navi/en/en_1990.jpg" width="300" height="200" style="display:none" onclick="mode(0)"/>
-		<img id="mode_4" class="en pointer mode" src="img/navi/en/en_2000.jpg" width="300" height="200" style="display:none" onclick="mode(4)"/>
+		<img id="mode_0" class="en pointer mode en_alphabet" src="img/navi/en/en_1990.jpg" width="300" height="200" style="display:none" onclick="mode(0)"/>
+		<img id="mode_4" class="en pointer mode en_alphabet" src="img/navi/en/en_2000.jpg" width="300" height="200" style="display:none" onclick="mode(4)"/>
 		<!-- <img id="mode_6" class="en pointer mode" src="img/navi/en/en_2007.jpg" width="300" height="200" style="display:none" onclick="mode(6)"/> -->
 		<!-- <img id="mode_10" class="en pointer mode" src="img/navi/en/en_2010.jpg" width="300" height="200" style="display:none" onclick="mode(10)"/> -->
 		<!-- <img id="mode_11" class="en pointer mode" src="img/navi/en/en_2020.jpg" width="300" height="200" style="display:none" onclick="mode(11)"/> -->
@@ -130,12 +131,12 @@
 		<!-- <img id="mode_16" class="ru pointer mode" src="img/navi/ru/ru_1980.jpg" width="300" height="200" style="display:none" onclick="mode(16)"/> -->
 		<!-- <img id="mode_23" class="pointer ru_1980" src="img/navi/ru/ru_pop_1980.jpg" width="450" height="300" style="display:none" onclick="mode(23)"/> -->
 		<!-- <img id="mode_20" class="pointer ru_1980" src="img/navi/ru/ru_rock_1980.jpg" width="450" height="300" style="display:none" onclick="mode(20)"/> -->
-		<img id="mode_1" class="ru pointer mode" src="img/navi/ru/ru_1990.jpg" width="300" height="200" style="display:none" onclick="mode(1)"/>
-		<img id="mode_21" class="ru pointer mode" src="img/navi/ru/ru_2000.jpg" width="300" height="200" style="display:none" onclick="mode(21)"/>
+		<img id="mode_1" class="ru pointer mode ru_alphabet" src="img/navi/ru/ru_1990.jpg" width="300" height="200" style="display:none" onclick="mode(1)"/>
+		<img id="mode_21" class="ru pointer mode ru_alphabet" src="img/navi/ru/ru_2000.jpg" width="300" height="200" style="display:none" onclick="mode(21)"/>
 		<!-- <img id="mode_5" class="ru pointer mode" src="img/navi/ru/ru_2007.jpg" width="300" height="200" style="display:none" onclick="mode(5)"/> -->
 		<!-- <img id="mode_13" class="ru pointer mode" src="img/navi/ru/ru_2010.jpg" width="300" height="200" style="display:none" onclick="mode(13)"/> -->
 		<!-- <img id="mode_12" class="ru pointer mode" src="img/navi/ru/ru_2020.jpg" width="300" height="200" style="display:none" onclick="mode(12)"/> -->
-		<!-- <img id="mode_22" class="ru pointer mode" src="img/navi/ru/ru_kish.jpg" width="300" height="200" style="display:none" onclick="mode(22)"/> -->
+		<img id="mode_22" class="ru pointer mode" src="img/navi/ru/ru_kish.jpg" width="300" height="200" style="display:none" onclick="mode(22)"/>
 		<!-- <video id="song" class='pointer' width="900" autoplay loop playsinline src="#" onclick='play_pause()' style="display:none"></video> -->
 		<div id="game">	
 			<h2><button style="display:none" class="game_button answer" disabled="disabled" onclick="choose(1)" id='option_1'></button>
@@ -161,10 +162,10 @@
 			<h3>Нужно подучить: <span id='skill' class='red'></span></h3>
 			<h3>Угадано: <br/><span id='rate' class='green'></span></h3>
 		</span>
-		<!-- <span class='double' style="display:none"> -->
-			<!-- <h2><span class='p1 green'></span>, подучить: <span id='p1_skill' class='red'></span></h2> -->
-			<!-- <h2><span class='p2 green'></span>, подучить: <span id='p2_skill' class='red'></span></h2> -->
-		<!-- </span> -->
+		<span class='double' style="display:none">
+			<h2><span class='p1 green'></span>, подучить: <span id='p1_skill' class='red'></span></h2>
+			<h2><span class='p2 green'></span>, подучить: <span id='p2_skill' class='red'></span></h2>
+		</span>
 	</div>
 	
 </div>
