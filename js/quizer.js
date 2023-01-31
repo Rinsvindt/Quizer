@@ -4666,6 +4666,7 @@ let en_1990_m = [
 
 let en_1990_m_1 =	en_1990_m.filter(item => item.pack == 1);
 let en_1990_m_2 =	en_1990_m.filter(item => item.pack == 2);
+let en_1990_m_3 =	en_1990_m.filter(item => item.pack == 3);
 
 let en_1990_f = [
 		{
@@ -16560,31 +16561,34 @@ function setPathsByPack(num){
 	// en_1990_m_1, en_1990_m_2, en_1990_f_1, en_1990_f_2]
 	
 function setMusicalAlphabet(){
-	let arr;
 	let result = [];
+	let arr = generateSongIds(eval(lang + '_' + year + '_gr'));
+	let arr_pack;
+	audioPath = 'audio/' + lang + '/' + year + '/gr/';
+	imgPath = 'img/' + lang + '/' + year + '/gr/';
 	for(let i = 1; i <= gr_packages; i++){
-		arr = generateSongIds(eval(lang + '_' + year + '_gr_' + i));
-		audioPath = 'audio/' + lang + '/' + year + '/gr/' + i + '/';
-		imgPath = 'img/' + lang + '/' + year + '/gr/' + i + '/';
-		arr = setMusicalAlphabetPack(arr, 'Группа', audioPath, imgPath);
-		shuffle(arr);
-		result.push(arr.slice(0, 7));
+		arr_pack = arr.filter(song => song.pack == i);
+		arr_pack = setMusicalAlphabetPack(arr_pack, 'Группа', audioPath, imgPath);
+		shuffle(arr_pack);
+		result.push(arr_pack.slice(0, 7));
 	}
+	arr = generateSongIds(eval(lang + '_' + year + '_m'));
+	audioPath = 'audio/' + lang + '/' + year + '/m/';
+	imgPath = 'img/' + lang + '/' + year + '/m/';
 	for(let i = 1; i <= m_packages; i++){
-		arr = generateSongIds(eval(lang + '_' + year + '_m_' + i));
-		audioPath = 'audio/' + lang + '/' + year + '/m/' + i + '/';
-		imgPath = 'img/' + lang + '/' + year + '/m/'  + i + '/';
-		arr = setMusicalAlphabetPack(arr, 'Исполнитель', audioPath, imgPath);
-		shuffle(arr);
-		result.push(arr.slice(0, 7));
+		arr_pack = arr.filter(song => song.pack == i);
+		arr_pack = setMusicalAlphabetPack(arr_pack, 'Исполнитель', audioPath, imgPath);
+		shuffle(arr_pack);
+		result.push(arr_pack.slice(0, 7));
 	}
+	arr = generateSongIds(eval(lang + '_' + year + '_f'));
+	audioPath = 'audio/' + lang + '/' + year + '/f/';
+	imgPath = 'img/' + lang + '/' + year + '/f/';
 	for(let i = 1; i <= f_packages; i++){
-		arr = generateSongIds(eval(lang + '_' + year + '_f_' + i));
-		audioPath = 'audio/' + lang + '/' + year + '/f/' + i + '/';
-		imgPath = 'img/' + lang + '/' + year + '/f/'  + i + '/';
-		arr = setMusicalAlphabetPack(arr, 'Исполнительница', audioPath, imgPath);
-		shuffle(arr);
-		result.push(arr.slice(0, 7));
+		arr_pack = arr.filter(song => song.pack == i);
+		arr_pack = setMusicalAlphabetPack(arr_pack, 'Исполнительница', audioPath, imgPath);
+		shuffle(arr_pack);
+		result.push(arr_pack.slice(0, 7));
 	}
 	result = result.flat();
 	shuffle(result);
