@@ -106,6 +106,7 @@ function choose(num){
 			mirror('Game over!', 10, 'red');
 		} else {
 			toggleGameButton();
+			// $('.blink').show();
 			next();
 		}
 	} else {
@@ -253,6 +254,8 @@ function toggleGameButton(){
 	}
 }
 
+let lang_letter;
+
 function learn(){
 	if(withoutAnswers){
 		$('.without_answers').show();
@@ -270,7 +273,12 @@ function learn(){
 	randomAnswers();
 	setMedia();
 	count_down(sec_per_turn);
-	$('#mirror').hide();
+	if(!alphabetMode){
+		$('#mirror').hide();
+	} else {
+		$('#mirror').show();
+		mirror(songs[song_count].type + ' на ' + lang_letter + ' букву ' + songs[song_count].letter, 10, 'blue');
+	}
 }
 
 async function sec_15(){
@@ -345,7 +353,11 @@ function setAudio(){
 	if(audio){
 		audio.pause();
 	}
-	audio = new Audio(audioPath + songs[song_count].id + '.mp3');
+	if(!songs[song_count].audioPath){
+		audio = new Audio(audioPath + songs[song_count].id + '.mp3');
+	} else {
+		audio = new Audio(songs[song_count].audioPath + '.mp3');
+	}
 	audio.play();
 }
 
@@ -522,8 +534,12 @@ function togglePoster(){
 }
 
 function toggleArtist(){
-	if(toggleFlag){		
-		$('#artist').attr("src", imgPath + songs[song_count].id + ".jpg");
+	if(toggleFlag){
+		if(!songs[song_count].imgPath) {
+			$('#artist').attr("src", imgPath + songs[song_count].id + ".jpg");
+		} else {
+			$('#artist').attr("src",  songs[song_count].imgPath + ".jpg");
+		}
 		$('#artist').toggle();
 	} else {
 		toggleFlag = true;
@@ -564,6 +580,13 @@ function tournementMode(flag){
     }else{
          isTournement = false;
    }
+}
+
+let alphabetMode = false;
+
+function enableAlphabetMode(flag){
+	withoutAnswers = flag.checked;
+	alphabetMode = flag.checked;
 }
 
 function enableScore(flag){
@@ -663,7 +686,7 @@ let en_1940 = [
 	},
 	{
 		id : 17,
-		group : 'The Ink Spots',
+		group : 'Ink Spots',
 		song : "The Gypsy"
 	},
 	{
@@ -789,7 +812,7 @@ let en_1960 = [
 	},
 	{
 		id : 3,
-		group : 'The Beatles',
+		group : 'Beatles',
 		song : "Hey Jude"
 	},
 	{
@@ -799,12 +822,12 @@ let en_1960 = [
 	},
 	{
 		id : 5,
-		group : 'The Beatles',
+		group : 'Beatles',
 		song : "I Want to Hold Your Hand"
 	},
 	{
 		id : 6,
-		group : 'The Monkees',
+		group : 'Monkees',
 		song : "I'm a Believer"
 	},
 	{
@@ -829,7 +852,7 @@ let en_1960 = [
 	},
 	{
 		id : 11,
-		group : 'The 5th Dimension',
+		group : '5th Dimension',
 		song : "Aquarius/Let the Sunshine In"
 	},
 	{
@@ -1211,7 +1234,7 @@ let en_1980_gr_4 = [
 	},
 	{
 		id : 11,
-		group : 'The Pointer Sisters',
+		group : 'Pointer Sisters',
 		song : "I'm So Excited"
 	},
 	{
@@ -1437,7 +1460,7 @@ let en_1980_gr_5 = [
 		song : "With Or Without You"
 	},
 	{
-		group : "R.E.M.",
+		group : "REM",
 		song : "Orange Crush"
 	},
 	{
@@ -1562,11 +1585,11 @@ let en_1980_gr_5 = [
 		song : "Rock And Roll All Nite"
 	},
 	{
-		group : "R.E.M.",
+		group : "REM",
 		song : "Its The End Of The World As We Know It (And I Feel Fine)"
 	},
 	{
-		group : "R.E.M.",
+		group : "REM",
 		song : "The One I Love"
 	}
 ];
@@ -1597,17 +1620,17 @@ let en_1980_gr_6 = [
 	},
 	{
 		id : 12,
-		group : "Guns N' Roses",
+		group : "Guns N Roses",
 		song : "Sweet Child O' Mine"
 	},
 	{
 		id : 13,
-		group : "Guns N' Roses",
+		group : "Guns N Roses",
 		song : "Mr. Brownstone"
 	},
 	{
 		id : 14,
-		group : "Guns N' Roses",
+		group : "Guns N Roses",
 		song : "Welcome To The Jungle"
 	},
 	{
@@ -1720,11 +1743,11 @@ let en_1980_gr_6 = [
 		song : "2 Minutes To Midnight"
 	},
 	{
-		group : "Guns N' Roses",
+		group : "Guns N Roses",
 		song : "Paradise City"
 	},
 	{
-		group : "Guns N' Roses",
+		group : "Guns N Roses",
 		song : "Knockin' On Heaven's Door"
 	},
 	{
@@ -2605,2170 +2628,2511 @@ let en_1980_f_2 = [
 	}
 ];
 
-let en_1990_gr_1 = [
+let en_1990_gr = [
 		{
-			id : 1,
+			pack : 1,
 			group : 'Aerosmith',
 			song : "Hole In My Soul"
 		},
 		{
-			id : 2,
+			pack : 1,
 			group : 'Aerosmith',
 			song : "Pink"
 		},
 		{
-			id : 3,
+			pack : 1,
 			group : 'Aerosmith',
 			song : "Walk This Way"
 		},
 		{
-			id : 4,
+			pack : 1,
 			group : 'Green Day',
 			song : "Longview"
 		},
 		{
-			id : 5,
+			pack : 1,
 			group : 'Green Day',
 			song : "Basket Case"
 		},
 		{
-			id : 6,
+			pack : 1,
 			group : 'Green Day',
 			song : "When I Come Around"
 		},
 		{
-			id : 7,
+			pack : 1,
 			group : 'Green Day',
 			song : "J.A.R."
 		},
 		{
-			id : 8,
+			pack : 1,
 			group : 'Green Day',
 			song : "Brain Stew"
 		},
 		{
-			id : 9,
+			pack : 1,
 			group : 'Green Day',
 			song : "Good Riddance"
 		},
 		{
-			id : 10,
+			pack : 1,
 			group : 'Green Day',
 			song : "Redundant"
 		},
 		{
-			id : 11,
+			pack : 1,
 			group : 'Green Day',
 			song : "Minority"
 		},
 		{
-			id : 12,
+			pack : 1,
 			group : 'Green Day',
 			song : "Warning"
 		},
 		{
-			id : 13,
+			pack : 1,
 			group : 'Green Day',
 			song : "Hitchin' A Ride"
 		},
 		{
-			id : 14,
-			group : 'The Offspring',
+			pack : 1,
+			group : 'Offspring',
 			song : "Why Don't You Get A Job"
 		},
 		{
-			id : 15,
-			group : 'The Offspring',
+			pack : 1,
+			group : 'Offspring',
 			song : "The Kids Aren't Alright"
 		},
 		{
-			id : 16,
-			group : 'The Offspring',
+			pack : 1,
+			group : 'Offspring',
 			song : "Original Prankster"
 		},
 		{
-			id : 17,
-			group : 'The Offspring',
+			pack : 1,
+			group : 'Offspring',
 			song : "Come Out and Play"
 		},
 		{
-			id : 18,
-			group : 'The Offspring',
+			pack : 1,
+			group : 'Offspring',
 			song : "Self Esteem"
 		},
 		{
-			id : 19,
-			group : 'The Offspring',
+			pack : 1,
+			group : 'Offspring',
 			song : "All I Want"
 		},
 		{
-			id : 20,
-			group : 'The Offspring',
+			pack : 1,
+			group : 'Offspring',
 			song : "Gone Away"
 		},
 		{
-			id : 21,
-			group : 'The Offspring',
+			pack : 1,
+			group : 'Offspring',
 			song : "Pretty Fly"
 		},
 		{
-			id : 22,
-			group : "Guns N' Roses",
+			pack : 1,
+			group : "Guns N Roses",
 			song : "You Could Be Mine"
 		},
 		{
-			id : 23,
-			group : "Guns N' Roses",
+			pack : 1,
+			group : "Guns N Roses",
 			song : "Don't Cry"
 		},
 		{
-			id : 24,
-			group : "Guns N' Roses",
+			pack : 1,
+			group : "Guns N Roses",
 			song : "November Rain"
 		},
 		{
-			id : 25,
-			group : "Guns N' Roses",
+			pack : 1,
+			group : "Guns N Roses",
 			song : "Knockin' On Heaven's Door"
 		},
 		{
-			id : 26,
-			group : "Guns N' Roses",
+			pack : 1,
+			group : "Guns N Roses",
 			song : "Sympathy For The Devil"
 		},
 		{
-			id : 27,
+			pack : 1,
 			group : 'AC/DC',
 			song : "Thunderstuck"
 		},
 		{
-			id : 28,
+			pack : 1,
 			group : 'AC/DC',
 			song : "Moneytalks"
 		},
 		{
-			id : 29,
+			pack : 1,
 			group : 'AC/DC',
 			song : "Are You Ready"
 		},
 		{
-			id : 30,
+			pack : 1,
 			group : 'AC/DC',
 			song : "Highway to Hell"
 		},
 		{
-			id : 31,
+			pack : 1,
 			group : 'AC/DC',
 			song : "Big Gun"
 		},
 		{
-			id : 32,
+			pack : 1,
 			group : 'AC/DC',
 			song : "Hard as a Rock"
 		},
 		{
-			id : 33,
+			pack : 1,
 			group : 'Red Hot Chili Peppers',
 			song : "Give It Away"
 		},
 		{
-			id : 34,
+			pack : 1,
 			group : 'Red Hot Chili Peppers',
 			song : "Under The Bridge"
 		},
 		{
-			id : 35,
+			pack : 1,
 			group : 'Red Hot Chili Peppers',
 			song : "Soul To Squeeze"
 		},
 		{
-			id : 36,
+			pack : 1,
 			group : 'Red Hot Chili Peppers',
 			song : "Warped"
 		},
 		{
-			id : 37,
+			pack : 1,
 			group : 'Red Hot Chili Peppers',
 			song : "My Friends"
 		},
 		{
-			id : 38,
+			pack : 1,
 			group : 'Red Hot Chili Peppers',
 			song : "Scar Tissue"
 		},
 		{
-			id : 39,
+			pack : 1,
 			group : 'Red Hot Chili Peppers',
 			song : "Otherside"
 		},
 		{
-			id : 40,
+			pack : 1,
 			group : 'Red Hot Chili Peppers',
 			song : "Californication"
 		},
 		{
-			id : 41,
+			pack : 1,
 			group : 'Red Hot Chili Peppers',
 			song : "Road Trippin'"
 		},
 		{
-			id : 42,
+			pack : 1,
 			group : 'Aerosmith',
 			song : "I Don't Want to Miss a Thing"
 		},
 		{
-			id : 43,
+			pack : 1,
 			group : 'Aerosmith',
 			song : "Livin' on the Edge"
 		},
 		{
-			id : 44,
+			pack : 1,
 			group : 'Aerosmith',
 			song : "Eat The Rich"
 		},
 		{
-			id : 45,
+			pack : 1,
 			group : 'Aerosmith',
 			song : "Cryin'"
 		},
 		{
-			id : 46,
+			pack : 1,
 			group : 'Aerosmith',
 			song : "Crazy"
 		},
 		{
-			id : 47,
+			pack : 1,
 			group : 'Aerosmith',
 			song : "Amazing"
 		},
 		{
-			id : 48,
+			pack : 1,
 			group : 'Aerosmith',
 			song : "Falling In Love"
-		}
-];
-
-let en_1990_gr_2 = [
+		},
 		{
-			id : 1,
-			group : 'R.E.M.',
+			pack : 2,
+			group : 'REM',
 			song : "Loosing My Religion"
 		},
 		{
-			id : 2,
-			group : 'R.E.M.',
+			pack : 2,
+			group : 'REM',
 			song : "Everybody Hurts"
 		},
 		{
-			id : 3,
-			group : 'R.E.M.',
+			pack : 2,
+			group : 'REM',
 			song : "Shiny Happy People"
 		},
 		{
-			id : 4,
+			pack : 2,
 			group : 'Oasis',
 			song : "Wonderwall"
 		},
 		{
-			id : 5,
+			pack : 2,
 			group : 'Oasis',
 			song : "D'You Know What I Mean?"
 		},
 		{
-			id : 6,
+			pack : 2,
 			group : 'Oasis',
 			song : "Don't Look Back In Anger"
 		},
 		{
-			id : 7,
+			pack : 2,
 			group : 'Oasis',
 			song : "Champagne Supernova"
 		},
 		{
-			id : 8,
+			pack : 2,
 			group : 'Oasis',
 			song : "Live Forever"
 		},
 		{
-			id : 9,
+			pack : 2,
 			group : 'Bon Jovi',
 			song : "Blaze Of Glory"
 		},
 		{
-			id : 10,
+			pack : 2,
 			group : 'Bon Jovi',
 			song : "Always"
 		},
 		{
-			id : 11,
+			pack : 2,
 			group : 'Bon Jovi',
 			song : "Bed Of Roses"
 		},
 		{
-			id : 12,
+			pack : 2,
 			group : 'U2',
 			song : "One"
 		},
 		{
-			id : 13,
+			pack : 3,
 			group : 'Garbage',
 			song : "I Think I'm Paranoid"
 		},
 		{
-			id : 14,
+			pack : 3,
 			group : 'Garbage',
 			song : "Only Happy When It Rains"
 		},
 		{
-			id : 15,
+			pack : 3,
 			group : 'Garbage',
 			song : "#1 Crush"
 		},
 		{
-			id : 16,
+			pack : 3,
 			group : 'Garbage',
 			song : "Push It"
 		},
 		{
-			id : 17,
+			pack : 3,
 			group : 'Garbage',
 			song : "You Look So Fine"
 		},
 		{
-			id : 18,
+			pack : 3,
 			group : 'Garbage',
 			song : "Stupid Girl"
 		},
 		{
-			id : 19,
+			pack : 2,
 			group : 'U2',
 			song : "The Fly"
 		},
 		{
-			id : 20,
+			pack : 2,
 			group : 'U2',
 			song : "Mysterious Ways"
 		},
 		{
-			id : 21,
+			pack : 2,
 			group : 'U2',
 			song : "Even Better Than The Real Thing"
 		},
 		{
-			id : 22,
+			pack : 2,
 			group : 'U2',
 			song : "Stay (Faraway, So Close!)"
 		},
 		{
-			id : 23,
+			pack : 2,
 			group : 'U2',
 			song : "Hold Me, Thrill Me, Kiss Me, Kill Me"
 		},
 		{
-			id : 24,
+			pack : 2,
 			group : 'U2',
 			song : "Discotheque"
 		},
 		{
-			id : 25,
+			pack : 2,
 			group : 'U2',
 			song : "Staring At The Sun"
 		},
 		{
-			id : 26,
+			pack : 2,
 			group : 'U2',
 			song : "Sweetest Thing"
 		},
 		{
-			id : 27,
+			pack : 2,
 			group : 'U2',
 			song : "Beautiful Day"
 		},
 		{
-			id : 28,
+			pack : 2,
 			group : 'Blink 182',
 			song : "Dammit"
 		},
 		{
-			id : 29,
+			pack : 2,
 			group : 'Blink 182',
 			song : "What's My Age Again?"
 		},
 		{
-			id : 30,
+			pack : 2,
 			group : 'Blink 182',
 			song : "All The Small Things"
 		},
 		{
-			id : 31,
+			pack : 2,
 			group : 'Blink 182',
 			song : "Adam's Song"
 		},
 		{
-			id : 32,
+			pack : 2,
 			group : 'Blink 182',
 			song : "Man Overboard"
 		},
 		{
-			id : 33,
-			group : 'R.E.M.',
+			pack : 2,
+			group : 'REM',
 			song : "Man On The Moon"
 		},
 		{
-			id : 34,
+			pack : 2,
 			group : 'Queen',
 			song : "Made In Heaven"
 		},
 		{
-			id : 35,
+			pack : 2,
 			group : 'Chumbawamba',
 			song : "Tubthumping"
 		},	
 		{
-			id : 36,
+			pack : 2,
 			group : 'Soundgarden',
 			song : "Black Hole Sun"
 		},
 		{
-			id : 37,
+			pack : 2,
 			group : 'Nazareth',
 			song : "Cocaine"
 		},
 		{
-			id : 38,
+			pack : 2,
 			group : 'Goo Goo Dolls',
 			song : "Iris"
 		},
 		{
-			id : 39,
+			pack : 2,
 			group : 'Goo Goo Dolls',
 			song : "Slide"
 		},	
 		{
-			id : 40,
+			pack : 2,
 			group : 'Soundgarden',
 			song : "Spoonman"
 		},	
 		{
-			id : 41,
+			pack : 2,
 			group : 'Soundgarden',
 			song : "Fell On Black Days"
 		},
 		{
-			id : 42,
-			group : 'R.E.M.',
+			pack : 2,
+			group : 'REM',
 			song : "Drive"
 		},
 		{
-			id : 43,
+			pack : 4,
 			group : 'Urge Overkill',
 			song : "Girl, You'll Be A Woman Soon"
 		},
 		{
-			id : 44,
+			pack : 2,
 			group : 'ZZ Top',
 			song : "My Head's In Mississippi"
 		},
 		{
-			id : 45,
+			pack : 2,
 			group : 'ZZ Top',
 			song : "Doubleback"
 		},
 		{
-			id : 46,
+			pack : 2,
 			group : 'ZZ Top',
 			song : "Concrete And Steel"
 		},
 		{
-			id : 47,
+			pack : 2,
 			group : 'ZZ Top',
 			song : "Give It Up"
 		},
 		{
-			id : 48,
+			pack : 2,
 			group : 'ZZ Top',
 			song : "Viva Las Vegas"
 		},
 		{
-			id : 49,
+			pack : 2,
 			group : 'ZZ Top',
 			song : "Pincushion"
 		},
 		{
-			id : 50,
+			pack : 3,
 			group : 'Massive Attack',
 			song : "Unfinished Sympathy"
 		},
 		{
-			id : 51,
+			pack : 3,
 			group : 'Massive Attack',
 			song : "Teardrop"
 		},
 		{
-			id : 52,
+			pack : 2,
 			group : 'Cypress Hill',
 			song : "Insane In The Brain"
 		},
 		{
-			id : 53,
+			pack : 2,
 			group : 'Cypress Hill',
 			song : "Hits from the Bong"
 		},
 		{
-			id : 54,
+			pack : 2,
 			group : 'Cypress Hill',
 			song : "How I Could Just Kill a Man"
 		},
 		{
-			id : 55,
+			pack : 2,
 			group : 'Cypress Hill',
 			song : "Tequila Sunrise"
 		},
 		{
-			id : 56,
+			pack : 2,
 			group : 'Cypress Hill',
 			song : "I Wanna Get High"
-		}
-];
-
-let en_1990_gr_3 = [
+		},
 		{
-			id : 1,
+			pack : 3,
 			group : 'INXS',
 			song : "Suicide Blonde"
 		},
 		{
-			id : 2,
+			pack : 3,
 			group : 'INXS',
 			song : "Disappear"
 		},
 		{
-			id : 3,
+			pack : 3,
 			group : 'INXS',
 			song : "By My Side"
 		},
 		{
-			id : 4,
+			pack : 3,
 			group : 'INXS',
 			song : "Bitter Tears"
 		},
 		{
-			id : 5,
+			pack : 3,
 			group : 'INXS',
 			song : "Shining Star"
 		},
 		{
-			id : 6,
+			pack : 3,
 			group : 'INXS',
 			song : "Taste It"
 		},
 		{
-			id : 7,
+			pack : 3,
 			group : 'INXS',
 			song : "All Around"
 		},
 		{
-			id : 8,
+			pack : 3,
 			group : 'INXS',
 			song : "Baby Dont Cry"
 		},
 		{
-			id : 9,
+			pack : 3,
 			group : 'INXS',
 			song : "The Strangest Party"
 		},
 		{
-			id : 10,
+			pack : 3,
 			group : 'INXS',
 			song : "Deliver Me"
-		}
-];
-
-let en_1990_gr_4 = [
+		},
 		{
-			id : 1,
+			pack : 3,
+			group : 'Foo Fighters',
+			song : "Monkey Wrench"
+		},
+		{
+			pack : 3,
+			group : 'Foo Fighters',
+			song : "Everlong"
+		},
+		{
+			pack : 3,
+			group : 'Jamiroquai',
+			song : "Virtual Insanity"
+		},
+		{
+			pack : 3,
+			group : 'Moloko',
+			song : "Sing in Back"
+		},
+		{
+			pack : 4,
 			group : 'Beloved',
 			song : 'Sweet harmony',
 			state: ' по Белавд'
 		},
 		{
-			id : 2,
-			group : 'The Fugees',
+			pack : 4,
+			group : 'Fugees',
 			song : "Killing Me Softly"
 		},
 		{
-			id : 3,
+			pack : 4,
 			group : 'Kriss Kross',
 			song : "Jump"
 		},
 		{
-			id : 4,
+			pack : 4,
 			group : 'Reamonn',
 			song : "Supergirl"
 		},
 		{
-			id : 5,
+			pack : 4,
 			group : 'Extreme',
 			song : "More Than Words"
 		},
 		{
-			id : 6,
+			pack : 4,
 			group : 'Fools Garden',
 			song : "Lemon Tree"
 		},
 		{
-			id : 7,
+			pack : 4,
 			group : 'Duran Duran',
 			song : "Ordinary World"
 		},
 		{
-			id : 8,
+			pack : 4,
 			group : 'Duran Duran',
 			song : "Come Undone"
 		},
 		{
-			id : 9,
+			pack : 4,
 			group : 'Texas',
 			song : "Summer Son"
 		},
 		{
-			id : 10,
+			pack : 4,
 			group : 'UB40',
 			song : "I Can't Help Falling In Love With You"
 		},
 		{
-			id : 11,
+			pack : 4,
 			group : 'No Mercy',
 			song : "Where Do You Go"
 		},
 		{
-			id : 12,
+			pack : 4,
 			group : 'Wet Wet Wet',
 			song : "Love Is All Around"
 		},
 		{
-			id : 13,
+			pack : 4,
 			group : 'Tears For Fears',
 			song : "Break It Down Again"
 		},
 		{
-			id : 14,
-			group : 'The Fugees',
+			pack : 4,
+			group : 'Fugees',
 			song : "Ready Or Not"
 		},
 		{
-			id : 15,
+			pack : 4,
 			group : 'Fools Garden',
 			song : "Probably"
 		},	
 		{
-			id : 16,
+			pack : 4,
 			group : 'TLC',
 			song : "No Scrubs"
 		},
 		{
-			id : 17,
+			pack : 4,
 			group : 'Ten Sharp',
 			song : "You"
 		},
 		{
-			id : 18,
+			pack : 4,
 			group : 'Soul Asylum',
 			song : "Runaway Train"
 		},
 		{
-			id : 19,
+			pack : 4,
 			group : 'Boyz II Men',
 			song : "I'll Make Love To You"
 		},
 		{
-			id : 20,
+			pack : 4,
 			group : 'Boyz II Men',
 			song : "End Of The Road"
 		},	
 		{
-			id : 21,
+			pack : 4,
 			group : 'TLC',
 			song : "Waterfalls"
 		},		
 		{
-			id : 22,
+			pack : 4,
 			group : 'Mike + The Mechanics',
 			song : "Over My Shoulder"
 		},
 		{
-			id : 23,
+			pack : 4,
 			group : 'Mike + The Mechanics',
 			song : "Another Cup of Coffee"
 		},
 		{
-			id : 24,
+			pack : 4,
 			group : 'Hanson',
 			song : "MMMBop"
 		},
 		{
-			id : 25,
+			pack : 4,
 			group : 'White Town',
 			song : "Your Woman"
 		},	
 		{
-			id : 26,
+			pack : 4,
 			group : '4 Non Blondes',
 			song : "What's Up?"
 		},		
 		{
-			id : 27,
+			pack : 4,
 			group : 'Touch & Go',
 			song : "Would You...?"
 		},
 		{
-			id : 28,
+			pack : 4,
 			group : 'Touch & Go',
 			song : "Tango In Harlem"
 		},
 		{
-			id : 29,
+			pack : 4,
 			group : 'Pretenders',
 			song : "I'll Stand by You"
 		},
 		{
-			id : 30,
+			pack : 4,
 			group : 'Sixpence None The Richer',
 			song : "Kiss Me"
 		},
 		{
-			id : 31,
+			pack : 4,
 			group : 'Everything But The Girl',
 			song : "Missing"
 		},
 		{
-			id : 32,
+			pack : 4,
 			group : 'Genesis',
 			song : "I Can't Dance"
 		},
 		{
-			id : 33,
+			pack : 4,
 			group : 'Genesis',
 			song : "No Son Of Mine"
 		},
 		{
-			id : 34,
-			group : 'The Lightning Seeds',
+			pack : 4,
+			group : 'Lightning Seeds',
 			song : "You Showed Me"
 		},
 		{
-			id : 35,
+			pack : 4,
 			group : 'Vaya Con Dios',
 			song : "What's a Woman"
 		},
 		{
-			id : 36,
+			pack : 4,
 			group : 'Vaya Con Dios',
 			song : "Nah Neh Nah"
 		},
 		{
-			id : 37,
-			group : 'Mr. Big',
+			pack : 4,
+			group : 'Mr Big',
 			song : "Wild World"
 		},
 		{
-			id : 38,
+			pack : 4,
 			group : 'Lighthouse Family',
 			song : "Ain't No Sunshine"
-		}
-];
-
-let en_1990_gr_5 = [
+		},
 		{
-			id : 1,
+			pack : 5,
 			group : 'Depeche Mode',
 			song : "Enjoy The Silence"
 		},
 		{
-			id : 2,
+			pack : 5,
 			group : 'Depeche Mode',
 			song : "Policy Of Truth"
 		},
 		{
-			id : 3,
+			pack : 5,
 			group : 'Depeche Mode',
 			song : "World In My Eyes"
 		},
 		{
-			id : 4,
+			pack : 5,
 			group : 'Depeche Mode',
 			song : "It's No Good"
 		},
 		{
-			id : 5,
+			pack : 5,
 			group : 'Blur',
 			song : "Girls And Boys"
 		},
 		{
-			id : 6,
+			pack : 5,
 			group : 'Blur',
 			song : "Country House"
 		},
 		{
-			id : 7,
+			pack : 5,
 			group : 'Blur',
 			song : "The Universal"
 		},
 		{
-			id : 8,
+			pack : 5,
 			group : 'Blur',
 			song : "Beetlebum"
 		},
 		{
-			id : 9,
+			pack : 5,
 			group : 'Blur',
 			song : "Song 2"
 		},
 		{
-			id : 10,
+			pack : 5,
 			group : 'Blur',
 			song : "Tender"
 		},
 		{
-			id : 11,
+			pack : 5,
 			group : 'Spice Girls',
 			song : "Too Much"
 		},
 		{
-			id : 12,
+			pack : 5,
 			group : 'Spice Girls',
 			song : "Wannabe"
 		},
 		{
-			id : 13,
+			pack : 5,
 			group : 'Spice Girls',
 			song : "Say You'll Be There"
 		},
 		{
-			id : 14,
+			pack : 5,
 			group : 'Spice Girls',
 			song : "Move Over"
 		},
 		{
-			id : 15,
+			pack : 5,
 			group : 'Verve',
 			song : "Bitter Sweet Symphony"
 		},
 		{
-			id : 16,
+			pack : 5,
 			group : 'Cardigans',
 			song : "Do You Believe"
 		},
 		{
-			id : 17,
+			pack : 5,
 			group : 'Cardigans',
 			song : "My Favourite Game"
 		},
 		{
-			id : 18,
+			pack : 5,
 			group : 'Cardigans',
 			song : "Erase / Rewind"
 		},
 		{
-			id : 19,
+			pack : 5,
 			group : 'Cardigans',
 			song : "Lovefool"
 		},
 		{
-			id : 20,
-			group : "'N Sync",
+			pack : 5,
+			group : "NSYNK",
 			song : "Bye Bye Bye"
 		},
 		{
-			id : 21,
-			group : "'N Sync",
+			pack : 5,
+			group : "NSYNK",
 			song : "It's Gonna Be Me"
 		},
 		{
-			id : 22,
+			pack : 5,
 			group : 'Cranberries',
 			song : "Zombie"
 		},
 		{
-			id : 23,
+			pack : 5,
 			group : 'Cranberries',
 			song : "Dreams"
 		},
 		{
-			id : 24,
+			pack : 5,
 			group : 'Cranberries',
 			song : "Linger"
 		},
 		{
-			id : 25,
+			pack : 5,
 			group : 'Cranberries',
 			song : "Ode To My Family"
 		},
 		{
-			id : 26,
+			pack : 5,
 			group : 'No Doubt',
 			song : "Just A Girl"
 		},
 		{
-			id : 27,
+			pack : 5,
 			group : 'No Doubt',
 			song : "Don't Speak"
 		},
-		
 		{
-			id : 28,
+			pack : 5,
 			group : 'Take That',
 			song : "Do What You Like"
 		},
 		{
-			id : 29,
+			pack : 5,
 			group : 'Take That',
 			song : "A Million Love Songs"
 		},
 		{
-			id : 30,
+			pack : 5,
 			group : 'Take That',
 			song : "I Found Heaven"
 		},
 		{
-			id : 31,
+			pack : 5,
 			group : 'Take That',
 			song : "Could It Be Magic"
 		},
 		{
-			id : 32,
+			pack : 5,
 			group : 'Take That',
 			song : "Back for Good"
 		},
 		{
-			id : 33,
+			pack : 5,
 			group : 'Take That',
 			song : "Pray"
 		},
 		{
-			id : 34,
+			pack : 5,
 			group : 'Take That',
 			song : "Relight My Fire"
 		},
 		{
-			id : 35,
+			pack : 5,
 			group : 'Take That',
 			song : "Everything Changes"
 		},
 		{
-			id : 36,
+			pack : 5,
 			group : 'Take That',
 			song : "Babe"
 		},
 		{
-			id : 37,
+			pack : 5,
 			group : 'Five',
 			song : "Slam Dunk (Da Funk)"
 		},
 		{
-			id : 38,
+			pack : 5,
 			group : 'Five',
 			song : "When the Lights Go Out"
 		},
 		{
-			id : 39,
+			pack : 5,
 			group : 'Five',
 			song : "Got the Feelin'"
 		},
 		{
-			id : 40,
+			pack : 5,
 			group : 'Five',
 			song : "Everybody Get Up"
 		},
 		{
-			id : 41,
+			pack : 5,
 			group : 'Five',
 			song : "Until the Time Is Through"
 		},
 		{
-			id : 42,
+			pack : 5,
 			group : 'Five',
 			song : "Invincible"
 		},
 		{
-			id : 43,
+			pack : 5,
 			group : 'Five',
 			song : "Don't Wanna Let You Go"
 		},
 		{
-			id : 44,
+			pack : 5,
 			group : 'Verve',
 			song : "The Drugs Don't Work"
 		},
 		{
-			id : 45,
+			pack : 5,
 			group : 'Verve',
 			song : "Lucky Man"
 		},
 		{
-			id : 46,
+			pack : 5,
 			group : 'Verve',
 			song : "Sonnet"
-		}
-];
-
-let en_1990_gr_6 = [
+		},
 		{
-			id : 1,
+			pack : 6,
 			group : 'Paradisio',
 			song : "Bailando"
 		},
 		{
-			id : 2,
+			pack : 6,
 			group : 'Paradisio',
 			song : "Vamos a la Discoteca"
 		},
 		{
-			id : 3,
+			pack : 6,
 			group : 'Reel 2 Real',
 			song : "Can You Feel It (feat. The Mad Stuntman)"
 		},
 		{
-			id : 4,
+			pack : 6,
 			group : 'Reel 2 Real',
 			song : "Go On Move (ft The Mad Stuntman)"
 		},
 		{
-			id : 5,
+			pack : 6,
 			group : 'Reel 2 Real',
 			song : "I Like to Move It (ft The Mad Stuntman)"
 		},
 		{
-			id : 6,
+			pack : 6,
 			group : 'Reel 2 Real',
 			song : "The New Anthem (ft Erick Moore)"
 		},	
 		{
-			id : 7,
+			pack : 6,
 			group : 'Eiffel 65',
 			song : "Blue (Da Ba Dee)"
 		},
 		{
-			id : 8,
+			pack : 6,
 			group : 'Eiffel 65',
 			song : "Move Your Body"
 		},
 		{
-			id : 9,
+			pack : 6,
 			group : 'Crazy Town',
 			song : "Butterfly"
 		},
 		{
-			id : 10,
-			group : 'SNAP!',
+			pack : 6,
+			group : 'SNAP',
 			song : "The Power"
 		},
 		{
-			id : 11,
-			group : 'SNAP!',
+			pack : 6,
+			group : 'SNAP',
 			song : "Believe In It"
 		},
 		{
-			id : 12,
-			group : 'SNAP!',
+			pack : 6,
+			group : 'SNAP',
 			song : "Oops Up"
 		},
 		{
-			id : 13,
-			group : 'SNAP!',
+			pack : 6,
+			group : 'SNAP',
 			song : "Rhythm Is A Dancer"
 		},
 		{
-			id : 14,
+			pack : 6,
 			group : 'Capella',
 			song : "U Got 2 Let The Music"
 		},
 		{
-			id : 15,
+			pack : 6,
 			group : 'Urban Cookie Collective',
 			song : "High On A Happy Vibe"
 		},
 		{
-			id : 16,
-			group : 'Co.Ro.',
+			pack : 6,
+			group : 'CoRo',
 			song : "Because the Night (ft Taleesa)"
 		},
 		{
-			id : 17,
+			pack : 6,
 			group : 'New Order',
 			song : "World In Motion"
 		},
 		{
-			id : 18,
+			pack : 6,
 			group : 'Culture Beat',
 			song : "Mr. Vain"
 		},
 		{
-			id : 19,
+			pack : 6,
 			group : 'Culture Beat',
 			song : "Anything"
 		},
 		{
-			id : 20,
+			pack : 6,
 			group : 'Antique',
 			song : "Opa Opa"
 		},
 		{
-			id : 21,
+			pack : 6,
 			group : '2 Unlimited',
 			song : "No Limit"
 		},
 		{
-			id : 22,
+			pack : 6,
 			group : '2 Unlimited',
 			song : "Let The Beat Control Your Body"
 		},
 		{
-			id : 23,
+			pack : 6,
 			group : 'Captain Jack',
 			song : "Dream a Dream"
 		},
 		{
-			id : 24,
+			pack : 6,
 			group : 'Corona',
 			song : "The Rhythm of the Night"
 		},
 		{
-			id : 25,
+			pack : 6,
 			group : 'Masterboy',
 			song : "Feel the Heat of the Night"
 		},
 		{
-			id : 26,
+			pack : 6,
 			group : 'EMF',
 			song : "Unbelievable"
 		},
 		{
-			id : 27,
+			pack : 6,
 			group : 'Pharao',
 			song : "There Is A Star"
 		},
 		{
-			id : 28,
+			pack : 6,
 			group : 'Pharao',
 			song : "I Show You Secrets"
 		},
 		{
-			id : 29,
+			pack : 6,
 			group : 'Pharao',
 			song : "Gold In The Pyramid"
 		},	
 		{
-			id : 30,
+			pack : 6,
 			group : 'Inner Circle',
 			song : "Sweat (A La La La La Song)"
 		},
 		{
-			id : 31,
+			pack : 6,
 			group : 'Smash Mouth',
 			song : "All Star"
 		},
 		{
-			id : 32,
+			pack : 6,
 			group : 'Smash Mouth',
 			song : "I'm A Believer"
 		},
 		{
-			id : 33,
+			pack : 6,
 			group : 'Yaki-Da',
 			song : "I Saw You Dancing"
 		},
 		{
-			id : 34,
+			pack : 6,
 			group : 'Yaki-Da',
 			song : "Just a Dream"
 		},
 		{
-			id : 35,
+			pack : 6,
 			group : 'Sade',
 			song : "No Ordinary Love"
 		},
 		{
-			id : 36,
+			pack : 6,
 			group : 'Domino',
 			song : "Baila baila conmigo"
 		},
 		{
-			id : 37,
+			pack : 6,
 			group : 'Real McCoy',
 			song : "Another Night"
 		},
 		{
-			id : 38,
+			pack : 6,
 			group : 'New Order',
 			song : "Regret"
 		},	
 		{
+			pack : 6,
 			group : 'Eiffel 65',
 			song : "Back in Time"
 		},	
 		{
+			pack : 6,
 			group : 'Eiffel 65',
 			song : "Too Much Of Heaven"
 		},	
 		{
+			pack : 6,
 			group : 'Captain Jack',
 			song : "Get Up"
 		},	
 		{
+			pack : 6,
 			group : 'Captain Jack',
 			song : "Together and Forever"
 		},	
 		{
+			pack : 6,
 			group : 'Captain Jack',
 			song : "Only You"
 		},	
 		{
+			pack : 6,
 			group : 'Captain Jack',
 			song : "Soldier Soldier"
 		},	
 		{
+			pack : 6,
 			group : 'Captain Jack',
 			song : "Captain Jack"
 		},	
 		{
+			pack : 6,
 			group : 'Captain Jack',
 			song : "Little Boy"
 		},	
 		{
+			pack : 6,
 			group : 'Captain Jack',
 			song : "Drill Instructor"
 		},	
 		{
+			pack : 6,
 			group : 'Captain Jack',
 			song : "Holiday"
+		},	
+		{
+			pack : 6,
+			group : 'Sash',
+			song : "Equador"
+		},	
+		{
+			pack : 6,
+			group : 'Sash',
+			song : "Adelante"
+		},	
+		{
+			pack : 6,
+			group : 'Me & My',
+			song : "Dub I Dub"
+		},	
+		{
+			pack : 6,
+			group : 'Me & My',
+			song : "Let The Love Go On"
+		},	
+		{
+			pack : 6,
+			group : 'Me & My',
+			song : "Baby Boy"
+		},	
+		{
+			pack : 6,
+			group : 'Me & My',
+			song : "Secret Garden"
+		},	
+		{
+			pack : 3,
+			group : 'Foo Fighters',
+			song : "Learn to Fly"
+		},	
+		{
+			pack : 3,
+			group : 'Foo Fighters',
+			song : "My Hero"
+		},	
+		{
+			pack : 3,
+			group : 'Foo Fighters',
+			song : "Big Me"
+		},	
+		{
+			pack : 6,
+			group : 'Inner Circle',
+			song : "Bad Boys"
+		},	
+		{
+			pack : 3,
+			group : 'Cue',
+			song : "Hello"
+		},	
+		{
+			pack : 6,
+			group : 'Basic Element',
+			song : "Touch"
+		},	
+		{
+			pack : 6,
+			group : 'Basic Element',
+			song : "Move Me"
+		},	
+		{
+			pack : 6,
+			group : 'Basic Element',
+			song : "The Promise Man"
+		},	
+		{
+			pack : 6,
+			group : 'Basic Element',
+			song : "Leave It Behind"
+		},	
+		{
+			pack : 6,
+			group : 'Basic Element',
+			song : "The Ride"
+		},	
+		{
+			pack : 6,
+			group : 'Basic Element',
+			song : "Shame"
+		},	
+		{
+			pack : 6,
+			group : '2 Unlimited',
+			song : "Get Ready For This"
+		},	
+		{
+			pack : 2,
+			group : 'Bon Jovi',
+			song : "Keep The Faith"
+		},	
+		{
+			pack : 2,
+			group : 'Bon Jovi',
+			song : "Someday I'll Be Saturday Night"
+		},	
+		{
+			pack : 2,
+			group : 'Bon Jovi',
+			song : "This Ain't A Love Song"
+		},	
+		{
+			pack : 2,
+			group : 'Bon Jovi',
+			song : "Real Love"
+		},	
+		{
+			pack : 6,
+			group : 'Corona',
+			song : "Baby Baby"
+		},	
+		{
+			pack : 6,
+			group : 'Corona',
+			song : "I Don’t Wanna Be A Star"
+		},	
+		{
+			pack : 6,
+			group : 'Corona',
+			song : "Try Me Out"
+		},
+		{
+			pack : 6,
+			group : '2 Unlimited',
+			song : "Twilight Zone"
+		},
+		{
+			pack : 6,
+			group : '2 Unlimited',
+			song : "Tribal Dance"
+		},
+		{
+			pack : 3,
+			group : 'Portishead',
+			song : "Numb"
+		},
+		{
+			pack : 3,
+			group : 'Portishead',
+			song : "Sour Times"
+		},
+		{
+			pack : 3,
+			group : 'Portishead',
+			song : "Glory Box"
+		},
+		{
+			pack : 3,
+			group : 'Portishead',
+			song : "All Mine"
+		},
+		{
+			pack : 3,
+			group : 'Portishead',
+			song : "Over"
+		},
+		{
+			pack : 3,
+			group : 'Portishead',
+			song : "Only You"
+		},
+		{
+			pack : 3,
+			group : 'L7',
+			song : "Drama"
+		},
+		{
+			pack : 3,
+			group : 'L7',
+			song : "Off the Wagon"
+		},
+		{
+			pack : 3,
+			group : 'Guana Apes',
+			song : "Open Your Eyes"
+		},
+		{
+			pack : 3,
+			group : 'Guana Apes',
+			song : "Rain"
+		},
+		{
+			pack : 3,
+			group : 'Guana Apes',
+			song : "Lords Of The Boards"
+		},
+		{
+			pack : 3,
+			group : 'Guana Apes',
+			song : "Don't You Turn Your Back On Me"
+		},
+		{
+			pack : 3,
+			group : 'Guana Apes',
+			song : "Big in Japan"
+		},
+		{
+			pack : 3,
+			group : 'Guana Apes',
+			song : "No Speech"
+		},
+		{
+			pack : 3,
+			group : 'Guana Apes',
+			song : "Living in a Lie"
+		},
+		{
+			pack : 6,
+			group : 'Brooklyn Bounce',
+			song : "Bass, Beats & Melody"
+		},
+		{
+			pack : 6,
+			group : 'Brooklyn Bounce',
+			song : "Get Ready to Bounce"
+		},
+		{
+			pack : 6,
+			group : 'Brooklyn Bounce',
+			song : "Take a Ride"
 		}
 ];
 
-let en_1990_m_1 = [
+let en_1990_gr_1 =	en_1990_gr.filter(item => item.pack == 1);
+let en_1990_gr_2 =	en_1990_gr.filter(item => item.pack == 2);
+let en_1990_gr_3 =	en_1990_gr.filter(item => item.pack == 3);
+let en_1990_gr_4 =	en_1990_gr.filter(item => item.pack == 4);
+let en_1990_gr_5 =	en_1990_gr.filter(item => item.pack == 5);
+let en_1990_gr_6 =	en_1990_gr.filter(item => item.pack == 6);
+
+let en_1990_m = [
 		{
-			id : 1,
+			pack : 3,
 			group : 'Sin With Sebastian',
 			song : "Shut Up (And Sleep With Me)"
 		},
 		{
-			id : 2,
+			pack : 1,
 			group : 'Robert Miles',
 			song : "One And One"
 		},
 		{
-			id : 3,
+			pack : 1,
 			group : 'Coolio',
 			song : "Gangsta's Paradise (ft LV)"
 		},
 		{
-			id : 4,
+			pack : 1,
 			group : 'Robert Miles',
 			song : "Children"
 		},
 		{
-			id : 5,
+			pack : 1,
 			group : 'Will Smith',
 			song : "Men in black"
 		},
 		{
-			id : 6,
+			pack : 1,
 			group : 'Enrique Iglesias',
 			song : "Bailamos"
 		},
 		{
-			id : 7,
+			pack : 1,
 			group : 'Bruce Springsteen',
 			song : "Streets of Philadelphia"
 		},
 		{
-			id : 8,
+			pack : 1,
 			group : 'Seal',
 			song : "Kiss From A Rose"
 		},
 		{
-			id : 9,
+			pack : 1,
 			group : 'Eagle-Eye Cherry',
 			song : "Save Tonight"
 		},
 		{
-			id : 10,
+			pack : 1,
 			group : 'Eagle-Eye Cherry',
 			song : "Indecision"
 		},
 		{
-			id : 11,
+			pack : 3,
 			group : 'Haddaway',
 			song : "What Is Love?"
 		},
 		{
-			id : 12,
+			pack : 3,
 			group : 'Haddaway',
 			song : "Life"
 		},
 		{
-			id : 13,
+			pack : 3,
 			group : 'Haddaway',
 			song : "I Miss You"
 		},
 		{
-			id : 14,
+			pack : 3,
 			group : 'Haddaway',
 			song : "What About Me"
 		},
 		{
-			id : 15,
+			pack : 1,
 			group : 'Fatboy Slim',
 			song : "The Rockafeller Skank"
 		},
 		{
-			id : 16,
+			pack : 1,
 			group : 'Michael Bolton',
 			song : "Can I Touch You...There?"
 		},
 		{
-			id : 17,
+			pack : 1,
 			group : 'Lenny Kravitz',
 			song : "Fly Away"
 		},
 		{
-			id : 18,
+			pack : 1,
 			group : 'Joe Cocker',
 			song : "N'Oubliez Jamais"
 		},
 		{
-			id : 19,
+			pack : 1,
 			group : 'Paul McCartney',
 			song : "Hope Of Deliverance"
 		},
 		{
-			id : 20,
+			pack : 1,
 			group : 'Marc Anthony',
 			song : "When I Dream At Night"
 		},
 		{
-			id : 21,
+			pack : 1,
 			group : 'Maxi Priest',
 			song : "Close To You"
 		},
 		{
-			id : 22,
+			pack : 1,
 			group : 'Snoop Dogg',
 			song : "Jin & Guice"
 		},
 		{
-			id : 23,
+			pack : 1,
 			group : 'Chris Isaak',
 			song : "Somebody's Crying"
 		},
 		{
-			id : 24,
+			pack : 1,
 			group : 'Tom Petty',
 			song : "Mary Jane's Last Dance (ft The Heartbreakers)"
 		},
 		{
-			id : 25,
+			pack : 1,
 			group : 'Chris Rea',
 			song : "The Blue Cafe"
 		},
 		{
-			id : 26,
+			pack : 1,
 			group : 'Ronan Keating',
 			song : "When You Say Nothing At All"
 		},
 		{
-			id : 27,
+			pack : 1,
 			group : 'David Gray',
 			song : "Sail Away"
 		},
 		{
-			id : 28,
+			pack : 1,
 			group : 'George Michael',
 			song : "The Strangest Thing"
 		},
 		{
-			id : 29,
+			pack : 1,
 			group : '2Pac',
 			song : "California Love (ft Dr. Dre, Roger Troutman)"
 		},
 		{
-			id : 30,
+			pack : 3,
 			group : 'Vanilla Ice',
 			song : "Ice Ice Baby"
 		},
 		{
-			id : 31,
+			pack : 3,
 			group : 'MC Hammer',
 			song : "U Can't Touch This"
 		},
 		{
-			id : 32,
+			pack : 3,
 			group : 'Guru Josh',
 			song : "Infinity"
 		},
 		{
-			id : 33,
-			group : 'Dr. Alban',
+			pack : 3,
+			group : 'Dr Alban',
 			song : "It's My Life"
 		},
 		{
-			id : 34,
-			group : 'Dr. Alban',
+			pack : 3,
+			group : 'Dr Alban',
 			song : "Let The Beat Go On"
 		},
 		{
-			id : 35,
+			pack : 3,
 			group : 'Alex Christensen',
 			song : "Du hast den schönsten Arsch der Welt"
 		},
 		{
-			id : 36,
+			pack : 3,
 			group : 'Snow',
 			song : "Informer"
 		},
 		{
-			id : 37,
+			pack : 3,
 			group : 'Ini Kamoze',
 			song : "Here Comes the Hotstepper"
 		},
 		{
-			id : 38,
+			pack : 3,
 			group : 'Scatman John',
 			song : "Scatman"
 		},
 		{
-			id : 39,
+			pack : 3,
 			group : 'Scatman John',
 			song : "Scatman's World"
 		},
 		{
-			id : 40,
+			pack : 1,
 			group : 'George Michael',
 			song : "Jesus to a Child"
 		},
 		{
-			id : 41,
+			pack : 1,
 			group : 'George Michael',
 			song : "Roxanne"
 		},
 		{
-			id : 42,
+			pack : 1,
 			group : 'Prince',
 			song : "The most beautiful girl in the world"
 		},
 		{
-			id : 43,
+			pack : 1,
 			group : 'Prince',
 			song : "Cream"
 		},
 		{
-			id : 44,
+			pack : 1,
 			group : 'Edwyn Collins',
 			song : "A Girl Like You"
 		},
 		{
-			id : 45,
+			pack : 1,
 			group : 'Beck',
 			song : "Where It's At"
 		},
 		{
-			id : 46,
+			pack : 1,
 			group : 'Beck',
 			song : "Loser"
 		},
 		{
-			id : 47,
+			pack : 1,
 			group : 'Andrea Bocelli',
 			song : "Con Te Partiro"
 		},
 		{
-			id : 48,
+			pack : 1,
 			group : 'Rod Stewart',
 			song : "Have I Told You Lately"
 		},
 		{
-			id : 49,
+			pack : 1,
 			group : 'Richard Marx',
 			song : "Now And Forever"
-		}
-];
-
-let en_1990_m_2 = [
+		},
 		{
-			id : 1,
+			pack : 2,
 			group : 'Ricky Martin',
 			song : "The Cup of Life"
 		},
 		{
-			id : 2,
+			pack : 2,
 			group : 'Ricky Martin',
 			song : "Livin' la Vida Loca"
 		},
 		{
-			id : 3,
+			pack : 2,
 			group : 'Lou Bega',
 			song : "Mamba 5"
 		},
 		{
-			id : 4,
+			pack : 3,
 			group : 'Shaggy',
 			song : "Boombastic"
 		},
 		{
-			id : 5,
+			pack : 2,
 			group : 'Carlos Santana',
 			song : "Smooth (ft Rob Thomas)"
 		},
 		{
-			id : 6,
+			pack : 2,
 			group : 'Carlos Santana',
 			song : "Corazon Espinado"
 		},
 		{
-			id : 7,
+			pack : 2,
 			group : 'Khaled',
 			song : "Aisha"
 		},
 		{
-			id : 8,
+			pack : 2,
 			group : 'Adriano Celentano',
 			song : "Angel"
 		},
 		{
-			id : 9,
+			pack : 2,
 			group : 'Elton John',
 			song : "Candle In The Wind"
 		},
 		{
-			id : 10,
+			pack : 2,
 			group : 'Elton John',
 			song : "Circle Of Life"
 		},
 		{
-			id : 11,
+			pack : 2,
 			group : 'Elton John',
 			song : "The One"
 		},
 		{
-			id : 12,
+			pack : 2,
 			group : 'Elton John',
 			song : "Something About The Way You Look Tonight"
 		},
 		{
-			id : 13,
+			pack : 2,
 			group : 'Bryan Adams',
 			song : "All For Love (ft Sting, Rod Stewart)"
 		},
 		{
-			id : 14,
+			pack : 2,
 			group : 'Bryan Adams',
 			song : "Please Forgive Me"
 		},
 		{
-			id : 15,
+			pack : 2,
 			group : 'Bryan Adams',
 			song : "(Everything I Do) I Do It For You"
 		},
 		{
-			id : 16,
+			pack : 2,
 			group : 'Bryan Adams',
 			song : "Have You Ever Really Loved A Woman?"
 		},
 		{
-			id : 17,
+			pack : 2,
 			group : 'Michael Jackson',
 			song : "Remember the Time"
 		},
 		{
-			id : 18,
+			pack : 2,
 			group : 'Michael Jackson',
 			song : "Heal The World"
 		},
 		{
-			id : 19,
+			pack : 2,
 			group : 'Michael Jackson',
 			song : "Scream (ft Janet Jackson)"
 		},
 		{
-			id : 20,
+			pack : 2,
 			group : 'Michael Jackson',
 			song : "You Are Not Alone"
 		},
 		{
-			id : 21,
+			pack : 2,
 			group : 'Michael Jackson',
 			song : "Earth Song"
 		},
 		{
-			id : 22,
+			pack : 2,
 			group : 'Michael Jackson',
 			song : "They Don't Care About Us"
 		},
 		{
-			id : 23,
+			pack : 2,
 			group : 'Michael Jackson',
 			song : "Jam"
 		},
 		{
-			id : 24,
+			pack : 2,
 			group : 'Michael Jackson',
 			song : "Black or White"
 		},
 		{
-			id : 25,
+			pack : 2,
 			group : 'Sting',
 			song : "Fields Of Gold"
 		},
 		{
-			id : 26,
+			pack : 2,
 			group : 'Sting',
 			song : "Desert Rose"
 		},
 		{
-			id : 27,
+			pack : 2,
 			group : 'Sting',
 			song : "Shape Of My Heart"
 		},
 		{
-			id : 28,
+			pack : 2,
 			group : 'R. Kelly',
 			song : "I Believe I Can Fly"
 		},
 		{
-			id : 29,
+			pack : 2,
 			group : 'Phil Collins',
 			song : 'Another day in paradise',
 			state: ' по Коллинзу'
 		},
 		{
-			id : 30,
+			pack : 2,
 			group : 'Eric Clapton',
 			song : 'Tears in heaven',
 			state: ' по Клэптену'
 		},
 		{
-			id : 31,
+			pack : 2,
 			group : 'Robbie Williams',
 			song : "Freedom"
 		},
 		{
-			id : 32,
+			pack : 2,
 			group : 'Robbie Williams',
 			song : "Old Before I Die"
 		},
 		{
-			id : 33,
+			pack : 2,
 			group : 'Robbie Williams',
 			song : "Lazy Days"
 		},
 		{
-			id : 34,
+			pack : 2,
 			group : 'Robbie Williams',
 			song : "South Of The Border"
 		},
 		{
-			id : 35,
+			pack : 2,
 			group : 'Robbie Williams',
 			song : "Angels"
 		},
 		{
-			id : 36,
+			pack : 2,
 			group : 'Robbie Williams',
 			song : "Millenium"
 		},
 		{
-			id : 37,
+			pack : 2,
 			group : 'Robbie Williams',
 			song : "No Regrets"
 		},
 		{
-			id : 38,
+			pack : 2,
 			group : 'Robbie Williams',
 			song : "Rock DJ"
 		},
 		{
-			id : 39,
+			pack : 2,
 			group : 'Robbie Williams',
 			song : "Kids (ft Kylie Minogue)"
 		},
 		{
-			id : 40,
+			pack : 2,
 			group : 'Robbie Williams',
 			song : "Supreme"
 		},
 		{
-			id : 41,
+			pack : 2,
 			group : 'Robbie Williams',
 			song : "Better Man"
 		},
 		{
-			id : 42,
+			pack : 2,
 			group : 'Moby',
 			song : "Go"
 		},
 		{
-			id : 43,
+			pack : 2,
 			group : 'Moby',
 			song : "Move"
 		},
 		{
-			id : 44,
+			pack : 2,
 			group : 'Moby',
 			song : "James Bond Theme"
 		},
 		{
-			id : 45,
+			pack : 2,
 			group : 'Moby',
 			song : "Why Does My Heart Feel So Bad?"
 		},
 		{
-			id : 46,
+			pack : 2,
 			group : 'Moby',
 			song : "Natural Blues"
 		},
 		{
-			id : 47,
+			pack : 2,
 			group : 'Moby',
 			song : "Porcelain"
+		},
+		{
+			pack : 1,
+			group : 'Fatboy Slim',
+			song : "Praise You"
+		},
+		{
+			pack : 1,
+			group : 'Seal',
+			song : "Crazy"
+		},
+		{
+			pack : 2,
+			group : 'Ricky Martin',
+			song : "Private Emotion (ft Meja)"
+		},
+		{
+			pack : 2,
+			group : 'Eric Clapton',
+			song : "Over The Rainbow"
+		},
+		{
+			pack : 1,
+			group : 'Michael Bolton',
+			song : "When a Man Loves a Woman"
+		},
+		{
+			pack : 1,
+			group : 'Lenny Kravitz',
+			song : "Are You Gonna Go My Way"
+		},
+		{
+			pack : 1,
+			group : 'Chris Isaak',
+			song : "Wicked Game"
+		},
+		{
+			pack : 1,
+			group : 'Ozzy Osbourne',
+			song : "Mama, I'm Coming Home"
+		},
+		{
+			pack : 1,
+			group : 'Ozzy Osbourne',
+			song : "See You on the Other Side"
+		},
+		{
+			pack : 1,
+			group : 'Youssou NDour',
+			song : "7 Seconds (ft Neneh Cherry)"
+		},
+		{
+			pack : 2,
+			group : 'Everlast',
+			song : "Put your lights on (ft Santana)"
+		},
+		{
+			pack : 2,
+			group : 'Everlast',
+			song : "What Its Like"
+		},
+		{
+			pack : 2,
+			group : 'Everlast',
+			song : "Ends"
 		}
 ];
 
-let en_1990_f_1 = [
+let en_1990_m_1 =	en_1990_m.filter(item => item.pack == 1);
+let en_1990_m_2 =	en_1990_m.filter(item => item.pack == 2);
+
+let en_1990_f = [
 		{
-			id : 1,
+			pack : 1,
 			group : 'Ardis',
 			song : "Ain't nobody's business",
 			state: ' по Ардис'
 		},
 		{
-			id : 2,
+			pack : 1,
 			group : "Sinead O'Connor",
 			song : "Nothing Compares 2 U"
 		},
 		{
-			id : 3,
+			pack : 1,
 			group : 'Suzanne Vega',
 			song : "Tom's Diner"
 		},
 		{
-			id : 4,
+			pack : 1,
 			group : 'Toni Braxton',
 			song : "Un-Break My Heart"
 		},
 		{
-			id : 5,
+			pack : 1,
 			group : 'Shania Twain',
 			song : "You're Still The One"
 		},
 		{
-			id : 6,
+			pack : 1,
 			group : 'Jennifer Paige',
 			song : "Crush"
 		},
 		{
-			id : 7,
+			pack : 1,
 			group : 'Shania Twain',
 			song : "Man! I Feel Like A Woman!"
 		},
 		{
-			id : 8,
+			pack : 1,
 			group : 'Sheryl Crow',
 			song : "All I Wanna Do"
 		},
 		{
-			id : 9,
+			pack : 1,
 			group : 'Sheryl Crow',
 			song : "If It Makes You Happy"
 		},
 		{
-			id : 10,
+			pack : 1,
 			group : 'Janet Jackson',
 			song : "That's The Way Love Goes"
 		},
 		{
-			id : 11,
+			pack : 1,
 			group : 'Lisa Loeb',
 			song : "Stay"
 		},
 		{
-			id : 12,
+			pack : 1,
 			group : 'Christina Aguilera',
 			song : "Genie In A Bottle"
 		},
 		{
-			id : 13,
+			pack : 1,
 			group : 'Tasmin Archer',
 			song : "Sleeping Satellite"
 		},
 		{
-			id : 14,
+			pack : 1,
 			group : 'Lara Fabian',
 			song : "I Will Love Again"
 		},
 		{
-			id : 15,
+			pack : 1,
 			group : 'LeAnn Rimes',
 			song : "Can't Fight The Moonlight"
 		},
 		{
-			id : 16,
+			pack : 1,
 			group : 'Natalia Oreiro',
 			song : "Que Si, Que Si"
 		},
 		{
-			id : 17,
+			pack : 1,
 			group : 'Natalia Oreiro',
 			song : "De Tu Amor"
 		},
 		{
-			id : 18,
+			pack : 1,
 			group : 'Natalia Oreiro',
 			song : "Cambio Dolor"
 		},
 		{
-			id : 19,
+			pack : 1,
 			group : 'Natalia Oreiro',
 			song : "Me Muero De Amor"
 		},
 		{
-			id : 20,
+			pack : 1,
 			group : 'Vanessa Paradis',
 			song : "Joe le taxi"
 		},
 		{
-			id : 21,
+			pack : 1,
 			group : 'Joan Osbourne',
 			song : "One Of Us"
 		},
 		{
-			id : 22,
+			pack : 1,
 			group : 'Dido',
 			song : "Thank You"
 		},
 		{
-			id : 23,
+			pack : 1,
 			group : 'Sandy Lee',
 			song : "Paradise"
 		},
 		{
-			id : 24,
+			pack : 1,
 			group : 'Toni Braxton',
 			song : "I Dont Want To"
 		},
 		{
-			id : 25,
+			pack : 1,
 			group : 'Cher',
 			song : "Believe"
 		},
 		{
-			id : 26,
+			pack : 1,
 			group : 'Britney Spears',
 			song : "...Baby One More Time"
 		},
 		{
-			id : 27,
+			pack : 1,
 			group : 'Tori Amos',
 			song : "Cornflake Girl"
 		},
 		{
-			id : 28,
+			pack : 1,
 			group : 'Whigfield',
 			song : "Saturday Night"
 		},
 		{
-			id : 29,
+			pack : 1,
 			group : 'Brandy',
 			song : "The Boy Is Mine (ft Monica)"
 		},
 		{
-			id : 30,
+			pack : 1,
 			group : 'Maggie Reilly',
 			song : "Everytime We Touch"
 		},
 		{
-			id : 31,
+			pack : 1,
 			group : 'Cesaria Evora',
 			song : "Besame Mucho"
 		},
 		{
-			id : 32,
+			pack : 1,
 			group : 'Natalie Imbruglia',
 			song : "Torn"
 		},
 		{
-			id : 33,
+			pack : 1,
 			group : 'Donna Lewis',
 			song : "I Love You Always Forever"
 		},
 		{
-			id : 34,
+			pack : 1,
 			group : "Des'ree",
 			song : "Life"
 		},
 		{
-			id : 35,
+			pack : 1,
 			group : "Des'ree",
 			song : "You Gotta Be"
 		},
 		{
-			id : 36,
+			pack : 1,
 			group : 'Shivaree',
 			song : "Goodnight Moon"
 		},
 		{
-			id : 37,
+			pack : 1,
 			group : 'Neneh Cherry',
 			song : "Woman"
 		},
 		{
-			id : 38,
+			pack : 1,
 			group : 'Melanie C',
 			song : "I Turn To You"
 		},
 		{
-			id : 39,
+			pack : 1,
 			group : 'Emilia',
 			song : "Big Big World"
 		},
 		{
-			id : 40,
+			pack : 1,
 			group : 'Lauren Christy',
 			song : "The color of the night"
-		}
-];
-
-let en_1990_f_2 = [
+		},
 		{
-			id : 1,
+			pack : 1,
+			group : 'Meredith Brooks',
+			song : "Bitch"
+		},
+		{
+			pack : 2,
 			group : 'Jennifer Lopez',
 			song : "If You Had My Love"
 		},
 		{
-			id : 2,
+			pack : 2,
 			group : 'Jennifer Lopez',
 			song : "Waiting for Tonight"
 		},
 		{
-			id : 3,
+			pack : 2,
 			group : 'Jennifer Lopez',
 			song : "No Me Ames"
 		},
 		{
-			id : 4,
+			pack : 2,
 			group : 'Jennifer Lopez',
 			song : "Let's Get Loud"
 		},
 		{
-			id : 5,
+			pack : 2,
 			group : 'Celine Dion',
 			song : "The Power of Love"
 		},
 		{
-			id : 6,
+			pack : 2,
 			group : 'Celine Dion',
 			song : "Because You Loved Me"
 		},
 		{
-			id : 7,
+			pack : 2,
 			group : 'Celine Dion',
 			song : "It's All Coming Back To Me Now"
 		},
 		{
-			id : 8,
+			pack : 2,
 			group : 'Celine Dion',
 			song : "My Heart Will Go On"
 		},
 		{
-			id : 9,
+			pack : 2,
 			group : 'Celine Dion',
 			song : "Here There & Everywhere"
 		},
 		{
-			id : 10,
+			pack : 2,
 			group : 'Madonna',
 			song : "Vogue"
 		},
 		{
-			id : 11,
+			pack : 2,
 			group : 'Madonna',
 			song : "Erotica"
 		},
 		{
-			id : 12,
+			pack : 2,
 			group : 'Madonna',
 			song : "Rain"
 		},
 		{
-			id : 13,
+			pack : 2,
 			group : 'Madonna',
 			song : "Secret"
 		},
 		{
-			id : 14,
+			pack : 2,
 			group : 'Madonna',
 			song : "Frozen"
 		},
 		{
-			id : 15,
+			pack : 2,
 			group : 'Madonna',
 			song : "Beautiful Stranger"
 		},
 		{
-			id : 16,
+			pack : 2,
 			group : 'Madonna',
 			song : "Ray Of Light"
 		},
 		{
-			id : 17,
+			pack : 2,
 			group : 'Whitney Houston',
 			song : "I'm Your Baby Tonight"
 		},
 		{
-			id : 18,
+			pack : 2,
 			group : 'Whitney Houston',
 			song : "I Will Always Love You"
 		},
 		{
-			id : 19,
+			pack : 2,
 			group : 'Whitney Houston',
 			song : "I Have Nothing"
 		},
 		{
-			id : 20,
+			pack : 2,
 			group : 'Whitney Houston',
 			song : "All The Man That I Need"
 		},
 		{
-			id : 21,
+			pack : 2,
 			group : 'Alanis Morissette',
 			song : "Ironic"
 		},
 		{
-			id : 22,
+			pack : 2,
 			group : 'Alanis Morissette',
 			song : "You Oughta Know"
 		},
 		{
-			id : 23,
+			pack : 2,
 			group : 'Alanis Morissette',
 			song : "Hand In My Pocket"
 		},
 		{
-			id : 24,
+			pack : 2,
 			group : 'Alanis Morissette',
 			song : "You Learn"
 		},
 		{
-			id : 25,
+			pack : 2,
 			group : 'Alanis Morissette',
 			song : "Head Over Feet"
 		},
 		{
-			id : 26,
+			pack : 2,
 			group : 'Mariah Carey',
 			song : "When You Believe"
 		},
 		{
-			id : 27,
+			pack : 2,
 			group : 'Mariah Carey',
 			song : "Hero"
 		},
 		{
-			id : 28,
+			pack : 2,
 			group : 'Mariah Carey',
 			song : "One Sweet Day"
 		},
 		{
-			id : 29,
+			pack : 2,
 			group : 'Mariah Carey',
 			song : "Without You"
 		},
 		{
-			id : 30,
+			pack : 2,
 			group : 'Mariah Carey',
 			song : "All I Want For Christmas Is You"
 		},
 		{
-			id : 31,
-			group : 'Bjork',
-			song : "Human Behaviour"
-		},
-		{
-			id : 32,
+			pack : 2,
 			group : 'Bjork',
 			song : "Big Time Sensuality"
 		},
 		{
-			id : 33,
-			group : 'Bjork',
-			song : "Violently Happy"
-		},
-		{
-			id : 34,
+			pack : 2,
 			group : 'Bjork',
 			song : "Army of Me"
 		},
 		{
-			id : 35,
+			pack : 2,
 			group : 'Bjork',
 			song : "Hyperballad"
 		},
 		{
-			id : 36,
-			group : 'Bjork',
-			song : "I Miss You"
-		},
-		{
-			id : 37,
-			group : 'Bjork',
-			song : "All Is Full of Love"
-		},
-		{
-			id : 38,
+			pack : 2,
 			group : 'Annie Lennox',
 			song : "Walking on Broken Glass"
 		},
 		{
-			id : 39,
+			pack : 2,
 			group : 'Annie Lennox',
 			song : "Why"
 		},
 		{
-			id : 40,
+			pack : 2,
 			group : 'Annie Lennox',
 			song : "Love Song for a Vampire"
 		},
 		{
-			id : 41,
+			pack : 2,
 			group : 'Annie Lennox',
 			song : "No More I Love You's"
 		},
 		{
-			id : 42,
+			pack : 2,
 			group : 'Annie Lennox',
 			song : "A Whiter Shade of Pale"
 		},
 		{
-			id : 43,
+			pack : 2,
 			group : 'Geri Halliwell',
 			song : "Mi Chico Latino"
 		},
 		{
-			id : 44,
+			pack : 2,
 			group : 'Geri Halliwell',
 			song : "Look At Me"
 		},
 		{
-			id : 45,
+			pack : 2,
 			group : 'Geri Halliwell',
 			song : "Lift Me Up"
 		},
 		{
-			id : 46,
+			pack : 2,
 			group : 'Geri Halliwell',
 			song : "Bag It Up"
+		},
+		{
+			pack : 1,
+			group : 'Toni Braxton',
+			song : "Spanish Guitar"
+		},
+		{
+			pack : 1,
+			group : 'Shania Twain',
+			song : "From This Moment On"
+		},
+		{
+			pack : 1,
+			group : 'Vanessa Paradis',
+			song : "Be My Baby"
+		},
+		{
+			pack : 2,
+			group : 'Gala',
+			song : "Freed from desire"
+		},
+		{
+			pack : 2,
+			group : 'Gala',
+			song : "Let a boy cry"
+		},
+		{
+			pack : 2,
+			group : 'Gala',
+			song : "Come into my life"
+		},
+		{
+			pack : 1,
+			group : 'Lene Marlin',
+			song : "Sitting Down Here"
+		},
+		{
+			pack : 2,
+			group : 'Diana Ross',
+			song : "When You Tell Me That You Love Me"
+		},
+		{
+			pack : 1,
+			group : 'Meredith Brooks',
+			song : "What Would Happen"
 		}
 ];
+
+let en_1990_f_1 =	en_1990_f.filter(item => item.pack == 1);
+let en_1990_f_2 =	en_1990_f.filter(item => item.pack == 2);
 
 let en_2000_gr_1 = [
 		{
@@ -5235,6 +5599,14 @@ let en_2000_gr_3 = [
 	{
 		group : "Kasabian",
 		song : 'Underdog'
+	},
+	{
+		group : "Foo Fighters",
+		song : 'No Way Back'
+	},
+	{
+		group : "Metallica",
+		song : 'The Day That Never Comes'
 	}
 ];
 
@@ -5440,6 +5812,10 @@ let en_2000_gr_4 = [
 		{
 			group : 'Maroon 5',
 			song : 'Makes Me Wonder'
+		},
+		{
+			group : 'Maroon 5',
+			song : 'Wake Up Call'
 		}
 ];
 
@@ -5536,7 +5912,7 @@ let en_2000_gr_5 = [
 		song : 'Around the World'
 	},
 	{
-		group : "'N Sync",
+		group : "NSYNK",
 		song : 'Bye Bye Bye'
 	},
 	{
@@ -5578,6 +5954,58 @@ let en_2000_gr_5 = [
 	{
 		group : 'Florence + The Machine',
 		song : "Cosmic Love"
+	},
+	{
+		group : 'Train',
+		song : "Hey, Soul Sister"
+	},
+	{
+		group : 'Wheatus',
+		song : "Teenage Dirtbag"
+	},
+	{
+		group : 'Beastie Boys',
+		song : "An Open Letter To NYC"
+	},
+	{
+		group : 'Daft Punk',
+		song : "One More Time"
+	},
+	{
+		group : 'Fort Minor',
+		song : "Believe Me"
+	},
+	{
+		group : 'Chemical Brothers',
+		song : "Galvanize"
+	},
+	{
+		group : 'Hurts',
+		song : "Wonderful Life"
+	},
+	{
+		group : 'Hurts',
+		song : "Stay"
+	},
+	{
+		group : 'Basic Element',
+		song : "To You"
+	},
+	{
+		group : 'Mondotek',
+		song : "Alive"
+	},
+	{
+		group : 'Aly & AJ',
+		song : "Potential Breakup Song"
+	},
+	{
+		group : 'Whizzkids',
+		song : "Rumours (Digi Digi) (ft Inusa, Dawuda)"
+	},
+	{
+		group : 'Lighthouse Family',
+		song : "Run"
 	}
 ];
 
@@ -5828,6 +6256,14 @@ let en_2000_m_1 = [
 		{
 			group : "Nek",
 			song : "Instabile"
+		},
+		{
+			group : "Giorgos Mazonakis",
+			song : "To Gucci Forema"
+		},
+		{
+			group : "Darren Hayes",
+			song : "Crush (1980 Me)"
 		}
 ];
 
@@ -5928,6 +6364,10 @@ let en_2000_m_2 = [
 		{
 			group : 'Stromae',
 			song : 'Alors On Danse'
+		},
+		{
+			group : 'Beni Benassi',
+			song : 'Satisfaction'
 		}
 ];
 
@@ -6542,6 +6982,14 @@ let en_2000_f_2 = [
 		{
 			group : 'September',
 			song : 'Cry For You'
+		},
+		{
+			group : 'Enya',
+			song : 'And Winter Came'
+		},
+		{
+			group : 'Oceana',
+			song : 'Cry cry'
 		}
 ];
 
@@ -6969,7 +7417,7 @@ let en_2007_f_2 = [
 let en_2010_gr = [
 	{
 		id : 1,
-		group : 'The Chainsmokers',
+		group : 'Chainsmokers',
 		song : "Closer"
 	},	
 	{
@@ -7347,32 +7795,32 @@ let en_2010_m = [
 	},
 	{
 		id : 41,
-		group : 'The Weeknd',
+		group : 'Weeknd',
 		song : "Blinding Lights"
 	},
 	{
 		id : 42,
-		group : 'The Weeknd',
+		group : 'Weeknd',
 		song : "The Hills"
 	},
 	{
 		id : 43,
-		group : 'The Weeknd',
+		group : 'Weeknd',
 		song : "Can't Feel My Face"
 	},
 	{
 		id : 44,
-		group : 'The Weeknd',
+		group : 'Weeknd',
 		song : "Starboy (ft Daft Punk)"
 	},
 	{
 		id : 45,
-		group : 'The Weeknd',
+		group : 'Weeknd',
 		song : "Save Your Tears"
 	},
 	{
 		id : 46,
-		group : 'The Weeknd',
+		group : 'Weeknd',
 		song : "Heartless"
 	},
 	{
@@ -7623,7 +8071,7 @@ let en_2020 = [
 	},
 	{
 		id : 8,
-		group : 'The Kid Laroi and Justin Bieber',
+		group : 'Kid Laroi and Justin Bieber',
 		song : "Stay"
 	},
 	{
@@ -7633,7 +8081,7 @@ let en_2020 = [
 	},
 	{
 		id : 10,
-		group : 'The Weeknd',
+		group : 'Weeknd',
 		song : "Blinding Lights"
 	},
 	{
@@ -7658,7 +8106,7 @@ let en_2020 = [
 	},
 	{
 		id : 15,
-		group : 'The Weeknd and Ariana Grande',
+		group : 'Weeknd and Ariana Grande',
 		song : "Save Your Tears"
 	},
 	{
@@ -8923,2329 +9371,2741 @@ let ru_1980_f = [
 	}
 ];
 
-let ru_1990_gr_1 = [
+let ru_1990_gr = [
 		{
-			id : 1,
-			group : 'Руки Вверх!',
+			pack : 1,
+			group : 'Руки Вверх',
 			song : 'Малыш',
 			state: ' по Рукам Вверх'
 		},
 		{
-			id : 2,
+			pack : 1,
 			group : 'Технология',
 			song : 'Нажми на кнопку',
 			state: ' по Технологии'
 		},
 		{
-			id : 3,
+			pack : 1,
 			group : 'Русский размер',
 			song : 'Юаю',
 			state: ' по Русскому Размеру'
 		},
 		{
-			id : 4,
+			pack : 1,
 			group : 'Дискотека Авария',
 			song : 'Некуда деваться',
 			state: ' по Дискотеке Аварии'
 		},
 		{
-			id : 5,
+			pack : 1,
 			group : 'Забытый Разговор',
 			song : 'Арабское золото',
 			state: ' по Забытому Разговору'
 		},
 		{
-			id : 6,
+			pack : 1,
 			group : 'Браво',
 			song : 'Любите девушки',
 			state: ' по Браво'
 		},
 		{
-			id : 7,
+			pack : 1,
 			group : 'Иванушки International',
 			song : 'Кукла',
 			state: ' по Иванушкам',
 			shorten: 'Иванушки'
 		},
 		{
-			id : 8,
+			pack : 1,
 			group : 'Стелла',
 			song : 'Позови',
 			state: ' по Стелле'
 		},
 		{
-			id : 9,
-			group : "A'Studio",
+			pack : 1,
+			group : "А-Студио",
 			song : 'Нелюбимая',
-			state: " по A'Studio"
+			state: " по А-Студио"
 		},
 		{
-			id : 10,
+			pack : 1,
 			group : "На-на",
 			song : 'Шляпа',
 			state: " по На-на"
 		},		
 		{
-			id : 11,
+			pack : 1,
 			group : 'Океан Эльзы',
 			song : 'Коли тебе нема'
 		},
 		{
-			id : 12,
+			pack : 1,
 			group : "Фристайл",
 			song : 'Кораблик любви',
 			state: " по Фристайл"
 		},
 		{
-			id : 13,
+			pack : 1,
 			group : 'Дискотека Авария',
 			song : 'Труба зовёт',
 			state: ' по Дискотеке Аварии'
 		},
 		{
-			id : 14,
-			group : "Фристайл",
-			song : 'Больно мне больно',
-			state: " по Фристайл"
-		},
-		{
-			id : 15,
+			pack : 1,
 			group : 'Отпетые мошенники',
 			song : 'Я учусь танцевать'
 		},
 		{
-			id : 16,
+			pack : 1,
 			group : "Шоколад",
 			song : 'Улыбнись',
 			state: " по Шоколаду"
 		},
 		{
-			id : 17,
+			pack : 1,
 			group : "Арамис",
 			song : 'Девочка ждет, мальчик не идет',
 			state: " по Арамису"
 		},
 		{
-			id : 18,
+			pack : 1,
 			group : "Божья Коровка",
 			song : 'Гранитный камушек',
 			state: " по Божьей Коровке"
 		},
 		{
-			id : 19,
+			pack : 1,
 			group : 'Hi-Fi',
 			song : 'Не дано',
 			state: ' по Hi-Fi'
 		},
 		{
-			id : 20,
-			group : 'Руки Вверх!',
+			pack : 1,
+			group : 'Руки Вверх',
 			song : 'Назови его как меня'
 		},
 		{
-			id : 21,
-			group : 'Руки Вверх!',
+			pack : 1,
+			group : 'Руки Вверх',
 			song : 'Последний поцелуй',
 			state: ' по Рукам Вверх'
 		},
 		{
-			id : 22,
+			pack : 1,
 			group : 'Кар-Мэн',
 			song : 'Париж',
 			state: ' по Кар-Мэн'
 		},
 		{
-			id : 23,
+			pack : 1,
 			group : 'Отпетые мошенники',
 			song : 'Девушки бывают разные'
 		},
 		{
-			id : 24,
+			pack : 1,
 			group : 'Твой день',
 			song : 'Ху-ан-хэ – жёлтая река'
 		},
 		{
-			id : 25,
+			pack : 1,
 			group : 'Иванушки International',
 			song : 'Колечко',
 			state: ' по Иванушкам',
 			shorten: 'Иванушки'
 		},
 		{
-			id : 26,
+			pack : 1,
 			group : 'Отпетые мошенники',
 			song : 'Люби меня, люби'
 		},
 		{
-			id : 27,
+			pack : 1,
 			group : 'Турбомода',
 			song : 'Турболюбовь'
 		},
 		{
-			id : 28,
+			pack : 1,
 			group : 'Электронный мальчик',
 			song : 'Видеосалон',
 			state: ' по Электронному мальчику'
 		},
 		{
-			id : 29,
+			pack : 1,
 			group : 'Hi-Fi',
 			song : 'Беспризорник'
 		},
 		{
-			id : 30,
+			pack : 1,
 			group : 'Hi-Fi',
 			song : 'Пионер'
 		},
 		{
-			id : 31,
+			pack : 1,
 			group : 'Электронный мальчик',
 			song : 'Дитер Болен Не Курит',
 			state: ' по Электронному мальчику'
 		},
 		{
-			id : 32,
+			pack : 1,
 			group : 'Технология',
 			song : 'Странные танцы',
 			state: ' по Технологии'
 		},
 		{
-			id : 33,
+			pack : 1,
 			group : 'Технология',
 			song : 'Всё, что ты хочешь',
 			state: ' по Технологии'
 		},
 		{
-			id : 34,
+			pack : 1,
 			group : 'Технология',
 			song : 'Полчаса',
 			state: ' по Технологии'
 		},
 		{
-			id : 35,
+			pack : 1,
 			group : 'Комиссар',
 			song : 'Дрянь'
 		},
 		{
-			id : 36,
+			pack : 1,
 			group : 'Комиссар',
 			song : 'Ты уйдёшь'
 		},
 		{
-			id : 37,
+			pack : 1,
 			group : 'Комиссар',
 			song : 'Я тебе объявляю войну'
 		},
 		{
-			id : 38,
+			pack : 1,
 			group : 'Комиссар',
 			song : 'Адреналин'
 		},
 		{
-			id : 39,
+			pack : 1,
 			group : 'Белый Орел',
 			song : 'Потому что нельзя быть красивой такой'
 		},
 		{
-			id : 40,
+			pack : 1,
 			group : "На-на",
 			song : 'Фаина'
 		},
 		{
-			id : 41,
+			pack : 1,
 			group : "На-на",
 			song : 'Похитительница Сна'
 		},
 		{
-			id : 42,
+			pack : 1,
 			group : "Стекловата",
 			song : 'Новый год'
 		},
 		{
-			id : 43,
+			pack : 1,
 			group : 'Браво',
 			song : 'Девчонка 16 лет'
 		},
 		{
-			id : 44,
+			pack : 1,
 			group : 'Браво',
 			song : 'Вася'
 		},
 		{
-			id : 45,
+			pack : 1,
 			group : 'Браво',
 			song : 'Московский бит'
 		},
 		{
-			id : 46,
+			pack : 1,
 			group : 'Браво',
 			song : 'Чёрный кот'
 		},
 		{
-			id : 47,
+			pack : 1,
 			group : 'Браво',
 			song : 'Этот город'
 		},
 		{
-			id : 48,
+			pack : 1,
 			group : 'Браво',
 			song : '20-й век'
 		},
 		{
-			id : 49,
+			pack : 3,
 			group : 'Леприконсы',
 			song : 'Хали-гали, паратрупер'
 		},
 		{
-			id : 50,
+			pack : 1,
 			group : 'Фактор 2',
 			song : 'Красавица'
 		},
 		{
-			id : 51,
+			pack : 1,
 			group : 'Фактор 2',
 			song : 'Шалава'
 		},
 		{
-			id : 52,
+			pack : 1,
 			group : 'Дюна',
 			song : 'Привет с большого бодуна'
 		},
 		{
-			id : 53,
+			pack : 1,
 			group : 'Мальчишник',
 			song : 'Ночь'
 		},
 		{
-			id : 54,
+			pack : 1,
 			group : 'Мальчишник',
 			song : 'Последний раз'
 		},
 		{
-			id : 55,
+			pack : 1,
 			group : "Фристайл",
 			song : 'Ах, какая женщина...'
 		},
 		{
-			id : 56,
-			group : "A'Studio",
+			pack : 1,
+			group : "А-Студио",
 			song : 'Солдат любви'
 		},
 		{
-			id : 57,
+			pack : 1,
 			group : 'Рок-острова',
 			song : 'Ничего не говори'
 		},
 		{
-			id : 58,
+			pack : 1,
 			group : 'Русский размер',
 			song : 'Ангел дня'
 		},
 		{
-			id : 59,
+			pack : 1,
 			group : 'Русский размер',
 			song : 'Вот так'
-		}
-];
-
-let ru_1990_gr_2 = [
+		},
 		{
-			id : 1,
+			pack : 1,
+			group : '140 ударов в минуту',
+			song : 'Тополя'
+		},
+		{
+			pack : 1,
+			group : '140 ударов в минуту',
+			song : 'Я тебя люблю'
+		},
+		{
+			pack : 2,
 			group : "Демо",
 			song : '2000 лет',
 			state: " по Демо"
 		},
 		{
-			id : 2,
+			pack : 2,
 			group : 'Блестящие',
 			song : 'Ча-ча-ча',
 			state: ' по Блестящим'
 		},
 		{
-			id : 3,
+			pack : 2,
 			group : 'Стрелки',
 			song : 'На вечеринке',
 			state: ' по Стрелкам'
 		},
 		{
-			id : 4,
+			pack : 2,
 			group : 'Балаган Лимитед',
 			song : 'Чё те надо',
 			state: ' по Балагану Лимитед',
 			shorten: 'Балаган LTD'
 		},
 		{
-			id : 5,
+			pack : 2,
 			group : 'ЛаМанш',
 			song : 'Погляд'
 		},
 		{
-			id : 6,
+			pack : 2,
 			group : 'Блестящие',
 			song : 'Там, только там'
 		},
 		{
-			id : 7,
+			pack : 2,
 			group : 'Блестящие',
 			song : 'Цветы'
 		},
 		{
-			id : 8,
+			pack : 2,
 			group : 'Блестящие',
 			song : 'Облака'
 		},
 		{
-			id : 9,
+			pack : 2,
 			group : 'Стрелки',
 			song : 'Мамочка'
 		},
 		{
-			id : 10,
+			pack : 2,
 			group : 'Стрелки',
 			song : 'Ты бросил меня'
 		},
 		{
-			id : 11,
+			pack : 2,
 			group : 'МГК',
 			song : 'Свечи'
 		},
 		{
-			id : 12,
+			pack : 2,
 			group : 'Вирус',
 			song : 'Ручки'
 		},
 		{
-			id : 13,
+			pack : 2,
 			group : 'Вирус',
 			song : 'Ты меня не ищи'
 		},
 		{
-			id : 14,
+			pack : 2,
 			group : 'Неигрушки',
 			song : '100 дней до приказа'
 		},
 		{
-			id : 15,
+			pack : 2,
 			group : 'Гости из будущего',
 			song : 'Зима в сердце'
 		},
 		{
-			id : 16,
+			pack : 2,
 			group : 'Гости из будущего',
 			song : 'Нелюбовь'
 		},
 		{
-			id : 17,
+			pack : 2,
 			group : 'Восток',
 			song : 'Танец жёлтых листьев'
 		},
 		{
-			id : 18,
+			pack : 2,
 			group : 'Восток',
 			song : 'Миражи'
 		},
 		{
-			id : 19,
+			pack : 2,
 			group : 'Восток',
 			song : 'До встречи'
 		},
 		{
-			id : 20,
+			pack : 2,
 			group : 'Восток',
 			song : 'Всё небо'
 		},
 		{
-			id : 21,
+			pack : 2,
 			group : 'Ночные Снайперы',
 			song : '31 весна'
 		},
 		{
-			id : 22,
+			pack : 2,
 			group : 'Маша и медведи',
 			song : 'Любочка'
 		},
 		{
-			id : 23,
+			pack : 2,
 			group : 'Маша и медведи',
 			song : 'Земля'
 		},
 		{
-			id : 24,
+			pack : 2,
 			group : 'Маша и медведи',
 			song : 'Рейкьявик'
 		},
 		{
-			id : 25,
+			pack : 2,
 			group : 'Кабаре-дуэт «Академия»',
 			song : 'Зараза'
 		},
 		{
-			id : 26,
+			pack : 2,
 			group : 'Кабаре-дуэт «Академия»',
 			song : 'Я обиделась'
 		},
 		{
-			id : 27,
+			pack : 2,
 			group : 'Кабаре-дуэт «Академия»',
 			song : 'За пивом'
 		},
 		{
-			id : 28,
+			pack : 2,
 			group : 'Кабаре-дуэт «Академия»',
 			song : 'Хочешь, но молчишь'
 		},
 		{
-			id : 29,
+			pack : 2,
 			group : 'Унесённые ветром',
 			song : 'Какао'
 		},
 		{
-			id : 30,
+			pack : 2,
 			group : 'Каникулы',
 			song : 'Завтра я на все забью'
 		},
 		{
-			id : 31,
+			pack : 2,
 			group : 'Гости из будущего',
 			song : 'Беги от меня'
 		},
 		{
-			id : 32,
+			pack : 2,
 			group : 'Лицей',
 			song : "След на воде"
 		},
 		{
-			id : 33,
+			pack : 2,
 			group : 'Лицей',
 			song : "Небо"
 		},
 		{
-			id : 34,
+			pack : 2,
 			group : 'Лицей',
 			song : "Моя любовь"
 		},
 		{
-			id : 35,
+			pack : 2,
 			group : 'Лицей',
 			song : "Домашний арест"
 		},
 		{
-			id : 36,
+			pack : 2,
 			group : 'Лицей',
 			song : "Хороший парень"
 		},
 		{
-			id : 37,
+			pack : 2,
 			group : 'Лицей',
 			song : "Девушка-зима"
 		},
 		{
-			id : 38,
+			pack : 2,
 			group : 'Лицей',
 			song : "Красная помада"
-		}
-];
-
-let ru_1990_gr_3 = [
+		},
 		{
-			id : 1,
+			pack : 3,
 			group : 'Кукрыниксы',
 			song : 'Артист'
 		},
 		{
-			id : 2,
+			pack : 3,
 			group : 'Кукрыниксы',
 			song : 'Шторм'
 		},
 		{
-			id : 3,
+			pack : 3,
 			group : 'Кукрыниксы',
 			song : 'Вера'
 		},
 		{
-			id : 4,
+			pack : 3,
 			group : 'Кукрыниксы',
 			song : 'Экклезиаст'
 		},
 		{
-			id : 5,
+			pack : 3,
 			group : 'Кукрыниксы',
 			song : 'Последняя песня'
 		},
 		{
-			id : 6,
+			pack : 3,
 			group : 'Ляпис Трубецкой',
 			song : 'Ау'
 		},
 		{
-			id : 7,
+			pack : 3,
 			group : 'Ляпис Трубецкой',
 			song : 'Яблони'
 		},
 		{
-			id : 8,
+			pack : 3,
 			group : 'Ляпис Трубецкой',
 			song : 'В платие белом'
 		},
 		{
-			id : 9,
+			pack : 3,
 			group : 'Ляпис Трубецкой',
 			song : 'Розочка'
 		},
 		{
-			id : 10,
+			pack : 3,
 			group : 'Ляпис Трубецкой',
 			song : 'Дружбан'
 			
 		},
 		{
-			id : 11,
+			pack : 3,
 			group : 'Ляпис Трубецкой',
 			song : 'По аллеям'
 		},
 		{
-			id : 12,
+			pack : 3,
 			group : 'Ляпис Трубецкой',
 			song : 'Спорт прошёл'
 		},
 		{
-			id : 13,
+			pack : 3,
 			group : 'Ляпис Трубецкой',
 			song : 'НЛО'		
 		},
 		{
-			id : 14,
+			pack : 3,
 			group : 'Аквариум',
 			song : 'Поезд в огне'
 		},
 		{
-			id : 15,
+			pack : 3,
 			group : 'Аквариум',
 			song : 'Не пей вина, Гертруда'
 		},
 		{
-			id : 16,
+			pack : 3,
 			group : 'Аквариум',
 			song : 'Древнерусская тоска'
 		},
 		{
-			id : 17,
+			pack : 3,
 			group : 'Агата Кристи',
 			song : 'Секрет'
 		},
 		{
-			id : 18,
+			pack : 3,
 			group : 'Агата Кристи',
 			song : 'Как на войне'
 		},
 		{
-			id : 19,
+			pack : 3,
 			group : 'Агата Кристи',
 			song : 'Опиум для никого'
 		},		
 		{
-			id : 20,
+			pack : 3,
 			group : 'Сектор Газа',
 			song : 'Лирика'		
 		},
 		{
-			id : 21,
+			pack : 3,
 			group : 'Сектор Газа',
 			song : 'Солнышко лучистое'		
 		},
 		{
-			id : 22,
+			pack : 3,
 			group : 'Сектор Газа',
 			song : '30 лет'		
 		},
 		{
-			id : 23,
+			pack : 3,
 			group : 'Сектор Газа',
 			song : 'Туман'		
 		},
 		{
-			id : 24,
+			pack : 3,
 			group : 'Сектор Газа',
 			song : 'Твой звонок'		
 		},
 		{
-			id : 25,
+			pack : 3,
 			group : 'Сектор Газа',
 			song : 'Ява'		
 		},
 		{
-			id : 26,
+			pack : 3,
 			group : 'Сектор Газа',
 			song : 'Тёща'		
 		},
 		{
-			id : 27,
+			pack : 3,
 			group : 'Сектор Газа',
 			song : 'Частушки'
 		},
 		{
-			id : 28,
+			pack : 3,
 			group : 'Сектор Газа',
 			song : 'Гуляй, мужик'
 		},
 		{
-			id : 29,
+			pack : 3,
 			group : 'Би-2',
 			song : 'Полковнику никто не пишет'
 		},
 		{
-			id : 30,
+			pack : 3,
 			group : 'Би-2',
 			song : 'Варвара'
 		},
 		{
-			id : 31,
+			pack : 3,
 			group : 'Би-2',
 			song : 'Серебро'
 		},
 		{
-			id : 32,
+			pack : 3,
 			group : 'Би-2',
 			song : 'Счастье'
 		},
 		{
-			id : 33,
+			pack : 3,
 			group : 'Алиса',
 			song : 'Путь домой'
 		},
 		{
-			id : 34,
+			pack : 3,
 			group : 'Алиса',
 			song : 'Веретено'
 		},
 		{
-			id : 35,
+			pack : 3,
 			group : 'Nautilus Pompilius',
 			song : 'Безымянная река'
 		},
 		{
-			id : 36,
+			pack : 3,
 			group : 'Nautilus Pompilius',
 			song : 'Прогулки по воде'
 		},
 		{
-			id : 37,
+			pack : 3,
 			group : 'Nautilus Pompilius',
 			song : 'Крылья'
 		},
 		{
-			id : 38,
+			pack : 3,
 			group : 'Nautilus Pompilius',
 			song : 'Зверь'
 		},
 		{
-			id : 39,
+			pack : 3,
 			group : 'Алиса',
 			song : 'Небо славян'
-		}
-];
-
-let ru_1990_gr_4 = [
+		},
 		{
-			id : 1,
+			pack : 4,
 			group : 'Ундервуд',
 			song : 'Гагарин, я вас любила'
 		},
 		{
-			id : 2,
+			pack : 4,
 			group : 'Конец Фильма',
 			song : 'Здравствуй, небо в облаках'
 		},
 		{
-			id : 3,
+			pack : 4,
 			group : 'Мумий Тролль',
 			song : 'Лунные Девицы',
 			state: ' по Мумий Троллю'
 		},
 		{
-			id : 4,
+			pack : 4,
 			group : 'Манго-Манго',
 			song : 'Тарантелла'
 			
 		},
 		{
-			id : 5,
+			pack : 4,
 			group : "Манго-Манго",
 			song : 'Аквалангисты',
 			state: " по Манго-Манго"
 		},
 		{
-			id : 6,
+			pack : 4,
 			group : 'Несчастный Случай',
 			song : 'Генералы песчаных карьеров'		
 		},
 		{
-			id : 7,
+			pack : 4,
 			group : 'Несчастный Случай',
 			song : 'Что ты имела в виду'		
 		},
 		{
-			id : 8,
+			pack : 4,
 			group : 'Танцы Минус',
 			song : 'Иду'		
 		},
 		{
-			id : 9,
+			pack : 4,
 			group : 'Танцы Минус',
 			song : 'Половинка'		
 		},
 		{
-			id : 10,
+			pack : 4,
 			group : 'Танцы Минус',
 			song : 'Город'		
 		},
 		{
-			id : 11,
+			pack : 4,
 			group : 'Мегаполис',
 			song : 'Звездочка'		
 		},
 		{
-			id : 12,
+			pack : 4,
 			group : '7Б',
 			song : 'Молодые ветра'
 		},
 		{
-			id : 13,
+			pack : 4,
 			group : 'Сплин',
 			song : 'Линия жизни'
 		},
 		{
-			id : 14,
+			pack : 4,
 			group : 'Смысловые Галлюцинации',
 			song : 'Розовые очки'
 		},
 		{
-			id : 15,
+			pack : 4,
 			group : 'Смысловые Галлюцинации',
 			song : 'Вечно молодой'
 		},
-		
 		{
-			id : 16,
+			pack : 4,
 			group : 'АукцЫон',
 			song : 'Дорога'
 		},
 		{
-			id : 17,
+			pack : 4,
 			group : 'Пикник',
 			song : 'Фиолетово-черный'
 		},		
 		{
-			id : 18,
+			pack : 4,
 			group : 'Чиж & Co',
 			song : 'О любви'
 		},
 		{
-			id : 19,
+			pack : 4,
 			group : 'Чиж & Co',
 			song : 'Фантом'
 		},
 		{
-			id : 20,
+			pack : 4,
 			group : 'Пурген',
 			song : 'Философия урбанистического безвремения'
 		},
 		{
-			id : 21,
+			pack : 4,
 			group : 'Пурген',
 			song : 'Kristall nacht'
 		},
 		{
-			id : 22,
+			pack : 4,
 			group : 'Lumen',
 			song : 'Сид и Нэнси'
 		},
 		{
-			id : 23,
-			group : 'Тараканы!',
+			pack : 4,
+			group : 'Тараканы',
 			song : 'Я смотрю на них'
 		},
 		{
-			id : 24,
+			pack : 4,
 			group : 'Крематорий',
 			song : 'Катманду'
 		},
 		{
-			id : 25,
+			pack : 4,
 			group : 'Любэ',
 			song : 'Дорога'
 		},
 		{
-			id : 26,
+			pack : 4,
 			group : 'Любэ',
 			song : 'Ты неси меня, река'
 		},
 		{
-			id : 27,
+			pack : 4,
 			group : 'Любэ',
 			song : 'Комбат'
 		},
 		{
-			id : 28,
+			pack : 4,
 			group : 'Любэ',
 			song : 'Солдат'
 		},
 		{
-			id : 29,
+			pack : 4,
 			group : 'Любэ',
 			song : 'Атас'
 		},
 		{
-			id : 30,
+			pack : 4,
 			group : 'Любэ',
 			song : 'Там, за туманами'
 		},
 		{
-			id : 31,
+			pack : 4,
 			group : 'Любэ',
 			song : 'Позови меня тихо по имени'
 		},
 		{
-			id : 32,
+			pack : 4,
 			group : 'Любэ',
 			song : 'Конь'
 		},
 		{
-			id : 33,
+			pack : 4,
 			group : 'Пикник',
 			song : 'Там, на самом краю земли'
 		},
 		{
-			id : 34,
+			pack : 4,
 			group : 'Пикник',
 			song : 'Настоящие дни'
 		},
 		{
-			id : 35,
+			pack : 4,
 			group : 'Ария',
 			song : 'Беспечный ангел'
 		},
 		{
-			id : 36,
+			pack : 4,
 			group : 'Ария',
 			song : 'Потерянный рай'
 		},
 		{
-			id : 37,
+			pack : 4,
 			group : 'Ария',
 			song : 'Возьми мое сердце'
 		},
 		{
-			id : 38,
+			pack : 4,
 			group : 'Ария',
 			song : 'Ангельская пыль'
 		},
 		{
-			id : 39,
+			pack : 4,
 			group : 'Ария',
 			song : 'Все, что было'
+		},
+		{
+			pack : 3,
+			group : 'Ляпис Трубецкой',
+			song : 'Огоньки'
+		},
+		{
+			pack : 3,
+			group : 'Леприконсы',
+			song : 'Тополя'
+		},
+		{
+			pack : 1,
+			group : 'Дюна',
+			song : 'Страна Лимония'
+		},
+		{
+			pack : 1,
+			group : 'Дюна',
+			song : 'Пулемет'
+		},
+		{
+			pack : 1,
+			group : 'Дюна',
+			song : 'Женька'
+		},
+		{
+			pack : 1,
+			group : 'Дюна',
+			song : 'Коммунальная квартира'
+		},
+		{
+			pack : 1,
+			group : 'Дюна',
+			song : 'Фонарики'
+		},
+		{
+			pack : 1,
+			group : 'Дюна',
+			song : 'Борька-бабник'
+		},
+		{
+			pack : 1,
+			group : 'Дюна',
+			song : 'Наш Вася'
+		},
+		{
+			pack : 1,
+			group : 'Дюна',
+			song : 'Корефана'
+		},
+		{
+			pack : 1,
+			group : 'Дюна',
+			song : 'Мечта (Море пива)'
+		},
+		{
+			pack : 1,
+			group : 'Дюна',
+			song : 'Караганда'
+		},
+		{
+			pack : 2,
+			group : 'Вирус',
+			song : 'Попрошу тебя'
+		},
+		{
+			pack : 1,
+			group : 'Империя',
+			song : 'Мой сон'
+		},
+		{
+			pack : 1,
+			group : 'Империя',
+			song : 'Поезд на Ленинград'
+		},
+		{
+			pack : 1,
+			group : 'Дискотека Авария',
+			song : 'Новогодняя'
+		},
+		{
+			pack : 1,
+			group : 'Дискотека Авария',
+			song : 'Пей пиво!'
+		},
+		{
+			pack : 1,
+			group : 'Дискотека Авария',
+			song : 'Влечение'
+		},
+		{
+			pack : 1,
+			group : 'Дискотека Авария',
+			song : 'Давай, Авария!'
+		},
+		{
+			pack : 1,
+			group : 'Кирпичи',
+			song : 'Плюю я'
+		},
+		{
+			pack : 3,
+			group : 'Ногу свело',
+			song : 'Хару мамбуру'
+		},
+		{
+			pack : 3,
+			group : 'Ногу свело',
+			song : 'Лилипутская любовь'
+		},
+		{
+			pack : 3,
+			group : 'Ногу свело',
+			song : 'Сибирская любовь'
+		},
+		{
+			pack : 3,
+			group : 'Ногу свело',
+			song : 'Московский романс'
+		},
+		{
+			pack : 3,
+			group : 'Леприконсы',
+			song : 'Москвич'
+		},
+		{
+			pack : 3,
+			group : 'Леприконсы',
+			song : 'Лена'
+		},
+		{
+			pack : 3,
+			group : 'Леприконсы',
+			song : 'Липа-облепиха'
+		},
+		{
+			pack : 3,
+			group : 'Леприконсы',
+			song : 'Вовочка'
 		}
 ];
 
-let ru_1990_m_1 = [
+let ru_1990_gr_1 =	ru_1990_gr.filter(item => item.pack == 1);
+let ru_1990_gr_2 =	ru_1990_gr.filter(item => item.pack == 2);
+let ru_1990_gr_3 =	ru_1990_gr.filter(item => item.pack == 3);
+let ru_1990_gr_4 =	ru_1990_gr.filter(item => item.pack == 4);
+
+let ru_1990_m = [
 		{
-			id : 1,
+			pack : 1,
 			group : 'Кай Метов',
 			song : 'Position №2',
 			state: ' по Каю Метову'
 		},
 		{
-			id : 2,
+			pack : 1,
 			group : 'Сергей Васюта',
 			song : 'На белом покрывале января (ft. Сладкий Сон)',
 			state: ' по Сергею Васюте',
 			shorten: 'Васюта'
 		},
 		{
-			id : 3,
+			pack : 1,
 			group : 'Профессор Лебединский',
 			song : 'Бегут года',
 			state: ' по Профессору Лебединскому (ft. Русский Размер)',
 			shorten: 'Лебединский'
 		},
 		{
-			id : 4,
+			pack : 1,
 			group : 'Ярослав Евдокимов',
 			song : 'Фантазёр'
 		},
 		{
-			id : 5,
+			pack : 1,
 			group : 'Сергей Минаев',
 			song : '22 притопа',
 			state: ' по Минаеву',
 			shorten: 'Минаев'
 		},
 		{
-			id : 6,
+			pack : 1,
 			group : "Роман Жуков",
 			song : 'Млечный путь',
 			state: " по Жукову",
 			shorten: 'Жуков'
 		},
 		{
-			id : 7,
+			pack : 2,
 			group : 'Леонид Агутин',
 			song : 'Хоп-хей Лала Лэй'
 		},
 		{
-			id : 8,
+			pack : 1,
 			group : 'Юрий Шатунов',
 			song : 'Розовый вечер'
 		},
 		{
-			id : 9,
+			pack : 1,
 			group : "Алексей Глызин",
 			song : 'Зимний сад',
 			state: " по Глызину",
 			shorten: 'Глызин'
 		},
 		{
-			id : 10,
+			pack : 1,
 			group : 'Михаил Шифутинский',
 			song : '3-е Сентября'
 		},
 		{
-			id : 11,
+			pack : 1,
 			group : 'Сергей Васюта',
 			song : 'Снег на розах (ft. Сладкий Сон)',
 			state: ' по Сергею Васюте',
 			shorten: 'Васюта'
 		},
 		{
-			id : 12,
+			pack : 2,
 			group : 'Леонид Агутин',
 			song : 'Оле-оле'
 		},
 		{
-			id : 13,
+			pack : 2,
 			group : 'Леонид Агутин',
 			song : 'Кого не стоило бы ждать'
 		},
 		{
-			id : 14,
+			pack : 1,
 			group : 'Михаил Шифутинский',
 			song : 'Пальма де Майорка'
 		},
 		{
-			id : 15,
+			pack : 1,
 			group : 'Игорь Крутой',
 			song : 'Незаконченный роман (ft Ирина Аллегрова)'
 		},
 		{
-			id : 16,
+			pack : 1,
 			group : 'Вадим Казаченко',
 			song : 'Белая метелица'
 		},
 		{
-			id : 17,
+			pack : 1,
 			group : 'Вадим Казаченко',
 			song : 'Больно мне, больно'
 		},
 		{
-			id : 18,
+			pack : 1,
 			group : 'Вадим Казаченко',
 			song : 'Жёлтые розы'
 		},
 		{
-			id : 19,
+			pack : 1,
 			group : 'Игорь Тальков',
 			song : 'Моя любовь'
 		},
 		{
-			id : 20,
+			pack : 1,
 			group : 'Игорь Тальков',
 			song : 'Я вернусь'
 		},
 		{
-			id : 21,
+			pack : 1,
 			group : 'Игорь Тальков',
 			song : 'Чистые пруды'
 		},
 		{
-			id : 22,
+			pack : 1,
 			group : 'Егор Летов',
 			song : 'Моя оборона'
 		},
 		{
-			id : 23,
+			pack : 1,
 			group : 'Егор Летов',
 			song : 'Всё идёт по плану'
 		},
 		{
-			id : 24,
+			pack : 1,
 			group : 'Егор Летов',
 			song : 'Далеко бежит дорога'
 		},
 		{
-			id : 25,
+			pack : 1,
 			group : 'Михаил Круг',
 			song : 'Владимирский централ'
 		},
 		{
-			id : 26,
+			pack : 1,
 			group : 'Михаил Круг',
 			song : 'Кольщик'
 		},
 		{
-			id : 27,
+			pack : 1,
 			group : 'Алексей Глызин',
 			song : 'Ты не ангел'
 		},
 		{
-			id : 28,
+			pack : 1,
 			group : 'Алексей Глызин',
 			song : 'Поздний вечер в Соренто'
 		},
 		{
-			id : 29,
+			pack : 1,
 			group : 'Стас Михайлов',
 			song : 'Тёмные глаза'
 		},
 		{
-			id : 30,
+			pack : 1,
 			group : 'Стас Михайлов',
 			song : 'Всё для тебя'
 		},
 		{
-			id : 31,
+			pack : 1,
 			group : 'Александр Серов',
 			song : 'Я люблю тебя до слёз'
 		},
 		{
-			id : 32,
+			pack : 1,
 			group : 'Андрей Державин',
 			song : 'Не плачь, Алиса'
 		},
 		{
-			id : 33,
+			pack : 1,
 			group : 'Андрей Державин',
 			song : 'Чужая свадьба'
 		},
 		{
-			id : 34,
+			pack : 1,
 			group : 'Андрей Державин',
 			song : 'Чужая свадьба'
 		},
 		{
-			id : 35,
+			pack : 1,
 			group : 'Игорь Николаев',
 			song : 'Выпьем за любовь'
 		},
 		{
-			id : 36,
+			pack : 1,
 			group : 'Игорь Николаев',
 			song : 'Такси (ft Наташа Королёва)'
 		},
 		{
-			id : 37,
+			pack : 1,
 			group : 'Игорь Николаев',
 			song : 'Старая Мельница'
 		},
 		{
-			id : 38,
+			pack : 1,
 			group : 'Ефрем Амиратов',
 			song : 'Молодая'
 		},
 		{
-			id : 39,
+			pack : 1,
 			group : 'Роман Жуков',
 			song : 'Фея'
 		},
 		{
-			id : 40,
-			group : 'Mr. Credo',
+			pack : 1,
+			group : 'Mr Credo',
 			song : 'Медляк'
 		},
 		{
-			id : 41,
-			group : 'Mr. Credo',
+			pack : 1,
+			group : 'Mr Credo',
 			song : 'Воздушный шар'
 		},
 		{
-			id : 42,
+			pack : 1,
 			group : 'Оскар',
 			song : 'Бег По Острию Ножа'
 		},
 		{
-			id : 43,
+			pack : 1,
 			group : 'Роман Жуков',
 			song : 'Первый снег'
 		},
 		{
-			id : 44,
+			pack : 1,
 			group : 'Роман Жуков',
 			song : 'Я люблю вас, девочки'
-		}
-];
-
-let ru_1990_m_2 = [
+		},
 		{
-			id : 1,
+			pack : 1,
+			group : 'Оскар',
+			song : 'Между мной и тобой'
+		},
+		{
+			pack : 2,
 			group : 'Андрей Губин',
 			song : 'Зима-холода'
 		},
 		{
-			id : 2,
+			pack : 2,
 			group : 'Андрей Губин',
 			song : 'Мальчик-бродяга'
 		},
 		{
-			id : 3,
+			pack : 2,
 			group : 'Андрей Губин',
 			song : 'Ночь'
 		},
 		{
-			id : 4,
+			pack : 2,
 			group : 'Андрей Губин',
 			song : 'Без тебя'
 		},
 		{
-			id : 5,
+			pack : 2,
 			group : 'Андрей Губин',
 			song : 'Милая моя далеко'
 		},
 		{
-			id : 6,
+			pack : 2,
 			group : 'Влад Сташевский',
 			song : 'Позови меня в ночи'
 		},
 		{
-			id : 7,
+			pack : 2,
 			group : 'Влад Сташевский',
 			song : 'Глаза чайного цвета'
 		},
 		{
-			id : 8,
+			pack : 2,
 			group : 'Влад Сташевский',
 			song : 'Вечерочки - вечерки'
 		},
 		{
-			id : 9,
+			pack : 2,
 			group : 'Влад Сташевский',
 			song : 'Девочка с перекрёсточка'
 		},
 		{
-			id : 10,
+			pack : 2,
 			group : 'Дмитрий Маликов',
 			song : 'Ты одна ты такая'
 		},
 		{
-			id : 11,
+			pack : 2,
 			group : 'Дмитрий Маликов',
 			song : 'Звезда моя далёкая'
 		},
 		{
-			id : 12,
+			pack : 2,
 			group : 'Дмитрий Маликов',
 			song : 'Кто тебе сказал'
 		},
 		{
-			id : 13,
+			pack : 2,
 			group : 'Дмитрий Маликов',
 			song : 'Все вернется'
 		},
 		{
-			id : 14,
+			pack : 2,
 			group : 'Дмитрий Маликов',
 			song : 'Птицелов'
 		},
 		{
-			id : 15,
+			pack : 2,
 			group : 'Шура',
 			song : 'Ты не верь слезам'
 		},
 		{
-			id : 16,
+			pack : 2,
 			group : 'Шура',
 			song : 'Холодная луна'
 		},
 		{
-			id : 17,
+			pack : 2,
 			group : 'Шура',
 			song : 'Don-don-don'
 		},
 		{
-			id : 18,
+			pack : 2,
 			group : 'Евгений Осин',
 			song : 'Иволга'
 		},
 		{
-			id : 19,
+			pack : 2,
 			group : 'Евгений Осин',
 			song : 'Не надо, не плачь'
 		},
 		{
-			id : 20,
+			pack : 2,
 			group : 'Евгений Осин',
 			song : 'Плачет девушка в автомате'
 		},
 		{
-			id : 21,
+			pack : 2,
 			group : 'Евгений Осин',
 			song : 'Студентка-практикантка'
 		},
 		{
-			id : 22,
+			pack : 2,
 			group : 'Евгений Осин',
 			song : 'Попутчица'
 		},
 		{
-			id : 23,
+			pack : 2,
 			group : 'Евгений Белоусов',
 			song : 'Девчонка-девчоночка'
 		},
 		{
-			id : 24,
+			pack : 2,
 			group : 'Евгений Белоусов',
 			song : 'Алёшка'
 		},
 		{
-			id : 25,
+			pack : 2,
 			group : 'Олег Газманов',
 			song : 'Есаул'
 		},
 		{
-			id : 26,
+			pack : 2,
 			group : 'Олег Газманов',
 			song : 'Эскадрон'
 		},
 		{
-			id : 27,
+			pack : 2,
 			group : 'Олег Газманов',
 			song : 'Морячка'
 		},
 		{
-			id : 28,
+			pack : 2,
 			group : 'Олег Газманов',
 			song : 'Танцуй, пока молодой'
 		},
 		{
-			id : 29,
+			pack : 2,
 			group : 'Валерий Леонтьев',
 			song : 'Полет на дельтаплане'
 		},
 		{
-			id : 30,
+			pack : 2,
 			group : 'Валерий Леонтьев',
 			song : 'Девять хризантем'
 		},
 		{
-			id : 31,
+			pack : 2,
 			group : 'Валерий Леонтьев',
 			song : 'Казанова'
 		},
 		{
-			id : 32,
+			pack : 2,
 			group : 'Богдан Титомир',
 			song : 'Делай как я'
 		},
 		{
-			id : 33,
+			pack : 2,
 			group : 'Богдан Титомир',
 			song : 'Ерунда'
 		},
 		{
-			id : 34,
+			pack : 2,
 			group : 'Владимир Пресняков',
 			song : 'Стюардесса по имени Жанна'
 		},
 		{
-			id : 35,
+			pack : 2,
 			group : 'Владимир Пресняков',
 			song : 'Замок из дождя'
 		},
 		{
-			id : 36,
+			pack : 2,
 			group : 'Филипп Киркоров',
 			song : 'Бегущая по волнам'
 		},
 		{
-			id : 37,
+			pack : 2,
 			group : 'Филипп Киркоров',
 			song : 'Зайка моя'
 		},
 		{
-			id : 38,
+			pack : 2,
 			group : 'Филипп Киркоров',
 			song : 'Мышь'
 		},
 		{
-			id : 39,
+			pack : 2,
 			group : 'Игорь Корнелюк',
 			song : 'Дожди'
 		},
 		{
-			id : 40,
+			pack : 2,
 			group : 'Игорь Корнелюк',
 			song : 'Пора домой'
 		},
 		{
-			id : 41,
+			pack : 1,
 			group : 'Аркадий Укупник',
 			song : 'Я на тебе никогда не женюсь'
 		},
 		{
-			id : 42,
+			pack : 1,
 			group : 'Аркадий Укупник',
 			song : 'Сим-Сим'
 		},
 		{
-			id : 43,
+			pack : 1,
 			group : 'Гарик Сукачёв',
 			song : 'Моя бабушка курит трубку'
 		},
 		{
-			id : 44,
+			pack : 2,
 			group : 'Мурат Насыров',
 			song : 'Я это ты'
 		},
 		{
-			id : 45,
+			pack : 2,
 			group : 'Мурат Насыров',
 			song : 'Мальчик хочет в Тамбов'
 		},
 		{
-			id : 46,
+			pack : 2,
 			group : 'Михаил Боярский',
 			song : 'Спасибо родная'
 		},
 		{
-			id : 47,
+			pack : 2,
 			group : 'Валерий Меладзе',
 			song : 'Девушки из высшего общества'
 		},
 		{
-			id : 48,
+			pack : 2,
 			group : 'Владимир Кузьмин',
 			song : 'Я не забуду тебя никогда'
 		},
 		{
-			id : 49,
+			pack : 2,
 			group : 'Владимир Кузьмин',
 			song : 'Моя любовь'
 		},
 		{
-			id : 50,
+			pack : 2,
 			group : 'Владимир Кузьмин',
 			song : 'Семь морей'
 		},
 		{
-			id : 51,
+			pack : 2,
 			group : 'Григорий Лепс',
 			song : 'Рюмка водки на столе'
 		},
 		{
-			id : 52,
+			pack : 2,
 			group : 'Григорий Лепс',
 			song : 'Самый лучший день'
 		},
 		{
-			id : 53,
+			pack : 2,
 			group : 'Григорий Лепс',
 			song : 'Натали'
-		}
-];
-
-let ru_1990_m_3 = [
+		},
 		{
-			id : 1,
+			pack : 3,
 			group : 'Дельфин',
 			song : 'Любовь'
 		},
 		{
-			id : 2,
+			pack : 3,
 			group : 'Дельфин',
 			song : 'Дверь'
 		},
 		{
-			id : 3,
+			pack : 3,
 			group : 'Дельфин',
 			song : 'Если просто'
 		},
 		{
-			id : 4,
+			pack : 3,
 			group : 'Дельфин',
 			song : 'Я люблю людей'
 		},
 		{
-			id : 5,
+			pack : 3,
 			group : 'Дельфин',
 			song : 'Дилер'
 		},
 		{
-			id : 6,
+			pack : 3,
 			group : 'Дельфин',
 			song : 'Я буду жить'
 		},
 		{
-			id : 7,
+			pack : 3,
 			group : 'Михей',
 			song : 'Сука Любовь (ft Джуманджи)'
 		},
 		{
-			id : 8,
+			pack : 3,
 			group : 'Михей',
 			song : 'Туда (ft Джуманджи)'
 		},
 		{
-			id : 9,
+			pack : 3,
 			group : 'Михей',
 			song : 'Мы Дети Большого Города (ft Джуманджи)'
 		},
 		{
-			id : 10,
+			pack : 3,
 			group : 'Михей',
 			song : 'Мы поплывем по волнам (ft Джуманджи)'
 		},
 		{
-			id : 11,
+			pack : 3,
 			group : 'Николай Носков',
 			song : 'Романс'
 		},
 		{
-			id : 12,
+			pack : 3,
 			group : 'Николай Носков',
 			song : 'Я тебя люблю'
 		},
 		{
-			id : 13,
+			pack : 3,
 			group : 'Николай Носков',
 			song : 'Паранойя'
 		},
 		{
-			id : 14,
+			pack : 3,
 			group : 'Николай Носков',
 			song : 'Это здорово'
 		},
 		{
-			id : 15,
+			pack : 3,
 			group : 'Николай Носков',
 			song : 'Снег'
 		},
 		{
-			id : 16,
+			pack : 3,
 			group : 'Сергей Крылов',
 			song : 'Девочка'
 		},
 		{
-			id : 17,
+			pack : 3,
 			group : 'Сергей Крылов',
 			song : 'Осень-золотые листопады (ft Александр Добронравов)'
 		},
 		{
-			id : 18,
+			pack : 3,
 			group : 'Сергей Крылов',
 			song : 'Короче, я звоню из Сочи'
 		},
 		{
-			id : 19,
+			pack : 3,
 			group : 'Николай Трубач',
 			song : 'Женская Любовь'
 		},
 		{
-			id : 20,
+			pack : 3,
 			group : 'Николай Трубач',
 			song : 'Научись играть на гитаре'
 		},
 		{
-			id : 21,
+			pack : 3,
 			group : 'Николай Трубач',
 			song : 'Пять минут'
 		},
 		{
-			id : 22,
+			pack : 3,
 			group : 'Николай Трубач',
 			song : 'Голубая луна (ft Борис Моисеев)'
 		},
 		{
-			id : 23,
+			pack : 3,
 			group : 'Николай Трубач',
 			song : 'Щелкунчик (ft Борис Моисеев)'
 		},
 		{
-			id : 24,
+			pack : 3,
 			group : 'Игорь Саруханов',
 			song : 'Лодочка (ft Николай Трубач)'
 		},
 		{
-			id : 25,
+			pack : 3,
 			group : 'Николай Трубач',
 			song : 'Адреналин'
 		},
 		{
-			id : 26,
+			pack : 3,
 			group : 'Найк Борзов',
 			song : 'Лошадка'
 		},
 		{
-			id : 27,
+			pack : 3,
 			group : 'Найк Борзов',
 			song : 'Верхом на звезде'
 		},
 		{
-			id : 28,
+			pack : 3,
 			group : 'Найк Борзов',
 			song : 'Последняя песня'
 		},
 		{
-			id : 29,
+			pack : 3,
 			group : 'Найк Борзов',
 			song : 'Три слова'
 		},
 		{
-			id : 30,
+			pack : 3,
 			group : 'Найк Борзов',
 			song : 'Загадка'
 		},
 		{
-			id : 31,
+			pack : 3,
 			group : 'Сергей Чумаков',
 			song : 'Жених'
 		},
 		{
-			id : 32,
+			pack : 3,
 			group : 'Сергей Чумаков',
 			song : 'От весны до весны'
 		},
 		{
-			id : 33,
+			pack : 3,
 			group : 'Сергей Чумаков',
 			song : 'Гадюка'
 		},
 		{
-			id : 34,
+			pack : 3,
 			group : 'Игорек',
 			song : 'Подождем мою маму'
 		},
 		{
-			id : 35,
+			pack : 3,
 			group : 'Вячеслав Быков',
 			song : 'Любимая моя'
 		},
 		{
-			id : 36,
+			pack : 3,
 			group : 'Вячеслав Быков',
 			song : 'Девушка у алтаря'
 		},
 		{
-			id : 37,
+			pack : 3,
 			group : 'Вячеслав Быков',
 			song : 'Я прихожу к тебе когда город спит'
 		},
 		{
-			id : 38,
+			pack : 3,
 			group : 'Вячеслав Быков',
 			song : 'Садовник'
 		},
 		{
-			id : 39,
+			pack : 3,
 			group : 'Вячеслав Быков',
 			song : 'Девочка-ночь'
 		},
 		{
-			id : 40,
+			pack : 3,
 			group : 'Вячеслав Быков',
 			song : 'Девочка Моя'
 		},
 		{
-			id : 41,
+			pack : 3,
 			group : 'Игорь Саруханов',
 			song : 'Скрипка-лиса'
 		},
 		{
-			id : 42,
+			pack : 3,
 			group : 'Игорь Саруханов',
 			song : 'Желаю тебе'
 		},
 		{
-			id : 43,
+			pack : 3,
 			group : 'Игорь Саруханов',
 			song : 'Портрет в карандаше'
 		},
 		{
-			id : 44,
+			pack : 3,
 			group : 'Игорь Саруханов',
 			song : 'Дорогие мои старики'
 		},
 		{
-			id : 45,
+			pack : 3,
 			group : 'Игорь Саруханов',
 			song : 'Зеленые глаза'
 		},
 		{
-			id : 46,
+			pack : 3,
 			group : 'Игорь Саруханов',
 			song : 'Моя любовь по городу'
 		},
 		{
-			id : 47,
+			pack : 3,
 			group : 'Игорь Саруханов',
 			song : 'Бухта радости'
 		},
 		{
-			id : 48,
+			pack : 3,
 			group : 'Игорь Саруханов',
 			song : 'Маскарад'
 		},
 		{
-			id : 49,
+			pack : 3,
 			group : 'Игорь Саруханов',
 			song : 'Падал снег'
 		},
 		{
-			id : 50,
+			pack : 3,
 			group : 'Александр Буйнов',
 			song : 'Падают листья'
 		},
 		{
-			id : 51,
+			pack : 3,
 			group : 'Александр Буйнов',
 			song : 'Капитан Каталкин'
 		},
 		{
-			id : 52,
+			pack : 3,
 			group : 'Александр Буйнов',
 			song : 'Мои финансы поют романсы'
 		},
 		{
-			id : 53,
+			pack : 3,
 			group : 'Александр Буйнов',
 			song : 'Шансоньетка (ft Ирина Аллегрова)'
 		},
 		{
-			id : 54,
+			pack : 3,
 			group : 'Максим Фадеев',
 			song : 'Беги по небу'
+		},
+		{
+			pack : 1,
+			group : 'Витас',
+			song : 'Опера 2'
+		},
+		{
+			pack : 1,
+			group : 'Олег Пахомов',
+			song : 'Белые лебеди'
+		},
+		{
+			pack : 1,
+			group : 'Александр Иванов',
+			song : 'Боже, какой пустяк'
+		},
+		{
+			pack : 1,
+			group : 'Александр Иванов',
+			song : 'Пуля'
+		},
+		{
+			pack : 1,
+			group : 'Александр Иванов',
+			song : 'Я постелю тебе под ноги небо'
+		},
+		{
+			pack : 1,
+			group : 'Александр Иванов',
+			song : 'Моя неласковая русь'
+		},
+		{
+			pack : 2,
+			group : 'Филипп Киркоров',
+			song : 'Единственная моя'
+		},
+		{
+			pack : 1,
+			group : 'Гарик Сукачев',
+			song : 'А по асфальту каблучки'
+		},
+		{
+			pack : 2,
+			group : 'Валерий Меладзе',
+			song : 'Самба белого мотылька'
+		},
+		{
+			pack : 1,
+			group : 'Алексей Глызин',
+			song : 'То ли воля, то ли неволя'
+		},
+		{
+			pack : 1,
+			group : 'Алексей Глызин',
+			song : 'Всё позади'
+		},
+		{
+			pack : 1,
+			group : 'Алексей Глызин',
+			song : 'Письма издалека'
+		},
+		{
+			pack : 1,
+			group : 'Алексей Глызин',
+			song : 'Счастье ты моё'
+		},
+		{
+			pack : 1,
+			group : 'Алексей Глызин',
+			song : 'Пепел любви'
+		},
+		{
+			pack : 2,
+			group : 'Шура',
+			song : 'Отшумели летние дожди'
 		}
 ];
 
-let ru_1990_f_1 = [
+let ru_1990_m_1 =	ru_1990_m.filter(item => item.pack == 1);
+let ru_1990_m_2 =	ru_1990_m.filter(item => item.pack == 2);
+let ru_1990_m_3 =	ru_1990_m.filter(item => item.pack == 3);
+
+let ru_1990_f = [
 		{
-			id : 1,
+			pack : 1,
 			group : 'Натали',
 			song : 'Ветер с моря дул',
 			state: ' по Натали'
 		},
 		{
-			id : 2,
+			pack : 1,
 			group : 'Диана',
 			song : 'Скатертью дорога',
 			state: ' по Диане'
 		},
 		{
-			id : 3,
+			pack : 1,
 			group : 'Каролина',
 			song : 'Звёздный вечер'
 		},
 		{
-			id : 4,
+			pack : 1,
 			group : 'Каролина',
 			song : 'Мама, всё ОК'
 		},
 		{
-			id : 5,
+			pack : 1,
 			group : 'Валерия',
 			song : 'Моя Москва',
 			state: ' по Валерии'
 		},
 		{
-			id : 6,
+			pack : 1,
 			group : 'Светлана Рерих',
 			song : 'Ладошки',
 			state: ' по Рерих',
 			shorten: 'Рерих'
 		},
 		{
-			id : 7,
+			pack : 1,
 			group : 'Марина Хлебникова',
 			song : 'Чашка Кофею',
 			state: ' по Хлебниковой',
 			shorten: 'Хлебникова'
 		},
 		{
-			id : 8,
+			pack : 1,
 			group : 'Светлана Владимирская',
 			song : 'Мальчик мой',
 			state: ' по Владимирской',
 			shorten: 'Владимирская'
 		},
 		{
-			id : 9,
+			pack : 1,
 			group : 'Жанна Агузарова',
 			song : 'Ты, только ты',
 			state: ' по Агузаровой',
 			shorten: 'Агузарова'
 		},
 		{
-			id : 10,
+			pack : 1,
 			group : 'Валерия',
 			song : 'Самолёт',
 			state: ' по Валерии'
 		},
 		{
-			id : 11,
+			pack : 1,
 			group : 'Лариса Долина',
 			song : 'Льдинка',
 			state: ' по Долиной',
 			shorten: 'Долина'
 		},
 		{
-			id : 12,
+			pack : 1,
 			group : 'Лариса Черникова',
 			song : 'Влюблённый самолёт',
 			state: ' по Черниковой',
 			shorten: 'Черникова'
 		},
 		{
-			id : 13,
+			pack : 1,
 			group : "Алла Пугачёва",
 			song : 'Позови меня с собой',
 			state: " по Пугачёвой",
 			shorten: 'Пугачёва'
 		},
 		{
-			id : 14,
+			pack : 1,
 			group : 'Натали',
 			song : 'Улыбочка',
 			state: ' по Натали'
 		},
 		{
-			id : 15,
+			pack : 1,
 			group : "Лайма Вайкуле",
 			song : 'Ещё не вечер',
 			state: " по Лайме Вайкуле",
 			shorten: 'Вайкуле'
 		},
 		{
-			id : 16,
+			pack : 1,
 			group : 'Лада Дэнс',
 			song : 'Сотри кассету'
 		},
 		{
-			id : 17,
+			pack : 1,
 			group : 'Лада Дэнс',
 			song : 'Аромат любви'
 		},
 		{
-			id : 18,
+			pack : 1,
 			group : 'Света',
 			song : 'Увидимся',
 			state: ' по Свете'
 		},
 		{
-			id : 19,
+			pack : 1,
 			group : 'Алёна Апина',
 			song : 'Электричка',
 			state: ' по Апиной',
 			shorten: 'Апина'
 		},
 		{
-			id : 20,
+			pack : 1,
 			group : 'Полина Ростова',
 			song : 'По краю дождя',
 			state: ' по Ростовой',
 			shorten: 'Ростова'
 		},
 		{
-			id : 21,
+			pack : 1,
 			group : 'Лика Стар',
 			song : 'Одинокая луна'
 		},
 		{
-			id : 22,
+			pack : 1,
 			group : 'Лада Дэнс',
 			song : 'Жить нужно в кайф',
 			state: ' по Ладе Дэнс'
 		},
 		{
-			id : 23,
+			pack : 1,
 			group : 'Полина Ростова',
 			song : 'По краю дождя'
 		},
 		{
-			id : 24,
+			pack : 1,
 			group : 'Светлана Владимирская',
 			song : 'Дави на газ'
 		},
 		{
-			id : 25,
+			pack : 1,
 			group : 'Света',
 			song : 'Дорога в аэропорт'
 		},
 		{
-			id : 26,
+			pack : 1,
 			group : 'Светлана Разина',
 			song : 'Каменный лев'
 		},
 		{
-			id : 27,
+			pack : 1,
 			group : 'Светлана Рерих',
 			song : 'Вредная девчонка'
 		},
 		{
-			id : 28,
+			pack : 1,
 			group : 'Светлана Рерих',
 			song : 'Дай мне музыку'
 		},
 		{
-			id : 29,
+			pack : 1,
 			group : 'Татьяна Маркова',
 			song : 'Я плачу'
 		},
 		{
-			id : 30,
+			pack : 1,
 			group : 'Марина Журавлева',
 			song : 'Белая черемуха'
 		},
 		{
-			id : 31,
+			pack : 1,
 			group : 'Лада Дэнс',
 			song : 'Танцы у моря'
 		},
 		{
-			id : 32,
+			pack : 1,
 			group : 'Ника',
 			song : 'Три хризантемы'
 		},
 		{
-			id : 33,
+			pack : 1,
 			group : 'Ника',
 			song : 'Сколько Лет, Сколько зим'
 		},
 		{
-			id : 34,
+			pack : 1,
 			group : 'Ника',
 			song : 'Это не мой секрет'
 		},
 		{
-			id : 35,
+			pack : 1,
 			group : 'Алёна Иванцова',
 			song : 'Человек дождя'
 		},
 		{
-			id : 36,
+			pack : 1,
 			group : 'Линда',
 			song : 'Ворона'
 		},
 		{
-			id : 37,
+			pack : 1,
 			group : 'Линда',
 			song : 'Мало огня'
 		},
 		{
-			id : 38,
+			pack : 1,
 			group : 'Надежда Кадышева',
 			song : 'Виновата ли я'
 		},
 		{
-			id : 39,
+			pack : 1,
 			group : 'Надежда Кадышева',
 			song : 'У церкви стояла карета'
 		},
 		{
-			id : 40,
+			pack : 1,
 			group : 'Вика Цыганова',
 			song : 'Приходите в мой дом'
 		},
 		{
-			id : 41,
+			pack : 1,
 			group : 'Вика Цыганова',
 			song : 'Гроздья рябины'
 		},
 		{
-			id : 42,
+			pack : 1,
 			group : 'Вика Цыганова',
 			song : 'Лето пьяное'
 		},
 		{
-			id : 43,
+			pack : 1,
 			group : 'Вика Цыганова',
 			song : 'Любовь и смерть'
 		},
 		{
-			id : 44,
+			pack : 1,
 			group : 'Диана Гурцкая',
 			song : 'Ты здесь'
 		},
 		{
-			id : 45,
+			pack : 1,
 			group : 'Диана Гурцкая',
 			song : 'Я не люблю тебя'
 		},
 		{
-			id : 46,
+			pack : 1,
 			group : 'Диана Гурцкая',
 			song : 'Волшебное стекло моей души'
 		},
 		{
-			id : 47,
+			pack : 1,
 			group : 'Диана Гурцкая',
 			song : 'Две луны'
 		},
 		{
-			id : 48,
+			pack : 1,
 			group : 'Алиса Мон',
 			song : 'Алмаз'
 		},
 		{
-			id : 49,
+			pack : 1,
 			group : 'Настя',
 			song : 'Голоса'
 		},
 		{
-			id : 50,
+			pack : 1,
 			group : 'Яна',
 			song : 'Одинокий голубь'
 		},
 		{
-			id : 51,
+			pack : 1,
 			group : 'Яна',
 			song : 'Сигаретный дым'
 		},
 		{
-			id : 52,
+			pack : 1,
 			group : 'Яна',
 			song : 'Хулиган'
 		},
 		{
-			id : 53,
+			pack : 1,
 			group : 'Лена Зосимова',
 			song : 'Подружки Мои, Не Ревнуйте'
 		},
 		{
-			id : 54,
+			pack : 1,
 			group : 'Анастасия Минцковская',
 			song : 'Губа не дура'
 		},
 		{
-			id : 55,
+			pack : 1,
 			group : 'Алика Смехова',
 			song : 'Не перебивай (ft Александр Буйнов)'
-		}
-];
-
-let ru_1990_f_2 = [
+		},
 		{
-			id : 1,
+			pack : 1,
+			group : 'Саша',
+			song : 'По ночному городу'
+		},
+		{
+			pack : 1,
+			group : 'Саша',
+			song : 'Это просто дождь'
+		},
+		{
+			pack : 1,
+			group : 'Саша',
+			song : 'Любовь — это война'
+		},
+		{
+			pack : 1,
+			group : 'Алёна Свиридова',
+			song : 'Бедная овечка'
+		},
+		{
+			pack : 1,
+			group : 'Алёна Свиридова',
+			song : 'Это ведь я'
+		},
+		{
+			pack : 1,
+			group : 'Алёна Свиридова',
+			song : 'Два ангела'
+		},
+		{
+			pack : 1,
+			group : 'Алёна Свиридова',
+			song : 'Розовый фламинго'
+		},
+		{
+			pack : 2,
 			group : 'Наталья Ветлицкая',
 			song : 'Лунный кот'
 		},
 		{
-			id : 2,
+			pack : 2,
 			group : 'Наталья Ветлицкая',
 			song : 'Playboy'
 		},
 		{
-			id : 3,
+			pack : 2,
 			group : 'Наталья Ветлицкая',
 			song : 'Посмотри в глаза'
 		},
 		{
-			id : 4,
+			pack : 2,
 			group : 'Наталья Ветлицкая',
 			song : 'Глупые мечты'
 		},
 		{
-			id : 5,
+			pack : 2,
 			group : 'Наталья Ветлицкая',
 			song : 'Была не была'
 		},
 		{
-			id : 6,
+			pack : 2,
 			group : 'Наташа Королёва',
 			song : 'Желтые тюльпаны'
 		},
 		{
-			id : 7,
+			pack : 2,
 			group : "Наташа Королёва",
 			song : 'Маленькая страна'
 		},
 		{
-			id : 8,
+			pack : 2,
 			group : "Наташа Королёва",
 			song : 'Мужичок с гармошкой'
 		},
 		{
-			id : 9,
+			pack : 2,
 			group : "Наташа Королёва",
 			song : 'Серые Глаза'
 		},
 		{
-			id : 10,
+			pack : 2,
 			group : "Наталья Сенчукова",
 			song : 'Я по тебе скучаю'
 		},
 		{
-			id : 11,
+			pack : 2,
 			group : "Наталья Сенчукова",
 			song : 'Лодка'
 		},
 		{
-			id : 12,
+			pack : 2,
 			group : "Наталья Сенчукова",
 			song : 'Ты меня обидел'
 		},
 		{
-			id : 13,
+			pack : 2,
 			group : "Наталия Гулькина",
 			song : 'Айвенго'
 		},
 		{
-			id : 14,
+			pack : 2,
 			group : "Наталия Гулькина",
 			song : 'Это Китай'
 		},
 		{
-			id : 15,
+			pack : 2,
 			group : "Наталия Гулькина",
 			song : 'Мелодия любви'
 		},
 		{
-			id : 16,
+			pack : 2,
 			group : "Наталия Гулькина",
 			song : 'Дискотека'
 		},
 		{
-			id : 17,
+			pack : 2,
 			group : "Татьяна Овсиенко",
 			song : 'За розовым морем'
 		},
 		{
-			id : 18,
+			pack : 2,
 			group : 'Татьяна Овсиенко',
 			song : 'Школьная пора'
 		},
 		{
-			id : 19,
+			pack : 2,
 			group : 'Татьяна Овсиенко',
 			song : 'Колечко'
 		},
 		{
-			id : 20,
+			pack : 2,
 			group : 'Татьяна Овсиенко',
 			song : 'Дальнобойщик'
 		},
 		{
-			id : 21,
+			pack : 2,
 			group : 'Татьяна Овсиенко',
 			song : 'Женское счастье'
 		},
 		{
-			id : 22,
+			pack : 2,
 			group : 'Татьяна Овсиенко',
 			song : 'Запомни меня'
 		},
 		{
-			id : 23,
+			pack : 2,
 			group : 'Татьяна Овсиенко',
 			song : 'Капитан'
 		},
 		{
-			id : 24,
+			pack : 2,
 			group : 'Ирина Аллегрова',
 			song : 'Фотография 9х12'
 		},
 		{
-			id : 25,
+			pack : 2,
 			group : 'Ирина Аллегрова',
 			song : 'Привет, Андрей'
 		},
 		{
-			id : 26,
+			pack : 2,
 			group : 'Ирина Аллегрова',
 			song : 'Младший лейтенант'
 		},
 		{
-			id : 27,
+			pack : 2,
 			group : 'Ирина Аллегрова',
 			song : 'Угонщица'
 		},
 		{
-			id : 28,
+			pack : 2,
 			group : 'Ирина Аллегрова',
 			song : 'Императрица'
 		},
 		{
-			id : 29,
+			pack : 2,
 			group : 'Ирина Аллегрова',
 			song : 'С днём рождения!'
 		},
 		{
-			id : 30,
+			pack : 2,
 			group : 'Ирина Аллегрова',
 			song : 'Гарем'
 		},
 		{
-			id : 31,
+			pack : 2,
 			group : 'Ирина Салтыкова',
 			song : 'Отпусти'
 		},
 		{
-			id : 32,
+			pack : 2,
 			group : 'Ирина Салтыкова',
 			song : 'Серые глаза'
 		},
 		{
-			id : 33,
+			pack : 2,
 			group : 'Ирина Салтыкова',
 			song : 'Да и нет'
 		},
 		{
-			id : 34,
+			pack : 2,
 			group : 'Ирина Салтыкова',
 			song : 'Сокол ясный'
 		},
 		{
-			id : 35,
+			pack : 2,
 			group : 'Ирина Салтыкова',
 			song : 'Голубые глазки'
 		},
 		{
-			id : 36,
+			pack : 2,
 			group : 'Ирина Салтыкова',
 			song : 'Белый шарфик'
 		},
 		{
-			id : 37,
+			pack : 2,
 			group : 'Ирина Салтыкова',
 			song : 'Бай-бай'
 		},
 		{
-			id : 38,
+			pack : 2,
 			group : 'Ирина Салтыкова',
 			song : 'Солнечный друг'
 		},
 		{
-			id : 39,
+			pack : 2,
 			group : 'Ирина Салтыкова',
 			song : 'Огоньки'
 		},
 		{
-			id : 40,
+			pack : 2,
 			group : 'Татьяна Буланова',
 			song : 'Ясный мой свет'
 		},
 		{
-			id : 41,
+			pack : 2,
 			group : 'Татьяна Буланова',
 			song : 'Мой ненаглядный'
 		},
 		{
-			id : 42,
+			pack : 2,
 			group : 'Татьяна Буланова',
 			song : 'Не плачь'
 		},
 		{
-			id : 43,
+			pack : 2,
 			group : 'Татьяна Буланова',
 			song : 'Вот и солнце село'
 		},
 		{
-			id : 44,
+			pack : 2,
 			group : 'Татьяна Буланова',
 			song : 'Ледяное сердце'
 		},
 		{
-			id : 45,
+			pack : 2,
 			group : 'Татьяна Буланова',
 			song : 'Старшая сестра'
 		},
 		{
-			id : 46,
+			pack : 2,
 			group : 'Анжелика Варум',
 			song : 'Ля-ля-фа'
 		},
 		{
-			id : 47,
+			pack : 2,
 			group : 'Анжелика Варум',
 			song : 'Художник, что рисует дождь'
 		},
 		{
-			id : 48,
+			pack : 2,
 			group : 'Анжелика Варум',
 			song : 'Зимняя вишня'
 		},
 		{
-			id : 49,
+			pack : 2,
 			group : 'Анжелика Варум',
 			song : 'Городок'
 		},
 		{
-			id : 50,
+			pack : 2,
 			group : 'Анжелика Варум',
 			song : 'Осенний джаз'
 		},
 		{
-			id : 51,
+			pack : 2,
 			group : 'Анжелика Варум',
 			song : 'Другая женщина'
 		},
 		{
-			id : 52,
+			pack : 2,
 			group : 'Анжелика Варум',
 			song : 'Все в твоих руках'
 		},
 		{
-			id : 53,
+			pack : 2,
 			group : 'Анжелика Варум',
 			song : 'Королева (ft Леонид Агутин)'
 		},
 		{
-			id : 54,
+			pack : 2,
 			group : 'Маша Распутина',
 			song : 'Я останусь с тобой'
 		},
 		{
-			id : 55,
+			pack : 2,
 			group : 'Маша Распутина',
 			song : 'Клава'
 		},
 		{
-			id : 56,
+			pack : 2,
 			group : 'Маша Распутина',
 			song : 'Тараканы'
 		},
 		{
-			id : 57,
+			pack : 2,
 			group : 'Маша Распутина',
 			song : 'Белый мерседес'
 		},
 		{
-			id : 58,
+			pack : 2,
 			group : 'Маша Распутина',
 			song : 'Беспутная'
 		},
 		{
-			id : 59,
+			pack : 2,
 			group : 'Маша Распутина',
 			song : 'Ах, Одесса!..'
 		},
 		{
-			id : 60,
+			pack : 2,
 			group : 'Маша Распутина',
 			song : 'Хулиганчики'
 		},
 		{
-			id : 61,
+			pack : 2,
 			group : 'Маша Распутина',
 			song : 'Ты упал с луны'
 		},
 		{
-			id : 62,
+			pack : 2,
 			group : 'Маша Распутина',
 			song : 'Ты меня не буди'
 		},
 		{
-			id : 63,
+			pack : 2,
 			group : 'Маша Распутина',
 			song : 'Платье из роз'
+		},
+		{
+			pack : 1,
+			group : 'Алла Пугачева',
+			song : 'В Петербурге сегодня дожди'
+		},
+		{
+			pack : 1,
+			group : 'Алла Пугачева',
+			song : 'Две звезды (ft Владимир Кузьмин)'
+		},
+		{
+			pack : 1,
+			group : 'Алла Пугачева',
+			song : 'Настоящий Полковник'
+		},
+		{
+			pack : 1,
+			group : 'Алла Пугачева',
+			song : 'Любовь, похожая на сон'
+		},
+		{
+			pack : 1,
+			group : 'Кристина Орбакайте',
+			song : 'Позови меня'
+		},
+		{
+			pack : 1,
+			group : 'Кристина Орбакайте',
+			song : 'Ну почему?'
+		},
+		{
+			pack : 1,
+			group : 'Кристина Орбакайте',
+			song : 'Без тебя'
+		},
+		{
+			pack : 1,
+			group : 'Алёна Апина',
+			song : 'Узелки'
+		},
+		{
+			pack : 1,
+			group : 'Алёна Апина',
+			song : 'Леха'
+		},
+		{
+			pack : 1,
+			group : 'Алёна Апина',
+			song : 'Летучий голландец'
+		},
+		{
+			pack : 1,
+			group : 'Алёна Апина',
+			song : 'Ксюша'
+		},
+		{
+			pack : 1,
+			group : 'Алёна Свиридова',
+			song : 'Никто-никогда'
+		},
+		{
+			pack : 1,
+			group : 'Натали',
+			song : 'Черепашка'
+		},
+		{
+			pack : 1,
+			group : 'Наталия Власова',
+			song : 'Я у твоих ног'
+		},
+		{
+			pack : 1,
+			group : 'Лариса Черникова',
+			song : 'Ты не приходи (розовые очки)'
+		},
+		{
+			pack : 1,
+			group : 'Лариса Черникова',
+			song : 'Да ты не смейся'
+		},
+		{
+			pack : 1,
+			group : 'Лариса Черникова',
+			song : 'Одинокий волк'
+		},
+		{
+			pack : 1,
+			group : 'Лариса Черникова',
+			song : 'Тайна'
+		},
+		{
+			pack : 1,
+			group : 'Лариса Долина',
+			song : 'Погода в доме'
+		},
+		{
+			pack : 1,
+			group : 'Лариса Долина',
+			song : 'Стена'
+		},
+		{
+			pack : 1,
+			group : 'Лариса Долина',
+			song : 'Прости меня'
+		},
+		{
+			pack : 1,
+			group : 'Лада Дэнс',
+			song : 'Один раз в год сады цветут'
+		},
+		{
+			pack : 1,
+			group : 'Лада Дэнс',
+			song : 'Baby tonight'
+		},
+		{
+			pack : 1,
+			group : 'Диана',
+			song : 'Не говори'
+		},
+		{
+			pack : 1,
+			group : 'Света',
+			song : 'Не сходи с ума'
+		},
+		{
+			pack : 1,
+			group : 'Наталья Сенчукова',
+			song : 'Ты пришла любовь'
+		},
+		{
+			pack : 1,
+			group : 'Ирина Аллегрова',
+			song : 'Странник'
+		},
+		{
+			pack : 1,
+			group : 'София Ротару',
+			song : 'Хуторянка'
+		},
+		{
+			pack : 1,
+			group : 'София Ротару',
+			song : 'Каким ты был'
+		},
+		{
+			pack : 1,
+			group : 'София Ротару',
+			song : 'Ночь любви'
+		},
+		{
+			pack : 1,
+			group : 'София Ротару',
+			song : 'Нет мне места в твоём сердце'
+		},
+		{
+			pack : 1,
+			group : 'София Ротару',
+			song : 'Было время'
 		}
 ];
+
+let ru_1990_f_1 =	ru_1990_f.filter(item => item.pack == 1);
+let ru_1990_f_2 =	ru_1990_f.filter(item => item.pack == 2);
 
 let ru_2000_gr_1 = [
 	{
@@ -11491,6 +12351,10 @@ let ru_2000_gr_1 = [
 	{
 		group : "Бумер",
 		song : "Не плачь"
+	},
+	{
+		group : '140 ударов в минуту',
+		song : 'Не сходи с ума'
 	}
 ];
 
@@ -11885,19 +12749,19 @@ let ru_2000_gr_3 = [
 		song : "Не под этим солнцем"
 	},
 	{
-		group : "A'Studio",
+		group : "А-Студио",
 		song : "Улетаю"
 	},
 	{
-		group : "A'Studio",
+		group : "А-Студио",
 		song : "S.O.S."
 	},
 	{
-		group : "A'Studio",
+		group : "А-Студио",
 		song : "Две половинки"
 	},
 	{
-		group : "A'Studio",
+		group : "А-Студио",
 		song : "Ещё люблю"
 	},
 	{
@@ -12005,7 +12869,7 @@ let ru_2000_gr_4 = [
 	},
 	{
 		id : 20,
-		group : 'Тараканы!',
+		group : 'Тараканы',
 		song : "Я смотрю на них"
 	},
 	{
@@ -12331,7 +13195,7 @@ let ru_2000_m = [
 		song : "Губки не целованы"
 	},
 	{
-		group : 'Mr. Credo',
+		group : 'Mr Credo',
 		song : "Чудная долина"
 	},
 	{
@@ -12409,10 +13273,30 @@ let ru_2000_m = [
 	{
 		group : 'Никита',
 		song : "Верёвки"
+	},
+	{
+		group : 'Айдамир Мугу',
+		song : "Чёрные Глаза"
+	},
+	{
+		group : 'Паскаль',
+		song : "Шёлковое Сердце"
+	},
+	{
+		group : 'Дмитрий Колдун',
+		song : "Я для тебя"
+	},
+	{
+		group : 'Дмитрий Колдун',
+		song : "Звезда"
+	},
+	{
+		group : 'Дмитрий Колдун',
+		song : "Настройся на меня"
 	}
 ];
 
-let ru_2000_f = [
+let ru_2000_f_1 = [
 	{
 		group : 'Надежда Кадышева',
 		song : "Широка река (ft. Антон Зацепин)"
@@ -12703,6 +13587,81 @@ let ru_2000_f = [
 	}
 ];
 
+let ru_2000_f_2 = [
+	{
+		group : 'Саша',
+		song : "Не получилось, не срослось"
+	},
+	{
+		group : 'Саша',
+		song : "За туманом"
+	},
+	{
+		group : 'Саша Project',
+		song : "Говорила мама"
+	},
+	{
+		group : 'Саша Project',
+		song : "Очень Нужен Ты"
+	},
+	{
+		group : 'Алекса',
+		song : "Где же ты"
+	},
+	{
+		group : 'Алекса',
+		song : "Лунная Тропа"
+	},
+	{
+		group : 'Алекса',
+		song : "Я живу тобой"
+	},
+	{
+		group : 'Алекса',
+		song : "Когда ты рядом (ft Тимати)"
+	},
+	{
+		group : 'Рита Дакота',
+		song : "Спички"
+	},
+	{
+		group : 'Ангина',
+		song : "Болела"
+	},
+	{
+		group : 'Ангина',
+		song : "Кому какое дело"
+	},
+	{
+		group : 'Алёна Свиридова',
+		song : '17 лет'
+	},
+	{
+		group : 'Алёна Свиридова',
+		song : 'Самба прошедшей любви'
+	},
+	{
+		group : 'Алёна Свиридова',
+		song : 'Шу-би-ду'
+	},
+	{
+		group : 'Алёна Свиридова',
+		song : 'Не дам скучать'
+	},
+	{
+		group : 'Наталья Подольская',
+		song : 'Nobody Hurt No One'
+	},
+	{
+		group : 'Наталья Подольская',
+		song : 'Поздно'
+	},
+	{
+		group : 'Наталья Подольская',
+		song : 'Одна'
+	}
+];
+
 let ru_2007 = [
 	{
 		id : 1,
@@ -12872,7 +13831,7 @@ let ru_2010_gr_2 = [
 	},
 	{
 		id : 2,
-		group : 'The Hatters',
+		group : 'Hatters',
 		song : "Да, со мной не просто"
 	},
 	{
@@ -12912,7 +13871,7 @@ let ru_2010_gr_2 = [
 	},
 	{
 		id : 10,
-		group : 'Тараканы!',
+		group : 'Тараканы',
 		song : "Пойдём на улицу!"
 	},
 	{
@@ -13335,7 +14294,7 @@ let ru_2020 = [
 	},
 	{
 		id : 8,
-		group : 'Руки Вверх!',
+		group : 'Руки Вверх',
 		song : "Укради меня!"
 	},
 	{
@@ -13468,9 +14427,9 @@ let songs = [
 		},
 		{
 			id : 3,
-			group : 'Snap!',
-			song : 'Snap! "Rythm is a Dancer"',
-			state: ' по Snap!'
+			group : 'SNAP',
+			song : 'SNAP "Rythm is a Dancer"',
+			state: ' по SNAP'
 		},
 		{
 			id : 4,
@@ -14830,7 +15789,7 @@ let all_songs = [
 	ru_1980_gr_1, ru_1980_gr_2, ru_1980_gr_3, ru_1980_gr_4, ru_1980_m, ru_1980_f,
 	ru_1990_gr_1, ru_1990_gr_2, ru_1990_gr_3, ru_1990_gr_4,
 	ru_1990_m_1, ru_1990_m_2, ru_1990_m_3, ru_1990_f_1, ru_1990_f_2, 
-	ru_2000_gr_1, ru_2000_gr_2, ru_2000_gr_3, ru_2000_gr_4, ru_2000_m, ru_2000_f,
+	ru_2000_gr_1, ru_2000_gr_2, ru_2000_gr_3, ru_2000_gr_4, ru_2000_m, ru_2000_f_1, ru_2000_f_2,
 	ru_2007, 
 	ru_2010_gr_1, ru_2010_gr_2, ru_2010_m_1, ru_2010_m_2, ru_2010_f,
 	ru_2020,
@@ -14850,7 +15809,7 @@ let all_songs_by_lang_and_type = {
 		'gr' : [ru_1980_gr_1, ru_1980_gr_2, ru_1980_gr_3, ru_1980_gr_4, ru_1990_gr_1, ru_1990_gr_2, ru_1990_gr_3, ru_1990_gr_4,
 				ru_2000_gr_1, ru_2000_gr_2, ru_2000_gr_3, ru_2000_gr_4, ru_2010_gr_1, ru_2010_gr_2],
 		'm'  : [ru_1980_m, ru_1990_m_1, ru_1990_m_2, ru_1990_m_3, ru_2000_m, ru_2010_m_1, ru_2010_m_2],
-		'f'  : [ru_1980_f, ru_1990_f_1, ru_1990_f_2, ru_2000_f, ru_2010_f]
+		'f'  : [ru_1980_f, ru_1990_f_1, ru_1990_f_2, ru_2000_f_1, ru_2000_f_2, ru_2010_f]
 	}
 };
 
@@ -14870,12 +15829,13 @@ let songs_names_en_1980 = [
 	'1980 Исполнительницы (Эльдорадио)', '1980 Исполнительницы (Диско)'
 	];
 
-let songs_en_1990 = [en_1990_gr_1, en_1990_gr_2, en_1990_gr_3, en_1990_gr_4, en_1990_gr_5, en_1990_gr_6, 
-	en_1990_m_1, en_1990_m_2, en_1990_f_1, en_1990_f_2];
+let songs_en_1990 = [en_1990_gr_1, en_1990_gr_2, en_1990_gr_3, en_1990_gr_4, en_1990_gr_5, en_1990_gr_6,
+					 en_1990_m_1, en_1990_m_2,
+					 en_1990_f_1, en_1990_f_2];
 let songs_names_en_1990 = ['1990 Группы (Металл)', '1990 Группы (Рок)', '1990 Группы (INXS)', 
 	'1990 Группы (Эльдорадио)', '1990 Группы (Европа Плюс)', '1990 Группы (Евродэнс)',
-	'1990 Исполнители (по 1 песне)', '1990 Исполнители (по много песен)',
-	'1990 Исполнительницы (по 1 песне)', '1990 Исполнительницы (по много песен)'];
+	'1990 Исполнители (Tom Petty+)', '1990 Исполнители (Robbie Williams+)',
+	'1990 Исполнительницы (Donna Lewis+)', '1990 Исполнительницы (Gala+)'];
 	
 let songs_en_2000 = [en_2000_gr_1, en_2000_gr_2, en_2000_gr_3, en_2000_gr_4, en_2000_gr_5, en_2000_m_1, en_2000_m_2, en_2000_m_3, en_2000_f_1, en_2000_f_2, en_2000_f_3];
 let songs_names_en_2000 = ['2000 Группы (Рок: Green Day+)', '2000 Группы (Рок: U2+)', '2000 Группы (Рок, менее известный)', '2000 Группы (Европа Плюс)',
@@ -14906,10 +15866,10 @@ let songs_names_ru_1990 = ['1990 Группы (Мужские)', '1990 Груп�
 	'1990 Исполнители (Русская эстрада 1)', '1990 Исполнители (Русская эстрада 2)', '1990 Исполнители (Русская эстрада 3)',
 	'1990 Исполнительницы (Русская эстрада 1)', '1990 Исполнительницы (Русская эстрада 2)'];
 	
-let songs_ru_2000 =	[ru_2000_gr_1, ru_2000_gr_2, ru_2000_gr_3, ru_2000_gr_4, ru_2000_m, ru_2000_f];
+let songs_ru_2000 =	[ru_2000_gr_1, ru_2000_gr_2, ru_2000_gr_3, ru_2000_gr_4, ru_2000_m, ru_2000_f_1, ru_2000_f_2];
 let songs_names_ru_2000 = ['2000 Группы (Поп, мужские)', '2000 Группы (Поп, женские)',
 	'2000 Группы (Поп, женские, менее популярные)', '2000 Группы (Рок)',
-	'2000 Исполнители', '2000 Исполнительницы'];
+	'2000 Исполнители', '2000 Исполнительницы 1', '2000 Исполнительницы 2'];
 	
 let songs_ru_2007 = [ru_2007];
 let songs_names_ru_2007 = ['2007 Русская эстрада'];
@@ -14971,7 +15931,7 @@ let songs_ru_m_2010 = [ru_2010_m_1, ru_2010_m_2];
 // all f
 let songs_f_1980 = [en_1980_f_1, en_1980_f_2, ru_1980_f];
 let songs_f_1990 = [en_1990_f_1, en_1990_f_2, ru_1990_f_1, ru_1990_f_2];
-let songs_f_2000 = [en_2000_f_1, en_2000_f_2, en_2000_f_3, en_2007_f_1, en_2007_f_2, ru_2000_f]
+let songs_f_2000 = [en_2000_f_1, en_2000_f_2, en_2000_f_3, en_2007_f_1, en_2007_f_2, ru_2000_f_1, ru_2000_f_2]
 let songs_f_2010 = [en_2010_m, ru_2010_f];
 
 // en f
@@ -14983,7 +15943,7 @@ let songs_en_f_2010 = [en_2010_f];
 // ru f
 let songs_ru_f_1980 = [ru_1980_f];
 let songs_ru_f_1990 = [ru_1990_f_1, ru_1990_f_2];
-let songs_ru_f_2000 = [ru_2000_f];
+let songs_ru_f_2000 = [ru_2000_f_1, ru_2000_f_2];
 let songs_ru_f_2010 = [ru_2010_f];
 
 let en_songs_years = [songs_en_1940, songs_en_1950, songs_en_1960, songs_en_1980, songs_en_1990, songs_en_2000, songs_en_2007,
@@ -15467,21 +16427,31 @@ function randomScore(team){
 		
 function en(){
 	lang = 'en';
+	lang_letter = 'латинскую';
 	$('#wheel').hide();
 	$('#ru').hide();
 	$('#en').hide();
 	$('.settings').hide();
-	$('.en').show();
+	if(!alphabetMode){
+		$('.en').show();
+	} else {
+		$('.en_alphabet').show();
+	}
 	count_time();
 }
 
 function ru(){
 	lang = 'ru';
+	lang_letter = 'русскую';
 	$('#wheel').hide();
 	$('#ru').hide();
 	$('#en').hide();
 	$('.settings').hide();
-	$('.ru').show();
+	if(!alphabetMode){
+		$('.ru').show();
+	} else {
+		$('.ru_alphabet').show();
+	}
 	count_time();
 }
 
@@ -15539,7 +16509,11 @@ function show_packages(num){
 function package_num(num){
 	back = back_to_packages;
 	$('.package').hide();
-	setPaths(artist_type, num, genre);
+	if(year == '1990'){
+		setPathsByPack(num);
+	} else {
+		setPaths(artist_type, num, genre);
+	}
 	showGroupNames();
 }
 
@@ -15568,6 +16542,80 @@ function setPaths(artist_type, package_num, genre){
 		finalMessage = ' Ура! Вы освоили "Дискотеку ' + year + '-х"!';
 		$('#total').html(songs.length);
 		shuffle(songs);
+}
+
+function setPathsByPack(num){
+	let arr = generateSongIds(eval(lang + '_' + year + '_' + artist_type));
+	songs = arr.filter(song => song.pack == num);
+	songs.forEach(song => {
+		song.audioPath = 'audio/' + lang + '/' + year + '/' + artist_type + '/' + song.id;
+		song.imgPath = 'img/' + lang + '/' + year + '/' + artist_type + '/' + song.id;
+	});
+	finalMessage = ' Ура! Вы освоили "Дискотеку ' + year + '-х"!';
+	$('#total').html(songs.length);
+	shuffle(songs);
+}
+
+//[en_1990_gr_1, en_1990_gr_2, en_1990_gr_3, en_1990_gr_4, en_1990_gr_5, en_1990_gr_6, 
+	// en_1990_m_1, en_1990_m_2, en_1990_f_1, en_1990_f_2]
+	
+function setMusicalAlphabet(){
+	let arr;
+	let result = [];
+	for(let i = 1; i <= gr_packages; i++){
+		arr = generateSongIds(eval(lang + '_' + year + '_gr_' + i));
+		audioPath = 'audio/' + lang + '/' + year + '/gr/' + i + '/';
+		imgPath = 'img/' + lang + '/' + year + '/gr/' + i + '/';
+		arr = setMusicalAlphabetPack(arr, 'Группа', audioPath, imgPath);
+		shuffle(arr);
+		result.push(arr.slice(0, 7));
+	}
+	for(let i = 1; i <= m_packages; i++){
+		arr = generateSongIds(eval(lang + '_' + year + '_m_' + i));
+		audioPath = 'audio/' + lang + '/' + year + '/m/' + i + '/';
+		imgPath = 'img/' + lang + '/' + year + '/m/'  + i + '/';
+		arr = setMusicalAlphabetPack(arr, 'Исполнитель', audioPath, imgPath);
+		shuffle(arr);
+		result.push(arr.slice(0, 7));
+	}
+	for(let i = 1; i <= f_packages; i++){
+		arr = generateSongIds(eval(lang + '_' + year + '_f_' + i));
+		audioPath = 'audio/' + lang + '/' + year + '/f/' + i + '/';
+		imgPath = 'img/' + lang + '/' + year + '/f/'  + i + '/';
+		arr = setMusicalAlphabetPack(arr, 'Исполнительница', audioPath, imgPath);
+		shuffle(arr);
+		result.push(arr.slice(0, 7));
+	}
+	result = result.flat();
+	shuffle(result);
+	songs = result.slice(0, 20);
+	answers = songs.map(item=>item.group);
+	finalMessage = ' Ура! Вы освоили "Дискотеку ' + year + '-х"!';
+	$('#total').html(songs.length);
+	showGroupNames();
+}
+	
+function setMusicalAlphabetPack(arr, type, audioPath, imgPath){
+	shuffle(arr);
+	arr = arr.sort((a,b) => (a.group > b.group) ? 1 : ((b.group > a.group) ? -1 : 0));
+	let group = arr[0].group;
+	let result = [];
+	result.push(arr[0]);
+	for(let i = 1; i < arr.length; i++){
+		if(group == arr[i].group){
+			continue;
+		} else {
+			group = arr[i].group;
+			result.push(arr[i]);
+		}
+	}
+	result.forEach(song => {
+		song.letter = Array.from(song.group)[0];
+		song.type = type;
+		song.audioPath = audioPath + song.id;
+		song.imgPath = imgPath + song.id;
+	});
+	return result;
 }
 
 function generateSongIds(arr){
@@ -15668,7 +16716,7 @@ function mode(num){
 	// 1990
 	if(num == 0){
 		year = '1990';
-		m_packages = 2;
+		m_packages = 3;
 		m_package_names[0] = 'tom_petty';
 		m_package_names[1] = 'shaggy';
 		gr_packages = 6;
@@ -15681,7 +16729,9 @@ function mode(num){
 		f_packages = 2;
 		f_package_names[0] = 'janet_jackson';
 		f_package_names[1] = 'bjork';
-		$('.artist').show();
+		if(!alphabetMode){
+			$('.artist').show();
+		}
 	}
 	// 2000
 	if(num == 4){
@@ -15700,7 +16750,9 @@ function mode(num){
 		f_package_names[0] = 'katy_perry';
 		f_package_names[1] = 'leona_lewis';
 		f_package_names[2] = 'rnb';
-		$('.artist').show();
+		if(!alphabetMode){
+			$('.artist').show();
+		}
 	}
 	// 2007
 	if(num == 6){
@@ -15778,7 +16830,9 @@ function mode(num){
 		gr_package_names[2] = 'ru_rock_1';
 		gr_package_names[3] = 'ru_rock_2';
 		$('#song').hide();
-		$('.artist').show();
+		if(!alphabetMode){
+			$('.artist').show();
+		}
 	}
 	// 2000
 	if(num == 21){
@@ -15788,8 +16842,11 @@ function mode(num){
 		gr_package_names[1] = 'vintazh';
 		gr_package_names[2] = 'infinity';
 		gr_package_names[3] = 'ru_rock';
+		f_packages = 2;
 		$('#song').hide();
-		$('.artist').show();
+		if(!alphabetMode){
+			$('.artist').show();
+		}
 	}
 	// 2007
 	if(num == 5){
@@ -15820,7 +16877,13 @@ function mode(num){
 		year = 'kish';
 		sec_per_turn = 20;
 		$('#learn').html('Угадай песню КиШа');
-		setPaths('gr');
+		songs = setMusicalAlphabetPack(generateSongIds(ru_kish_gr), 'Песня', 'audio/ru/kish_gr/', 'img/ru/ru_kish_gr/');
+		shuffle(songs);
+		songs = songs.slice(0, 20);
+		answers = songs.map(item=>item.group);
+		finalMessage = ' Ура! Вы освоили "КиШа"!';
+		$('#total').html(songs.length);
+		showGroupNames();
 	}
 	
 	// Media
@@ -15846,6 +16909,10 @@ function mode(num){
 		setMedia = setVideo;
 		rightAnswer = rightAnswer_EN;
 	}
+	
+	if(alphabetMode){
+		setMusicalAlphabet();
+	} 
 		
 	if(isSingle){
 		// $('#total').html(songs.length);
