@@ -16882,7 +16882,7 @@ function mode(num){
 		year = 'kish';
 		sec_per_turn = 20;
 		$('#learn').html('Угадай песню КиШа');
-		songs = setMusicalAlphabetPack(generateSongIds(ru_kish_gr), 'Песня', 'audio/ru/kish_gr/', 'img/ru/ru_kish_gr/');
+		songs = setMusicalAlphabetPack(generateSongIds(ru_kish_gr), 'Песня', 'audio/ru_kish_gr/', 'img/ru_kish_gr/');
 		shuffle(songs);
 		songs = songs.slice(0, 20);
 		answers = songs.map(item=>item.group);
