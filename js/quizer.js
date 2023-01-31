@@ -16727,8 +16727,8 @@ function mode(num){
 		gr_package_names[4] = 'blur';
 		gr_package_names[5] = 'eurodance';
 		f_packages = 2;
-		f_package_names[0] = 'janet_jackson';
-		f_package_names[1] = 'bjork';
+		f_package_names[0] = 'few';
+		f_package_names[1] = 'many';
 		if(!alphabetMode){
 			$('.artist').show();
 		}
