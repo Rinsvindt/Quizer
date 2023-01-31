@@ -4057,37 +4057,37 @@ let en_1990_gr = [
 		},
 		{
 			pack : 3,
-			group : 'Guana Apes',
+			group : 'Guano Apes',
 			song : "Open Your Eyes"
 		},
 		{
 			pack : 3,
-			group : 'Guana Apes',
+			group : 'Guano Apes',
 			song : "Rain"
 		},
 		{
 			pack : 3,
-			group : 'Guana Apes',
+			group : 'Guano Apes',
 			song : "Lords Of The Boards"
 		},
 		{
 			pack : 3,
-			group : 'Guana Apes',
+			group : 'Guano Apes',
 			song : "Don't You Turn Your Back On Me"
 		},
 		{
 			pack : 3,
-			group : 'Guana Apes',
+			group : 'Guano Apes',
 			song : "Big in Japan"
 		},
 		{
 			pack : 3,
-			group : 'Guana Apes',
+			group : 'Guano Apes',
 			song : "No Speech"
 		},
 		{
 			pack : 3,
-			group : 'Guana Apes',
+			group : 'Guano Apes',
 			song : "Living in a Lie"
 		},
 		{
