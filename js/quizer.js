@@ -4122,7 +4122,7 @@ let en_1990_gr_6 =	en_1990_gr.filter(item => item.pack == 6);
 
 let en_1990_m = [
 		{
-			pack : 3,
+			pack : 1,
 			group : 'Sin With Sebastian',
 			song : "Shut Up (And Sleep With Me)"
 		},
@@ -4152,127 +4152,127 @@ let en_1990_m = [
 			song : "Bailamos"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'Bruce Springsteen',
 			song : "Streets of Philadelphia"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'Seal',
 			song : "Kiss From A Rose"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'Eagle-Eye Cherry',
 			song : "Save Tonight"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'Eagle-Eye Cherry',
 			song : "Indecision"
 		},
 		{
-			pack : 3,
+			pack : 1,
 			group : 'Haddaway',
 			song : "What Is Love?"
 		},
 		{
-			pack : 3,
+			pack : 1,
 			group : 'Haddaway',
 			song : "Life"
 		},
 		{
-			pack : 3,
+			pack : 1,
 			group : 'Haddaway',
 			song : "I Miss You"
 		},
 		{
-			pack : 3,
+			pack : 1,
 			group : 'Haddaway',
 			song : "What About Me"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Fatboy Slim',
 			song : "The Rockafeller Skank"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'Michael Bolton',
 			song : "Can I Touch You...There?"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Lenny Kravitz',
 			song : "Fly Away"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'Joe Cocker',
 			song : "N'Oubliez Jamais"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'Paul McCartney',
 			song : "Hope Of Deliverance"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'Marc Anthony',
 			song : "When I Dream At Night"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Maxi Priest',
 			song : "Close To You"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Snoop Dogg',
 			song : "Jin & Guice"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Chris Isaak',
 			song : "Somebody's Crying"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Tom Petty',
 			song : "Mary Jane's Last Dance (ft The Heartbreakers)"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'Chris Rea',
 			song : "The Blue Cafe"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'Ronan Keating',
 			song : "When You Say Nothing At All"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'David Gray',
 			song : "Sail Away"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'George Michael',
 			song : "The Strangest Thing"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : '2Pac',
 			song : "California Love (ft Dr. Dre, Roger Troutman)"
 		},
 		{
-			pack : 3,
+			pack : 1,
 			group : 'Vanilla Ice',
 			song : "Ice Ice Baby"
 		},
 		{
-			pack : 3,
+			pack : 1,
 			group : 'MC Hammer',
 			song : "U Can't Touch This"
 		},
@@ -4282,12 +4282,12 @@ let en_1990_m = [
 			song : "Infinity"
 		},
 		{
-			pack : 3,
+			pack : 1,
 			group : 'Dr Alban',
 			song : "It's My Life"
 		},
 		{
-			pack : 3,
+			pack : 1,
 			group : 'Dr Alban',
 			song : "Let The Beat Go On"
 		},
@@ -4297,7 +4297,7 @@ let en_1990_m = [
 			song : "Du hast den schönsten Arsch der Welt"
 		},
 		{
-			pack : 3,
+			pack : 1,
 			group : 'Snow',
 			song : "Informer"
 		},
@@ -4307,82 +4307,82 @@ let en_1990_m = [
 			song : "Here Comes the Hotstepper"
 		},
 		{
-			pack : 3,
+			pack : 1,
 			group : 'Scatman John',
 			song : "Scatman"
 		},
 		{
-			pack : 3,
+			pack : 1,
 			group : 'Scatman John',
 			song : "Scatman's World"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'George Michael',
 			song : "Jesus to a Child"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'George Michael',
 			song : "Roxanne"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Prince',
 			song : "The most beautiful girl in the world"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Prince',
 			song : "Cream"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Edwyn Collins',
 			song : "A Girl Like You"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Beck',
 			song : "Where It's At"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Beck',
 			song : "Loser"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Andrea Bocelli',
 			song : "Con Te Partiro"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Rod Stewart',
 			song : "Have I Told You Lately"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Richard Marx',
 			song : "Now And Forever"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Ricky Martin',
 			song : "The Cup of Life"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Ricky Martin',
 			song : "Livin' la Vida Loca"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Lou Bega',
 			song : "Mamba 5"
 		},
 		{
-			pack : 3,
+			pack : 1,
 			group : 'Shaggy',
 			song : "Boombastic"
 		},
@@ -4397,12 +4397,12 @@ let en_1990_m = [
 			song : "Corazon Espinado"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Khaled',
 			song : "Aisha"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Adriano Celentano',
 			song : "Angel"
 		},
@@ -4447,57 +4447,57 @@ let en_1990_m = [
 			song : "Have You Ever Really Loved A Woman?"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Michael Jackson',
 			song : "Remember the Time"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Michael Jackson',
 			song : "Heal The World"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Michael Jackson',
 			song : "Scream (ft Janet Jackson)"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Michael Jackson',
 			song : "You Are Not Alone"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Michael Jackson',
 			song : "Earth Song"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Michael Jackson',
 			song : "They Don't Care About Us"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Michael Jackson',
 			song : "Jam"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Michael Jackson',
 			song : "Black or White"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Sting',
 			song : "Fields Of Gold"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Sting',
 			song : "Desert Rose"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Sting',
 			song : "Shape Of My Heart"
 		},
@@ -4519,102 +4519,102 @@ let en_1990_m = [
 			state: ' по Клэптену'
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Robbie Williams',
 			song : "Freedom"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Robbie Williams',
 			song : "Old Before I Die"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Robbie Williams',
 			song : "Lazy Days"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Robbie Williams',
 			song : "South Of The Border"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Robbie Williams',
 			song : "Angels"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Robbie Williams',
 			song : "Millenium"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Robbie Williams',
 			song : "No Regrets"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Robbie Williams',
 			song : "Rock DJ"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Robbie Williams',
 			song : "Kids (ft Kylie Minogue)"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Robbie Williams',
 			song : "Supreme"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Robbie Williams',
 			song : "Better Man"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Moby',
 			song : "Go"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Moby',
 			song : "Move"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Moby',
 			song : "James Bond Theme"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Moby',
 			song : "Why Does My Heart Feel So Bad?"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Moby',
 			song : "Natural Blues"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Moby',
 			song : "Porcelain"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Fatboy Slim',
 			song : "Praise You"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'Seal',
 			song : "Crazy"
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : 'Ricky Martin',
 			song : "Private Emotion (ft Meja)"
 		},
@@ -4624,47 +4624,47 @@ let en_1990_m = [
 			song : "Over The Rainbow"
 		},
 		{
-			pack : 1,
+			pack : 2,
 			group : 'Michael Bolton',
 			song : "When a Man Loves a Woman"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Lenny Kravitz',
 			song : "Are You Gonna Go My Way"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Chris Isaak',
 			song : "Wicked Game"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Ozzy Osbourne',
 			song : "Mama, I'm Coming Home"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Ozzy Osbourne',
 			song : "See You on the Other Side"
 		},
 		{
-			pack : 1,
+			pack : 3,
 			group : 'Youssou NDour',
 			song : "7 Seconds (ft Neneh Cherry)"
 		},
 		{
-			pack : 2,
+			pack : 3,
 			group : 'Everlast',
 			song : "Put your lights on (ft Santana)"
 		},
 		{
-			pack : 2,
+			pack : 3,
 			group : 'Everlast',
 			song : "What Its Like"
 		},
 		{
-			pack : 2,
+			pack : 3,
 			group : 'Everlast',
 			song : "Ends"
 		}
@@ -11316,6 +11316,11 @@ let ru_1990_m = [
 			pack : 1,
 			group : 'Шура',
 			song : 'Отшумели летние дожди'
+		},
+		{
+			pack : 2,
+			group : 'Александр Градский',
+			song : 'Песня без названия'
 		}
 ];
 
@@ -11387,11 +11392,9 @@ let ru_1990_f = [
 			state: ' по Валерии'
 		},
 		{
-			pack : 3,
+			pack : 2,
 			group : 'Лариса Долина',
-			song : 'Льдинка',
-			state: ' по Долиной',
-			shorten: 'Долина'
+			song : 'Льдинка'
 		},
 		{
 			pack : 2,
@@ -11712,7 +11715,7 @@ let ru_1990_f = [
 			song : 'Я по тебе скучаю'
 		},
 		{
-			pack : 2,
+			pack : 1,
 			group : "Наталья Сенчукова",
 			song : 'Лодка'
 		},
@@ -12140,6 +12143,11 @@ let ru_1990_f = [
 			pack : 2,
 			group : 'София Ротару',
 			song : 'Было время'
+		},
+		{
+			pack : 2,
+			group : 'Каролина',
+			song : 'Дискобар'
 		}
 ];
 
@@ -16006,8 +16014,9 @@ let songs_names_ru_1980 = ['1980 Группы (Русская эстрада)', 
 let songs_ru_1990 = [ru_1990_gr_1, ru_1990_gr_2, ru_1990_gr_3, ru_1990_gr_4,
 	ru_1990_m_1, ru_1990_m_2, ru_1990_m_3, ru_1990_f_1, ru_1990_f_2, ru_1990_f_3];
 let songs_names_ru_1990 = ['1990 Группы (Мужские)', '1990 Группы (Женские)', '1990 Группы (Русский Рок 1)', '1990 Группы (Русский Рок 2)',
-	'1990 Исполнители (Русская эстрада 1)', '1990 Исполнители (Русская эстрада 2)', '1990 Исполнители (Русская эстрада 3)',
-	'1990 Исполнительницы (Русская эстрада 1)', '1990 Исполнительницы (Русская эстрада 2)'];
+	'1990 Исполнители (EASY)', '1990 Исполнители (MEDIUM)', '1990 Исполнители (HARD)',
+	'1990 Исполнительницы (EASY)', '1990 Исполнительницы (MEDIUM)',
+	'1990 Исполнительницы (HARD)'];
 	
 let songs_ru_2000 =	[ru_2000_gr_1, ru_2000_gr_2, ru_2000_gr_3, ru_2000_gr_4, ru_2000_m, ru_2000_f_1, ru_2000_f_2];
 let songs_names_ru_2000 = ['2000 Группы (Поп, мужские)', '2000 Группы (Поп, женские)',
@@ -16862,9 +16871,9 @@ function mode(num){
 	if(num == 0){
 		year = '1990';
 		m_packages = 3;
-		m_package_names[0] = 'tom_petty';
-		m_package_names[1] = 'shaggy';
-		m_package_names[2] = 'eurodance';
+		m_package_names[0] = 'easy';
+		m_package_names[1] = 'medium';
+		m_package_names[2] = 'hard';
 		gr_packages = 6;
 		gr_package_names[0] = 'aerosmith';
 		gr_package_names[1] = 'rem';
