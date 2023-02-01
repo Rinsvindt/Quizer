@@ -4110,6 +4110,11 @@ let en_1990_gr = [
 			pack : 6,
 			group : 'Brooklyn Bounce',
 			song : "Take a Ride"
+		},
+		{
+			pack : 5,
+			group : 'NSYNK',
+			song : "Tearing up my heart"
 		}
 ];
 
