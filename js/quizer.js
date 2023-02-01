@@ -3221,7 +3221,7 @@ let en_1990_gr = [
 			song : "Virtual Insanity"
 		},
 		{
-			pack : 3,
+			pack : 4,
 			group : 'Moloko',
 			song : "Sing in Back"
 		},
@@ -3937,7 +3937,7 @@ let en_1990_gr = [
 			song : "Bad Boys"
 		},	
 		{
-			pack : 3,
+			pack : 4,
 			group : 'Cue',
 			song : "Hello"
 		},	
