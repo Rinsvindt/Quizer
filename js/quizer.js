@@ -276,8 +276,13 @@ function learn(){
 	if(!alphabetMode){
 		$('#mirror').hide();
 	} else {
-		$('#mirror').show();
-		mirror(songs[song_count].type + ' на ' + lang_letter + ' букву ' + songs[song_count].letter, 10, 'blue');
+		if(minusMode){
+			$('#mirror').show();
+			mirror(songs[song_count].type, 10, 'blue');
+		} else {
+			$('#mirror').show();
+			mirror(songs[song_count].type + ' на ' + lang_letter + ' букву ' + songs[song_count].letter, 10, 'blue');
+		}
 	}
 }
 
@@ -583,6 +588,7 @@ function tournementMode(flag){
 }
 
 let alphabetMode = false;
+let minusMode = false;
 
 function enableAlphabetMode(flag){
 	withoutAnswers = flag.checked;
@@ -5134,6 +5140,33 @@ let en_1990_f = [
 
 let en_1990_f_1 =	en_1990_f.filter(item => item.pack == 1);
 let en_1990_f_2 =	en_1990_f.filter(item => item.pack == 2);
+
+let en_1990_minus = [
+	{
+		group : 'AC/DC',
+		song : "Highway to Hell",
+		letter : 'A',
+		type : 'Группа',
+	},
+	{
+		group : 'Aerosmith',
+		song : "Cryin'",
+		letter : 'A',
+		type : 'Группа',
+	},
+	{
+		group : 'Green Day',
+		song : "Basket Case",
+		letter : 'G',
+		type : 'Группа',
+	},
+	{
+		group : 'Offspring',
+		song : "Pretty Fly",
+		letter : 'O',
+		type : 'Группа',
+	}
+];
 
 let en_2000_gr_1 = [
 		{
@@ -10617,7 +10650,7 @@ let ru_1990_m = [
 		{
 			pack : 1,
 			group : 'Андрей Державин',
-			song : 'Чужая свадьба'
+			song : 'Песня о первой любви'
 		},
 		{
 			pack : 1,
@@ -11945,22 +11978,22 @@ let ru_1990_f = [
 		},
 		{
 			pack : 1,
-			group : 'Алла Пугачева',
+			group : 'Алла Пугачёва',
 			song : 'В Петербурге сегодня дожди'
 		},
 		{
 			pack : 1,
-			group : 'Алла Пугачева',
+			group : 'Алла Пугачёва',
 			song : 'Две звезды (ft Владимир Кузьмин)'
 		},
 		{
 			pack : 1,
-			group : 'Алла Пугачева',
+			group : 'Алла Пугачёва',
 			song : 'Настоящий Полковник'
 		},
 		{
 			pack : 1,
-			group : 'Алла Пугачева',
+			group : 'Алла Пугачёва',
 			song : 'Любовь, похожая на сон'
 		},
 		{
@@ -12107,6 +12140,109 @@ let ru_1990_f = [
 
 let ru_1990_f_1 =	ru_1990_f.filter(item => item.pack == 1);
 let ru_1990_f_2 =	ru_1990_f.filter(item => item.pack == 2);
+
+let ru_1990_minus = [
+	{
+		group : 'Александр Серов',
+		song : "Я люблю тебя до слёз",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Алексей Глызин',
+		song : "Поздний вечер в Соренто",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Алла Пугачёва',
+		song : "Настоящий Полковник",
+		type: "Исполнительница"
+	},
+	{
+		group : 'Лада Дэнс',
+		song : "Baby tonight",
+		type: "Исполнительница"
+	},
+	{
+		group : 'Lumen',
+		song : "Сид и Нэнси",
+		type: "Группа"
+	},
+	{
+		group : 'Восток',
+		song : "Танец жёлтых листьев",
+		type: "Группа"
+	},
+	{
+		group : 'Жуки',
+		song : "Батарейка",
+		type: "Группа"
+	},
+	{
+		group : 'Божья Коровка',
+		song : "Гранитный камушек",
+		type: "Группа"
+	},
+	{
+		group : 'Неигрушки',
+		song : "100 дней до приказа",
+		type: "Группа"
+	},
+	{
+		group : 'Ирина Салтыкова',
+		song : "Солнечный друг",
+		type: "Исполнительница"
+	},
+	{
+		group : 'Наталья Ветлицкая',
+		song : "Лунный кот",
+		type: "Исполнительница"
+	},
+	{
+		group : 'София Ротару',
+		song : "Каким ты был",
+		type: "Исполнительница"
+	},
+	{
+		group : 'Александр Буйнов',
+		song : "Падают листья",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Крематорий',
+		song : "Катманду",
+		type: "Группа"
+	},
+	{
+		group : 'Игорь Тальков',
+		song : "Чистые пруды",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Михаил Круг',
+		song : "Владимирский централ",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Мурат Насыров',
+		song : "Я это ты",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Дмитрий Маликов',
+		song : "Птицелов",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Владимир Кузьмин',
+		song : "Я не забуду тебя никогда",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Алёна Свиридова',
+		song : "Бедная овечка",
+		type: "Исполнительца"
+	}
+];
 
 let ru_2000_gr_1 = [
 	{
@@ -16537,7 +16673,6 @@ function setPaths(artist_type, package_num, genre){
 			audioPath += package_num + '/';
 			imgPath += package_num + '/';
 		}
-		//songs = eval(songs_str);
 		songs = generateSongIds(eval(songs_str));
 		answers = songs.map(item=>item.group);
 		finalMessage = ' Ура! Вы освоили "Дискотеку ' + year + '-х"!';
@@ -16738,6 +16873,20 @@ function mode(num){
 			$('.artist').show();
 		}
 	}
+	// 1990 minus
+	if(num == 24){
+		year = 1990;
+		minusMode = true;
+		$('.en_alphabet').hide();
+		audioPath = 'audio/en/1990/minus/';
+		imgPath = 'img/en/1990/minus/';
+		songs = generateSongIds(en_1990_minus);
+		answers = songs.map(item=>item.group);
+		finalMessage = ' Ура! Вы освоили "Дискотеку ' + year + '-х"!';
+		$('#total').html(songs.length);
+		shuffle(songs);
+		toggleLearn();
+	}
 	// 2000
 	if(num == 4){
 		year = '2000';
@@ -16839,6 +16988,20 @@ function mode(num){
 			$('.artist').show();
 		}
 	}
+	// 1990 минус
+	if(num == 25){
+		year = 1990;
+		minusMode = true;
+		$('.ru_alphabet').hide();
+		audioPath = 'audio/ru/1990/minus/';
+		imgPath = 'img/ru/1990/minus/';
+		songs = generateSongIds(ru_1990_minus);
+		answers = songs.map(item=>item.group);
+		finalMessage = ' Ура! Вы освоили "Дискотеку ' + year + '-х"!';
+		$('#total').html(songs.length);
+		shuffle(songs);
+		toggleLearn();
+	}
 	// 2000
 	if(num == 21){
 		year = '2000';
@@ -16915,7 +17078,7 @@ function mode(num){
 		rightAnswer = rightAnswer_EN;
 	}
 	
-	if(alphabetMode){
+	if(alphabetMode && !minusMode){
 		setMusicalAlphabet();
 	} 
 		
