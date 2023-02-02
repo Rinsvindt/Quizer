@@ -4115,6 +4115,36 @@ let en_1990_gr = [
 			pack : 3,
 			group : 'NSYNK',
 			song : "Tearing up my heart"
+		},
+		{
+			pack : 3,
+			group : 'Savage Garden',
+			song : "Chained to You"
+		},
+		{
+			pack : 3,
+			group : 'Savage Garden',
+			song : "All Around Me"
+		},
+		{
+			pack : 3,
+			group : 'Savage Garden',
+			song : "Violet"
+		},
+		{
+			pack : 3,
+			group : 'Savage Garden',
+			song : "Crash and Burn"
+		},
+		{
+			pack : 3,
+			group : 'Savage Garden',
+			song : "The Animal Song"
+		},
+		{
+			pack : 3,
+			group : 'Savage Garden',
+			song : "Break Me Shake Me"
 		}
 ];
 
