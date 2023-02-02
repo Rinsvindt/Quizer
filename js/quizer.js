@@ -17005,8 +17005,8 @@ function mode(num){
 		f_package_names[1] = 'medium';
 		f_package_names[2] = 'hard';
 		gr_packages = 4;
-		gr_package_names[0] = 'ru_pop_1';
-		gr_package_names[1] = 'ru_pop_2';
+		gr_package_names[0] = 'ru_pop_m';
+		gr_package_names[1] = 'ru_pop_f';
 		gr_package_names[2] = 'ru_rock_1';
 		gr_package_names[3] = 'ru_rock_2';
 		$('#song').hide();
