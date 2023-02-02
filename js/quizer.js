@@ -3046,7 +3046,7 @@ let en_1990_gr = [
 			song : "Made In Heaven"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Chumbawamba',
 			song : "Tubthumping"
 		},	
