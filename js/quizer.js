@@ -2936,32 +2936,32 @@ let en_1990_gr = [
 			song : "One"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Garbage',
 			song : "I Think I'm Paranoid"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Garbage',
 			song : "Only Happy When It Rains"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Garbage',
 			song : "#1 Crush"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Garbage',
 			song : "Push It"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Garbage',
 			song : "You Look So Fine"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Garbage',
 			song : "Stupid Girl"
 		},
@@ -3121,12 +3121,12 @@ let en_1990_gr = [
 			song : "Pincushion"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Massive Attack',
 			song : "Unfinished Sympathy"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Massive Attack',
 			song : "Teardrop"
 		},
@@ -3156,52 +3156,52 @@ let en_1990_gr = [
 			song : "I Wanna Get High"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'INXS',
 			song : "Suicide Blonde"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'INXS',
 			song : "Disappear"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'INXS',
 			song : "By My Side"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'INXS',
 			song : "Bitter Tears"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'INXS',
 			song : "Shining Star"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'INXS',
 			song : "Taste It"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'INXS',
 			song : "All Around"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'INXS',
 			song : "Baby Dont Cry"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'INXS',
 			song : "The Strangest Party"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'INXS',
 			song : "Deliver Me"
 		},
@@ -3216,7 +3216,7 @@ let en_1990_gr = [
 			song : "Everlong"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Jamiroquai',
 			song : "Virtual Insanity"
 		},
@@ -3417,232 +3417,232 @@ let en_1990_gr = [
 			song : "Ain't No Sunshine"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Depeche Mode',
 			song : "Enjoy The Silence"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Depeche Mode',
 			song : "Policy Of Truth"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Depeche Mode',
 			song : "World In My Eyes"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Depeche Mode',
 			song : "It's No Good"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Blur',
 			song : "Girls And Boys"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Blur',
 			song : "Country House"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Blur',
 			song : "The Universal"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Blur',
 			song : "Beetlebum"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Blur',
 			song : "Song 2"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Blur',
 			song : "Tender"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Spice Girls',
 			song : "Too Much"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Spice Girls',
 			song : "Wannabe"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Spice Girls',
 			song : "Say You'll Be There"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Spice Girls',
 			song : "Move Over"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Verve',
 			song : "Bitter Sweet Symphony"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Cardigans',
 			song : "Do You Believe"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Cardigans',
 			song : "My Favourite Game"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Cardigans',
 			song : "Erase / Rewind"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Cardigans',
 			song : "Lovefool"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : "NSYNK",
 			song : "Bye Bye Bye"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : "NSYNK",
 			song : "It's Gonna Be Me"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Cranberries',
 			song : "Zombie"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Cranberries',
 			song : "Dreams"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Cranberries',
 			song : "Linger"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Cranberries',
 			song : "Ode To My Family"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'No Doubt',
 			song : "Just A Girl"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'No Doubt',
 			song : "Don't Speak"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Take That',
 			song : "Do What You Like"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Take That',
 			song : "A Million Love Songs"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Take That',
 			song : "I Found Heaven"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Take That',
 			song : "Could It Be Magic"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Take That',
 			song : "Back for Good"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Take That',
 			song : "Pray"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Take That',
 			song : "Relight My Fire"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Take That',
 			song : "Everything Changes"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Take That',
 			song : "Babe"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Five',
 			song : "Slam Dunk (Da Funk)"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Five',
 			song : "When the Lights Go Out"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Five',
 			song : "Got the Feelin'"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Five',
 			song : "Everybody Get Up"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Five',
 			song : "Until the Time Is Through"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Five',
 			song : "Invincible"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Five',
 			song : "Don't Wanna Let You Go"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Verve',
 			song : "The Drugs Don't Work"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Verve',
 			song : "Lucky Man"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Verve',
 			song : "Sonnet"
 		},
@@ -4022,77 +4022,77 @@ let en_1990_gr = [
 			song : "Tribal Dance"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Portishead',
 			song : "Numb"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Portishead',
 			song : "Sour Times"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Portishead',
 			song : "Glory Box"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Portishead',
 			song : "All Mine"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Portishead',
 			song : "Over"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Portishead',
 			song : "Only You"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'L7',
 			song : "Drama"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'L7',
 			song : "Off the Wagon"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Guano Apes',
 			song : "Open Your Eyes"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Guano Apes',
 			song : "Rain"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Guano Apes',
 			song : "Lords Of The Boards"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Guano Apes',
 			song : "Don't You Turn Your Back On Me"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Guano Apes',
 			song : "Big in Japan"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Guano Apes',
 			song : "No Speech"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Guano Apes',
 			song : "Living in a Lie"
 		},
@@ -4112,7 +4112,7 @@ let en_1990_gr = [
 			song : "Take a Ride"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'NSYNK',
 			song : "Tearing up my heart"
 		}
@@ -16880,11 +16880,11 @@ function mode(num){
 		m_package_names[1] = 'medium';
 		m_package_names[2] = 'hard';
 		gr_packages = 6;
-		gr_package_names[0] = 'aerosmith';
-		gr_package_names[1] = 'rem';
-		gr_package_names[2] = 'inxs';
-		gr_package_names[3] = 'extreme';
-		gr_package_names[4] = 'blur';
+		gr_package_names[0] = 'rock_medium';
+		gr_package_names[1] = 'rock_hard';
+		gr_package_names[2] = 'pop_medium';
+		gr_package_names[3] = 'pop_hard';
+		gr_package_names[4] = 'womens_vocals';
 		gr_package_names[5] = 'eurodance';
 		f_packages = 2;
 		f_package_names[0] = 'few';
