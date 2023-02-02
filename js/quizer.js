@@ -3046,7 +3046,7 @@ let en_1990_gr = [
 			song : "Made In Heaven"
 		},
 		{
-			pack : 2,
+			pack : 3,
 			group : 'Chumbawamba',
 			song : "Tubthumping"
 		},	
@@ -3156,67 +3156,67 @@ let en_1990_gr = [
 			song : "I Wanna Get High"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'INXS',
 			song : "Suicide Blonde"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'INXS',
 			song : "Disappear"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'INXS',
 			song : "By My Side"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'INXS',
 			song : "Bitter Tears"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'INXS',
 			song : "Shining Star"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'INXS',
 			song : "Taste It"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'INXS',
 			song : "All Around"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'INXS',
 			song : "Baby Dont Cry"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'INXS',
 			song : "The Strangest Party"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'INXS',
 			song : "Deliver Me"
 		},
 		{
-			pack : 3,
+			pack : 2,
 			group : 'Foo Fighters',
 			song : "Monkey Wrench"
 		},
 		{
-			pack : 3,
+			pack : 2,
 			group : 'Foo Fighters',
 			song : "Everlong"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Jamiroquai',
 			song : "Virtual Insanity"
 		},
@@ -3467,22 +3467,22 @@ let en_1990_gr = [
 			song : "Tender"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Spice Girls',
 			song : "Too Much"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Spice Girls',
 			song : "Wannabe"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Spice Girls',
 			song : "Say You'll Be There"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Spice Girls',
 			song : "Move Over"
 		},
@@ -3492,22 +3492,22 @@ let en_1990_gr = [
 			song : "Bitter Sweet Symphony"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Cardigans',
 			song : "Do You Believe"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Cardigans',
 			song : "My Favourite Game"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Cardigans',
 			song : "Erase / Rewind"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Cardigans',
 			song : "Lovefool"
 		},
@@ -3522,32 +3522,32 @@ let en_1990_gr = [
 			song : "It's Gonna Be Me"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Cranberries',
 			song : "Zombie"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Cranberries',
 			song : "Dreams"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Cranberries',
 			song : "Linger"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'Cranberries',
 			song : "Ode To My Family"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'No Doubt',
 			song : "Just A Girl"
 		},
 		{
-			pack : 5,
+			pack : 3,
 			group : 'No Doubt',
 			song : "Don't Speak"
 		},
@@ -3917,17 +3917,17 @@ let en_1990_gr = [
 			song : "Secret Garden"
 		},	
 		{
-			pack : 3,
+			pack : 2,
 			group : 'Foo Fighters',
 			song : "Learn to Fly"
 		},	
 		{
-			pack : 3,
+			pack : 2,
 			group : 'Foo Fighters',
 			song : "My Hero"
 		},	
 		{
-			pack : 3,
+			pack : 2,
 			group : 'Foo Fighters',
 			song : "Big Me"
 		},	
