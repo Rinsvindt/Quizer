@@ -5170,6 +5170,41 @@ let en_1990_f = [
 			pack : 1,
 			group : 'Meredith Brooks',
 			song : "What Would Happen"
+		},
+		{
+			pack : 2,
+			group : 'Kylie Minogue',
+			song : "Tears On My Pillow"
+		},
+		{
+			pack : 2,
+			group : 'Kylie Minogue',
+			song : "Better the Devil You Know"
+		},
+		{
+			pack : 2,
+			group : 'Kylie Minogue',
+			song : "Shocked"
+		},
+		{
+			pack : 2,
+			group : 'Kylie Minogue',
+			song : "Confide in Me"
+		},
+		{
+			pack : 2,
+			group : 'Kylie Minogue',
+			song : "Where the Wild Roses Grow"
+		},
+		{
+			pack : 2,
+			group : 'Kylie Minogue',
+			song : "Spinning Around"
+		},
+		{
+			pack : 2,
+			group : 'Kylie Minogue',
+			song : "On A Night Like This"
 		}
 ];
 
@@ -16951,8 +16986,8 @@ function mode(num){
 		m_package_names[1] = 'dj';
 		m_package_names[2] = 'rap';
 		f_packages = 3;
-		f_package_names[0] = 'katy_perry';
-		f_package_names[1] = 'leona_lewis';
+		f_package_names[0] = 'easy';
+		f_package_names[1] = 'medium';
 		f_package_names[2] = 'rnb';
 		if(!alphabetMode){
 			$('.artist').show();
