@@ -6138,6 +6138,869 @@ let en_2000_gr_5 = [
 	}
 ];
 
+let en_2000_gr = [
+		{
+			id : 7,
+			group : 'Green Day',
+			song : 'Boulevard Of Broken Dreams'
+		},
+		{
+			id : 14,
+			group : 'Green Day',
+			song : 'American Idiot'
+		},
+		{
+			id : 19,
+			group : 'Green Day',
+			song : 'Wake Me Up When September Ends'
+		},
+		{
+			id : 20,
+			group : 'Green Day',
+			song : 'The Saints Are Coming (ft U2)'
+		},
+		{
+			id : 21,
+			group : 'Green Day',
+			song : 'The Simpsons Theme'
+		},
+		{
+			id : 22,
+			group : 'Green Day',
+			song : 'Know Your Enemy'
+		},
+		{
+			id : 23,
+			group : 'Green Day',
+			song : '21 Guns'
+		},
+		{
+			id : 29,
+			group : 'Offspring',
+			song : "Want You Bad"
+		},
+		{
+			id : 30,
+			group : 'Offspring',
+			song : "Million Miles Away"
+		},
+		{
+			id : 31,
+			group : 'Offspring',
+			song : "Defy You"
+		},
+		{
+			id : 32,
+			group : 'Offspring',
+			song : "Hit That"
+		},
+		{
+			id : 33,
+			group : 'Offspring',
+			song : "Next to you"
+		},
+		{
+			id : 34,
+			group : 'Offspring',
+			song : "Can't Repeat"
+		},
+		{
+			id : 35,
+			group : 'Offspring',
+			song : "Hammerhead"
+		},
+		{
+			id : 36,
+			group : 'Offspring',
+			song : "You're Gonna Go Far, Kid"
+		},
+		{
+			id : 37,
+			group : 'Offspring',
+			song : "Kristy, Are You Doing Okay?"
+		},
+		{
+			group : 'Sum 41',
+			song : "Fat Lip"
+		},
+		{
+			group : 'Sum 41',
+			song : "Pieces"
+		},
+		{
+			group : 'Sum 41',
+			song : "Still Waiting"
+		},
+		{
+			group : 'Sum 41',
+			song : "In Too Deep"
+		},
+		{
+			group : 'Blink 182',
+			song : "I Miss You"
+		},
+		{
+			group : 'Blink 182',
+			song : "Man Overboard"
+		},
+		{
+			group : 'Blink 182',
+			song : "Always"
+		},
+		{
+			group : 'Blink 182',
+			song : "Stay Together For The Kids"
+		},
+		{
+			id : 2,
+			group : 'Red Hot Chili Peppers',
+			song : 'Otherside'
+		},	
+		{
+			id : 4,
+			group : 'Red Hot Chili Peppers',
+			song : 'Californication'
+		},
+		{
+			id : 6,
+			group : "Nickelback",
+			song : 'How You Remind Me'
+		},
+		{
+			id : 9,
+			group : "Linkin Park",
+			song : 'In the end'
+		},
+		{
+			id : 10,
+			group : 'Red Hot Chili Peppers',
+			song : "Can't Stop"
+		},
+		{
+			id : 11,
+			group : "Linkin Park",
+			song : 'Numb'
+		},
+		{
+			id : 15,
+			group : 'Killers',
+			song : 'Mr. Brightside'
+		},
+		{
+			id : 24,
+			group : 'Linkin Park',
+			song : 'Breaking The Habit'
+		},
+		{
+			id : 25,
+			group : 'Linkin Park',
+			song : 'Numb / Encore (ft Jay-Z)'
+		},
+		{
+			id : 26,
+			group : 'Linkin Park',
+			song : "What I've Done"
+		},
+		{
+			id : 27,
+			group : 'Linkin Park',
+			song : "Bleed It Out"
+		},
+		{
+			id : 28,
+			group : 'Linkin Park',
+			song : "We Made It (ft Busta Rhymes)"
+		},
+		{
+			id : 38,
+			group : 'Red Hot Chili Peppers',
+			song : 'By the way'
+		},
+		{
+			id : 39,
+			group : 'Red Hot Chili Peppers',
+			song : 'The Zephyr Song'
+		},
+		{
+			id : 40,
+			group : 'Red Hot Chili Peppers',
+			song : 'Fortune Faded'
+		},
+		{
+			id : 41,
+			group : 'Red Hot Chili Peppers',
+			song : 'Dani California'
+		},
+		{
+			id : 42,
+			group : 'Red Hot Chili Peppers',
+			song : 'Tell Me Baby'
+		},
+		{
+			id : 43,
+			group : 'Red Hot Chili Peppers',
+			song : 'Snow (Hey Oh)'
+		},
+		{
+			id : 44,
+			group : 'Red Hot Chili Peppers',
+			song : 'Desecration Smile'
+		},
+		{
+			id : 45,
+			group : 'Red Hot Chili Peppers',
+			song : 'Hump de Bump'
+		},
+		{
+			id : 46,
+			group : 'U2',
+			song : "Stuck In A Moment You Can't Get Out Of"
+		},
+		{
+			id : 47,
+			group : 'U2',
+			song : "Elevation"
+		},
+		{
+			id : 48,
+			group : 'U2',
+			song : "Walk On"
+		},
+		{
+			id : 49,
+			group : 'U2',
+			song : "Electrical Storm"
+		},
+		{
+			id : 50,
+			group : 'U2',
+			song : "Vertigo"
+		},
+		{
+			id : 51,
+			group : 'U2',
+			song : "All Because Of You"
+		},
+		{
+			id : 52,
+			group : 'U2',
+			song : "Sometimes You Can't Make It On Your Own"
+		},
+		{
+			id : 53,
+			group : 'U2',
+			song : "City Of Blinding Lights"
+		},
+		{
+			id : 54,
+			group : 'U2',
+			song : "Window In The Skies"
+		},
+		{
+			id : 55,
+			group : 'U2',
+			song : "Get On Your Boots"
+		},
+		{
+			group : 'Nickelback',
+			song : "Rockstar"
+		},
+		{
+			group : 'Killers',
+			song : "Somebody Told Me"
+		},
+		{
+			group : 'Killers',
+			song : "When You Were Young"
+		},
+		{
+			group : 'Killers',
+			song : "Read My Mind"
+		},
+		{
+			group : 'Killers',
+			song : "Human"
+		},
+		{
+			group : 'Killers',
+			song : "Spaceman"
+		},
+		{
+			group : 'Nickelback',
+			song : "Someday"
+		},
+		{
+			group : 'Nickelback',
+			song : "Figured You Out"
+		},
+		{
+			group : 'Nickelback',
+			song : "Photograph"
+		},
+		{
+			group : 'Nickelback',
+			song : "Far Away"
+		},
+		{
+			group : 'Nickelback',
+			song : "Gotta Be Somebody"
+		},
+		{
+			group : 'Nickelback',
+			song : "If Today Was Your Last Day"
+		},
+		{
+			group : 'Limp Bizkit',
+			song : "Behind Blue Eyes"
+		},
+		{
+			group : 'Limp Bizkit',
+			song : "Almost Over"
+		},
+		{
+			group : 'Limp Bizkit',
+			song : "Take A Look Around"
+		},
+		{
+			group : 'Limp Bizkit',
+			song : "My Generation"
+		},
+		{
+			group : 'Limp Bizkit',
+			song : "Rollin' (Air Raid Vehicle)"
+		},
+		{
+			group : 'Limp Bizkit',
+			song : "My Way"
+		},
+		{
+			id : 1,
+			group : 'Papa Roach',
+			song : 'Last Resort'
+		},
+		{
+			id : 3,
+			group : 'Bon Jovi',
+			song : "It's My Life"
+		},
+		{
+			id : 5,
+			group : "Drowning Pool",
+			song : 'Bodies'
+		},
+		{
+			id : 8,
+			group : "System of a Down",
+			song : 'Chop Suey!'
+		},
+		{
+			id : 12,
+			group : "Evanescence",
+			song : 'Bring Me To Life'
+		},
+		{
+			id : 13,
+			group : "White Stripes",
+			song : 'Seven Nation Army'
+		},
+		{
+			id : 16,
+			group : 'Hoobastank',
+			song : 'The Reason'
+		},
+		{
+			id : 17,
+			group : 'DragonForce',
+			song : 'Fury Of The Storm'
+		},
+		{
+			id : 18,
+			group : 'Three Days Grace',
+			song : 'I Hate Everything About You'
+		},
+		{
+			group : 'Skillet',
+			song : "Comatose"
+		},
+		{
+			group : 'Skillet',
+			song : "Hero"
+		},
+		{
+			group : 'Skillet',
+			song : "Monster"
+		},
+		{
+			group : 'Skillet',
+			song : "Awake and Alive"
+		},
+		{
+			group : '3 Doors Down',
+			song : "Train"
+		},
+		{
+			group : '3 Doors Down',
+			song : "Kryptonite"
+		},
+		{
+			group : '3 Doors Down',
+			song : "Here Without You"
+		},
+		{
+			group : 'Deep Purple',
+			song : "Clearly Quite Absurd"
+		},
+		{
+			group : 'Garbage',
+			song : "Why Do You Love Me"
+		},
+		{
+			group : 'Garbage',
+			song : "Androgyny"
+		},
+		{
+			group : 'Garbage',
+			song : "Run Baby Run"
+		},
+		{
+			group : 'Garbage',
+			song : "Cherry Lips"
+		},
+		{
+			group : "Evanescence",
+			song : 'My Immortal'
+		},
+		{
+			group : "My Chemical Romance",
+			song : 'Welcome to the Black Parade'
+		},
+		{
+			group : "Kaiser Chiefs",
+			song : 'Ruby'
+		},
+		{
+			group : "Paramore",
+			song : 'Emergency'
+		},
+		{
+			group : "Kasabian",
+			song : 'Fire'
+		},
+		{
+			group : "Kasabian",
+			song : 'Club Foot'
+		},
+		{
+			group : "Kasabian",
+			song : 'L.S.F.'
+		},
+		{
+			group : "Kasabian",
+			song : 'Underdog'
+		},
+		{
+			group : "Foo Fighters",
+			song : 'No Way Back'
+		},
+		{
+			group : "Metallica",
+			song : 'The Day That Never Comes'
+		},
+		{
+			id : 3,
+			group : "Destiny's Child",
+			song : 'Say My Name'
+		},
+		{
+			id : 4,
+			group : 'OutKast',
+			song : 'Ms. Jackson'
+		},		
+		{
+			id : 5,
+			group : "Coldplay",
+			song : 'The Scientist'
+		},
+		{
+			id : 7,
+			group : 'Coldplay',
+			song : 'Clocks'
+		},
+		{
+			id : 8,
+			group : 'OutKast',
+			song : 'Hey Ya!'
+		},
+		{
+			id : 9,
+			group : 'Maroon 5',
+			song : 'This Love'
+		},
+		{
+			id : 10,
+			group : 'Maroon 5',
+			song : 'She Will Be Loved'
+		},
+		{
+			id : 12,
+			group : 'Pussycat Dolls',
+			song : "Don't Cha"
+		},
+		{
+			id : 14,
+			group : "Pussycat Dolls",
+			song : 'Buttons (ft Snoop Dogg)'
+		},
+		{
+			id : 15,
+			group : "OneRepublic",
+			song : "Apologize (ft Timbaland)"
+		},
+		{
+			id : 17,
+			group : "Coldplay",
+			song : "Viva La Vida"
+		},
+		{
+			id : 23,
+			group : "Black Eyed Peas",
+			song : "Pump It"
+		},
+		{
+			id : 24,
+			group : "Gorillaz",
+			song : 'Clint Eastwood'
+		},
+		{
+			id : 25,
+			group : "Black Eyed Peas",
+			song : 'Where Is The Love?'
+		},
+		{
+			id : 26,
+			group : "Black Eyed Peas",
+			song : "Let's Get It Started"
+		},
+		{
+			id : 27,
+			group : "Gorillaz",
+			song : 'Dare'
+		},
+		{
+			id : 28,
+			group : "Black Eyed Peas",
+			song : "My Humps"
+		},
+		{
+			id : 29,
+			group : "Gorillaz",
+			song : 'Feel Good Inc'
+		},
+		{
+			group : "Morandi",
+			song : 'Falling asleep'
+		},
+		{
+			group : "Morandi",
+			song : 'Love Me'
+		},
+		{
+			group : "Morandi",
+			song : 'Angels (Love Is The Answer)'
+		},
+		{
+			group : "Morandi",
+			song : 'Save Me'
+		},
+		{
+			group : "Morandi",
+			song : 'Colors'
+		},
+		{
+			group : "OneRepublic",
+			song : "Stop And Stare"
+		},
+		{
+			group : "OneRepublic",
+			song : "All The Right Moves"
+		},
+		{
+			group : "Muse",
+			song : "Uprising"
+		},
+		{
+			group : "Muse",
+			song : "Starlight"
+		},
+		{
+			group : "Muse",
+			song : "Undisclosed Desires"
+		},
+		{
+			group : "Cure",
+			song : "Cut Here"
+		},
+		{
+			group : "Cure",
+			song : "The Only One"
+		},
+		{
+			group : "Akcent",
+			song : "Kylie"
+		},
+		{
+			group : "Akcent",
+			song : "Stay with Me"
+		},
+		{
+			group : "Akcent",
+			song : "Jokero"
+		},
+		{
+			group : "Akcent",
+			song : "My Passion"
+		},
+		{
+			group : 'OutKast',
+			song : 'The Way You Move (ft Sleep Brown)'
+		},
+		{
+			group : "Black Eyed Peas",
+			song : "Boom Boom Pow"
+		},
+		{
+			group : "Black Eyed Peas",
+			song : "I Gotta Feeling"
+		},
+		{
+			group : "Black Eyed Peas",
+			song : "Mas Que Nada (ft Sergio Mendes)"
+		},
+		{
+			group : "Black Eyed Peas",
+			song : "Don't Phunk With My Heart"
+		},
+		{
+			group : "Black Eyed Peas",
+			song : "Boom Boom Pow"
+		},
+		{
+			group : "Destiny's Child",
+			song : 'Independent Women, Pt. I'
+		},
+		{
+			group : "Destiny's Child",
+			song : 'Survivor'
+		},
+		{
+			group : 'Pussycat Dolls',
+			song : "Hush Hush"
+		},
+		{
+			group : 'Pussycat Dolls',
+			song : "When I Grow Up"
+		},
+		{
+			group : 'Pussycat Dolls',
+			song : "Sway"
+		},
+		{
+			group : 'Maroon 5',
+			song : 'Makes Me Wonder'
+		},
+		{
+			group : 'Maroon 5',
+			song : 'Wake Up Call'
+		},
+		{
+			id : 1,
+			group : 'Lady Antebellum',
+			song : 'Need You Now'
+		},
+		{
+			id : 2,
+			group : 'Owl City',
+			song : 'Fireflies'
+		},
+		{
+			id : 6,
+			group : "Las Ketchup",
+			song : 'Aserejé'
+		},
+		{
+			id : 11,
+			group : "Cascada",
+			song : 'Everytime We Touch'
+		},
+		{
+			id : 13,
+			group : "Panic! At The Disco",
+			song : 'I Write Sins Not Tragedies'
+		},
+		{
+			id : 16,
+			group : "MGMT",
+			song : 'Kids'
+		},
+		{
+			id : 18,
+			group : "M.O.P.",
+			song : "Ante Up Remix (ft Busta Rhymes, Teflon, Remi Martin)"
+		},
+		{
+			id : 19,
+			group : "Hi Tack",
+			song : "Say Say Say"
+		},
+		{
+			id : 20,
+			group : "Global Deejays",
+			song : "The Sound Of San Francisco"
+		},
+		{
+			id : 21,
+			group : "Benassi Bros.",
+			song : "Hit My Heart"
+		},
+		{
+			id : 22,
+			group : "Narcotic Thrust",
+			song : "I Like It"
+		},
+		{
+			group : "Reamonn",
+			song : "Tonight"
+		},
+		{
+			group : "Terror Squad",
+			song : "Lean Back"
+		},
+		{
+			group : "Travis",
+			song : "Sing"
+		},
+		{
+			group : 'Nina Sky',
+			song : 'Move Ya Body'
+		},
+		{
+			group : 'Blue',
+			song : 'Guilty'
+		},
+		{
+			group : 'Morcheeba',
+			song : 'Otherwise'
+		},
+		{
+			group : 'Morcheeba',
+			song : 'World Looking In'
+		},
+		{
+			group : 'Westlife',
+			song : 'Mandy'
+		},
+		{
+			group : 'ATC',
+			song : 'Around the World'
+		},
+		{
+			group : "NSYNK",
+			song : 'Bye Bye Bye'
+		},
+		{
+			group : 'Simply Red',
+			song : 'Sunrise'
+		},
+		{
+			group : 'Savage Garden',
+			song : 'I Knew I Loved You'
+		},
+		{
+			group : 'Snow Patrol',
+			song : 'Chasing Cars'
+		},
+		{
+			group : 'Baha Men',
+			song : 'Who Let The Dogs Out'
+		},
+		{
+			group : 'Madcon',
+			song : "Beggin'"
+		},
+		{
+			group : 'No Angels',
+			song : "Still In Love With You"
+		},
+		{
+			group : 'Brainstorm',
+			song : "Maybe"
+		},
+		{
+			group : 'Five',
+			song : "Rock the Party"
+		},
+		{
+			group : 'Florence + The Machine',
+			song : "Rabbit Heart (Raise It Up)"
+		},
+		{
+			group : 'Florence + The Machine',
+			song : "Cosmic Love"
+		},
+		{
+			group : 'Train',
+			song : "Hey, Soul Sister"
+		},
+		{
+			group : 'Wheatus',
+			song : "Teenage Dirtbag"
+		},
+		{
+			group : 'Beastie Boys',
+			song : "An Open Letter To NYC"
+		},
+		{
+			group : 'Daft Punk',
+			song : "One More Time"
+		},
+		{
+			group : 'Fort Minor',
+			song : "Believe Me"
+		},
+		{
+			group : 'Chemical Brothers',
+			song : "Galvanize"
+		},
+		{
+			group : 'Hurts',
+			song : "Wonderful Life"
+		},
+		{
+			group : 'Hurts',
+			song : "Stay"
+		},
+		{
+			group : 'Basic Element',
+			song : "To You"
+		},
+		{
+			group : 'Mondotek',
+			song : "Alive"
+		},
+		{
+			group : 'Aly & AJ',
+			song : "Potential Breakup Song"
+		},
+		{
+			group : 'Whizzkids',
+			song : "Rumours (Digi Digi) (ft Inusa, Dawuda)"
+		},
+		{
+			group : 'Lighthouse Family',
+			song : "Run"
+		}
+];
+
 let en_2000_m_1 = [
 		{
 			id : 1,
@@ -6501,6 +7364,604 @@ let en_2000_m_2 = [
 ];
 
 let en_2000_m_3 = [	
+		{
+			id : 1,
+			group : 'Flo Rida',
+			song : 'Right Round'
+		},
+		{
+			id : 2,
+			group : 'Kid Cudi',
+			song : "Day 'N' Nite"
+		},
+		{
+			id : 3,
+			group : 'Jamie Foxx',
+			song : 'Blame It'
+		},
+		{
+			id : 4,
+			group : 'Iyaz',
+			song : 'Replay'
+		},
+		{
+			id : 5,
+			group : 'Jay Sean',
+			song : 'Down'
+		},
+		{
+			id : 6,
+			group : 'Taio Cruz',
+			song : 'Break Your Heart'
+		},	
+		{
+			id : 7,
+			group : 'Snoop Dogg',
+			song : 'The Next Episode (ft Dr. Dre)'
+		},	
+		{
+			id : 8,
+			group : 'Eminem',
+			song : 'Stan (ft Dido)'
+		},
+		{
+			id : 9,
+			group : 'Eminem',
+			song : 'The Real Slim Shady'
+		},
+		{
+			id : 10,
+			group : 'Nelly',
+			song : 'Ride With Me'
+		},
+		{
+			id : 11,
+			group : 'Nelly',
+			song : 'Hot In Herre'
+		},
+		{
+			id : 12,
+			group : 'Eminem',
+			song : 'Cleaning Out My Closet'
+		},
+		{
+			id : 13,
+			group : 'Nelly',
+			song : 'Dilemma (ft Kelly Rowland)'
+		},
+		{
+			id : 14,
+			group : 'Eminem',
+			song : 'Without Me',
+			state: ' по Эминему'
+		},
+		{
+			id : 15,
+			group : 'Eminem',
+			song : 'Lose Yourself'
+		},
+		{
+			id : 16,
+			group : '50 Cent',
+			song : 'In Da Club'
+		},
+		{
+			id : 17,
+			group : 'Pharrell Williams',
+			song : "Drop It Like It's Hot (ft Snoop Dogg)"
+		},
+		{
+			id : 18,
+			group : "50 Cent",
+			song : "Candy Shop (ft Olivia)"
+		},
+		{
+			id : 19,
+			group : "Timbaland",
+			song : 'Promiscuous (ft Nelly Furtado)'
+		},
+		{
+			id : 20,
+			group : "Eminem",
+			song : 'Smack That (ft Akon)'
+		},
+		{
+			id : 21,
+			group : "Kanye West",
+			song : "Stronger"
+		},
+		{
+			id : 22,
+			group : "Soulja Boy Tell'em",
+			song : 'Crank That'
+		},
+		{
+			id : 23,
+			group : 'Usher',
+			song : 'Yeah!'
+		},
+		{
+			id : 24,
+			group : "Sean Paul",
+			song : 'Temperature'
+		},
+		{
+			id : 25,
+			group : "Young Buck",
+			song : "Get Buck"
+		},
+		{
+			id : 26,
+			group : "P. Diddy",
+			song : "Shake Ya Tailfeather (ft Nelly, Murphy Lee)"
+		},
+		{
+			group : "Eminem",
+			song : "When I'm Gone"
+		},
+		{
+			group : "50 Cent",
+			song : "21 Questions (ft Nate Dogg)"
+		},
+		{
+			group : "Busta Rhymes",
+			song : "I Know What You Want (ft Mariah Carey)"
+		},
+		{
+			group : "Nelly",
+			song : "Grillz (ft Paul Wall, Ali & Gipp)"
+		},
+		{
+			group : "Akon",
+			song : "Don't Matter"
+		},
+		{
+			group : "Akon",
+			song : "Right Now (Na Na Na)"
+		},
+		{
+			group : "Akon",
+			song : "Lonely"
+		},
+		{
+			group : "Jay-Z",
+			song : "Empire State Of Mind (ft Alicia Keys)"
+		},
+		{
+			group : "Jay-Z",
+			song : "99 Problems"
+		},
+		{
+			group : "Usher",
+			song : "U Remind Me"
+		},
+		{
+			group : "Usher",
+			song : "U Got It Bad"
+		},
+		{
+			group : "Usher",
+			song : "My Boo (ft Alicia Keys)"
+		},
+		{
+			group : "Usher",
+			song : "Love in This Club (ft Young Jeezy)"
+		},
+		{
+			group : "Usher",
+			song : "Burn"
+		},
+		{
+			group : "Usher",
+			song : "Confessions"
+		},
+		{
+			group : "Flo Rida",
+			song : "Low"
+		},
+		{
+			group : "Sean Paul",
+			song : "Get Busy"
+		},
+		{
+			group : "Sean Paul",
+			song : "We Be Burnin'"
+		},
+		{
+			group : "Timbaland",
+			song : "The Way I Are (ft Keri Hilson, D.O.E.)"
+		},
+		{
+			group : "Timbaland",
+			song : "Give It To Me (ft Justin Timberlake, Nelly Furtado)"
+		},
+		{
+			group : "Pitbull",
+			song : "I Know You Want Me"
+		},
+		{
+			group : "Kanye West",
+			song : "Gold Digger (ft Jamie Foxx)"
+		},
+		{
+			group : "T.I.",
+			song : "Whatever You Like"
+		},
+		{
+			group : "T.I.",
+			song : "Live Your Life (ft Rihanna)"
+		},
+		{
+			group : "DMX",
+			song : "Party Up"
+		},
+		{
+			group : "Lil Jon",
+			song : "Get Low (ft The East Side Boyz)"
+		},
+		{
+			group : "Lil Wayne",
+			song : "Lollipop (ft Static Major)"
+		}
+];
+
+let en_2000_m = [
+		{
+			id : 1,
+			group : 'Justin Bieber',
+			song : 'Baby'
+		},
+		{
+			id : 2,
+			group : "Shaggy",
+			song : 'Angel (ft Rayvon)'
+		},
+		{
+			id : 3,
+			group : 'Justin Timberlake',
+			song : 'Cry Me A River'
+		},
+		{
+			id : 4,
+			group : "Sean Kingston",
+			song : 'Beautiful Girls'
+		},
+		{
+			id : 5,
+			group : "Daniel Powter",
+			song : 'Bad Day'
+		},
+		{
+			id : 6,
+			group : "James Blunt",
+			song : "You're Beautiful"
+		},
+		{
+			id : 7,
+			group : "Gnarls Barkley",
+			song : 'Crazy'
+		},
+		{
+			id : 8,
+			group : "Jason Mraz",
+			song : "I'm Yours"
+		},
+		{
+			id : 9,
+			group : 'Justin Timberlake',
+			song : 'Sexy back (ft Timbaland)'
+		},
+		{
+			id : 10,
+			group : 'Justin Timberlake',
+			song : 'My Love (ft T.I.)'
+		},
+		{
+			id : 11,
+			group : 'Justin Timberlake',
+			song : 'Like I Love You'
+		},
+		{
+			id : 12,
+			group : 'Robbie Williams',
+			song : 'The Road To Mandalay'
+		},
+		{
+			id : 13,
+			group : 'Robbie Williams',
+			song : "Somethin' Stupid (ft Nicole Kidman)"
+		},
+		{
+			id : 14,
+			group : 'Darren Hayes',
+			song : 'I Miss You'
+		},
+		{
+			id : 15,
+			group : 'Darren Hayes',
+			song : 'Strange Relationship'
+		},
+		{
+			id : 16,
+			group : 'George Michael',
+			song : 'The Long And Winding Road'
+		},
+		{
+			id : 17,
+			group : 'Leonard Kohen',
+			song : 'A Thousand Kisses Deep'
+		},
+		{
+			id : 18,
+			group : 'Arash',
+			song : 'Boro Boro'
+		},
+		{
+			id : 19,
+			group : 'Seal',
+			song : "It's A Man's Man's World"
+		},
+		{
+			id : 20,
+			group : 'Enrique Iglesias',
+			song : 'Be With You'
+		},
+		{
+			id : 21,
+			group : 'Enrique Iglesias',
+			song : 'Do You Know?'
+		},
+		{
+			id : 22,
+			group : 'Enrique Iglesias',
+			song : 'Hero'
+		},
+		{
+			id : 26,
+			group : 'Ronan Keating',
+			song : 'If Tomorrow Never Comes'
+		},
+		{
+			id : 27,
+			group : 'Arash',
+			song : 'Tike Tike Kardi'
+		},
+		{
+			id : 29,
+			group : 'Fred Puppet',
+			song : 'Mahna Mahna (ft Monster Crew)'
+		},
+		{
+			id : 30,
+			group : 'Lemar',
+			song : "If There's Any Justice"
+		},
+		{
+			id : 31,
+			group : 'Mario',
+			song : "Let Me Love You"
+		},
+		{
+			id : 32,
+			group : 'Travie McCoy',
+			song : "Billionaire"
+		},
+		{
+			id : 33,
+			group : 'Ne-Yo',
+			song : "So Sick"
+		},
+		{
+			id : 34,
+			group : 'Ne-Yo',
+			song : "Closer"
+		},
+		{
+			group : 'Adam Lambert',
+			song : "For your entertainment"
+		},
+		{
+			group : 'Adam Lambert',
+			song : "Whataya Want from Me"
+		},
+		{
+			id : 9,
+			group : "Johnny Cash",
+			song : "I Won't Back Down"
+		},
+		{
+			group : "Juanes",
+			song : "La Camisa Negra"
+		},
+		{
+			group : "Santana",
+			song : "Smooth (ft Rob Thomas)"
+		},
+		{
+			group : "Santana",
+			song : "Maria Maria (ft The Product G&B)"
+		},
+		{
+			group : "Santana",
+			song : "The Game of Love (ft Michelle Branch)"
+		},
+		{
+			group : "Shaggy",
+			song : "It Wasnt Me (ft Rik Rok)"
+		},
+		{
+			group : "Chris Brown",
+			song : "Run It! (ft Juelz Santana)"
+		},
+		{
+			group : "Chris Brown",
+			song : "Kiss Kiss (ft T-Pain)"
+		},
+		{
+			group : "B.o.B.",
+			song : "Nothin' on You (ft Bruno Mars)"
+		},
+		{
+			group : "Bruno Mars",
+			song : "Just the Way You Are"
+		},
+		{
+			group : "Mika",
+			song : "Grace Kelly"
+		},
+		{
+			group : "Mika",
+			song : "Relax, Take It Easy"
+		},
+		{
+			group : "Mika",
+			song : "Love Today"
+		},
+		{
+			group : "Craig David",
+			song : "Rise and fall (ft Sting)"
+		},
+		{
+			group : "Craig David",
+			song : "Insomnia"
+		},
+		{
+			group : "Eros Ramazzotti",
+			song : "Fuoco nel fuoco"
+		},
+		{
+			group : "Eros Ramazzotti",
+			song : "Parla con me"
+		},
+		{
+			group : "Tomas Nevergreen",
+			song : "Since You Been Gone"
+		},
+		{
+			group : "Tomas Nevergreen",
+			song : "Every Time"
+		},
+		{
+			group : "Rob Thomas",
+			song : "Lonely No More"
+		},
+		{
+			group : "Joe",
+			song : "Stutter (ft Mystikal)"
+		},
+		{
+			group : "Nek",
+			song : "Instabile"
+		},
+		{
+			group : "Giorgos Mazonakis",
+			song : "To Gucci Forema"
+		},
+		{
+			group : "Darren Hayes",
+			song : "Crush (1980 Me)"
+		},
+		{
+			id : 1,
+			group : "Tom Novy",
+			song : "Take it (ft Lima)"
+		},
+		{
+			id : 2,
+			group : "Bob Sinclar",
+			song : "Love Generation"
+		},
+		{
+			id : 3,
+			group : "Bob Sinclar",
+			song : "Kiss My Eyes"
+		},
+		{
+			id : 4,
+			group : "Moby",
+			song : "Slipping Away"
+		},
+		{
+			id : 5,
+			group : "Timo Maas",
+			song : "First Day (ft Brian Molko)"
+		},
+		{
+			id : 6,
+			group : "Crazy Frog",
+			song : "Axel F"
+		},
+		{
+			id : 7,
+			group : "Danzel",
+			song : "Pump It Up"
+		},
+		{
+			id : 8,
+			group : "Danzel",
+			song : "Put Your Hands up in the Air!"
+		},
+		{
+			id : 10,
+			group : "Zac Efron",
+			song : "Breaking Free (ft Vanessa Hudgens)"
+		},
+		{
+			id : 11,
+			group : "Eric Prydz",
+			song : "Call on Me"
+		},
+		{
+			id : 12,
+			group : "Gigi D'Agostino",
+			song : "L'Amour Toujours"
+		},
+		{
+			id : 13,
+			group : "Paul Van Dyk",
+			song : "Let Go (ft Rea Garvey)"
+		},
+		{
+			id : 14,
+			group : "Moby",
+			song : "Lift Me Up"
+		},
+		{
+			group : 'David Guetta',
+			song : 'The World Is Mine'
+		},
+		{
+			group : 'David Guetta',
+			song : 'Memories'
+		},
+		{
+			group : 'David Guetta',
+			song : 'Love is gone'
+		},
+		{
+			group : 'Alex Gaudino',
+			song : 'Destination Calabria (ft Crystal Waters)'
+		},
+		{
+			group : 'Dj Bobo',
+			song : 'Chihuahua'
+		},
+		{
+			group : 'Yves Larock',
+			song : 'Rise Up'
+		},
+		{
+			group : 'K-Maro',
+			song : "Let's go"
+		},
+		{
+			group : 'Stromae',
+			song : 'Alors On Danse'
+		},
+		{
+			group : 'Beni Benassi',
+			song : 'Satisfaction'
+		},
 		{
 			id : 1,
 			group : 'Flo Rida',
@@ -7123,6 +8584,583 @@ let en_2000_f_2 = [
 ];
 
 let en_2000_f_3 = [
+		{
+			id : 1,
+			group : "Beyonce",
+			song : 'Crazy In Love (ft Jay-Z)'
+		},
+		{
+			id : 2,
+			group : 'Alicia Keys',
+			song : "If I Ain't Got You"
+		},
+		{
+			id : 3,
+			group : "Beyonce",
+			song : "Beautiful Lier (ft Shakira)"
+		},
+		{
+			id : 4,
+			group : "Rihanna",
+			song : 'Umbrella (ft Jay-Z)'
+		},
+		{
+			id : 5,
+			group : "Beyonce",
+			song : "Single Ladies"
+		},
+		{
+			id : 6,
+			group : "Fergie",
+			song : 'Fergalicious (ft will.i.am)'
+		},
+		{
+			id : 7,
+			group : "Nelly Furtado",
+			song : 'Say It Right'
+		},
+		{
+			id : 8,
+			group : "Beyonce",
+			song : "Baby Boy (ft Sean Paul)"
+		},
+		{
+			id : 9,
+			group : "Beyonce",
+			song : "Halo"
+		},
+		{
+			id : 10,
+			group : "Beyonce",
+			song : "If I Were a Boy"
+		},
+		{
+			id : 11,
+			group : "Beyonce",
+			song : "Check On It (ft Slim Thug, Bun B)"
+		},
+		{
+			id : 12,
+			group : "Beyonce",
+			song : "Irreplaceable"
+		},
+		{
+			id : 13,
+			group : "Rihanna",
+			song : 'SOS'
+		},
+		{
+			id : 14,
+			group : "Rihanna",
+			song : 'Live Your Life (ft T.I.)'
+		},
+		{
+			id : 15,
+			group : "Rihanna",
+			song : 'Only Girl (In The World))'
+		},
+		{
+			id : 16,
+			group : "Rihanna",
+			song : "Don't Stop The Music"
+		},
+		{
+			id : 17,
+			group : "Rihanna",
+			song : 'Rude Boy'
+		},
+		{
+			id : 18,
+			group : "Rihanna",
+			song : 'Disturbia'
+		},
+		{
+			id : 19,
+			group : "Rihanna",
+			song : 'Unfaithful'
+		},
+		{
+			id : 20,
+			group : 'Alicia Keys',
+			song : "Falling"
+		},
+		{
+			id : 21,
+			group : 'Alicia Keys',
+			song : "No One"
+		},
+		{
+			id : 22,
+			group : "Fergie",
+			song : 'Big Girls Don`t Cry'
+		},
+		{
+			id : 23,
+			group : "Fergie",
+			song : 'London Bridge'
+		},
+		{
+			id : 24,
+			group : "Fergie",
+			song : 'Glamorous'
+		},
+		{
+			id : 25,
+			group : "Fergie",
+			song : 'Clumsy'
+		},
+		{
+			id : 26,
+			group : "Nelly Furtado",
+			song : "I'm Like A Bird"
+		},
+		{
+			id : 27,
+			group : "Nelly Furtado",
+			song : 'Promiscuous (ft Timbaland)'
+		},
+		{
+			id : 28,
+			group : "Miley Cyrus",
+			song : 'See You Again'
+		},
+		{
+			id : 29,
+			group : "Miley Cyrus",
+			song : '7 Things'
+		},
+		{
+			id : 30,
+			group : "Miley Cyrus",
+			song : 'The Climb'
+		},
+		{
+			id : 31,
+			group : "Miley Cyrus",
+			song : 'Hoedown Throwdown'
+		},
+		{
+			id : 32,
+			group : "Miley Cyrus",
+			song : 'Party In The U.S.A.'
+		},
+		{
+			id : 33,
+			group : "Miley Cyrus",
+			song : "Can't Be Tamed"
+		},
+		{
+			id : 34,
+			group : "Ciara",
+			song : 'Goodies'
+		},
+		{
+			id : 35,
+			group : "Ciara",
+			song : 'One, Two Step'
+		},
+		{
+			id : 36,
+			group : "Missy Elliott",
+			song : 'Work It'
+		},
+		{
+			id : 37,
+			group : "Missy Elliott",
+			song : 'Get Ur Freak On'
+		},
+		{
+			id : 38,
+			group : "Missy Elliott",
+			song : 'Lose Control (ft Ciara ft Fat Man Scoop)'
+		},
+		{
+			id : 39,
+			group : "Missy Elliott",
+			song : 'Bomb Intro Pass That Dutch'
+		},
+		{
+			id : 40,
+			group : "Missy Elliott",
+			song : 'Gossip Folks'
+		}
+];
+
+let en_2000_f = [
+		{
+			id : 1,
+			group : 'Katy Perry',
+			song : 'I Kissed A Girl'
+		},
+		{
+			id : 2,
+			group : 'Lady Gaga',
+			song : 'Poker Face'
+		},
+		{
+			id : 4,
+			group : 'Britney Spears',
+			song : 'Womanizer'
+		},
+		{
+			id : 5,
+			group : 'P!nk',
+			song : 'So What'
+		},
+		{
+			id : 6,
+			group : 'Britney Spears',
+			song : 'Ooops!... I did it again'
+		},
+		{
+			id : 7,
+			group : "Christina Aguilera",
+			song : "Lady Marmalade (ft P!nk, Mya, Lil' Kim)"
+		},
+		{
+			id : 8,
+			group : "Shakira",
+			song : 'Whenever, Wherever'
+		},
+		{
+			id : 9,
+			group : "Christina Aguilera",
+			song : 'Beautiful'
+		},
+		{
+			id : 10,
+			group : "Avril Lavigne",
+			song : 'Complicated'
+		},
+		{
+			id : 11,
+			group : 'Britney Spears',
+			song : 'Toxic'
+		},
+		{
+			id : 12,
+			group : "Shakira",
+			song : "Hips Don't Lie"
+		},
+		{
+			id : 13,
+			group : "Avril Lavigne",
+			song : 'Girlfriend'
+		},
+		{
+			id : 14,
+			group : "Taylor Swift",
+			song : 'Love Story'
+		},
+		{
+			id : 15,
+			group : "Lady Gaga",
+			song : "Just Dance (ft Colby ODonis)"
+		},
+		{
+			id : 16,
+			group : 'Katy Perry',
+			song : "California Gurls (ft. Snoop Dogg)"
+		},
+		{
+			id : 17,
+			group : 'Katy Perry',
+			song : "Teenage Dream"
+		},
+		{
+			id : 18,
+			group : 'Katy Perry',
+			song : "Firework"
+		},
+		{
+			id : 19,
+			group : 'Katy Perry',
+			song : "Hot N Cold"
+		},
+		{
+			id : 20,
+			group : 'Katy Perry',
+			song : "Waking Up In Vegas"
+		},
+		{
+			id : 21,
+			group : "Taylor Swift",
+			song : 'You Belong With Me'
+		},
+		{
+			id : 22,
+			group : "Gwen Stefani",
+			song : "Hollaback Girl"
+		},
+		{
+			id : 23,
+			group : "Gwen Stefani",
+			song : "The sweet escape (ft Akon)"
+		},
+		{
+			id : 24,
+			group : 'Lady Gaga',
+			song : "Telephone (ft. Beyonce)"
+		},
+		{
+			id : 25,
+			group : "Christina Aguilera",
+			song : 'Come on over Baby (All I Want Is You)'
+		},
+		{
+			group : "Christina Aguilera",
+			song : 'Hurt'
+		},
+		{
+			group : "Inna",
+			song : 'Hot'
+		},
+		{
+			group : "Inna",
+			song : 'Amazing'
+		},
+		{
+			group : "Inna",
+			song : 'Sun Is Up'
+		},
+		{
+			group : 'P!nk',
+			song : 'Get the Party Started'
+		},
+		{
+			group : 'P!nk',
+			song : 'Trouble'
+		},
+		{
+			group : 'Lady Gaga',
+			song : "Bad Romance"
+		},
+		{
+			group : 'Britney Spears',
+			song : 'Gimme More'
+		},
+		{
+			group : "Shakira",
+			song : 'Underneath Your Clothes'
+		},
+		{
+			group : "Shakira",
+			song : 'Objection (Tango)'
+		},
+		{
+			group : "Shakira",
+			song : 'La Tortura (ft Alejandro Sanz)'
+		},
+		{
+			group : "Shakira",
+			song : 'Waka Waka (This Time for Africa) (ft Freshlyground)'
+		},
+		{
+			group : "Avril Lavigne",
+			song : 'Losing Grip'
+		},
+		{
+			group : "Avril Lavigne",
+			song : 'My Happy Ending'
+		},
+		{
+			group : "Avril Lavigne",
+			song : "Nobody's Home"
+		},
+		{
+			group : "Avril Lavigne",
+			song : "He Wasn't"
+		},
+		{
+			group : "Avril Lavigne",
+			song : "When You're Gone"
+		},
+		{
+			group : "Avril Lavigne",
+			song : 'Hot'
+		},
+		{
+			group : "Avril Lavigne",
+			song : 'The Best Damn Thing'
+		},
+		{
+			group : "Avril Lavigne",
+			song : 'Alice'
+		},
+		{
+			group : "Jennifer Lopez",
+			song : "Ain't It Funny"
+		},
+		{
+			group : "Jennifer Lopez",
+			song : "I'm Real (ft Ja Rule)"
+		},
+		{
+			group : "Jennifer Lopez",
+			song : "All I Have (ft LL Cool J)"
+		},
+		{
+			group : "Jennifer Lopez",
+			song : "Love Don't Cost a Thing"
+		},
+		{
+			group : "Jennifer Lopez",
+			song : "Jenny from the Block"
+		},
+		{
+			id : 1,
+			group : "Mary J. Blige",
+			song : 'Family Affair'
+		},
+		{
+			id : 2,
+			group : "Vanessa Carlton",
+			song : 'A Thousand Miles'
+		},
+		{
+			id : 3,
+			group : "Leona Lewis",
+			song : "Bleeding Love"
+		},
+		{
+			id : 4,
+			group : "Amy Winehouse",
+			song : "Back to Black"
+		},
+		{
+			id : 5,
+			group : "Despina Vandi",
+			song : "Come Along Now"
+		},
+		{
+			id : 6,
+			group : "Kelis",
+			song : "Milkshake"
+		},
+		{
+			id : 7,
+			group : "Kelis",
+			song : "Trick Me"
+		},
+		{
+			id : 8,
+			group : "M.I.A.",
+			song : "Paper Planes"
+		},
+		{
+			id : 9,
+			group : "Ida Corr",
+			song : "Let Me Think About It (ft Fedde Le Grand)"
+		},
+		{
+			id : 10,
+			group : 'Duffy',
+			song : "Mercy"
+		},
+		{
+			group : 'Celine Dion',
+			song : "A New Day Has Come"
+		},
+		{
+			group : 'Madonna',
+			song : "Music"
+		},
+		{
+			group : 'Madonna',
+			song : "Hung Up"
+		},
+		{
+			group : 'Madonna',
+			song : "4 minutes"
+		},
+		{
+			group : 'Kelly Clarkson',
+			song : "Because of You"
+		},
+		{
+			group : 'Kelly Clarkson',
+			song : "A Moment Like This"
+		},
+		{
+			group : 'Kelly Clarkson',
+			song : "My Life Would Suck Without You"
+		},
+		{
+			group : 'Geri Halliwell',
+			song : "Calling"
+		},
+		{
+			group : 'Ke$ha',
+			song : 'Tick Tock'
+		},
+		{
+			group : 'Dido',
+			song : 'Thank You'
+		},
+		{
+			group : 'Dido',
+			song : 'White Flag'
+		},
+		{
+			group : 'Kylie Minogue',
+			song : 'Spinning Around'
+		},
+		{
+			group : 'Kylie Minogue',
+			song : "Can't Get You Out of My Head"
+		},
+		{
+			group : 'Mariah Carey',
+			song : 'We Belong Together'
+		},
+		{
+			group : 'Mariah Carey',
+			song : 'Touch My Body'
+		},
+		{
+			group : 'Janet Jackson',
+			song : 'All For You'
+		},
+		{
+			group : 'Ashanti',
+			song : 'Foolish'
+		},
+		{
+			group : 'LeAnn Rimes',
+			song : "Can't Fight The Moonlight"
+		},
+		{
+			group : 'Amy McDonald',
+			song : 'This Is The Life'
+		},
+		{
+			group : 'Aaliyah',
+			song : 'Try Again'
+		},
+		{
+			group : 'Kat Deluna',
+			song : 'Whine up (ft Elephant Man)'
+		},
+		{
+			group : 'Myriam Faris',
+			song : 'Chamarni (Enta bel hayat)'
+		},
+		{
+			group : 'Mya',
+			song : 'Case Of The Ex'
+		},
+		{
+			group : 'September',
+			song : 'Cry For You'
+		},
+		{
+			group : 'Enya',
+			song : 'And Winter Came'
+		},
+		{
+			group : 'Oceana',
+			song : 'Cry cry'
+		},
 		{
 			id : 1,
 			group : "Beyonce",
@@ -17001,11 +19039,11 @@ function mode(num){
 	if(num == 4){
 		year = '2000';
 		gr_packages = 5;
-		gr_package_names[0] = 'green_day';
-		gr_package_names[1] = 'u2';
-		gr_package_names[2] = 'kasabian';
-		gr_package_names[3] = 'black_eyed_peas';
-		gr_package_names[4] = 'mgmt';
+		gr_package_names[0] = 'rock_1';
+		gr_package_names[1] = 'rock_2';
+		gr_package_names[2] = 'rock_3';
+		gr_package_names[3] = 'pop_1';
+		gr_package_names[4] = 'pop_2';
 		m_packages = 3;
 		m_package_names[0] = 'pop';
 		m_package_names[1] = 'dj';
