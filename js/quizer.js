@@ -19041,9 +19041,9 @@ function mode(num){
 		gr_packages = 5;
 		gr_package_names[0] = 'rock_1';
 		gr_package_names[1] = 'rock_2';
-		gr_package_names[2] = 'rock_3';
-		gr_package_names[3] = 'pop_1';
-		gr_package_names[4] = 'pop_2';
+		gr_package_names[2] = 'rock_hard';
+		gr_package_names[3] = 'pop_medium';
+		gr_package_names[4] = 'pop_hard';
 		m_packages = 3;
 		m_package_names[0] = 'pop';
 		m_package_names[1] = 'dj';
