@@ -4145,6 +4145,31 @@ let en_1990_gr = [
 			pack : 3,
 			group : 'Savage Garden',
 			song : "Break Me Shake Me"
+		},
+		{
+			pack : 3,
+			group : 'Pulp',
+			song : "Common People"
+		},
+		{
+			pack : 3,
+			group : 'Pulp',
+			song : "Disco 2000"
+		},
+		{
+			pack : 3,
+			group : 'Pulp',
+			song : "Mis-Shapes"
+		},
+		{
+			pack : 3,
+			group : 'Pulp',
+			song : "Help The Aged"
+		},
+		{
+			pack : 3,
+			group : 'Pulp',
+			song : "This Is Hardcore"
 		}
 ];
 
