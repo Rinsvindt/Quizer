@@ -4759,500 +4759,506 @@ let en_1990_m_1 =	en_1990_m.filter(item => item.pack == 1);
 let en_1990_m_2 =	en_1990_m.filter(item => item.pack == 2);
 let en_1990_m_3 =	en_1990_m.filter(item => item.pack == 3);
 
+const F_1990_COUNT = 2;
+const F_1990_ICON_1 = 'many';
+const F_1990_ICON_2 = 'few';
+const EN_1990_F_MANY_SONGS = 1;
+const EN_1990_F_FEW_SONGS = 2;
+
 let en_1990_f = [
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Ardis',
 			song : "Ain't nobody's business",
 			state: ' по Ардис'
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : "Sinead O'Connor",
 			song : "Nothing Compares 2 U"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Suzanne Vega',
 			song : "Tom's Diner"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Toni Braxton',
 			song : "Un-Break My Heart"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Shania Twain',
 			song : "You're Still The One"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Jennifer Paige',
 			song : "Crush"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Shania Twain',
 			song : "Man! I Feel Like A Woman!"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Sheryl Crow',
 			song : "All I Wanna Do"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Sheryl Crow',
 			song : "If It Makes You Happy"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Janet Jackson',
 			song : "That's The Way Love Goes"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Lisa Loeb',
 			song : "Stay"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Christina Aguilera',
 			song : "Genie In A Bottle"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Tasmin Archer',
 			song : "Sleeping Satellite"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Lara Fabian',
 			song : "I Will Love Again"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'LeAnn Rimes',
 			song : "Can't Fight The Moonlight"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Natalia Oreiro',
 			song : "Que Si, Que Si"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Natalia Oreiro',
 			song : "De Tu Amor"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Natalia Oreiro',
 			song : "Cambio Dolor"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Natalia Oreiro',
 			song : "Me Muero De Amor"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Vanessa Paradis',
 			song : "Joe le taxi"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Joan Osbourne',
 			song : "One Of Us"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Dido',
 			song : "Thank You"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Sandy Lee',
 			song : "Paradise"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Toni Braxton',
 			song : "I Dont Want To"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Cher',
 			song : "Believe"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Britney Spears',
 			song : "...Baby One More Time"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Tori Amos',
 			song : "Cornflake Girl"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Whigfield',
 			song : "Saturday Night"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Brandy',
 			song : "The Boy Is Mine (ft Monica)"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Maggie Reilly',
 			song : "Everytime We Touch"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Cesaria Evora',
 			song : "Besame Mucho"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Natalie Imbruglia',
 			song : "Torn"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Donna Lewis',
 			song : "I Love You Always Forever"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : "Des'ree",
 			song : "Life"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : "Des'ree",
 			song : "You Gotta Be"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Shivaree',
 			song : "Goodnight Moon"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Neneh Cherry',
 			song : "Woman"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Melanie C',
 			song : "I Turn To You"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Emilia',
 			song : "Big Big World"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Lauren Christy',
 			song : "The color of the night"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Meredith Brooks',
 			song : "Bitch"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Jennifer Lopez',
 			song : "If You Had My Love"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Jennifer Lopez',
 			song : "Waiting for Tonight"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Jennifer Lopez',
 			song : "No Me Ames"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Jennifer Lopez',
 			song : "Let's Get Loud"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Celine Dion',
 			song : "The Power of Love"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Celine Dion',
 			song : "Because You Loved Me"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Celine Dion',
 			song : "It's All Coming Back To Me Now"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Celine Dion',
 			song : "My Heart Will Go On"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Celine Dion',
 			song : "Here There & Everywhere"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Madonna',
 			song : "Vogue"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Madonna',
 			song : "Erotica"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Madonna',
 			song : "Rain"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Madonna',
 			song : "Secret"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Madonna',
 			song : "Frozen"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Madonna',
 			song : "Beautiful Stranger"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Madonna',
 			song : "Ray Of Light"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Whitney Houston',
 			song : "I'm Your Baby Tonight"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Whitney Houston',
 			song : "I Will Always Love You"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Whitney Houston',
 			song : "I Have Nothing"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Whitney Houston',
 			song : "All The Man That I Need"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Alanis Morissette',
 			song : "Ironic"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Alanis Morissette',
 			song : "You Oughta Know"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Alanis Morissette',
 			song : "Hand In My Pocket"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Alanis Morissette',
 			song : "You Learn"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Alanis Morissette',
 			song : "Head Over Feet"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Mariah Carey',
 			song : "When You Believe"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Mariah Carey',
 			song : "Hero"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Mariah Carey',
 			song : "One Sweet Day"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Mariah Carey',
 			song : "Without You"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Mariah Carey',
 			song : "All I Want For Christmas Is You"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Bjork',
 			song : "Big Time Sensuality"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Bjork',
 			song : "Army of Me"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Bjork',
 			song : "Hyperballad"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Annie Lennox',
 			song : "Walking on Broken Glass"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Annie Lennox',
 			song : "Why"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Annie Lennox',
 			song : "Love Song for a Vampire"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Annie Lennox',
 			song : "No More I Love You's"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Annie Lennox',
 			song : "A Whiter Shade of Pale"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Geri Halliwell',
 			song : "Mi Chico Latino"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Geri Halliwell',
 			song : "Look At Me"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Geri Halliwell',
 			song : "Lift Me Up"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Geri Halliwell',
 			song : "Bag It Up"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Toni Braxton',
 			song : "Spanish Guitar"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Shania Twain',
 			song : "From This Moment On"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Vanessa Paradis',
 			song : "Be My Baby"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Gala',
 			song : "Freed from desire"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Gala',
 			song : "Let a boy cry"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Gala',
 			song : "Come into my life"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Lene Marlin',
 			song : "Sitting Down Here"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Diana Ross',
 			song : "When You Tell Me That You Love Me"
 		},
 		{
-			pack : 1,
+			pack : EN_1990_F_FEW_SONGS,
 			group : 'Meredith Brooks',
 			song : "What Would Happen"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Kylie Minogue',
 			song : "Tears On My Pillow"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Kylie Minogue',
 			song : "Better the Devil You Know"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Kylie Minogue',
 			song : "Shocked"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Kylie Minogue',
 			song : "Confide in Me"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Kylie Minogue',
 			song : "Where the Wild Roses Grow"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Kylie Minogue',
 			song : "Spinning Around"
 		},
 		{
-			pack : 2,
+			pack : EN_1990_F_MANY_SONGS,
 			group : 'Kylie Minogue',
 			song : "On A Night Like This"
 		}
@@ -10474,16 +10480,14 @@ let ru_1990_gr = [
 			state: ' по Мумий Троллю'
 		},
 		{
-			pack : 4,
-			group : 'Манго-Манго',
-			song : 'Тарантелла'
-			
+			pack : 3,
+			group : 'Леприконсы',
+			song : 'Липа-облепиха'
 		},
 		{
-			pack : 4,
-			group : "Манго-Манго",
-			song : 'Аквалангисты',
-			state: " по Манго-Манго"
+			pack : 3,
+			group : 'Леприконсы',
+			song : 'Вовочка'
 		},
 		{
 			pack : 4,
@@ -10784,16 +10788,6 @@ let ru_1990_gr = [
 			pack : 3,
 			group : 'Леприконсы',
 			song : 'Лена'
-		},
-		{
-			pack : 3,
-			group : 'Леприконсы',
-			song : 'Липа-облепиха'
-		},
-		{
-			pack : 3,
-			group : 'Леприконсы',
-			song : 'Вовочка'
 		}
 ];
 
@@ -11806,7 +11800,7 @@ let ru_1990_f = [
 		{
 			pack : 3,
 			group : 'Полина Ростова',
-			song : 'По краю дождя'
+			song : 'Падала звезда'
 		},
 		{
 			pack : 3,
@@ -17474,9 +17468,9 @@ function mode(num){
 		gr_package_names[3] = 'pop_hard';
 		gr_package_names[4] = 'womens_vocals';
 		gr_package_names[5] = 'eurodance';
-		f_packages = 2;
-		f_package_names[0] = 'few';
-		f_package_names[1] = 'many';
+		f_packages = F_1990_COUNT;
+		f_package_names[0] = F_1990_ICON_1;
+		f_package_names[1] = F_1990_ICON_2;
 		if(!alphabetMode){
 			$('.artist').show();
 		}
