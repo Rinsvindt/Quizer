@@ -4190,6 +4190,11 @@ let en_1990_gr = [
 			pack : 3,
 			group : 'East 17',
 			song : "Hey Child"
+		},
+		{
+			pack : 3,
+			group : 'Savage Garden',
+			song : 'I Knew I Loved You'
 		}
 ];
 
@@ -5665,7 +5670,7 @@ let en_2000_gr = [
 			song : 'Chop Suey!'
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : "Evanescence",
 			song : 'Bring Me To Life'
 		},
@@ -5730,27 +5735,27 @@ let en_2000_gr = [
 			song : "Clearly Quite Absurd"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Garbage',
 			song : "Why Do You Love Me"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Garbage',
 			song : "Androgyny"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Garbage',
 			song : "Run Baby Run"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Garbage',
 			song : "Cherry Lips"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : "Evanescence",
 			song : 'My Immortal'
 		},
@@ -5765,7 +5770,7 @@ let en_2000_gr = [
 			song : 'Ruby'
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : "Paramore",
 			song : 'Emergency'
 		},
@@ -5800,267 +5805,267 @@ let en_2000_gr = [
 			song : 'The Day That Never Comes'
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : "Destiny's Child",
 			song : 'Say My Name'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : 'OutKast',
 			song : 'Ms. Jackson'
 		},		
 		{
-			pack : 4,
+			pack : 5,
 			group : "Coldplay",
 			song : 'The Scientist'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : 'Coldplay',
 			song : 'Clocks'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : 'OutKast',
 			song : 'Hey Ya!'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : 'Maroon 5',
 			song : 'This Love'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : 'Maroon 5',
 			song : 'She Will Be Loved'
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Pussycat Dolls',
 			song : "Don't Cha"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : "Pussycat Dolls",
 			song : 'Buttons (ft Snoop Dogg)'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "OneRepublic",
 			song : "Apologize (ft Timbaland)"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Coldplay",
 			song : "Viva La Vida"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Black Eyed Peas",
 			song : "Pump It"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Gorillaz",
 			song : 'Clint Eastwood'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Black Eyed Peas",
 			song : 'Where Is The Love?'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Black Eyed Peas",
 			song : "Let's Get It Started"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Gorillaz",
 			song : 'Dare'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Black Eyed Peas",
 			song : "My Humps"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Gorillaz",
 			song : 'Feel Good Inc'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Morandi",
 			song : 'Falling asleep'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Morandi",
 			song : 'Love Me'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Morandi",
 			song : 'Angels (Love Is The Answer)'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Morandi",
 			song : 'Save Me'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Morandi",
 			song : 'Colors'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "OneRepublic",
 			song : "Stop And Stare"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "OneRepublic",
 			song : "All The Right Moves"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Muse",
 			song : "Uprising"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Muse",
 			song : "Starlight"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Muse",
 			song : "Undisclosed Desires"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Cure",
 			song : "Cut Here"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Cure",
 			song : "The Only One"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Akcent",
 			song : "Kylie"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Akcent",
 			song : "Stay with Me"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Akcent",
 			song : "Jokero"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Akcent",
 			song : "My Passion"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : 'OutKast',
 			song : 'The Way You Move (ft Sleep Brown)'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Black Eyed Peas",
 			song : "Boom Boom Pow"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Black Eyed Peas",
 			song : "I Gotta Feeling"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Black Eyed Peas",
 			song : "Mas Que Nada (ft Sergio Mendes)"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Black Eyed Peas",
 			song : "Don't Phunk With My Heart"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : "Black Eyed Peas",
 			song : "Boom Boom Pow"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : "Destiny's Child",
 			song : 'Independent Women, Pt. I'
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : "Destiny's Child",
 			song : 'Survivor'
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Pussycat Dolls',
 			song : "Hush Hush"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Pussycat Dolls',
 			song : "When I Grow Up"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Pussycat Dolls',
 			song : "Sway"
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : 'Maroon 5',
 			song : 'Makes Me Wonder'
 		},
 		{
-			pack : 4,
+			pack : 5,
 			group : 'Maroon 5',
 			song : 'Wake Up Call'
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Lady Antebellum',
 			song : 'Need You Now'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Owl City',
 			song : 'Fireflies'
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : "Las Ketchup",
 			song : 'Aserejé'
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : "Cascada",
 			song : 'Everytime We Touch'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : "Panic! At The Disco",
 			song : 'I Write Sins Not Tragedies'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : "MGMT",
 			song : 'Kids'
 		},
@@ -6071,163 +6076,163 @@ let en_2000_gr = [
 			song : "Ante Up Remix (ft Busta Rhymes, Teflon, Remi Martin)"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : "Hi Tack",
 			song : "Say Say Say"
 		},
 		//to_cut
 		{
-			pack : 6,
+			pack : 4,
 			group : "Global Deejays",
 			song : "The Sound Of San Francisco"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : "Benassi Bros.",
 			song : "Hit My Heart"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : "Narcotic Thrust",
 			song : "I Like It"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : "Reamonn",
 			song : "Tonight"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : "Terror Squad",
 			song : "Lean Back"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : "Travis",
 			song : "Sing"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Nina Sky',
 			song : 'Move Ya Body'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Blue',
 			song : 'Guilty'
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Morcheeba',
 			song : 'Otherwise'
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Morcheeba',
 			song : 'World Looking In'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Westlife',
 			song : 'Mandy'
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'ATC',
 			song : 'Around the World'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : "NSYNK",
 			song : 'Bye Bye Bye'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Simply Red',
 			song : 'Sunrise'
 		},
 		{
-			pack : 5,
-			group : 'Savage Garden',
-			song : 'I Knew I Loved You'
+			pack : 4,
+			group : 'ATC',
+			song : "I'm in Heaven"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Snow Patrol',
 			song : 'Chasing Cars'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Baha Men',
 			song : 'Who Let The Dogs Out'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Madcon',
 			song : "Beggin'"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'No Angels',
 			song : "Still In Love With You"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Brainstorm',
 			song : "Maybe"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Five',
 			song : "Rock the Party"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Florence + The Machine',
 			song : "Rabbit Heart (Raise It Up)"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Florence + The Machine',
 			song : "Cosmic Love"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Train',
 			song : "Hey, Soul Sister"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Wheatus',
 			song : "Teenage Dirtbag"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Beastie Boys',
 			song : "An Open Letter To NYC"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Daft Punk',
 			song : "One More Time"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Fort Minor',
 			song : "Believe Me"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Chemical Brothers',
 			song : "Galvanize"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Hurts',
 			song : "Wonderful Life"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Hurts',
 			song : "Stay"
 		},
@@ -6237,22 +6242,22 @@ let en_2000_gr = [
 			song : "To You"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Mondotek',
 			song : "Alive"
 		},
 		{
-			pack : 6,
+			pack : 4,
 			group : 'Aly & AJ',
 			song : "Potential Breakup Song"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Whizzkids',
 			song : "Rumours (Digi Digi) (ft Inusa, Dawuda)"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Lighthouse Family',
 			song : "Run"
 		}
@@ -16566,9 +16571,9 @@ let songs_names_en_1980 = [
 let songs_en_1990 = [en_1990_gr_1, en_1990_gr_2, en_1990_gr_3, en_1990_gr_4, en_1990_gr_5, en_1990_gr_6,
 					 en_1990_m_1, en_1990_m_2,
 					 en_1990_f_1, en_1990_f_2];
-let songs_names_en_1990 = ['1990 Группы (Металл)', '1990 Группы (Рок)', '1990 Группы (INXS)', 
-	'1990 Группы (Эльдорадио)', '1990 Группы (Европа Плюс)', '1990 Группы (Евродэнс)',
-	'1990 Исполнители (Tom Petty+)', '1990 Исполнители (Robbie Williams+)',
+let songs_names_en_1990 = ['1990 Группы (Rock Medium)', '1990 Группы (Rock Hard)', '1990 Группы (Pop Medium)', 
+	'1990 Группы (Pop Hard)', '1990 Группы (Women)', '1990 Группы (Eurodance)',
+	'1990 Исполнители (Easy)', '1990 Исполнители (Medium)', '1990 Исполнители (Hard)',
 	'1990 Исполнительницы (Donna Lewis+)', '1990 Исполнительницы (Gala+)'];
 	
 let songs_en_2000 = [en_2000_gr_1, en_2000_gr_2, en_2000_gr_3, en_2000_gr_4, en_2000_gr_5, en_2000_m_1, en_2000_m_2, en_2000_m_3, en_2000_f_1, en_2000_f_2, en_2000_f_3];
@@ -17492,9 +17497,9 @@ function mode(num){
 		gr_package_names[0] = 'rock_1';
 		gr_package_names[1] = 'rock_2';
 		gr_package_names[2] = 'rock_hard';
-		gr_package_names[3] = 'pop_medium';
-		gr_package_names[4] = 'pop_hard';
-		gr_package_names[5] = 'womens_vocals';
+		gr_package_names[3] = 'womens_vocals';
+		gr_package_names[4] = 'pop_medium';
+		gr_package_names[5] = 'pop_hard';
 		m_packages = 3;
 		m_package_names[0] = 'pop';
 		m_package_names[1] = 'dj';
