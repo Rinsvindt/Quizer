@@ -4170,6 +4170,11 @@ let en_1990_gr = [
 			pack : 3,
 			group : 'Pulp',
 			song : "This Is Hardcore"
+		},
+		{
+			pack : 4,
+			group : 'UB40',
+			song : "Kingston Town"
 		}
 ];
 
