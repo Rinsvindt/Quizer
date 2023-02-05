@@ -4175,6 +4175,21 @@ let en_1990_gr = [
 			pack : 4,
 			group : 'UB40',
 			song : "Kingston Town"
+		},
+		{
+			pack : 3,
+			group : 'East 17',
+			song : "Deep"
+		},
+		{
+			pack : 3,
+			group : 'East 17',
+			song : "Stay Another Day"
+		},
+		{
+			pack : 3,
+			group : 'East 17',
+			song : "Hey Child"
 		}
 ];
 
@@ -5650,7 +5665,7 @@ let en_2000_gr = [
 			song : 'Chop Suey!'
 		},
 		{
-			pack : 3,
+			pack : 6,
 			group : "Evanescence",
 			song : 'Bring Me To Life'
 		},
@@ -5715,27 +5730,27 @@ let en_2000_gr = [
 			song : "Clearly Quite Absurd"
 		},
 		{
-			pack : 3,
+			pack : 6,
 			group : 'Garbage',
 			song : "Why Do You Love Me"
 		},
 		{
-			pack : 3,
+			pack : 6,
 			group : 'Garbage',
 			song : "Androgyny"
 		},
 		{
-			pack : 3,
+			pack : 6,
 			group : 'Garbage',
 			song : "Run Baby Run"
 		},
 		{
-			pack : 3,
+			pack : 6,
 			group : 'Garbage',
 			song : "Cherry Lips"
 		},
 		{
-			pack : 3,
+			pack : 6,
 			group : "Evanescence",
 			song : 'My Immortal'
 		},
@@ -5750,7 +5765,7 @@ let en_2000_gr = [
 			song : 'Ruby'
 		},
 		{
-			pack : 3,
+			pack : 6,
 			group : "Paramore",
 			song : 'Emergency'
 		},
@@ -5785,7 +5800,7 @@ let en_2000_gr = [
 			song : 'The Day That Never Comes'
 		},
 		{
-			pack : 4,
+			pack : 6,
 			group : "Destiny's Child",
 			song : 'Say My Name'
 		},
@@ -5820,12 +5835,12 @@ let en_2000_gr = [
 			song : 'She Will Be Loved'
 		},
 		{
-			pack : 4,
+			pack : 6,
 			group : 'Pussycat Dolls',
 			song : "Don't Cha"
 		},
 		{
-			pack : 4,
+			pack : 6,
 			group : "Pussycat Dolls",
 			song : 'Buttons (ft Snoop Dogg)'
 		},
@@ -5985,27 +6000,27 @@ let en_2000_gr = [
 			song : "Boom Boom Pow"
 		},
 		{
-			pack : 4,
+			pack : 6,
 			group : "Destiny's Child",
 			song : 'Independent Women, Pt. I'
 		},
 		{
-			pack : 4,
+			pack : 6,
 			group : "Destiny's Child",
 			song : 'Survivor'
 		},
 		{
-			pack : 4,
+			pack : 6,
 			group : 'Pussycat Dolls',
 			song : "Hush Hush"
 		},
 		{
-			pack : 4,
+			pack : 6,
 			group : 'Pussycat Dolls',
 			song : "When I Grow Up"
 		},
 		{
-			pack : 4,
+			pack : 6,
 			group : 'Pussycat Dolls',
 			song : "Sway"
 		},
@@ -6020,7 +6035,7 @@ let en_2000_gr = [
 			song : 'Wake Up Call'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Lady Antebellum',
 			song : 'Need You Now'
 		},
@@ -6030,12 +6045,12 @@ let en_2000_gr = [
 			song : 'Fireflies'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : "Las Ketchup",
 			song : 'Aserejé'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : "Cascada",
 			song : 'Everytime We Touch'
 		},
@@ -6049,6 +6064,7 @@ let en_2000_gr = [
 			group : "MGMT",
 			song : 'Kids'
 		},
+		//to_delete
 		{
 			pack : 5,
 			group : "M.O.P.",
@@ -6059,18 +6075,19 @@ let en_2000_gr = [
 			group : "Hi Tack",
 			song : "Say Say Say"
 		},
+		//to_cut
 		{
-			pack : 5,
+			pack : 6,
 			group : "Global Deejays",
 			song : "The Sound Of San Francisco"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : "Benassi Bros.",
 			song : "Hit My Heart"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : "Narcotic Thrust",
 			song : "I Like It"
 		},
@@ -6090,7 +6107,7 @@ let en_2000_gr = [
 			song : "Sing"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Nina Sky',
 			song : 'Move Ya Body'
 		},
@@ -6100,12 +6117,12 @@ let en_2000_gr = [
 			song : 'Guilty'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Morcheeba',
 			song : 'Otherwise'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Morcheeba',
 			song : 'World Looking In'
 		},
@@ -6115,7 +6132,7 @@ let en_2000_gr = [
 			song : 'Mandy'
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'ATC',
 			song : 'Around the World'
 		},
@@ -6150,7 +6167,7 @@ let en_2000_gr = [
 			song : "Beggin'"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'No Angels',
 			song : "Still In Love With You"
 		},
@@ -6165,12 +6182,12 @@ let en_2000_gr = [
 			song : "Rock the Party"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Florence + The Machine',
 			song : "Rabbit Heart (Raise It Up)"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Florence + The Machine',
 			song : "Cosmic Love"
 		},
@@ -6215,7 +6232,7 @@ let en_2000_gr = [
 			song : "Stay"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Basic Element',
 			song : "To You"
 		},
@@ -6225,7 +6242,7 @@ let en_2000_gr = [
 			song : "Alive"
 		},
 		{
-			pack : 5,
+			pack : 6,
 			group : 'Aly & AJ',
 			song : "Potential Breakup Song"
 		},
@@ -6246,6 +6263,7 @@ let en_2000_gr_2 =	en_2000_gr.filter(item => item.pack == 2);
 let en_2000_gr_3 =	en_2000_gr.filter(item => item.pack == 3);
 let en_2000_gr_4 =	en_2000_gr.filter(item => item.pack == 4);
 let en_2000_gr_5 =	en_2000_gr.filter(item => item.pack == 5);
+let en_2000_gr_6 =	en_2000_gr.filter(item => item.pack == 6);
 
 let en_2000_m = [
 		{
@@ -17470,12 +17488,13 @@ function mode(num){
 	// 2000
 	if(num == 4){
 		year = '2000';
-		gr_packages = 5;
+		gr_packages = 6;
 		gr_package_names[0] = 'rock_1';
 		gr_package_names[1] = 'rock_2';
 		gr_package_names[2] = 'rock_hard';
 		gr_package_names[3] = 'pop_medium';
 		gr_package_names[4] = 'pop_hard';
+		gr_package_names[5] = 'womens_vocals';
 		m_packages = 3;
 		m_package_names[0] = 'pop';
 		m_package_names[1] = 'dj';
