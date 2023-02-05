@@ -5263,3651 +5263,1771 @@ let en_1990_minus = [
 	}
 ];
 
-let en_2000_gr_1 = [
-		{
-			id : 7,
-			group : 'Green Day',
-			song : 'Boulevard Of Broken Dreams'
-		},
-		{
-			id : 14,
-			group : 'Green Day',
-			song : 'American Idiot'
-		},
-		{
-			id : 19,
-			group : 'Green Day',
-			song : 'Wake Me Up When September Ends'
-		},
-		{
-			id : 20,
-			group : 'Green Day',
-			song : 'The Saints Are Coming (ft U2)'
-		},
-		{
-			id : 21,
-			group : 'Green Day',
-			song : 'The Simpsons Theme'
-		},
-		{
-			id : 22,
-			group : 'Green Day',
-			song : 'Know Your Enemy'
-		},
-		{
-			id : 23,
-			group : 'Green Day',
-			song : '21 Guns'
-		},
-		{
-			id : 29,
-			group : 'Offspring',
-			song : "Want You Bad"
-		},
-		{
-			id : 30,
-			group : 'Offspring',
-			song : "Million Miles Away"
-		},
-		{
-			id : 31,
-			group : 'Offspring',
-			song : "Defy You"
-		},
-		{
-			id : 32,
-			group : 'Offspring',
-			song : "Hit That"
-		},
-		{
-			id : 33,
-			group : 'Offspring',
-			song : "Next to you"
-		},
-		{
-			id : 34,
-			group : 'Offspring',
-			song : "Can't Repeat"
-		},
-		{
-			id : 35,
-			group : 'Offspring',
-			song : "Hammerhead"
-		},
-		{
-			id : 36,
-			group : 'Offspring',
-			song : "You're Gonna Go Far, Kid"
-		},
-		{
-			id : 37,
-			group : 'Offspring',
-			song : "Kristy, Are You Doing Okay?"
-		},
-		{
-			group : 'Sum 41',
-			song : "Fat Lip"
-		},
-		{
-			group : 'Sum 41',
-			song : "Pieces"
-		},
-		{
-			group : 'Sum 41',
-			song : "Still Waiting"
-		},
-		{
-			group : 'Sum 41',
-			song : "In Too Deep"
-		},
-		{
-			group : 'Blink 182',
-			song : "I Miss You"
-		},
-		{
-			group : 'Blink 182',
-			song : "Man Overboard"
-		},
-		{
-			group : 'Blink 182',
-			song : "Always"
-		},
-		{
-			group : 'Blink 182',
-			song : "Stay Together For The Kids"
-		}
-];
-
-let en_2000_gr_2 = [
-		{
-			id : 2,
-			group : 'Red Hot Chili Peppers',
-			song : 'Otherside'
-		},	
-		{
-			id : 4,
-			group : 'Red Hot Chili Peppers',
-			song : 'Californication'
-		},
-		{
-			id : 6,
-			group : "Nickelback",
-			song : 'How You Remind Me'
-		},
-		{
-			id : 9,
-			group : "Linkin Park",
-			song : 'In the end'
-		},
-		{
-			id : 10,
-			group : 'Red Hot Chili Peppers',
-			song : "Can't Stop"
-		},
-		{
-			id : 11,
-			group : "Linkin Park",
-			song : 'Numb'
-		},
-		{
-			id : 15,
-			group : 'Killers',
-			song : 'Mr. Brightside'
-		},
-		{
-			id : 24,
-			group : 'Linkin Park',
-			song : 'Breaking The Habit'
-		},
-		{
-			id : 25,
-			group : 'Linkin Park',
-			song : 'Numb / Encore (ft Jay-Z)'
-		},
-		{
-			id : 26,
-			group : 'Linkin Park',
-			song : "What I've Done"
-		},
-		{
-			id : 27,
-			group : 'Linkin Park',
-			song : "Bleed It Out"
-		},
-		{
-			id : 28,
-			group : 'Linkin Park',
-			song : "We Made It (ft Busta Rhymes)"
-		},
-		{
-			id : 38,
-			group : 'Red Hot Chili Peppers',
-			song : 'By the way'
-		},
-		{
-			id : 39,
-			group : 'Red Hot Chili Peppers',
-			song : 'The Zephyr Song'
-		},
-		{
-			id : 40,
-			group : 'Red Hot Chili Peppers',
-			song : 'Fortune Faded'
-		},
-		{
-			id : 41,
-			group : 'Red Hot Chili Peppers',
-			song : 'Dani California'
-		},
-		{
-			id : 42,
-			group : 'Red Hot Chili Peppers',
-			song : 'Tell Me Baby'
-		},
-		{
-			id : 43,
-			group : 'Red Hot Chili Peppers',
-			song : 'Snow (Hey Oh)'
-		},
-		{
-			id : 44,
-			group : 'Red Hot Chili Peppers',
-			song : 'Desecration Smile'
-		},
-		{
-			id : 45,
-			group : 'Red Hot Chili Peppers',
-			song : 'Hump de Bump'
-		},
-		{
-			id : 46,
-			group : 'U2',
-			song : "Stuck In A Moment You Can't Get Out Of"
-		},
-		{
-			id : 47,
-			group : 'U2',
-			song : "Elevation"
-		},
-		{
-			id : 48,
-			group : 'U2',
-			song : "Walk On"
-		},
-		{
-			id : 49,
-			group : 'U2',
-			song : "Electrical Storm"
-		},
-		{
-			id : 50,
-			group : 'U2',
-			song : "Vertigo"
-		},
-		{
-			id : 51,
-			group : 'U2',
-			song : "All Because Of You"
-		},
-		{
-			id : 52,
-			group : 'U2',
-			song : "Sometimes You Can't Make It On Your Own"
-		},
-		{
-			id : 53,
-			group : 'U2',
-			song : "City Of Blinding Lights"
-		},
-		{
-			id : 54,
-			group : 'U2',
-			song : "Window In The Skies"
-		},
-		{
-			id : 55,
-			group : 'U2',
-			song : "Get On Your Boots"
-		},
-		{
-			group : 'Nickelback',
-			song : "Rockstar"
-		},
-		{
-			group : 'Killers',
-			song : "Somebody Told Me"
-		},
-		{
-			group : 'Killers',
-			song : "When You Were Young"
-		},
-		{
-			group : 'Killers',
-			song : "Read My Mind"
-		},
-		{
-			group : 'Killers',
-			song : "Human"
-		},
-		{
-			group : 'Killers',
-			song : "Spaceman"
-		},
-		{
-			group : 'Nickelback',
-			song : "Someday"
-		},
-		{
-			group : 'Nickelback',
-			song : "Figured You Out"
-		},
-		{
-			group : 'Nickelback',
-			song : "Photograph"
-		},
-		{
-			group : 'Nickelback',
-			song : "Far Away"
-		},
-		{
-			group : 'Nickelback',
-			song : "Gotta Be Somebody"
-		},
-		{
-			group : 'Nickelback',
-			song : "If Today Was Your Last Day"
-		},
-		{
-			group : 'Limp Bizkit',
-			song : "Behind Blue Eyes"
-		},
-		{
-			group : 'Limp Bizkit',
-			song : "Almost Over"
-		},
-		{
-			group : 'Limp Bizkit',
-			song : "Take A Look Around"
-		},
-		{
-			group : 'Limp Bizkit',
-			song : "My Generation"
-		},
-		{
-			group : 'Limp Bizkit',
-			song : "Rollin' (Air Raid Vehicle)"
-		},
-		{
-			group : 'Limp Bizkit',
-			song : "My Way"
-		}
-];
-
-let en_2000_gr_3 = [
-	{
-		id : 1,
-		group : 'Papa Roach',
-		song : 'Last Resort'
-	},
-	{
-		id : 3,
-		group : 'Bon Jovi',
-		song : "It's My Life"
-	},
-	{
-		id : 5,
-		group : "Drowning Pool",
-		song : 'Bodies'
-	},
-	{
-		id : 8,
-		group : "System of a Down",
-		song : 'Chop Suey!'
-	},
-	{
-		id : 12,
-		group : "Evanescence",
-		song : 'Bring Me To Life'
-	},
-	{
-		id : 13,
-		group : "White Stripes",
-		song : 'Seven Nation Army'
-	},
-	{
-		id : 16,
-		group : 'Hoobastank',
-		song : 'The Reason'
-	},
-	{
-		id : 17,
-		group : 'DragonForce',
-		song : 'Fury Of The Storm'
-	},
-	{
-		id : 18,
-		group : 'Three Days Grace',
-		song : 'I Hate Everything About You'
-	},
-	{
-		group : 'Skillet',
-		song : "Comatose"
-	},
-	{
-		group : 'Skillet',
-		song : "Hero"
-	},
-	{
-		group : 'Skillet',
-		song : "Monster"
-	},
-	{
-		group : 'Skillet',
-		song : "Awake and Alive"
-	},
-	{
-		group : '3 Doors Down',
-		song : "Train"
-	},
-	{
-		group : '3 Doors Down',
-		song : "Kryptonite"
-	},
-	{
-		group : '3 Doors Down',
-		song : "Here Without You"
-	},
-	{
-		group : 'Deep Purple',
-		song : "Clearly Quite Absurd"
-	},
-	{
-		group : 'Garbage',
-		song : "Why Do You Love Me"
-	},
-	{
-		group : 'Garbage',
-		song : "Androgyny"
-	},
-	{
-		group : 'Garbage',
-		song : "Run Baby Run"
-	},
-	{
-		group : 'Garbage',
-		song : "Cherry Lips"
-	},
-	{
-		group : "Evanescence",
-		song : 'My Immortal'
-	},
-	{
-		group : "My Chemical Romance",
-		song : 'Welcome to the Black Parade'
-	},
-	{
-		group : "Kaiser Chiefs",
-		song : 'Ruby'
-	},
-	{
-		group : "Paramore",
-		song : 'Emergency'
-	},
-	{
-		group : "Kasabian",
-		song : 'Fire'
-	},
-	{
-		group : "Kasabian",
-		song : 'Club Foot'
-	},
-	{
-		group : "Kasabian",
-		song : 'L.S.F.'
-	},
-	{
-		group : "Kasabian",
-		song : 'Underdog'
-	},
-	{
-		group : "Foo Fighters",
-		song : 'No Way Back'
-	},
-	{
-		group : "Metallica",
-		song : 'The Day That Never Comes'
-	}
-];
-
-let en_2000_gr_4 = [
-		{
-			id : 3,
-			group : "Destiny's Child",
-			song : 'Say My Name'
-		},
-		{
-			id : 4,
-			group : 'OutKast',
-			song : 'Ms. Jackson'
-		},		
-		{
-			id : 5,
-			group : "Coldplay",
-			song : 'The Scientist'
-		},
-		{
-			id : 7,
-			group : 'Coldplay',
-			song : 'Clocks'
-		},
-		{
-			id : 8,
-			group : 'OutKast',
-			song : 'Hey Ya!'
-		},
-		{
-			id : 9,
-			group : 'Maroon 5',
-			song : 'This Love'
-		},
-		{
-			id : 10,
-			group : 'Maroon 5',
-			song : 'She Will Be Loved'
-		},
-		{
-			id : 12,
-			group : 'Pussycat Dolls',
-			song : "Don't Cha"
-		},
-		{
-			id : 14,
-			group : "Pussycat Dolls",
-			song : 'Buttons (ft Snoop Dogg)'
-		},
-		{
-			id : 15,
-			group : "OneRepublic",
-			song : "Apologize (ft Timbaland)"
-		},
-		{
-			id : 17,
-			group : "Coldplay",
-			song : "Viva La Vida"
-		},
-		{
-			id : 23,
-			group : "Black Eyed Peas",
-			song : "Pump It"
-		},
-		{
-			id : 24,
-			group : "Gorillaz",
-			song : 'Clint Eastwood'
-		},
-		{
-			id : 25,
-			group : "Black Eyed Peas",
-			song : 'Where Is The Love?'
-		},
-		{
-			id : 26,
-			group : "Black Eyed Peas",
-			song : "Let's Get It Started"
-		},
-		{
-			id : 27,
-			group : "Gorillaz",
-			song : 'Dare'
-		},
-		{
-			id : 28,
-			group : "Black Eyed Peas",
-			song : "My Humps"
-		},
-		{
-			id : 29,
-			group : "Gorillaz",
-			song : 'Feel Good Inc'
-		},
-		{
-			group : "Morandi",
-			song : 'Falling asleep'
-		},
-		{
-			group : "Morandi",
-			song : 'Love Me'
-		},
-		{
-			group : "Morandi",
-			song : 'Angels (Love Is The Answer)'
-		},
-		{
-			group : "Morandi",
-			song : 'Save Me'
-		},
-		{
-			group : "Morandi",
-			song : 'Colors'
-		},
-		{
-			group : "OneRepublic",
-			song : "Stop And Stare"
-		},
-		{
-			group : "OneRepublic",
-			song : "All The Right Moves"
-		},
-		{
-			group : "Muse",
-			song : "Uprising"
-		},
-		{
-			group : "Muse",
-			song : "Starlight"
-		},
-		{
-			group : "Muse",
-			song : "Undisclosed Desires"
-		},
-		{
-			group : "Cure",
-			song : "Cut Here"
-		},
-		{
-			group : "Cure",
-			song : "The Only One"
-		},
-		{
-			group : "Akcent",
-			song : "Kylie"
-		},
-		{
-			group : "Akcent",
-			song : "Stay with Me"
-		},
-		{
-			group : "Akcent",
-			song : "Jokero"
-		},
-		{
-			group : "Akcent",
-			song : "My Passion"
-		},
-		{
-			group : 'OutKast',
-			song : 'The Way You Move (ft Sleep Brown)'
-		},
-		{
-			group : "Black Eyed Peas",
-			song : "Boom Boom Pow"
-		},
-		{
-			group : "Black Eyed Peas",
-			song : "I Gotta Feeling"
-		},
-		{
-			group : "Black Eyed Peas",
-			song : "Mas Que Nada (ft Sergio Mendes)"
-		},
-		{
-			group : "Black Eyed Peas",
-			song : "Don't Phunk With My Heart"
-		},
-		{
-			group : "Black Eyed Peas",
-			song : "Boom Boom Pow"
-		},
-		{
-			group : "Destiny's Child",
-			song : 'Independent Women, Pt. I'
-		},
-		{
-			group : "Destiny's Child",
-			song : 'Survivor'
-		},
-		{
-			group : 'Pussycat Dolls',
-			song : "Hush Hush"
-		},
-		{
-			group : 'Pussycat Dolls',
-			song : "When I Grow Up"
-		},
-		{
-			group : 'Pussycat Dolls',
-			song : "Sway"
-		},
-		{
-			group : 'Maroon 5',
-			song : 'Makes Me Wonder'
-		},
-		{
-			group : 'Maroon 5',
-			song : 'Wake Up Call'
-		}
-];
-
-let en_2000_gr_5 = [
-	{
-		id : 1,
-		group : 'Lady Antebellum',
-		song : 'Need You Now'
-	},
-	{
-		id : 2,
-		group : 'Owl City',
-		song : 'Fireflies'
-	},
-	{
-		id : 6,
-		group : "Las Ketchup",
-		song : 'Aserejé'
-	},
-	{
-		id : 11,
-		group : "Cascada",
-		song : 'Everytime We Touch'
-	},
-	{
-		id : 13,
-		group : "Panic! At The Disco",
-		song : 'I Write Sins Not Tragedies'
-	},
-	{
-		id : 16,
-		group : "MGMT",
-		song : 'Kids'
-	},
-	{
-		id : 18,
-		group : "M.O.P.",
-		song : "Ante Up Remix (ft Busta Rhymes, Teflon, Remi Martin)"
-	},
-	{
-		id : 19,
-		group : "Hi Tack",
-		song : "Say Say Say"
-	},
-	{
-		id : 20,
-		group : "Global Deejays",
-		song : "The Sound Of San Francisco"
-	},
-	{
-		id : 21,
-		group : "Benassi Bros.",
-		song : "Hit My Heart"
-	},
-	{
-		id : 22,
-		group : "Narcotic Thrust",
-		song : "I Like It"
-	},
-	{
-		group : "Reamonn",
-		song : "Tonight"
-	},
-	{
-		group : "Terror Squad",
-		song : "Lean Back"
-	},
-	{
-		group : "Travis",
-		song : "Sing"
-	},
-	{
-		group : 'Nina Sky',
-		song : 'Move Ya Body'
-	},
-	{
-		group : 'Blue',
-		song : 'Guilty'
-	},
-	{
-		group : 'Morcheeba',
-		song : 'Otherwise'
-	},
-	{
-		group : 'Morcheeba',
-		song : 'World Looking In'
-	},
-	{
-		group : 'Westlife',
-		song : 'Mandy'
-	},
-	{
-		group : 'ATC',
-		song : 'Around the World'
-	},
-	{
-		group : "NSYNK",
-		song : 'Bye Bye Bye'
-	},
-	{
-		group : 'Simply Red',
-		song : 'Sunrise'
-	},
-	{
-		group : 'Savage Garden',
-		song : 'I Knew I Loved You'
-	},
-	{
-		group : 'Snow Patrol',
-		song : 'Chasing Cars'
-	},
-	{
-		group : 'Baha Men',
-		song : 'Who Let The Dogs Out'
-	},
-	{
-		group : 'Madcon',
-		song : "Beggin'"
-	},
-	{
-		group : 'No Angels',
-		song : "Still In Love With You"
-	},
-	{
-		group : 'Brainstorm',
-		song : "Maybe"
-	},
-	{
-		group : 'Five',
-		song : "Rock the Party"
-	},
-	{
-		group : 'Florence + The Machine',
-		song : "Rabbit Heart (Raise It Up)"
-	},
-	{
-		group : 'Florence + The Machine',
-		song : "Cosmic Love"
-	},
-	{
-		group : 'Train',
-		song : "Hey, Soul Sister"
-	},
-	{
-		group : 'Wheatus',
-		song : "Teenage Dirtbag"
-	},
-	{
-		group : 'Beastie Boys',
-		song : "An Open Letter To NYC"
-	},
-	{
-		group : 'Daft Punk',
-		song : "One More Time"
-	},
-	{
-		group : 'Fort Minor',
-		song : "Believe Me"
-	},
-	{
-		group : 'Chemical Brothers',
-		song : "Galvanize"
-	},
-	{
-		group : 'Hurts',
-		song : "Wonderful Life"
-	},
-	{
-		group : 'Hurts',
-		song : "Stay"
-	},
-	{
-		group : 'Basic Element',
-		song : "To You"
-	},
-	{
-		group : 'Mondotek',
-		song : "Alive"
-	},
-	{
-		group : 'Aly & AJ',
-		song : "Potential Breakup Song"
-	},
-	{
-		group : 'Whizzkids',
-		song : "Rumours (Digi Digi) (ft Inusa, Dawuda)"
-	},
-	{
-		group : 'Lighthouse Family',
-		song : "Run"
-	}
-];
-
 let en_2000_gr = [
 		{
-			id : 7,
+			pack : 1,
 			group : 'Green Day',
 			song : 'Boulevard Of Broken Dreams'
 		},
 		{
-			id : 14,
+			pack : 1,
 			group : 'Green Day',
 			song : 'American Idiot'
 		},
 		{
-			id : 19,
+			pack : 1,
 			group : 'Green Day',
 			song : 'Wake Me Up When September Ends'
 		},
 		{
-			id : 20,
+			pack : 1,
 			group : 'Green Day',
 			song : 'The Saints Are Coming (ft U2)'
 		},
 		{
-			id : 21,
+			pack : 1,
 			group : 'Green Day',
 			song : 'The Simpsons Theme'
 		},
 		{
-			id : 22,
+			pack : 1,
 			group : 'Green Day',
 			song : 'Know Your Enemy'
 		},
 		{
-			id : 23,
+			pack : 1,
 			group : 'Green Day',
 			song : '21 Guns'
 		},
 		{
-			id : 29,
+			pack : 1,
 			group : 'Offspring',
 			song : "Want You Bad"
 		},
 		{
-			id : 30,
+			pack : 1,
 			group : 'Offspring',
 			song : "Million Miles Away"
 		},
 		{
-			id : 31,
+			pack : 1,
 			group : 'Offspring',
 			song : "Defy You"
 		},
 		{
-			id : 32,
+			pack : 1,
 			group : 'Offspring',
 			song : "Hit That"
 		},
 		{
-			id : 33,
+			pack : 1,
 			group : 'Offspring',
 			song : "Next to you"
 		},
 		{
-			id : 34,
+			pack : 1,
 			group : 'Offspring',
 			song : "Can't Repeat"
 		},
 		{
-			id : 35,
+			pack : 1,
 			group : 'Offspring',
 			song : "Hammerhead"
 		},
 		{
-			id : 36,
+			pack : 1,
 			group : 'Offspring',
 			song : "You're Gonna Go Far, Kid"
 		},
 		{
-			id : 37,
+			pack : 1,
 			group : 'Offspring',
 			song : "Kristy, Are You Doing Okay?"
 		},
 		{
+			pack : 1,
 			group : 'Sum 41',
 			song : "Fat Lip"
 		},
 		{
+			pack : 1,
 			group : 'Sum 41',
 			song : "Pieces"
 		},
 		{
+			pack : 1,
 			group : 'Sum 41',
 			song : "Still Waiting"
 		},
 		{
+			pack : 1,
 			group : 'Sum 41',
 			song : "In Too Deep"
 		},
 		{
+			pack : 1,
 			group : 'Blink 182',
 			song : "I Miss You"
 		},
 		{
+			pack : 1,
 			group : 'Blink 182',
 			song : "Man Overboard"
 		},
 		{
+			pack : 1,
 			group : 'Blink 182',
 			song : "Always"
 		},
 		{
+			pack : 1,
 			group : 'Blink 182',
 			song : "Stay Together For The Kids"
 		},
 		{
-			id : 2,
+			pack : 2,
 			group : 'Red Hot Chili Peppers',
 			song : 'Otherside'
 		},	
 		{
-			id : 4,
+			pack : 2,
 			group : 'Red Hot Chili Peppers',
 			song : 'Californication'
 		},
 		{
-			id : 6,
+			pack : 2,
 			group : "Nickelback",
 			song : 'How You Remind Me'
 		},
 		{
-			id : 9,
+			pack : 2,
 			group : "Linkin Park",
 			song : 'In the end'
 		},
 		{
-			id : 10,
+			pack : 2,
 			group : 'Red Hot Chili Peppers',
 			song : "Can't Stop"
 		},
 		{
-			id : 11,
+			pack : 2,
 			group : "Linkin Park",
 			song : 'Numb'
 		},
 		{
-			id : 15,
+			pack : 2,
 			group : 'Killers',
 			song : 'Mr. Brightside'
 		},
 		{
-			id : 24,
+			pack : 2,
 			group : 'Linkin Park',
 			song : 'Breaking The Habit'
 		},
 		{
-			id : 25,
+			pack : 2,
 			group : 'Linkin Park',
 			song : 'Numb / Encore (ft Jay-Z)'
 		},
 		{
-			id : 26,
+			pack : 2,
 			group : 'Linkin Park',
 			song : "What I've Done"
 		},
 		{
-			id : 27,
+			pack : 2,
 			group : 'Linkin Park',
 			song : "Bleed It Out"
 		},
 		{
-			id : 28,
+			pack : 2,
 			group : 'Linkin Park',
 			song : "We Made It (ft Busta Rhymes)"
 		},
 		{
-			id : 38,
+			pack : 2,
 			group : 'Red Hot Chili Peppers',
 			song : 'By the way'
 		},
 		{
-			id : 39,
+			pack : 2,
 			group : 'Red Hot Chili Peppers',
 			song : 'The Zephyr Song'
 		},
 		{
-			id : 40,
+			pack : 2,
 			group : 'Red Hot Chili Peppers',
 			song : 'Fortune Faded'
 		},
 		{
-			id : 41,
+			pack : 2,
 			group : 'Red Hot Chili Peppers',
 			song : 'Dani California'
 		},
 		{
-			id : 42,
+			pack : 2,
 			group : 'Red Hot Chili Peppers',
 			song : 'Tell Me Baby'
 		},
 		{
-			id : 43,
+			pack : 2,
 			group : 'Red Hot Chili Peppers',
 			song : 'Snow (Hey Oh)'
 		},
 		{
-			id : 44,
+			pack : 2,
 			group : 'Red Hot Chili Peppers',
 			song : 'Desecration Smile'
 		},
 		{
-			id : 45,
+			pack : 2,
 			group : 'Red Hot Chili Peppers',
 			song : 'Hump de Bump'
 		},
 		{
-			id : 46,
+			pack : 2,
 			group : 'U2',
 			song : "Stuck In A Moment You Can't Get Out Of"
 		},
 		{
-			id : 47,
+			pack : 2,
 			group : 'U2',
 			song : "Elevation"
 		},
 		{
-			id : 48,
+			pack : 2,
 			group : 'U2',
 			song : "Walk On"
 		},
 		{
-			id : 49,
+			pack : 2,
 			group : 'U2',
 			song : "Electrical Storm"
 		},
 		{
-			id : 50,
+			pack : 2,
 			group : 'U2',
 			song : "Vertigo"
 		},
 		{
-			id : 51,
+			pack : 2,
 			group : 'U2',
 			song : "All Because Of You"
 		},
 		{
-			id : 52,
+			pack : 2,
 			group : 'U2',
 			song : "Sometimes You Can't Make It On Your Own"
 		},
 		{
-			id : 53,
+			pack : 2,
 			group : 'U2',
 			song : "City Of Blinding Lights"
 		},
 		{
-			id : 54,
+			pack : 2,
 			group : 'U2',
 			song : "Window In The Skies"
 		},
 		{
-			id : 55,
+			pack : 2,
 			group : 'U2',
 			song : "Get On Your Boots"
 		},
 		{
+			pack : 2,
 			group : 'Nickelback',
 			song : "Rockstar"
 		},
 		{
+			pack : 2,
 			group : 'Killers',
 			song : "Somebody Told Me"
 		},
 		{
+			pack : 2,
 			group : 'Killers',
 			song : "When You Were Young"
 		},
 		{
+			pack : 2,
 			group : 'Killers',
 			song : "Read My Mind"
 		},
 		{
+			pack : 2,
 			group : 'Killers',
 			song : "Human"
 		},
 		{
+			pack : 2,
 			group : 'Killers',
 			song : "Spaceman"
 		},
 		{
+			pack : 2,
 			group : 'Nickelback',
 			song : "Someday"
 		},
 		{
+			pack : 2,
 			group : 'Nickelback',
 			song : "Figured You Out"
 		},
 		{
+			pack : 2,
 			group : 'Nickelback',
 			song : "Photograph"
 		},
 		{
+			pack : 2,
 			group : 'Nickelback',
 			song : "Far Away"
 		},
 		{
+			pack : 2,
 			group : 'Nickelback',
 			song : "Gotta Be Somebody"
 		},
 		{
+			pack : 2,
 			group : 'Nickelback',
 			song : "If Today Was Your Last Day"
 		},
 		{
+			pack : 2,
 			group : 'Limp Bizkit',
 			song : "Behind Blue Eyes"
 		},
 		{
+			pack : 2,
 			group : 'Limp Bizkit',
 			song : "Almost Over"
 		},
 		{
+			pack : 2,
 			group : 'Limp Bizkit',
 			song : "Take A Look Around"
 		},
 		{
+			pack : 2,
 			group : 'Limp Bizkit',
 			song : "My Generation"
 		},
 		{
+			pack : 2,
 			group : 'Limp Bizkit',
 			song : "Rollin' (Air Raid Vehicle)"
 		},
 		{
+			pack : 2,
 			group : 'Limp Bizkit',
 			song : "My Way"
 		},
 		{
-			id : 1,
+			pack : 3,
 			group : 'Papa Roach',
 			song : 'Last Resort'
 		},
 		{
-			id : 3,
+			pack : 3,
 			group : 'Bon Jovi',
 			song : "It's My Life"
 		},
 		{
-			id : 5,
+			pack : 3,
 			group : "Drowning Pool",
 			song : 'Bodies'
 		},
 		{
-			id : 8,
+			pack : 3,
 			group : "System of a Down",
 			song : 'Chop Suey!'
 		},
 		{
-			id : 12,
+			pack : 3,
 			group : "Evanescence",
 			song : 'Bring Me To Life'
 		},
 		{
-			id : 13,
+			pack : 3,
 			group : "White Stripes",
 			song : 'Seven Nation Army'
 		},
 		{
-			id : 16,
+			pack : 3,
 			group : 'Hoobastank',
 			song : 'The Reason'
 		},
 		{
-			id : 17,
+			pack : 3,
 			group : 'DragonForce',
 			song : 'Fury Of The Storm'
 		},
 		{
-			id : 18,
+			pack : 3,
 			group : 'Three Days Grace',
 			song : 'I Hate Everything About You'
 		},
 		{
+			pack : 3,
 			group : 'Skillet',
 			song : "Comatose"
 		},
 		{
+			pack : 3,
 			group : 'Skillet',
 			song : "Hero"
 		},
 		{
+			pack : 3,
 			group : 'Skillet',
 			song : "Monster"
 		},
 		{
+			pack : 3,
 			group : 'Skillet',
 			song : "Awake and Alive"
 		},
 		{
+			pack : 3,
 			group : '3 Doors Down',
 			song : "Train"
 		},
 		{
+			pack : 3,
 			group : '3 Doors Down',
 			song : "Kryptonite"
 		},
 		{
+			pack : 3,
 			group : '3 Doors Down',
 			song : "Here Without You"
 		},
 		{
+			pack : 3,
 			group : 'Deep Purple',
 			song : "Clearly Quite Absurd"
 		},
 		{
+			pack : 3,
 			group : 'Garbage',
 			song : "Why Do You Love Me"
 		},
 		{
+			pack : 3,
 			group : 'Garbage',
 			song : "Androgyny"
 		},
 		{
+			pack : 3,
 			group : 'Garbage',
 			song : "Run Baby Run"
 		},
 		{
+			pack : 3,
 			group : 'Garbage',
 			song : "Cherry Lips"
 		},
 		{
+			pack : 3,
 			group : "Evanescence",
 			song : 'My Immortal'
 		},
 		{
+			pack : 3,
 			group : "My Chemical Romance",
 			song : 'Welcome to the Black Parade'
 		},
 		{
+			pack : 3,
 			group : "Kaiser Chiefs",
 			song : 'Ruby'
 		},
 		{
+			pack : 3,
 			group : "Paramore",
 			song : 'Emergency'
 		},
 		{
+			pack : 3,
 			group : "Kasabian",
 			song : 'Fire'
 		},
 		{
+			pack : 3,
 			group : "Kasabian",
 			song : 'Club Foot'
 		},
 		{
+			pack : 3,
 			group : "Kasabian",
 			song : 'L.S.F.'
 		},
 		{
+			pack : 3,
 			group : "Kasabian",
 			song : 'Underdog'
 		},
 		{
+			pack : 3,
 			group : "Foo Fighters",
 			song : 'No Way Back'
 		},
 		{
+			pack : 3,
 			group : "Metallica",
 			song : 'The Day That Never Comes'
 		},
 		{
-			id : 3,
+			pack : 4,
 			group : "Destiny's Child",
 			song : 'Say My Name'
 		},
 		{
-			id : 4,
+			pack : 4,
 			group : 'OutKast',
 			song : 'Ms. Jackson'
 		},		
 		{
-			id : 5,
+			pack : 4,
 			group : "Coldplay",
 			song : 'The Scientist'
 		},
 		{
-			id : 7,
+			pack : 4,
 			group : 'Coldplay',
 			song : 'Clocks'
 		},
 		{
-			id : 8,
+			pack : 4,
 			group : 'OutKast',
 			song : 'Hey Ya!'
 		},
 		{
-			id : 9,
+			pack : 4,
 			group : 'Maroon 5',
 			song : 'This Love'
 		},
 		{
-			id : 10,
+			pack : 4,
 			group : 'Maroon 5',
 			song : 'She Will Be Loved'
 		},
 		{
-			id : 12,
+			pack : 4,
 			group : 'Pussycat Dolls',
 			song : "Don't Cha"
 		},
 		{
-			id : 14,
+			pack : 4,
 			group : "Pussycat Dolls",
 			song : 'Buttons (ft Snoop Dogg)'
 		},
 		{
-			id : 15,
+			pack : 4,
 			group : "OneRepublic",
 			song : "Apologize (ft Timbaland)"
 		},
 		{
-			id : 17,
+			pack : 4,
 			group : "Coldplay",
 			song : "Viva La Vida"
 		},
 		{
-			id : 23,
+			pack : 4,
 			group : "Black Eyed Peas",
 			song : "Pump It"
 		},
 		{
-			id : 24,
+			pack : 4,
 			group : "Gorillaz",
 			song : 'Clint Eastwood'
 		},
 		{
-			id : 25,
+			pack : 4,
 			group : "Black Eyed Peas",
 			song : 'Where Is The Love?'
 		},
 		{
-			id : 26,
+			pack : 4,
 			group : "Black Eyed Peas",
 			song : "Let's Get It Started"
 		},
 		{
-			id : 27,
+			pack : 4,
 			group : "Gorillaz",
 			song : 'Dare'
 		},
 		{
-			id : 28,
+			pack : 4,
 			group : "Black Eyed Peas",
 			song : "My Humps"
 		},
 		{
-			id : 29,
+			pack : 4,
 			group : "Gorillaz",
 			song : 'Feel Good Inc'
 		},
 		{
+			pack : 4,
 			group : "Morandi",
 			song : 'Falling asleep'
 		},
 		{
+			pack : 4,
 			group : "Morandi",
 			song : 'Love Me'
 		},
 		{
+			pack : 4,
 			group : "Morandi",
 			song : 'Angels (Love Is The Answer)'
 		},
 		{
+			pack : 4,
 			group : "Morandi",
 			song : 'Save Me'
 		},
 		{
+			pack : 4,
 			group : "Morandi",
 			song : 'Colors'
 		},
 		{
+			pack : 4,
 			group : "OneRepublic",
 			song : "Stop And Stare"
 		},
 		{
+			pack : 4,
 			group : "OneRepublic",
 			song : "All The Right Moves"
 		},
 		{
+			pack : 4,
 			group : "Muse",
 			song : "Uprising"
 		},
 		{
+			pack : 4,
 			group : "Muse",
 			song : "Starlight"
 		},
 		{
+			pack : 4,
 			group : "Muse",
 			song : "Undisclosed Desires"
 		},
 		{
+			pack : 4,
 			group : "Cure",
 			song : "Cut Here"
 		},
 		{
+			pack : 4,
 			group : "Cure",
 			song : "The Only One"
 		},
 		{
+			pack : 4,
 			group : "Akcent",
 			song : "Kylie"
 		},
 		{
+			pack : 4,
 			group : "Akcent",
 			song : "Stay with Me"
 		},
 		{
+			pack : 4,
 			group : "Akcent",
 			song : "Jokero"
 		},
 		{
+			pack : 4,
 			group : "Akcent",
 			song : "My Passion"
 		},
 		{
+			pack : 4,
 			group : 'OutKast',
 			song : 'The Way You Move (ft Sleep Brown)'
 		},
 		{
+			pack : 4,
 			group : "Black Eyed Peas",
 			song : "Boom Boom Pow"
 		},
 		{
+			pack : 4,
 			group : "Black Eyed Peas",
 			song : "I Gotta Feeling"
 		},
 		{
+			pack : 4,
 			group : "Black Eyed Peas",
 			song : "Mas Que Nada (ft Sergio Mendes)"
 		},
 		{
+			pack : 4,
 			group : "Black Eyed Peas",
 			song : "Don't Phunk With My Heart"
 		},
 		{
+			pack : 4,
 			group : "Black Eyed Peas",
 			song : "Boom Boom Pow"
 		},
 		{
+			pack : 4,
 			group : "Destiny's Child",
 			song : 'Independent Women, Pt. I'
 		},
 		{
+			pack : 4,
 			group : "Destiny's Child",
 			song : 'Survivor'
 		},
 		{
+			pack : 4,
 			group : 'Pussycat Dolls',
 			song : "Hush Hush"
 		},
 		{
+			pack : 4,
 			group : 'Pussycat Dolls',
 			song : "When I Grow Up"
 		},
 		{
+			pack : 4,
 			group : 'Pussycat Dolls',
 			song : "Sway"
 		},
 		{
+			pack : 4,
 			group : 'Maroon 5',
 			song : 'Makes Me Wonder'
 		},
 		{
+			pack : 4,
 			group : 'Maroon 5',
 			song : 'Wake Up Call'
 		},
 		{
-			id : 1,
+			pack : 5,
 			group : 'Lady Antebellum',
 			song : 'Need You Now'
 		},
 		{
-			id : 2,
+			pack : 5,
 			group : 'Owl City',
 			song : 'Fireflies'
 		},
 		{
-			id : 6,
+			pack : 5,
 			group : "Las Ketchup",
 			song : 'Aserejé'
 		},
 		{
-			id : 11,
+			pack : 5,
 			group : "Cascada",
 			song : 'Everytime We Touch'
 		},
 		{
-			id : 13,
+			pack : 5,
 			group : "Panic! At The Disco",
 			song : 'I Write Sins Not Tragedies'
 		},
 		{
-			id : 16,
+			pack : 5,
 			group : "MGMT",
 			song : 'Kids'
 		},
 		{
-			id : 18,
+			pack : 5,
 			group : "M.O.P.",
 			song : "Ante Up Remix (ft Busta Rhymes, Teflon, Remi Martin)"
 		},
 		{
-			id : 19,
+			pack : 5,
 			group : "Hi Tack",
 			song : "Say Say Say"
 		},
 		{
-			id : 20,
+			pack : 5,
 			group : "Global Deejays",
 			song : "The Sound Of San Francisco"
 		},
 		{
-			id : 21,
+			pack : 5,
 			group : "Benassi Bros.",
 			song : "Hit My Heart"
 		},
 		{
-			id : 22,
+			pack : 5,
 			group : "Narcotic Thrust",
 			song : "I Like It"
 		},
 		{
+			pack : 5,
 			group : "Reamonn",
 			song : "Tonight"
 		},
 		{
+			pack : 5,
 			group : "Terror Squad",
 			song : "Lean Back"
 		},
 		{
+			pack : 5,
 			group : "Travis",
 			song : "Sing"
 		},
 		{
+			pack : 5,
 			group : 'Nina Sky',
 			song : 'Move Ya Body'
 		},
 		{
+			pack : 5,
 			group : 'Blue',
 			song : 'Guilty'
 		},
 		{
+			pack : 5,
 			group : 'Morcheeba',
 			song : 'Otherwise'
 		},
 		{
+			pack : 5,
 			group : 'Morcheeba',
 			song : 'World Looking In'
 		},
 		{
+			pack : 5,
 			group : 'Westlife',
 			song : 'Mandy'
 		},
 		{
+			pack : 5,
 			group : 'ATC',
 			song : 'Around the World'
 		},
 		{
+			pack : 5,
 			group : "NSYNK",
 			song : 'Bye Bye Bye'
 		},
 		{
+			pack : 5,
 			group : 'Simply Red',
 			song : 'Sunrise'
 		},
 		{
+			pack : 5,
 			group : 'Savage Garden',
 			song : 'I Knew I Loved You'
 		},
 		{
+			pack : 5,
 			group : 'Snow Patrol',
 			song : 'Chasing Cars'
 		},
 		{
+			pack : 5,
 			group : 'Baha Men',
 			song : 'Who Let The Dogs Out'
 		},
 		{
+			pack : 5,
 			group : 'Madcon',
 			song : "Beggin'"
 		},
 		{
+			pack : 5,
 			group : 'No Angels',
 			song : "Still In Love With You"
 		},
 		{
+			pack : 5,
 			group : 'Brainstorm',
 			song : "Maybe"
 		},
 		{
+			pack : 5,
 			group : 'Five',
 			song : "Rock the Party"
 		},
 		{
+			pack : 5,
 			group : 'Florence + The Machine',
 			song : "Rabbit Heart (Raise It Up)"
 		},
 		{
+			pack : 5,
 			group : 'Florence + The Machine',
 			song : "Cosmic Love"
 		},
 		{
+			pack : 5,
 			group : 'Train',
 			song : "Hey, Soul Sister"
 		},
 		{
+			pack : 5,
 			group : 'Wheatus',
 			song : "Teenage Dirtbag"
 		},
 		{
+			pack : 5,
 			group : 'Beastie Boys',
 			song : "An Open Letter To NYC"
 		},
 		{
+			pack : 5,
 			group : 'Daft Punk',
 			song : "One More Time"
 		},
 		{
+			pack : 5,
 			group : 'Fort Minor',
 			song : "Believe Me"
 		},
 		{
+			pack : 5,
 			group : 'Chemical Brothers',
 			song : "Galvanize"
 		},
 		{
+			pack : 5,
 			group : 'Hurts',
 			song : "Wonderful Life"
 		},
 		{
+			pack : 5,
 			group : 'Hurts',
 			song : "Stay"
 		},
 		{
+			pack : 5,
 			group : 'Basic Element',
 			song : "To You"
 		},
 		{
+			pack : 5,
 			group : 'Mondotek',
 			song : "Alive"
 		},
 		{
+			pack : 5,
 			group : 'Aly & AJ',
 			song : "Potential Breakup Song"
 		},
 		{
+			pack : 5,
 			group : 'Whizzkids',
 			song : "Rumours (Digi Digi) (ft Inusa, Dawuda)"
 		},
 		{
+			pack : 5,
 			group : 'Lighthouse Family',
 			song : "Run"
 		}
 ];
 
-let en_2000_m_1 = [
-		{
-			id : 1,
-			group : 'Justin Bieber',
-			song : 'Baby'
-		},
-		{
-			id : 2,
-			group : "Shaggy",
-			song : 'Angel (ft Rayvon)'
-		},
-		{
-			id : 3,
-			group : 'Justin Timberlake',
-			song : 'Cry Me A River'
-		},
-		{
-			id : 4,
-			group : "Sean Kingston",
-			song : 'Beautiful Girls'
-		},
-		{
-			id : 5,
-			group : "Daniel Powter",
-			song : 'Bad Day'
-		},
-		{
-			id : 6,
-			group : "James Blunt",
-			song : "You're Beautiful"
-		},
-		{
-			id : 7,
-			group : "Gnarls Barkley",
-			song : 'Crazy'
-		},
-		{
-			id : 8,
-			group : "Jason Mraz",
-			song : "I'm Yours"
-		},
-		{
-			id : 9,
-			group : 'Justin Timberlake',
-			song : 'Sexy back (ft Timbaland)'
-		},
-		{
-			id : 10,
-			group : 'Justin Timberlake',
-			song : 'My Love (ft T.I.)'
-		},
-		{
-			id : 11,
-			group : 'Justin Timberlake',
-			song : 'Like I Love You'
-		},
-		{
-			id : 12,
-			group : 'Robbie Williams',
-			song : 'The Road To Mandalay'
-		},
-		{
-			id : 13,
-			group : 'Robbie Williams',
-			song : "Somethin' Stupid (ft Nicole Kidman)"
-		},
-		{
-			id : 14,
-			group : 'Darren Hayes',
-			song : 'I Miss You'
-		},
-		{
-			id : 15,
-			group : 'Darren Hayes',
-			song : 'Strange Relationship'
-		},
-		{
-			id : 16,
-			group : 'George Michael',
-			song : 'The Long And Winding Road'
-		},
-		{
-			id : 17,
-			group : 'Leonard Kohen',
-			song : 'A Thousand Kisses Deep'
-		},
-		{
-			id : 18,
-			group : 'Arash',
-			song : 'Boro Boro'
-		},
-		{
-			id : 19,
-			group : 'Seal',
-			song : "It's A Man's Man's World"
-		},
-		{
-			id : 20,
-			group : 'Enrique Iglesias',
-			song : 'Be With You'
-		},
-		{
-			id : 21,
-			group : 'Enrique Iglesias',
-			song : 'Do You Know?'
-		},
-		{
-			id : 22,
-			group : 'Enrique Iglesias',
-			song : 'Hero'
-		},
-		{
-			id : 26,
-			group : 'Ronan Keating',
-			song : 'If Tomorrow Never Comes'
-		},
-		{
-			id : 27,
-			group : 'Arash',
-			song : 'Tike Tike Kardi'
-		},
-		{
-			id : 29,
-			group : 'Fred Puppet',
-			song : 'Mahna Mahna (ft Monster Crew)'
-		},
-		{
-			id : 30,
-			group : 'Lemar',
-			song : "If There's Any Justice"
-		},
-		{
-			id : 31,
-			group : 'Mario',
-			song : "Let Me Love You"
-		},
-		{
-			id : 32,
-			group : 'Travie McCoy',
-			song : "Billionaire"
-		},
-		{
-			id : 33,
-			group : 'Ne-Yo',
-			song : "So Sick"
-		},
-		{
-			id : 34,
-			group : 'Ne-Yo',
-			song : "Closer"
-		},
-		{
-			group : 'Adam Lambert',
-			song : "For your entertainment"
-		},
-		{
-			group : 'Adam Lambert',
-			song : "Whataya Want from Me"
-		},
-		{
-			id : 9,
-			group : "Johnny Cash",
-			song : "I Won't Back Down"
-		},
-		{
-			group : "Juanes",
-			song : "La Camisa Negra"
-		},
-		{
-			group : "Santana",
-			song : "Smooth (ft Rob Thomas)"
-		},
-		{
-			group : "Santana",
-			song : "Maria Maria (ft The Product G&B)"
-		},
-		{
-			group : "Santana",
-			song : "The Game of Love (ft Michelle Branch)"
-		},
-		{
-			group : "Shaggy",
-			song : "It Wasnt Me (ft Rik Rok)"
-		},
-		{
-			group : "Chris Brown",
-			song : "Run It! (ft Juelz Santana)"
-		},
-		{
-			group : "Chris Brown",
-			song : "Kiss Kiss (ft T-Pain)"
-		},
-		{
-			group : "B.o.B.",
-			song : "Nothin' on You (ft Bruno Mars)"
-		},
-		{
-			group : "Bruno Mars",
-			song : "Just the Way You Are"
-		},
-		{
-			group : "Mika",
-			song : "Grace Kelly"
-		},
-		{
-			group : "Mika",
-			song : "Relax, Take It Easy"
-		},
-		{
-			group : "Mika",
-			song : "Love Today"
-		},
-		{
-			group : "Craig David",
-			song : "Rise and fall (ft Sting)"
-		},
-		{
-			group : "Craig David",
-			song : "Insomnia"
-		},
-		{
-			group : "Eros Ramazzotti",
-			song : "Fuoco nel fuoco"
-		},
-		{
-			group : "Eros Ramazzotti",
-			song : "Parla con me"
-		},
-		{
-			group : "Tomas Nevergreen",
-			song : "Since You Been Gone"
-		},
-		{
-			group : "Tomas Nevergreen",
-			song : "Every Time"
-		},
-		{
-			group : "Rob Thomas",
-			song : "Lonely No More"
-		},
-		{
-			group : "Joe",
-			song : "Stutter (ft Mystikal)"
-		},
-		{
-			group : "Nek",
-			song : "Instabile"
-		},
-		{
-			group : "Giorgos Mazonakis",
-			song : "To Gucci Forema"
-		},
-		{
-			group : "Darren Hayes",
-			song : "Crush (1980 Me)"
-		}
-];
-
-let en_2000_m_2 = [
-		{
-			id : 1,
-			group : "Tom Novy",
-			song : "Take it (ft Lima)"
-		},
-		{
-			id : 2,
-			group : "Bob Sinclar",
-			song : "Love Generation"
-		},
-		{
-			id : 3,
-			group : "Bob Sinclar",
-			song : "Kiss My Eyes"
-		},
-		{
-			id : 4,
-			group : "Moby",
-			song : "Slipping Away"
-		},
-		{
-			id : 5,
-			group : "Timo Maas",
-			song : "First Day (ft Brian Molko)"
-		},
-		{
-			id : 6,
-			group : "Crazy Frog",
-			song : "Axel F"
-		},
-		{
-			id : 7,
-			group : "Danzel",
-			song : "Pump It Up"
-		},
-		{
-			id : 8,
-			group : "Danzel",
-			song : "Put Your Hands up in the Air!"
-		},
-		{
-			id : 10,
-			group : "Zac Efron",
-			song : "Breaking Free (ft Vanessa Hudgens)"
-		},
-		{
-			id : 11,
-			group : "Eric Prydz",
-			song : "Call on Me"
-		},
-		{
-			id : 12,
-			group : "Gigi D'Agostino",
-			song : "L'Amour Toujours"
-		},
-		{
-			id : 13,
-			group : "Paul Van Dyk",
-			song : "Let Go (ft Rea Garvey)"
-		},
-		{
-			id : 14,
-			group : "Moby",
-			song : "Lift Me Up"
-		},
-		{
-			group : 'David Guetta',
-			song : 'The World Is Mine'
-		},
-		{
-			group : 'David Guetta',
-			song : 'Memories'
-		},
-		{
-			group : 'David Guetta',
-			song : 'Love is gone'
-		},
-		{
-			group : 'Alex Gaudino',
-			song : 'Destination Calabria (ft Crystal Waters)'
-		},
-		{
-			group : 'Dj Bobo',
-			song : 'Chihuahua'
-		},
-		{
-			group : 'Yves Larock',
-			song : 'Rise Up'
-		},
-		{
-			group : 'K-Maro',
-			song : "Let's go"
-		},
-		{
-			group : 'Stromae',
-			song : 'Alors On Danse'
-		},
-		{
-			group : 'Beni Benassi',
-			song : 'Satisfaction'
-		}
-];
-
-let en_2000_m_3 = [	
-		{
-			id : 1,
-			group : 'Flo Rida',
-			song : 'Right Round'
-		},
-		{
-			id : 2,
-			group : 'Kid Cudi',
-			song : "Day 'N' Nite"
-		},
-		{
-			id : 3,
-			group : 'Jamie Foxx',
-			song : 'Blame It'
-		},
-		{
-			id : 4,
-			group : 'Iyaz',
-			song : 'Replay'
-		},
-		{
-			id : 5,
-			group : 'Jay Sean',
-			song : 'Down'
-		},
-		{
-			id : 6,
-			group : 'Taio Cruz',
-			song : 'Break Your Heart'
-		},	
-		{
-			id : 7,
-			group : 'Snoop Dogg',
-			song : 'The Next Episode (ft Dr. Dre)'
-		},	
-		{
-			id : 8,
-			group : 'Eminem',
-			song : 'Stan (ft Dido)'
-		},
-		{
-			id : 9,
-			group : 'Eminem',
-			song : 'The Real Slim Shady'
-		},
-		{
-			id : 10,
-			group : 'Nelly',
-			song : 'Ride With Me'
-		},
-		{
-			id : 11,
-			group : 'Nelly',
-			song : 'Hot In Herre'
-		},
-		{
-			id : 12,
-			group : 'Eminem',
-			song : 'Cleaning Out My Closet'
-		},
-		{
-			id : 13,
-			group : 'Nelly',
-			song : 'Dilemma (ft Kelly Rowland)'
-		},
-		{
-			id : 14,
-			group : 'Eminem',
-			song : 'Without Me',
-			state: ' по Эминему'
-		},
-		{
-			id : 15,
-			group : 'Eminem',
-			song : 'Lose Yourself'
-		},
-		{
-			id : 16,
-			group : '50 Cent',
-			song : 'In Da Club'
-		},
-		{
-			id : 17,
-			group : 'Pharrell Williams',
-			song : "Drop It Like It's Hot (ft Snoop Dogg)"
-		},
-		{
-			id : 18,
-			group : "50 Cent",
-			song : "Candy Shop (ft Olivia)"
-		},
-		{
-			id : 19,
-			group : "Timbaland",
-			song : 'Promiscuous (ft Nelly Furtado)'
-		},
-		{
-			id : 20,
-			group : "Eminem",
-			song : 'Smack That (ft Akon)'
-		},
-		{
-			id : 21,
-			group : "Kanye West",
-			song : "Stronger"
-		},
-		{
-			id : 22,
-			group : "Soulja Boy Tell'em",
-			song : 'Crank That'
-		},
-		{
-			id : 23,
-			group : 'Usher',
-			song : 'Yeah!'
-		},
-		{
-			id : 24,
-			group : "Sean Paul",
-			song : 'Temperature'
-		},
-		{
-			id : 25,
-			group : "Young Buck",
-			song : "Get Buck"
-		},
-		{
-			id : 26,
-			group : "P. Diddy",
-			song : "Shake Ya Tailfeather (ft Nelly, Murphy Lee)"
-		},
-		{
-			group : "Eminem",
-			song : "When I'm Gone"
-		},
-		{
-			group : "50 Cent",
-			song : "21 Questions (ft Nate Dogg)"
-		},
-		{
-			group : "Busta Rhymes",
-			song : "I Know What You Want (ft Mariah Carey)"
-		},
-		{
-			group : "Nelly",
-			song : "Grillz (ft Paul Wall, Ali & Gipp)"
-		},
-		{
-			group : "Akon",
-			song : "Don't Matter"
-		},
-		{
-			group : "Akon",
-			song : "Right Now (Na Na Na)"
-		},
-		{
-			group : "Akon",
-			song : "Lonely"
-		},
-		{
-			group : "Jay-Z",
-			song : "Empire State Of Mind (ft Alicia Keys)"
-		},
-		{
-			group : "Jay-Z",
-			song : "99 Problems"
-		},
-		{
-			group : "Usher",
-			song : "U Remind Me"
-		},
-		{
-			group : "Usher",
-			song : "U Got It Bad"
-		},
-		{
-			group : "Usher",
-			song : "My Boo (ft Alicia Keys)"
-		},
-		{
-			group : "Usher",
-			song : "Love in This Club (ft Young Jeezy)"
-		},
-		{
-			group : "Usher",
-			song : "Burn"
-		},
-		{
-			group : "Usher",
-			song : "Confessions"
-		},
-		{
-			group : "Flo Rida",
-			song : "Low"
-		},
-		{
-			group : "Sean Paul",
-			song : "Get Busy"
-		},
-		{
-			group : "Sean Paul",
-			song : "We Be Burnin'"
-		},
-		{
-			group : "Timbaland",
-			song : "The Way I Are (ft Keri Hilson, D.O.E.)"
-		},
-		{
-			group : "Timbaland",
-			song : "Give It To Me (ft Justin Timberlake, Nelly Furtado)"
-		},
-		{
-			group : "Pitbull",
-			song : "I Know You Want Me"
-		},
-		{
-			group : "Kanye West",
-			song : "Gold Digger (ft Jamie Foxx)"
-		},
-		{
-			group : "T.I.",
-			song : "Whatever You Like"
-		},
-		{
-			group : "T.I.",
-			song : "Live Your Life (ft Rihanna)"
-		},
-		{
-			group : "DMX",
-			song : "Party Up"
-		},
-		{
-			group : "Lil Jon",
-			song : "Get Low (ft The East Side Boyz)"
-		},
-		{
-			group : "Lil Wayne",
-			song : "Lollipop (ft Static Major)"
-		}
-];
+let en_2000_gr_1 =	en_2000_gr.filter(item => item.pack == 1);
+let en_2000_gr_2 =	en_2000_gr.filter(item => item.pack == 2);
+let en_2000_gr_3 =	en_2000_gr.filter(item => item.pack == 3);
+let en_2000_gr_4 =	en_2000_gr.filter(item => item.pack == 4);
+let en_2000_gr_5 =	en_2000_gr.filter(item => item.pack == 5);
 
 let en_2000_m = [
 		{
-			id : 1,
+			pack : 1,
 			group : 'Justin Bieber',
 			song : 'Baby'
 		},
 		{
-			id : 2,
+			pack : 1,
 			group : "Shaggy",
 			song : 'Angel (ft Rayvon)'
 		},
 		{
-			id : 3,
+			pack : 1,
 			group : 'Justin Timberlake',
 			song : 'Cry Me A River'
 		},
 		{
-			id : 4,
+			pack : 1,
 			group : "Sean Kingston",
 			song : 'Beautiful Girls'
 		},
 		{
-			id : 5,
+			pack : 1,
 			group : "Daniel Powter",
 			song : 'Bad Day'
 		},
 		{
-			id : 6,
+			pack : 1,
 			group : "James Blunt",
 			song : "You're Beautiful"
 		},
 		{
-			id : 7,
+			pack : 1,
 			group : "Gnarls Barkley",
 			song : 'Crazy'
 		},
 		{
-			id : 8,
+			pack : 1,
 			group : "Jason Mraz",
 			song : "I'm Yours"
 		},
 		{
-			id : 9,
+			pack : 1,
 			group : 'Justin Timberlake',
 			song : 'Sexy back (ft Timbaland)'
 		},
 		{
-			id : 10,
+			pack : 1,
 			group : 'Justin Timberlake',
 			song : 'My Love (ft T.I.)'
 		},
 		{
-			id : 11,
+			pack : 1,
 			group : 'Justin Timberlake',
 			song : 'Like I Love You'
 		},
 		{
-			id : 12,
+			pack : 1,
 			group : 'Robbie Williams',
 			song : 'The Road To Mandalay'
 		},
 		{
-			id : 13,
+			pack : 1,
 			group : 'Robbie Williams',
 			song : "Somethin' Stupid (ft Nicole Kidman)"
 		},
 		{
-			id : 14,
+			pack : 1,
 			group : 'Darren Hayes',
 			song : 'I Miss You'
 		},
 		{
-			id : 15,
+			pack : 1,
 			group : 'Darren Hayes',
 			song : 'Strange Relationship'
 		},
 		{
-			id : 16,
+			pack : 1,
 			group : 'George Michael',
 			song : 'The Long And Winding Road'
 		},
 		{
-			id : 17,
+			pack : 1,
 			group : 'Leonard Kohen',
 			song : 'A Thousand Kisses Deep'
 		},
 		{
-			id : 18,
+			pack : 1,
 			group : 'Arash',
 			song : 'Boro Boro'
 		},
 		{
-			id : 19,
+			pack : 1,
 			group : 'Seal',
 			song : "It's A Man's Man's World"
 		},
 		{
-			id : 20,
+			pack : 1,
 			group : 'Enrique Iglesias',
 			song : 'Be With You'
 		},
 		{
-			id : 21,
+			pack : 1,
 			group : 'Enrique Iglesias',
 			song : 'Do You Know?'
 		},
 		{
-			id : 22,
+			pack : 1,
 			group : 'Enrique Iglesias',
 			song : 'Hero'
 		},
 		{
-			id : 26,
+			pack : 1,
 			group : 'Ronan Keating',
 			song : 'If Tomorrow Never Comes'
 		},
 		{
-			id : 27,
+			pack : 1,
 			group : 'Arash',
 			song : 'Tike Tike Kardi'
 		},
 		{
-			id : 29,
+			pack : 1,
 			group : 'Fred Puppet',
 			song : 'Mahna Mahna (ft Monster Crew)'
 		},
 		{
-			id : 30,
+			pack : 1,
 			group : 'Lemar',
 			song : "If There's Any Justice"
 		},
 		{
-			id : 31,
+			pack : 1,
 			group : 'Mario',
 			song : "Let Me Love You"
 		},
 		{
-			id : 32,
+			pack : 1,
 			group : 'Travie McCoy',
 			song : "Billionaire"
 		},
 		{
-			id : 33,
+			pack : 1,
 			group : 'Ne-Yo',
 			song : "So Sick"
 		},
 		{
-			id : 34,
+			pack : 1,
 			group : 'Ne-Yo',
 			song : "Closer"
 		},
 		{
+			pack : 1,
 			group : 'Adam Lambert',
 			song : "For your entertainment"
 		},
 		{
+			pack : 1,
 			group : 'Adam Lambert',
 			song : "Whataya Want from Me"
 		},
 		{
-			id : 9,
+			pack : 1,
 			group : "Johnny Cash",
 			song : "I Won't Back Down"
 		},
 		{
+			pack : 1,
 			group : "Juanes",
 			song : "La Camisa Negra"
 		},
 		{
+			pack : 1,
 			group : "Santana",
 			song : "Smooth (ft Rob Thomas)"
 		},
 		{
+			pack : 1,
 			group : "Santana",
 			song : "Maria Maria (ft The Product G&B)"
 		},
 		{
+			pack : 1,
 			group : "Santana",
 			song : "The Game of Love (ft Michelle Branch)"
 		},
 		{
+			pack : 1,
 			group : "Shaggy",
 			song : "It Wasnt Me (ft Rik Rok)"
 		},
 		{
+			pack : 1,
 			group : "Chris Brown",
 			song : "Run It! (ft Juelz Santana)"
 		},
 		{
+			pack : 1,
 			group : "Chris Brown",
 			song : "Kiss Kiss (ft T-Pain)"
 		},
 		{
+			pack : 1,
 			group : "B.o.B.",
 			song : "Nothin' on You (ft Bruno Mars)"
 		},
 		{
+			pack : 1,
 			group : "Bruno Mars",
 			song : "Just the Way You Are"
 		},
 		{
+			pack : 1,
 			group : "Mika",
 			song : "Grace Kelly"
 		},
 		{
+			pack : 1,
 			group : "Mika",
 			song : "Relax, Take It Easy"
 		},
 		{
+			pack : 1,
 			group : "Mika",
 			song : "Love Today"
 		},
 		{
+			pack : 1,
 			group : "Craig David",
 			song : "Rise and fall (ft Sting)"
 		},
 		{
+			pack : 1,
 			group : "Craig David",
 			song : "Insomnia"
 		},
 		{
+			pack : 1,
 			group : "Eros Ramazzotti",
 			song : "Fuoco nel fuoco"
 		},
 		{
+			pack : 1,
 			group : "Eros Ramazzotti",
 			song : "Parla con me"
 		},
 		{
+			pack : 1,
 			group : "Tomas Nevergreen",
 			song : "Since You Been Gone"
 		},
 		{
+			pack : 1,
 			group : "Tomas Nevergreen",
 			song : "Every Time"
 		},
 		{
+			pack : 1,
 			group : "Rob Thomas",
 			song : "Lonely No More"
 		},
 		{
+			pack : 1,
 			group : "Joe",
 			song : "Stutter (ft Mystikal)"
 		},
 		{
+			pack : 1,
 			group : "Nek",
 			song : "Instabile"
 		},
 		{
+			pack : 1,
 			group : "Giorgos Mazonakis",
 			song : "To Gucci Forema"
 		},
 		{
+			pack : 1,
 			group : "Darren Hayes",
 			song : "Crush (1980 Me)"
 		},
 		{
-			id : 1,
+			pack : 2,
 			group : "Tom Novy",
 			song : "Take it (ft Lima)"
 		},
 		{
-			id : 2,
+			pack : 2,
 			group : "Bob Sinclar",
 			song : "Love Generation"
 		},
 		{
-			id : 3,
+			pack : 2,
 			group : "Bob Sinclar",
 			song : "Kiss My Eyes"
 		},
 		{
-			id : 4,
+			pack : 2,
 			group : "Moby",
 			song : "Slipping Away"
 		},
 		{
-			id : 5,
+			pack : 2,
 			group : "Timo Maas",
 			song : "First Day (ft Brian Molko)"
 		},
 		{
-			id : 6,
+			pack : 2,
 			group : "Crazy Frog",
 			song : "Axel F"
 		},
 		{
-			id : 7,
+			pack : 2,
 			group : "Danzel",
 			song : "Pump It Up"
 		},
 		{
-			id : 8,
+			pack : 2,
 			group : "Danzel",
 			song : "Put Your Hands up in the Air!"
 		},
 		{
-			id : 10,
+			pack : 2,
 			group : "Zac Efron",
 			song : "Breaking Free (ft Vanessa Hudgens)"
 		},
 		{
-			id : 11,
+			pack : 2,
 			group : "Eric Prydz",
 			song : "Call on Me"
 		},
 		{
-			id : 12,
+			pack : 2,
 			group : "Gigi D'Agostino",
 			song : "L'Amour Toujours"
 		},
 		{
-			id : 13,
+			pack : 2,
 			group : "Paul Van Dyk",
 			song : "Let Go (ft Rea Garvey)"
 		},
 		{
-			id : 14,
+			pack : 2,
 			group : "Moby",
 			song : "Lift Me Up"
 		},
 		{
+			pack : 2,
 			group : 'David Guetta',
 			song : 'The World Is Mine'
 		},
 		{
+			pack : 2,
 			group : 'David Guetta',
 			song : 'Memories'
 		},
 		{
+			pack : 2,
 			group : 'David Guetta',
 			song : 'Love is gone'
 		},
 		{
+			pack : 2,
 			group : 'Alex Gaudino',
 			song : 'Destination Calabria (ft Crystal Waters)'
 		},
 		{
+			pack : 2,
 			group : 'Dj Bobo',
 			song : 'Chihuahua'
 		},
 		{
+			pack : 2,
 			group : 'Yves Larock',
 			song : 'Rise Up'
 		},
 		{
+			pack : 2,
 			group : 'K-Maro',
 			song : "Let's go"
 		},
 		{
+			pack : 2,
 			group : 'Stromae',
 			song : 'Alors On Danse'
 		},
 		{
+			pack : 2,
 			group : 'Beni Benassi',
 			song : 'Satisfaction'
 		},
 		{
-			id : 1,
+			pack : 3,
 			group : 'Flo Rida',
 			song : 'Right Round'
 		},
 		{
-			id : 2,
+			pack : 3,
 			group : 'Kid Cudi',
 			song : "Day 'N' Nite"
 		},
 		{
-			id : 3,
+			pack : 3,
 			group : 'Jamie Foxx',
 			song : 'Blame It'
 		},
 		{
-			id : 4,
+			pack : 3,
 			group : 'Iyaz',
 			song : 'Replay'
 		},
 		{
-			id : 5,
+			pack : 3,
 			group : 'Jay Sean',
 			song : 'Down'
 		},
 		{
-			id : 6,
+			pack : 3,
 			group : 'Taio Cruz',
 			song : 'Break Your Heart'
 		},	
 		{
-			id : 7,
+			pack : 3,
 			group : 'Snoop Dogg',
 			song : 'The Next Episode (ft Dr. Dre)'
 		},	
 		{
-			id : 8,
+			pack : 3,
 			group : 'Eminem',
 			song : 'Stan (ft Dido)'
 		},
 		{
-			id : 9,
+			pack : 3,
 			group : 'Eminem',
 			song : 'The Real Slim Shady'
 		},
 		{
-			id : 10,
+			pack : 3,
 			group : 'Nelly',
 			song : 'Ride With Me'
 		},
 		{
-			id : 11,
+			pack : 3,
 			group : 'Nelly',
 			song : 'Hot In Herre'
 		},
 		{
-			id : 12,
+			pack : 3,
 			group : 'Eminem',
 			song : 'Cleaning Out My Closet'
 		},
 		{
-			id : 13,
+			pack : 3,
 			group : 'Nelly',
 			song : 'Dilemma (ft Kelly Rowland)'
 		},
 		{
-			id : 14,
+			pack : 3,
 			group : 'Eminem',
 			song : 'Without Me',
 			state: ' по Эминему'
 		},
 		{
-			id : 15,
+			pack : 3,
 			group : 'Eminem',
 			song : 'Lose Yourself'
 		},
 		{
-			id : 16,
+			pack : 3,
 			group : '50 Cent',
 			song : 'In Da Club'
 		},
 		{
-			id : 17,
+			pack : 3,
 			group : 'Pharrell Williams',
 			song : "Drop It Like It's Hot (ft Snoop Dogg)"
 		},
 		{
-			id : 18,
+			pack : 3,
 			group : "50 Cent",
 			song : "Candy Shop (ft Olivia)"
 		},
 		{
-			id : 19,
+			pack : 3,
 			group : "Timbaland",
 			song : 'Promiscuous (ft Nelly Furtado)'
 		},
 		{
-			id : 20,
+			pack : 3,
 			group : "Eminem",
 			song : 'Smack That (ft Akon)'
 		},
 		{
-			id : 21,
+			pack : 3,
 			group : "Kanye West",
 			song : "Stronger"
 		},
 		{
-			id : 22,
+			pack : 3,
 			group : "Soulja Boy Tell'em",
 			song : 'Crank That'
 		},
 		{
-			id : 23,
+			pack : 3,
 			group : 'Usher',
 			song : 'Yeah!'
 		},
 		{
-			id : 24,
+			pack : 3,
 			group : "Sean Paul",
 			song : 'Temperature'
 		},
 		{
-			id : 25,
+			pack : 3,
 			group : "Young Buck",
 			song : "Get Buck"
 		},
 		{
-			id : 26,
+			pack : 3,
 			group : "P. Diddy",
 			song : "Shake Ya Tailfeather (ft Nelly, Murphy Lee)"
 		},
 		{
+			pack : 3,
 			group : "Eminem",
 			song : "When I'm Gone"
 		},
 		{
+			pack : 3,
 			group : "50 Cent",
 			song : "21 Questions (ft Nate Dogg)"
 		},
 		{
+			pack : 3,
 			group : "Busta Rhymes",
 			song : "I Know What You Want (ft Mariah Carey)"
 		},
 		{
+			pack : 3,
 			group : "Nelly",
 			song : "Grillz (ft Paul Wall, Ali & Gipp)"
 		},
 		{
+			pack : 3,
 			group : "Akon",
 			song : "Don't Matter"
 		},
 		{
+			pack : 3,
 			group : "Akon",
 			song : "Right Now (Na Na Na)"
 		},
 		{
+			pack : 3,
 			group : "Akon",
 			song : "Lonely"
 		},
 		{
+			pack : 3,
 			group : "Jay-Z",
 			song : "Empire State Of Mind (ft Alicia Keys)"
 		},
 		{
+			pack : 3,
 			group : "Jay-Z",
 			song : "99 Problems"
 		},
 		{
+			pack : 3,
 			group : "Usher",
 			song : "U Remind Me"
 		},
 		{
+			pack : 3,
 			group : "Usher",
 			song : "U Got It Bad"
 		},
 		{
+			pack : 3,
 			group : "Usher",
 			song : "My Boo (ft Alicia Keys)"
 		},
 		{
+			pack : 3,
 			group : "Usher",
 			song : "Love in This Club (ft Young Jeezy)"
 		},
 		{
+			pack : 3,
 			group : "Usher",
 			song : "Burn"
 		},
 		{
+			pack : 3,
 			group : "Usher",
 			song : "Confessions"
 		},
 		{
+			pack : 3,
 			group : "Flo Rida",
 			song : "Low"
 		},
 		{
+			pack : 3,
 			group : "Sean Paul",
 			song : "Get Busy"
 		},
 		{
+			pack : 3,
 			group : "Sean Paul",
 			song : "We Be Burnin'"
 		},
 		{
+			pack : 3,
 			group : "Timbaland",
 			song : "The Way I Are (ft Keri Hilson, D.O.E.)"
 		},
 		{
+			pack : 3,
 			group : "Timbaland",
 			song : "Give It To Me (ft Justin Timberlake, Nelly Furtado)"
 		},
 		{
+			pack : 3,
 			group : "Pitbull",
 			song : "I Know You Want Me"
 		},
 		{
+			pack : 3,
 			group : "Kanye West",
 			song : "Gold Digger (ft Jamie Foxx)"
 		},
 		{
+			pack : 3,
 			group : "T.I.",
 			song : "Whatever You Like"
 		},
 		{
+			pack : 3,
 			group : "T.I.",
 			song : "Live Your Life (ft Rihanna)"
 		},
 		{
+			pack : 3,
 			group : "DMX",
 			song : "Party Up"
 		},
 		{
+			pack : 3,
 			group : "Lil Jon",
 			song : "Get Low (ft The East Side Boyz)"
 		},
 		{
+			pack : 3,
 			group : "Lil Wayne",
 			song : "Lollipop (ft Static Major)"
 		}
 ];
 
-let en_2000_f_1 = [
-		{
-			id : 1,
-			group : 'Katy Perry',
-			song : 'I Kissed A Girl'
-		},
-		{
-			id : 2,
-			group : 'Lady Gaga',
-			song : 'Poker Face'
-		},
-		{
-			id : 4,
-			group : 'Britney Spears',
-			song : 'Womanizer'
-		},
-		{
-			id : 5,
-			group : 'P!nk',
-			song : 'So What'
-		},
-		{
-			id : 6,
-			group : 'Britney Spears',
-			song : 'Ooops!... I did it again'
-		},
-		{
-			id : 7,
-			group : "Christina Aguilera",
-			song : "Lady Marmalade (ft P!nk, Mya, Lil' Kim)"
-		},
-		{
-			id : 8,
-			group : "Shakira",
-			song : 'Whenever, Wherever'
-		},
-		{
-			id : 9,
-			group : "Christina Aguilera",
-			song : 'Beautiful'
-		},
-		{
-			id : 10,
-			group : "Avril Lavigne",
-			song : 'Complicated'
-		},
-		{
-			id : 11,
-			group : 'Britney Spears',
-			song : 'Toxic'
-		},
-		{
-			id : 12,
-			group : "Shakira",
-			song : "Hips Don't Lie"
-		},
-		{
-			id : 13,
-			group : "Avril Lavigne",
-			song : 'Girlfriend'
-		},
-		{
-			id : 14,
-			group : "Taylor Swift",
-			song : 'Love Story'
-		},
-		{
-			id : 15,
-			group : "Lady Gaga",
-			song : "Just Dance (ft Colby ODonis)"
-		},
-		{
-			id : 16,
-			group : 'Katy Perry',
-			song : "California Gurls (ft. Snoop Dogg)"
-		},
-		{
-			id : 17,
-			group : 'Katy Perry',
-			song : "Teenage Dream"
-		},
-		{
-			id : 18,
-			group : 'Katy Perry',
-			song : "Firework"
-		},
-		{
-			id : 19,
-			group : 'Katy Perry',
-			song : "Hot N Cold"
-		},
-		{
-			id : 20,
-			group : 'Katy Perry',
-			song : "Waking Up In Vegas"
-		},
-		{
-			id : 21,
-			group : "Taylor Swift",
-			song : 'You Belong With Me'
-		},
-		{
-			id : 22,
-			group : "Gwen Stefani",
-			song : "Hollaback Girl"
-		},
-		{
-			id : 23,
-			group : "Gwen Stefani",
-			song : "The sweet escape (ft Akon)"
-		},
-		{
-			id : 24,
-			group : 'Lady Gaga',
-			song : "Telephone (ft. Beyonce)"
-		},
-		{
-			id : 25,
-			group : "Christina Aguilera",
-			song : 'Come on over Baby (All I Want Is You)'
-		},
-		{
-			group : "Christina Aguilera",
-			song : 'Hurt'
-		},
-		{
-			group : "Inna",
-			song : 'Hot'
-		},
-		{
-			group : "Inna",
-			song : 'Amazing'
-		},
-		{
-			group : "Inna",
-			song : 'Sun Is Up'
-		},
-		{
-			group : 'P!nk',
-			song : 'Get the Party Started'
-		},
-		{
-			group : 'P!nk',
-			song : 'Trouble'
-		},
-		{
-			group : 'Lady Gaga',
-			song : "Bad Romance"
-		},
-		{
-			group : 'Britney Spears',
-			song : 'Gimme More'
-		},
-		{
-			group : "Shakira",
-			song : 'Underneath Your Clothes'
-		},
-		{
-			group : "Shakira",
-			song : 'Objection (Tango)'
-		},
-		{
-			group : "Shakira",
-			song : 'La Tortura (ft Alejandro Sanz)'
-		},
-		{
-			group : "Shakira",
-			song : 'Waka Waka (This Time for Africa) (ft Freshlyground)'
-		},
-		{
-			group : "Avril Lavigne",
-			song : 'Losing Grip'
-		},
-		{
-			group : "Avril Lavigne",
-			song : 'My Happy Ending'
-		},
-		{
-			group : "Avril Lavigne",
-			song : "Nobody's Home"
-		},
-		{
-			group : "Avril Lavigne",
-			song : "He Wasn't"
-		},
-		{
-			group : "Avril Lavigne",
-			song : "When You're Gone"
-		},
-		{
-			group : "Avril Lavigne",
-			song : 'Hot'
-		},
-		{
-			group : "Avril Lavigne",
-			song : 'The Best Damn Thing'
-		},
-		{
-			group : "Avril Lavigne",
-			song : 'Alice'
-		},
-		{
-			group : "Jennifer Lopez",
-			song : "Ain't It Funny"
-		},
-		{
-			group : "Jennifer Lopez",
-			song : "I'm Real (ft Ja Rule)"
-		},
-		{
-			group : "Jennifer Lopez",
-			song : "All I Have (ft LL Cool J)"
-		},
-		{
-			group : "Jennifer Lopez",
-			song : "Love Don't Cost a Thing"
-		},
-		{
-			group : "Jennifer Lopez",
-			song : "Jenny from the Block"
-		}
-];
-
-let en_2000_f_2 = [
-		{
-			id : 1,
-			group : "Mary J. Blige",
-			song : 'Family Affair'
-		},
-		{
-			id : 2,
-			group : "Vanessa Carlton",
-			song : 'A Thousand Miles'
-		},
-		{
-			id : 3,
-			group : "Leona Lewis",
-			song : "Bleeding Love"
-		},
-		{
-			id : 4,
-			group : "Amy Winehouse",
-			song : "Back to Black"
-		},
-		{
-			id : 5,
-			group : "Despina Vandi",
-			song : "Come Along Now"
-		},
-		{
-			id : 6,
-			group : "Kelis",
-			song : "Milkshake"
-		},
-		{
-			id : 7,
-			group : "Kelis",
-			song : "Trick Me"
-		},
-		{
-			id : 8,
-			group : "M.I.A.",
-			song : "Paper Planes"
-		},
-		{
-			id : 9,
-			group : "Ida Corr",
-			song : "Let Me Think About It (ft Fedde Le Grand)"
-		},
-		{
-			id : 10,
-			group : 'Duffy',
-			song : "Mercy"
-		},
-		{
-			group : 'Celine Dion',
-			song : "A New Day Has Come"
-		},
-		{
-			group : 'Madonna',
-			song : "Music"
-		},
-		{
-			group : 'Madonna',
-			song : "Hung Up"
-		},
-		{
-			group : 'Madonna',
-			song : "4 minutes"
-		},
-		{
-			group : 'Kelly Clarkson',
-			song : "Because of You"
-		},
-		{
-			group : 'Kelly Clarkson',
-			song : "A Moment Like This"
-		},
-		{
-			group : 'Kelly Clarkson',
-			song : "My Life Would Suck Without You"
-		},
-		{
-			group : 'Geri Halliwell',
-			song : "Calling"
-		},
-		{
-			group : 'Ke$ha',
-			song : 'Tick Tock'
-		},
-		{
-			group : 'Dido',
-			song : 'Thank You'
-		},
-		{
-			group : 'Dido',
-			song : 'White Flag'
-		},
-		{
-			group : 'Kylie Minogue',
-			song : 'Spinning Around'
-		},
-		{
-			group : 'Kylie Minogue',
-			song : "Can't Get You Out of My Head"
-		},
-		{
-			group : 'Mariah Carey',
-			song : 'We Belong Together'
-		},
-		{
-			group : 'Mariah Carey',
-			song : 'Touch My Body'
-		},
-		{
-			group : 'Janet Jackson',
-			song : 'All For You'
-		},
-		{
-			group : 'Ashanti',
-			song : 'Foolish'
-		},
-		{
-			group : 'LeAnn Rimes',
-			song : "Can't Fight The Moonlight"
-		},
-		{
-			group : 'Amy McDonald',
-			song : 'This Is The Life'
-		},
-		{
-			group : 'Aaliyah',
-			song : 'Try Again'
-		},
-		{
-			group : 'Kat Deluna',
-			song : 'Whine up (ft Elephant Man)'
-		},
-		{
-			group : 'Myriam Faris',
-			song : 'Chamarni (Enta bel hayat)'
-		},
-		{
-			group : 'Mya',
-			song : 'Case Of The Ex'
-		},
-		{
-			group : 'September',
-			song : 'Cry For You'
-		},
-		{
-			group : 'Enya',
-			song : 'And Winter Came'
-		},
-		{
-			group : 'Oceana',
-			song : 'Cry cry'
-		}
-];
-
-let en_2000_f_3 = [
-		{
-			id : 1,
-			group : "Beyonce",
-			song : 'Crazy In Love (ft Jay-Z)'
-		},
-		{
-			id : 2,
-			group : 'Alicia Keys',
-			song : "If I Ain't Got You"
-		},
-		{
-			id : 3,
-			group : "Beyonce",
-			song : "Beautiful Lier (ft Shakira)"
-		},
-		{
-			id : 4,
-			group : "Rihanna",
-			song : 'Umbrella (ft Jay-Z)'
-		},
-		{
-			id : 5,
-			group : "Beyonce",
-			song : "Single Ladies"
-		},
-		{
-			id : 6,
-			group : "Fergie",
-			song : 'Fergalicious (ft will.i.am)'
-		},
-		{
-			id : 7,
-			group : "Nelly Furtado",
-			song : 'Say It Right'
-		},
-		{
-			id : 8,
-			group : "Beyonce",
-			song : "Baby Boy (ft Sean Paul)"
-		},
-		{
-			id : 9,
-			group : "Beyonce",
-			song : "Halo"
-		},
-		{
-			id : 10,
-			group : "Beyonce",
-			song : "If I Were a Boy"
-		},
-		{
-			id : 11,
-			group : "Beyonce",
-			song : "Check On It (ft Slim Thug, Bun B)"
-		},
-		{
-			id : 12,
-			group : "Beyonce",
-			song : "Irreplaceable"
-		},
-		{
-			id : 13,
-			group : "Rihanna",
-			song : 'SOS'
-		},
-		{
-			id : 14,
-			group : "Rihanna",
-			song : 'Live Your Life (ft T.I.)'
-		},
-		{
-			id : 15,
-			group : "Rihanna",
-			song : 'Only Girl (In The World))'
-		},
-		{
-			id : 16,
-			group : "Rihanna",
-			song : "Don't Stop The Music"
-		},
-		{
-			id : 17,
-			group : "Rihanna",
-			song : 'Rude Boy'
-		},
-		{
-			id : 18,
-			group : "Rihanna",
-			song : 'Disturbia'
-		},
-		{
-			id : 19,
-			group : "Rihanna",
-			song : 'Unfaithful'
-		},
-		{
-			id : 20,
-			group : 'Alicia Keys',
-			song : "Falling"
-		},
-		{
-			id : 21,
-			group : 'Alicia Keys',
-			song : "No One"
-		},
-		{
-			id : 22,
-			group : "Fergie",
-			song : 'Big Girls Don`t Cry'
-		},
-		{
-			id : 23,
-			group : "Fergie",
-			song : 'London Bridge'
-		},
-		{
-			id : 24,
-			group : "Fergie",
-			song : 'Glamorous'
-		},
-		{
-			id : 25,
-			group : "Fergie",
-			song : 'Clumsy'
-		},
-		{
-			id : 26,
-			group : "Nelly Furtado",
-			song : "I'm Like A Bird"
-		},
-		{
-			id : 27,
-			group : "Nelly Furtado",
-			song : 'Promiscuous (ft Timbaland)'
-		},
-		{
-			id : 28,
-			group : "Miley Cyrus",
-			song : 'See You Again'
-		},
-		{
-			id : 29,
-			group : "Miley Cyrus",
-			song : '7 Things'
-		},
-		{
-			id : 30,
-			group : "Miley Cyrus",
-			song : 'The Climb'
-		},
-		{
-			id : 31,
-			group : "Miley Cyrus",
-			song : 'Hoedown Throwdown'
-		},
-		{
-			id : 32,
-			group : "Miley Cyrus",
-			song : 'Party In The U.S.A.'
-		},
-		{
-			id : 33,
-			group : "Miley Cyrus",
-			song : "Can't Be Tamed"
-		},
-		{
-			id : 34,
-			group : "Ciara",
-			song : 'Goodies'
-		},
-		{
-			id : 35,
-			group : "Ciara",
-			song : 'One, Two Step'
-		},
-		{
-			id : 36,
-			group : "Missy Elliott",
-			song : 'Work It'
-		},
-		{
-			id : 37,
-			group : "Missy Elliott",
-			song : 'Get Ur Freak On'
-		},
-		{
-			id : 38,
-			group : "Missy Elliott",
-			song : 'Lose Control (ft Ciara ft Fat Man Scoop)'
-		},
-		{
-			id : 39,
-			group : "Missy Elliott",
-			song : 'Bomb Intro Pass That Dutch'
-		},
-		{
-			id : 40,
-			group : "Missy Elliott",
-			song : 'Gossip Folks'
-		}
-];
+let en_2000_m_1 =	en_2000_m.filter(item => item.pack == 1);
+let en_2000_m_2 =	en_2000_m.filter(item => item.pack == 2);
+let en_2000_m_3 =	en_2000_m.filter(item => item.pack == 3);
 
 let en_2000_f = [
 		{
-			id : 1,
+			pack : 1,
 			group : 'Katy Perry',
 			song : 'I Kissed A Girl'
 		},
 		{
-			id : 2,
+			pack : 1,
 			group : 'Lady Gaga',
 			song : 'Poker Face'
 		},
 		{
-			id : 4,
+			pack : 1,
 			group : 'Britney Spears',
 			song : 'Womanizer'
 		},
 		{
-			id : 5,
+			pack : 1,
 			group : 'P!nk',
 			song : 'So What'
 		},
 		{
-			id : 6,
+			pack : 1,
 			group : 'Britney Spears',
 			song : 'Ooops!... I did it again'
 		},
 		{
-			id : 7,
+			pack : 1,
 			group : "Christina Aguilera",
 			song : "Lady Marmalade (ft P!nk, Mya, Lil' Kim)"
 		},
 		{
-			id : 8,
+			pack : 1,
 			group : "Shakira",
 			song : 'Whenever, Wherever'
 		},
 		{
-			id : 9,
+			pack : 1,
 			group : "Christina Aguilera",
 			song : 'Beautiful'
 		},
 		{
-			id : 10,
+			pack : 1,
 			group : "Avril Lavigne",
 			song : 'Complicated'
 		},
 		{
-			id : 11,
+			pack : 1,
 			group : 'Britney Spears',
 			song : 'Toxic'
 		},
 		{
-			id : 12,
+			pack : 1,
 			group : "Shakira",
 			song : "Hips Don't Lie"
 		},
 		{
-			id : 13,
+			pack : 1,
 			group : "Avril Lavigne",
 			song : 'Girlfriend'
 		},
 		{
-			id : 14,
+			pack : 1,
 			group : "Taylor Swift",
 			song : 'Love Story'
 		},
 		{
-			id : 15,
+			pack : 1,
 			group : "Lady Gaga",
 			song : "Just Dance (ft Colby ODonis)"
 		},
 		{
-			id : 16,
+			pack : 1,
 			group : 'Katy Perry',
 			song : "California Gurls (ft. Snoop Dogg)"
 		},
 		{
-			id : 17,
+			pack : 1,
 			group : 'Katy Perry',
 			song : "Teenage Dream"
 		},
 		{
-			id : 18,
+			pack : 1,
 			group : 'Katy Perry',
 			song : "Firework"
 		},
 		{
-			id : 19,
+			pack : 1,
 			group : 'Katy Perry',
 			song : "Hot N Cold"
 		},
 		{
-			id : 20,
+			pack : 1,
 			group : 'Katy Perry',
 			song : "Waking Up In Vegas"
 		},
 		{
-			id : 21,
+			pack : 1,
 			group : "Taylor Swift",
 			song : 'You Belong With Me'
 		},
 		{
-			id : 22,
+			pack : 1,
 			group : "Gwen Stefani",
 			song : "Hollaback Girl"
 		},
 		{
-			id : 23,
+			pack : 1,
 			group : "Gwen Stefani",
 			song : "The sweet escape (ft Akon)"
 		},
 		{
-			id : 24,
+			pack : 1,
 			group : 'Lady Gaga',
 			song : "Telephone (ft. Beyonce)"
 		},
 		{
-			id : 25,
+			pack : 1,
 			group : "Christina Aguilera",
 			song : 'Come on over Baby (All I Want Is You)'
 		},
 		{
+			pack : 1,
 			group : "Christina Aguilera",
 			song : 'Hurt'
 		},
@@ -8916,452 +7036,505 @@ let en_2000_f = [
 			song : 'Hot'
 		},
 		{
+			pack : 1,
 			group : "Inna",
 			song : 'Amazing'
 		},
 		{
+			pack : 1,
 			group : "Inna",
 			song : 'Sun Is Up'
 		},
 		{
+			pack : 1,
 			group : 'P!nk',
 			song : 'Get the Party Started'
 		},
 		{
+			pack : 1,
 			group : 'P!nk',
 			song : 'Trouble'
 		},
 		{
+			pack : 1,
 			group : 'Lady Gaga',
 			song : "Bad Romance"
 		},
 		{
+			pack : 1,
 			group : 'Britney Spears',
 			song : 'Gimme More'
 		},
 		{
+			pack : 1,
 			group : "Shakira",
 			song : 'Underneath Your Clothes'
 		},
 		{
+			pack : 1,
 			group : "Shakira",
 			song : 'Objection (Tango)'
 		},
 		{
+			pack : 1,
 			group : "Shakira",
 			song : 'La Tortura (ft Alejandro Sanz)'
 		},
 		{
+			pack : 1,
 			group : "Shakira",
 			song : 'Waka Waka (This Time for Africa) (ft Freshlyground)'
 		},
 		{
+			pack : 1,
 			group : "Avril Lavigne",
 			song : 'Losing Grip'
 		},
 		{
+			pack : 1,
 			group : "Avril Lavigne",
 			song : 'My Happy Ending'
 		},
 		{
+			pack : 1,
 			group : "Avril Lavigne",
 			song : "Nobody's Home"
 		},
 		{
+			pack : 1,
 			group : "Avril Lavigne",
 			song : "He Wasn't"
 		},
 		{
+			pack : 1,
 			group : "Avril Lavigne",
 			song : "When You're Gone"
 		},
 		{
+			pack : 1,
 			group : "Avril Lavigne",
 			song : 'Hot'
 		},
 		{
+			pack : 1,
 			group : "Avril Lavigne",
 			song : 'The Best Damn Thing'
 		},
 		{
+			pack : 1,
 			group : "Avril Lavigne",
 			song : 'Alice'
 		},
 		{
+			pack : 1,
 			group : "Jennifer Lopez",
 			song : "Ain't It Funny"
 		},
 		{
+			pack : 1,
 			group : "Jennifer Lopez",
 			song : "I'm Real (ft Ja Rule)"
 		},
 		{
+			pack : 1,
 			group : "Jennifer Lopez",
 			song : "All I Have (ft LL Cool J)"
 		},
 		{
+			pack : 1,
 			group : "Jennifer Lopez",
 			song : "Love Don't Cost a Thing"
 		},
 		{
+			pack : 1,
 			group : "Jennifer Lopez",
 			song : "Jenny from the Block"
 		},
 		{
-			id : 1,
+			pack : 2,
 			group : "Mary J. Blige",
 			song : 'Family Affair'
 		},
 		{
-			id : 2,
+			pack : 2,
 			group : "Vanessa Carlton",
 			song : 'A Thousand Miles'
 		},
 		{
-			id : 3,
+			pack : 2,
 			group : "Leona Lewis",
 			song : "Bleeding Love"
 		},
 		{
-			id : 4,
+			pack : 2,
 			group : "Amy Winehouse",
 			song : "Back to Black"
 		},
 		{
-			id : 5,
+			pack : 2,
 			group : "Despina Vandi",
 			song : "Come Along Now"
 		},
 		{
-			id : 6,
+			pack : 2,
 			group : "Kelis",
 			song : "Milkshake"
 		},
 		{
-			id : 7,
+			pack : 2,
 			group : "Kelis",
 			song : "Trick Me"
 		},
 		{
-			id : 8,
+			pack : 2,
 			group : "M.I.A.",
 			song : "Paper Planes"
 		},
 		{
-			id : 9,
+			pack : 2,
 			group : "Ida Corr",
 			song : "Let Me Think About It (ft Fedde Le Grand)"
 		},
 		{
-			id : 10,
+			pack : 2,
 			group : 'Duffy',
 			song : "Mercy"
 		},
 		{
+			pack : 2,
 			group : 'Celine Dion',
 			song : "A New Day Has Come"
 		},
 		{
+			pack : 2,
 			group : 'Madonna',
 			song : "Music"
 		},
 		{
+			pack : 2,
 			group : 'Madonna',
 			song : "Hung Up"
 		},
 		{
+			pack : 2,
 			group : 'Madonna',
 			song : "4 minutes"
 		},
 		{
+			pack : 2,
 			group : 'Kelly Clarkson',
 			song : "Because of You"
 		},
 		{
+			pack : 2,
 			group : 'Kelly Clarkson',
 			song : "A Moment Like This"
 		},
 		{
+			pack : 2,
 			group : 'Kelly Clarkson',
 			song : "My Life Would Suck Without You"
 		},
 		{
+			pack : 2,
 			group : 'Geri Halliwell',
 			song : "Calling"
 		},
 		{
+			pack : 2,
 			group : 'Ke$ha',
 			song : 'Tick Tock'
 		},
 		{
+			pack : 2,
 			group : 'Dido',
 			song : 'Thank You'
 		},
 		{
+			pack : 2,
 			group : 'Dido',
 			song : 'White Flag'
 		},
 		{
+			pack : 2,
 			group : 'Kylie Minogue',
 			song : 'Spinning Around'
 		},
 		{
+			pack : 2,
 			group : 'Kylie Minogue',
 			song : "Can't Get You Out of My Head"
 		},
 		{
+			pack : 2,
 			group : 'Mariah Carey',
 			song : 'We Belong Together'
 		},
 		{
+			pack : 2,
 			group : 'Mariah Carey',
 			song : 'Touch My Body'
 		},
 		{
+			pack : 2,
 			group : 'Janet Jackson',
 			song : 'All For You'
 		},
 		{
+			pack : 2,
 			group : 'Ashanti',
 			song : 'Foolish'
 		},
 		{
+			pack : 2,
 			group : 'LeAnn Rimes',
 			song : "Can't Fight The Moonlight"
 		},
 		{
+			pack : 2,
 			group : 'Amy McDonald',
 			song : 'This Is The Life'
 		},
 		{
+			pack : 2,
 			group : 'Aaliyah',
 			song : 'Try Again'
 		},
 		{
+			pack : 2,
 			group : 'Kat Deluna',
 			song : 'Whine up (ft Elephant Man)'
 		},
 		{
+			pack : 2,
 			group : 'Myriam Faris',
 			song : 'Chamarni (Enta bel hayat)'
 		},
 		{
+			pack : 2,
 			group : 'Mya',
 			song : 'Case Of The Ex'
 		},
 		{
+			pack : 2,
 			group : 'September',
 			song : 'Cry For You'
 		},
 		{
+			pack : 2,
 			group : 'Enya',
 			song : 'And Winter Came'
 		},
 		{
+			pack : 2,
 			group : 'Oceana',
 			song : 'Cry cry'
 		},
 		{
-			id : 1,
+			pack : 3,
 			group : "Beyonce",
 			song : 'Crazy In Love (ft Jay-Z)'
 		},
 		{
-			id : 2,
+			pack : 3,
 			group : 'Alicia Keys',
 			song : "If I Ain't Got You"
 		},
 		{
-			id : 3,
+			pack : 3,
 			group : "Beyonce",
 			song : "Beautiful Lier (ft Shakira)"
 		},
 		{
-			id : 4,
+			pack : 3,
 			group : "Rihanna",
 			song : 'Umbrella (ft Jay-Z)'
 		},
 		{
-			id : 5,
+			pack : 3,
 			group : "Beyonce",
 			song : "Single Ladies"
 		},
 		{
-			id : 6,
+			pack : 3,
 			group : "Fergie",
 			song : 'Fergalicious (ft will.i.am)'
 		},
 		{
-			id : 7,
+			pack : 3,
 			group : "Nelly Furtado",
 			song : 'Say It Right'
 		},
 		{
-			id : 8,
+			pack : 3,
 			group : "Beyonce",
 			song : "Baby Boy (ft Sean Paul)"
 		},
 		{
-			id : 9,
+			pack : 3,
 			group : "Beyonce",
 			song : "Halo"
 		},
 		{
-			id : 10,
+			pack : 3,
 			group : "Beyonce",
 			song : "If I Were a Boy"
 		},
 		{
-			id : 11,
+			pack : 3,
 			group : "Beyonce",
 			song : "Check On It (ft Slim Thug, Bun B)"
 		},
 		{
-			id : 12,
+			pack : 3,
 			group : "Beyonce",
 			song : "Irreplaceable"
 		},
 		{
-			id : 13,
+			pack : 3,
 			group : "Rihanna",
 			song : 'SOS'
 		},
 		{
-			id : 14,
+			pack : 3,
 			group : "Rihanna",
 			song : 'Live Your Life (ft T.I.)'
 		},
 		{
-			id : 15,
+			pack : 3,
 			group : "Rihanna",
 			song : 'Only Girl (In The World))'
 		},
 		{
-			id : 16,
+			pack : 3,
 			group : "Rihanna",
 			song : "Don't Stop The Music"
 		},
 		{
-			id : 17,
+			pack : 3,
 			group : "Rihanna",
 			song : 'Rude Boy'
 		},
 		{
-			id : 18,
+			pack : 3,
 			group : "Rihanna",
 			song : 'Disturbia'
 		},
 		{
-			id : 19,
+			pack : 3,
 			group : "Rihanna",
 			song : 'Unfaithful'
 		},
 		{
-			id : 20,
+			pack : 3,
 			group : 'Alicia Keys',
 			song : "Falling"
 		},
 		{
-			id : 21,
+			pack : 3,
 			group : 'Alicia Keys',
 			song : "No One"
 		},
 		{
-			id : 22,
+			pack : 3,
 			group : "Fergie",
 			song : 'Big Girls Don`t Cry'
 		},
 		{
-			id : 23,
+			pack : 3,
 			group : "Fergie",
 			song : 'London Bridge'
 		},
 		{
-			id : 24,
+			pack : 3,
 			group : "Fergie",
 			song : 'Glamorous'
 		},
 		{
-			id : 25,
+			pack : 3,
 			group : "Fergie",
 			song : 'Clumsy'
 		},
 		{
-			id : 26,
+			pack : 3,
 			group : "Nelly Furtado",
 			song : "I'm Like A Bird"
 		},
 		{
-			id : 27,
+			pack : 3,
 			group : "Nelly Furtado",
 			song : 'Promiscuous (ft Timbaland)'
 		},
 		{
-			id : 28,
+			pack : 3,
 			group : "Miley Cyrus",
 			song : 'See You Again'
 		},
 		{
-			id : 29,
+			pack : 3,
 			group : "Miley Cyrus",
 			song : '7 Things'
 		},
 		{
-			id : 30,
+			pack : 3,
 			group : "Miley Cyrus",
 			song : 'The Climb'
 		},
 		{
-			id : 31,
+			pack : 3,
 			group : "Miley Cyrus",
 			song : 'Hoedown Throwdown'
 		},
 		{
-			id : 32,
+			pack : 3,
 			group : "Miley Cyrus",
 			song : 'Party In The U.S.A.'
 		},
 		{
-			id : 33,
+			pack : 3,
 			group : "Miley Cyrus",
 			song : "Can't Be Tamed"
 		},
 		{
-			id : 34,
+			pack : 3,
 			group : "Ciara",
 			song : 'Goodies'
 		},
 		{
-			id : 35,
+			pack : 3,
 			group : "Ciara",
 			song : 'One, Two Step'
 		},
 		{
-			id : 36,
+			pack : 3,
 			group : "Missy Elliott",
 			song : 'Work It'
 		},
 		{
-			id : 37,
+			pack : 3,
 			group : "Missy Elliott",
 			song : 'Get Ur Freak On'
 		},
 		{
-			id : 38,
+			pack : 3,
 			group : "Missy Elliott",
 			song : 'Lose Control (ft Ciara ft Fat Man Scoop)'
 		},
 		{
-			id : 39,
+			pack : 3,
 			group : "Missy Elliott",
 			song : 'Bomb Intro Pass That Dutch'
 		},
 		{
-			id : 40,
+			pack : 3,
 			group : "Missy Elliott",
 			song : 'Gossip Folks'
 		}
 ];
+
+let en_2000_f_1 =	en_2000_f.filter(item => item.pack == 1);
+let en_2000_f_2 =	en_2000_f.filter(item => item.pack == 2);
+let en_2000_f_3 =	en_2000_f.filter(item => item.pack == 3);
 
 let en_2007_gr_1 = [
 	{
@@ -14391,1560 +12564,1814 @@ let ru_1990_minus = [
 	}
 ];
 
-let ru_2000_gr_1 = [
+let ru_2000_gr = [
 	{
-		id : 1,
+		pack : 1,
 		group : 'Hi-Fi',
 		song : "А мы любили"
 	},
 	{
+		pack : 1,
 		group : 'Hi-Fi',
 		song : "Седьмой лепесток"
 	},
 	{
-		id : 3,
+		pack : 1,
 		group : 'Отпетые мошенники',
 		song : "Девушки бывают разные"
 	},
 	{
-		id : 4,
+		pack : 1,
 		group : 'Отпетые мошенники',
 		song : "Граница (ft Леонид Агутин)"
 	},
 	{
-		id : 5,
+		pack : 1,
 		group : 'Отпетые мошенники',
 		song : "А у реки"
 	},
 	{
-		id : 6,
+		pack : 1,
 		group : 'Отпетые мошенники',
 		song : "Обратите внимание"
 	},
 	{
-		id : 7,
+		pack : 1,
 		group : 'Дискотека Авария',
 		song : "Малинки (ft Жанна Фриске)"
 	},
 	{
+		pack : 1,
 		group : 'Дискотека Авария',
 		song : "Небо"
 	},
 	{
+		pack : 1,
 		group : 'Бумбокс',
 		song : "Вахтерам"
 	},
 	{
-		id : 10,
+		pack : 1,
 		group : 'Иванушки International',
 		song : "Реви"
 	},
 	{
-		id : 11,
+		pack : 1,
 		group : 'Иванушки International',
 		song : "Золотые облака"
 	},
 	{
+		pack : 1,
 		group : 'Иванушки International',
 		song : "Тополиный пух"
 	},
 	{
+		pack : 1,
 		group : 'Чай вдвоём',
 		song : "День рождения"
 	},
 	{
-		id : 14,
+		pack : 1,
 		group : 'Чай вдвоём',
 		song : "А ты все ждешь"
 	},
 	{
+		pack : 1,
 		group : 'Uma2rman',
 		song : "Проститься"
 	},
 	{
-		id : 16,
+		pack : 1,
 		group : 'Многоточие',
 		song : "Щемит в душе тоска"
 	},
 	{
-		id : 17,
+		pack : 1,
 		group : 'Звери',
 		song : "Районы-кварталы"
 	},
 	{
-		id : 18,
+		pack : 1,
 		group : 'Звери',
 		song : "До скорой встречи!"
 	},
 	{
+		pack : 1,
 		group : 'Quest Pistols',
 		song : "Белая стрекоза любви"
 	},
 	{
-		id : 20,
+		pack : 1,
 		group : 'Корни',
 		song : "Вика"
 	},
 	{
-		id : 21,
+		pack : 1,
 		group : 'Корни',
 		song : "Ты узнаешь её"
 	},
 	{
-		id : 22,
+		pack : 1,
 		group : 'Корни',
 		song : "Плакала береза"
 	},
 	{
-		id : 23,
+		pack : 1,
 		group : 'Другие правила',
 		song : "Лети! Беги!"
 	},
 	{
-		id : 24,
+		pack : 1,
 		group : 'Дыши',
 		song : "Взгляни на небо"
 	},
 	{
-		id : 26,
+		pack : 1,
 		group : 'Сценакардия',
 		song : "Времена года"
 	},
 	{
-		id : 27,
+		pack : 1,
 		group : 'Градусы',
 		song : "Режиссер"
 	},
 	{
-		id : 30,
+		pack : 1,
 		group : 'Звери',
 		song : "Всё, что тебя касается"
 	},
 	{
+		pack : 1,
 		group : 'Корни',
 		song : "25 этаж"
 	},
 	{
+		pack : 1,
 		group : 'Hi-Fi',
 		song : "Глупые люди"
 	},
 	{
+		pack : 1,
 		group : 'Quest Pistols',
 		song : "Я устал"
 	},
 	{
+		pack : 1,
 		group : 'Бумбокс',
 		song : "Eva"
 	},
 	{
+		pack : 1,
 		group : 'Дискотека Авария',
 		song : "Если хочешь остаться"
 	},
 	{
+		pack : 1,
 		group : 'Дискотека Авария',
 		song : "Модный танец Арам Зам Зам"
 	},
 	{
+		pack : 1,
 		group : 'Звери',
 		song : "Напитки покрепче"
 	},
 	{
+		pack : 1,
 		group : 'Звери',
 		song : "Просто такая сильная любовь"
 	},
 	{
+		pack : 1,
 		group : 'Звери',
 		song : "Капканы"
 	},
 	{
+		pack : 1,
 		group : 'Отпетые мошенники',
 		song : "Моя звезда (ft ВИА «Сливки»)"
 	},
 	{
+		pack : 1,
 		group : 'Uma2rman',
 		song : "Прасковья"
 	},
 	{
+		pack : 1,
 		group : 'Uma2rman',
 		song : "Дождь"
 	},
 	{
+		pack : 1,
 		group : 'Uma2rman',
 		song : "Ночной дозор"
 	},
 	{
+		pack : 1,
 		group : 'Звери',
 		song : "Брюнетки и блондинки"
 	},
 	{
+		pack : 1,
 		group : 'Чай вдвоём',
 		song : "Ласковая моя"
 	},
 	{
+		pack : 1,
 		group : 'Бутырка',
 		song : "Запахло весной"
 	},
 	{
+		pack : 1,
 		group : 'Бутырка',
 		song : "Аттестат"
 	},
 	{
+		pack : 1,
 		group : 'Игра слов',
 		song : "Алина Кабаева"
 	},
 	{
+		pack : 1,
 		group : 'Нэнси',
 		song : "Ты такая заводная"
 	},
 	{
+		pack : 1,
 		group : 'БиС',
 		song : "Кораблики"
 	},
 	{
+		pack : 1,
 		group : 'Банда',
 		song : "Плачут небеса"
 	},
 	{
+		pack : 1,
 		group : "5'nizza",
 		song : "Солдат"
 	},
 	{
+		pack : 1,
 		group : "Triplex",
 		song : "Бригада"
 	},
 	{
+		pack : 1,
 		group : "5ivesta family",
 		song : "Я буду (23-45)"
 	},
 	{
+		pack : 1,
 		group : "Revoльvers",
 		song : "Ты у меня одна"
 	},
 	{
+		pack : 1,
 		group : "Revoльvers",
 		song : "Целуешь меня"
 	},
 	{
+		pack : 1,
 		group : "Каста",
 		song : "Ревность"
 	},
 	{
+		pack : 1,
 		group : "Т9",
 		song : "Ода нашей любви"
 	},
 	{
+		pack : 1,
 		group : "Бумер",
 		song : "Не плачь"
 	},
 	{
+		pack : 1,
 		group : '140 ударов в минуту',
 		song : 'Не сходи с ума'
-	}
-];
-
-let ru_2000_gr_2 = [
+	},
 	{
-		id : 1,
+		pack : 2,
 		group : 'Блестящие',
 		song : "А я всё летала"
 	},
 	{
-		id : 2,
+		pack : 2,
 		group : 'Блестящие',
 		song : "За четыре моря"
 	},
 	{
-		id : 3,
+		pack : 2,
 		group : 'Виагра',
 		song : "Моя попытка номер пять"
 	},
 	{
-		id : 4,
+		pack : 2,
 		group : 'Виагра',
 		song : "Бриллианты"
 	},
 	{
-		id : 5,
+		pack : 2,
 		group : 'Виагра',
 		song : "Я не вернусь"
 	},
 	{
-		id : 6,
+		pack : 2,
 		group : 'Пропаганда',
 		song : "Мелом"
 	},
 	{
-		id : 7,
+		pack : 2,
 		group : 'Пропаганда',
 		song : "Никто"
 	},
 	{
-		id : 8,
+		pack : 2,
 		group : 'Фабрика',
 		song : "Про любовь"
 	},
 	{
-		id : 9,
+		pack : 2,
 		group : 'Фабрика',
 		song : "Не виноватая я"
 	},
 	{
-		id : 10,
+		pack : 2,
 		group : 'Серебро',
 		song : "Song No.1"
 	},
 	{
-		id : 11,
+		pack : 2,
 		group : 'Серебро',
 		song : "Дыши (ft Баста)"
 	},
 	{
-		id : 12,
+		pack : 2,
 		group : 'Серебро',
 		song : "Опиум"
 	},
 	{
-		id : 13,
+		pack : 2,
 		group : 'Серебро',
 		song : "Скажи, не молчи"
 	},
 	{
-		id : 14,
+		pack : 2,
 		group : 'Серебро',
 		song : "Сладко"
 	},
 	{
-		id : 15,
+		pack : 2,
 		group : 'Пропаганда',
 		song : "Холодно"
 	},
 	{
-		id : 16,
+		pack : 2,
 		group : 'Пропаганда',
 		song : "Кто?"
 	},
 	{
-		id : 17,
+		pack : 2,
 		group : 'Пропаганда',
 		song : "Пять минут на любовь"
 	},
 	{
-		id : 18,
+		pack : 2,
 		group : 'Рефлекс',
 		song : "Падали звезды"
 	},
 	{
-		id : 19,
+		pack : 2,
 		group : 'Рефлекс',
 		song : "Non-stop"
 	},
 	{
-		id : 20,
+		pack : 2,
 		group : 'Краски',
 		song : "Я люблю тебя, Сергей"
 	},
 	{
-		id : 21,
+		pack : 2,
 		group : 'Краски',
 		song : "Те, кто любит (ft Андрей Губин)"
 	},
 	{
-		id : 22,
+		pack : 2,
 		group : 'Краски',
 		song : "Хочешь"
 	},
 	{
-		id : 23,
+		pack : 2,
 		group : 'Краски',
 		song : "Всего 15 лет"
 	},
 	{
-		id : 24,
+		pack : 2,
 		group : 'Краски',
 		song : "Фанат"
 	},
 	{
-		id : 25,
+		pack : 2,
 		group : 'Краски',
 		song : "Мальчик с открытки"
 	},
 	{
-		id : 26,
+		pack : 2,
 		group : 'Краски',
 		song : "Девочка танцует"
 	},
 	{
-		id : 27,
+		pack : 2,
 		group : 'Краски',
 		song : "Старший брат"
 	},
 	{
-		id : 28,
+		pack : 2,
 		group : 'Краски',
 		song : "Оранжевое солнце"
 	},
 	{
-		id : 29,
+		pack : 2,
 		group : 'Краски',
 		song : "Такси"
 	},
 	{
-		id : 30,
+		pack : 2,
 		group : 'Краски',
 		song : "Солнце моё"
 	},
 	{
-		id : 31,
+		pack : 2,
 		group : 'Краски',
 		song : "Весна"
 	},
 	{
-		id : 32,
+		pack : 2,
 		group : 'Краски',
 		song : "Мне мальчик твой не нужен"
 	},
 	{
-		id : 33,
+		pack : 2,
 		group : 'Винтаж',
 		song : "Роман"
 	},
 	{
-		id : 34,
+		pack : 2,
 		group : 'Винтаж',
 		song : "Плохая девочка"
 	},
 	{
-		id : 35,
+		pack : 2,
 		group : 'Винтаж',
 		song : "Одиночество любви"
 	},
 	{
-		id : 36,
+		pack : 2,
 		group : 'Винтаж',
 		song : "Ева"
 	},
 	{
-		id : 37,
+		pack : 2,
 		group : 'Пропаганда',
 		song : "Так и быть"
 	},
 	{
-		id : 38,
+		pack : 2,
 		group : 'Пропаганда',
 		song : "Дождь по крыше"
 	},
 	{
-		id : 39,
+		pack : 2,
 		group : 'Лицей',
 		song : "Она не верит больше в любовь"
 	},
 	{
-		id : 40,
+		pack : 2,
 		group : 'Лицей',
 		song : "Падает дождь"
 	},
 	{
-		id : 41,
+		pack : 2,
 		group : 'Лицей',
 		song : "Как ты о нем мечтала"
 	},
 	{
-		id : 42,
+		pack : 2,
 		group : 'Лицей',
 		song : "Планета Пять"
 	},
 	{
-		id : 43,
+		pack : 2,
 		group : 'Лицей',
 		song : "Ты станешь взрослой"
 	},
 	{
+		pack : 2,
 		group : 'Фабрика',
 		song : "Рыбка"
 	},
 	{
-		id : 45,
+		pack : 2,
 		group : 'Пропаганда',
 		song : "Ай-я"
 	},
 	{
-		id : 46,
+		pack : 2,
 		group : 'Пропаганда',
 		song : "Супер детка"
 	},
 	{
-		id : 47,
+		pack : 2,
 		group : 'Пропаганда',
 		song : "Quanto Costa"
 	},
 	{
+		pack : 2,
 		group : 'Фабрика',
 		song : "Зажигают огоньки"
 	},
 	{
+		pack : 2,
 		group : 'Блестящие',
 		song : "Пальмы парами"
-	}
-];
-
-let ru_2000_gr_3 = [
+	},
 	{
-		id : 6,
+		pack : 3,
 		group : 'Тату',
 		song : "Нас не догонят"
 	},
 	{
+		pack : 3,
 		group : 'Тату',
 		song : "Я сошла с ума"
 	},
 	{
-		id : 15,
+		pack : 3,
 		group : 'Любовные Истории',
 		song : "Школа"
 	},
 	{
-		id : 16,
+		pack : 3,
 		group : 'Подиум',
 		song : "Танцуй, пока молодая"
 	},
 	{
-		id : 17,
+		pack : 3,
 		group : 'Тотал',
 		song : "Бьет по глазам"
 	},
 	{
+		pack : 3,
 		group : 'Тутси',
 		song : "Самый-самый"
 	},
 	{
+		pack : 3,
 		group : 'Город 312',
 		song : "Останусь"
 	},
 	{
+		pack : 3,
 		group : 'Город 312',
 		song : "Вне зоны доступа"
 	},
 	{
+		pack : 3,
 		group : 'Тату',
 		song : "All about us"
 	},
 	{
+		pack : 3,
 		group : 'Fleur',
 		song : "Отречение"
 	},
 	{
+		pack : 3,
 		group : 'Горячий шоколад',
 		song : "Береги"
 	},
 	{
+		pack : 3,
 		group : 'ВИА «Сливки»',
 		song : "Самая лучшая (ft Анжелика Варум)"
 	},
 	{
+		pack : 3,
 		group : 'ВИА «Сливки»',
 		song : "Иногда"
 	},
 	{
+		pack : 3,
 		group : 'ВИА «Сливки»',
 		song : "Летели недели"
 	},
 	{
+		pack : 3,
 		group : 'Ранетки',
 		song : "Ангелы"
 	},
 	{
+		pack : 3,
 		group : 'Ранетки',
 		song : "Это все о ней"
 	},
 	{
+		pack : 3,
 		group : 'Гости из будущего',
 		song : "Грустные сказки"
 	},
 	{
+		pack : 3,
 		group : 'Гости из будущего',
 		song : "Зима в сердце"
 	},
 	{
+		pack : 3,
 		group : 'Гости из будущего',
 		song : "Метко"
 	},
 	{
+		pack : 3,
 		group : 'Гости из будущего',
 		song : "Почему ты"
 	},
 	{
+		pack : 3,
 		group : 'Чили',
 		song : "Лето"
 	},
 	{
+		pack : 3,
 		group : 'Чили',
 		song : "Сердце"
 	},
 	{
+		pack : 3,
 		group : 'Вельвет',
 		song : "Прости"
 	},
 	{
+		pack : 3,
 		group : 'Инфинити',
 		song : "Слезы вода"
 	},
 	{
+		pack : 3,
 		group : "Банд’Эрос",
 		song : "Наоми я бы Кэмпбел"
 	},
 	{
+		pack : 3,
 		group : "Банд’Эрос",
 		song : "Про красивую жизнь"
 	},
 	{
+		pack : 3,
 		group : "Банд’Эрос",
 		song : "Манхэттен"
 	},
 	{
+		pack : 3,
 		group : "Банд’Эрос",
 		song : "Адьос"
 	},
 	{
+		pack : 3,
 		group : "Банд’Эрос",
 		song : "Синьорита"
 	},
 	{
+		pack : 3,
 		group : "Банд’Эрос",
 		song : "Не зарекайся"
 	},
 	{
+		pack : 3,
 		group : "Банд’Эрос",
 		song : "Коламбия Пикчерз не представляет"
 	},
 	{
+		pack : 3,
 		group : "Банд’Эрос",
 		song : "Полосы"
 	},
 	{
+		pack : 3,
 		group : "Банд’Эрос",
 		song : "Не вспоминай"
 	},
 	{
+		pack : 3,
 		group : "Банд’Эрос",
 		song : "До весны"
 	},
 	{
+		pack : 3,
 		group : "Банд’Эрос",
 		song : "Не под этим солнцем"
 	},
 	{
+		pack : 3,
 		group : "А-Студио",
 		song : "Улетаю"
 	},
 	{
+		pack : 3,
 		group : "А-Студио",
 		song : "S.O.S."
 	},
 	{
+		pack : 3,
 		group : "А-Студио",
 		song : "Две половинки"
 	},
 	{
+		pack : 3,
 		group : "А-Студио",
 		song : "Ещё люблю"
 	},
 	{
+		pack : 3,
 		group : "Потап и Настя",
 		song : "Непара"
 	},
 	{
+		pack : 3,
 		group : "Потап и Настя",
 		song : "Почему молчишь"
 	},
 	{
+		pack : 3,
 		group : "Потап и Настя",
 		song : "Новый год"
-	}
-];
-
-let ru_2000_gr_4 = [
+	},
 	{
+		pack : 4,
 		group : 'Би-2',
 		song : "Серебро"
 	},
 	{
-		id : 2,
+		pack : 4,
 		group : 'Неприкасаемые',
 		song : "Моя бабушка курит трубку"
 	},
 	{
-		id : 3,
+		pack : 4,
 		group : 'Ленинград',
 		song : "Мне бы в небо"
 	},
 	{
-		id : 4,
+		pack : 4,
 		group : 'Земфира',
 		song : "До свиданья"
 	},
 	{
+		pack : 4,
 		group : 'Мумий Тролль',
 		song : "Невеста"
 	},
 	{
+		pack : 4,
 		group : 'Танцы минус',
 		song : "Половинка"
 	},
 	{
+		pack : 4,
 		group : 'Сплин',
 		song : "Моё сердце"
 	},
 	{
-		id : 8,
+		pack : 4,
 		group : 'Смысловые Галлюцинации',
 		song : "Вечно молодой"
 	},
 	{
+		pack : 4,
 		group : 'Чичерина',
 		song : "Ту-лу-ла"
 	},
 	{
-		id : 10,
+		pack : 4,
 		group : 'Кукрыниксы',
 		song : "По раскрашенной душе"
 	},
 	{
+		pack : 4,
 		group : 'Ляпис Трубецкой',
 		song : "Сочи"
 	},
 	{
-		id : 12,
+		pack : 4,
 		group : 'Пикник',
 		song : "Фиолетово-чёрный"
 	},
 	{
-		id : 13,
+		pack : 4,
 		group : 'Агата Кристи',
 		song : "Секрет"
 	},
 	{
+		pack : 4,
 		group : 'Алиса',
 		song : "Веретено"
 	},
 	{
-		id : 15,
+		pack : 4,
 		group : 'ДДТ',
 		song : "Новое сердце"
 	},
 	{
-		id : 16,
+		pack : 4,
 		group : 'Чайф',
 		song : "Время не ждёт"
 	},
 	{
-		id : 17,
+		pack : 4,
 		group : 'Крематорий',
 		song : "Катманду"
 	},
 	{
-		id : 18,
+		pack : 4,
 		group : 'Ю-питер',
 		song : "Девушка по городу"
 	},
 	{
-		id : 19,
+		pack : 4,
 		group : 'Пилот',
 		song : "Тюрьма"
 	},
 	{
-		id : 20,
+		pack : 4,
 		group : 'Тараканы',
 		song : "Я смотрю на них"
 	},
 	{
-		id : 21,
+		pack : 4,
 		group : 'Наив',
 		song : "Суперзвезда"
 	},
 	{
-		id : 22,
+		pack : 4,
 		group : 'Кирпичи',
 		song : "Данила Блюз"
 	},
 	{
-		id : 23,
+		pack : 4,
 		group : 'Мельница',
 		song : "Ночная Кобыла"
 	},
 	{
-		id : 24,
+		pack : 4,
 		group : 'Ночные снайперы',
 		song : "Катастрофически"
 	},
 	{
-		id : 25,
+		pack : 4,
 		group : 'Сурганова и Оркестр',
 		song : "Мураками"
 	},
 	{
-		id : 26,
+		pack : 4,
 		group : 'Чичерина',
 		song : "Жара"
 	},
 	{
-		id : 28,
+		pack : 4,
 		group : 'Маша и медведи',
 		song : "Земля"
 	},
 	{
-		id : 29,
+		pack : 4,
 		group : 'Юта',
 		song : "Хмель и солод"
 	},
 	{
-		id : 30,
+		pack : 4,
 		group : 'Zdob si Zdub',
 		song : "Видели ночь"
 	},
 	{
-		id : 31,
+		pack : 4,
 		group : 'Ундервуд',
 		song : "Гагарин, я вас любила"
 	},
 	{
+		pack : 4,
 		group : 'МультFильмы',
 		song : "Яды"
 	},
 	{
-		id : 33,
+		pack : 4,
 		group : '7Б',
 		song : "Молодые ветра"
 	},
 	{
-		id : 34,
+		pack : 4,
 		group : 'Animal ДжаZ',
 		song : "Три полоски"
 	},
 	{
-		id : 35,
+		pack : 4,
 		group : 'Воплi вiдоплясова',
 		song : "День нароDjення"
 	},
 	{
-		id : 36,
+		pack : 4,
 		group : 'Lumen',
 		song : "Сид и Нэнси"
 	},
 	{
-		id : 37,
+		pack : 4,
 		group : 'Мертвые дельфины',
 		song : "На моей луне"
 	},
 	{
-		id : 38,
+		pack : 4,
 		group : 'Amatory',
 		song : "Дыши со мной"
 	},
 	{
-		id : 39,
+		pack : 4,
 		group : 'Слот',
 		song : "2 войны"
 	},
 	{
-		id : 40,
+		pack : 4,
 		group : 'Catharsis',
 		song : "Крылья"
 	},
 	{
-		id : 41,
+		pack : 4,
 		group : 'Элизиум',
 		song : "Острова"
 	},
 	{
+		pack : 4,
 		group : 'Мумий Тролль',
 		song : "Владивосток 2000"
 	},
 	{
+		pack : 4,
 		group : 'Мумий Тролль',
 		song : "Такие девчонки"
 	},
 	{
+		pack : 4,
 		group : 'Мумий Тролль',
 		song : "Контрабанды"
 	},
 	{
+		pack : 4,
 		group : 'Алиса',
 		song : "Пересмотри"
 	},
 	{
+		pack : 4,
 		group : 'Танцы минус',
 		song : "Ю"
 	},
 	{
+		pack : 4,
 		group : 'Король и Шут',
 		song : "В Париж — домой"
 	},
 	{
+		pack : 4,
 		group : 'Король и Шут',
 		song : "MTV"
 	},
 	{
+		pack : 4,
 		group : 'Би-2',
 		song : "Варвара"
 	},
 	{
+		pack : 4,
 		group : 'Би-2',
 		song : "Полковнику никто не пишет"
 	},
 	{
+		pack : 4,
 		group : 'Би-2',
 		song : "Моя любовь"
 	},
 	{
+		pack : 4,
 		group : 'Сплин',
 		song : "Весь этот бред"
 	},
 	{
+		pack : 4,
 		group : 'Чайф',
 		song : "Нахреноза"
 	},
 	{
+		pack : 4,
 		group : 'Смысловые Галлюцинации',
 		song : "Зачем топтать мою любовь"
 	},
 	{
+		pack : 4,
 		group : 'Смысловые Галлюцинации',
 		song : "Полюса"
 	},
 	{
+		pack : 4,
 		group : 'МультFильмы',
 		song : "За нами следят"
 	},
 	{
+		pack : 4,
 		group : 'МультFильмы',
 		song : "Магнитофон"
 	},
 	{
+		pack : 4,
 		group : 'МультFильмы',
 		song : "Пистолет"
 	},
 	{
+		pack : 4,
 		group : 'Земфира',
 		song : "Хочешь?"
 	},
 	{
+		pack : 4,
 		group : 'Земфира',
 		song : "Кто?"
 	},
 	{
+		pack : 4,
 		group : 'Ляпис Трубецкой',
 		song : "Капитал"
 	},
 	{
+		pack : 4,
 		group : "Театр Теней",
 		song : "Дорога всех ветров"
 	},
 	{
+		pack : 4,
 		group : "Stigmata",
 		song : "Сентябрь"
 	},
 	{
+		pack : 4,
 		group : "Океан Эльзы",
 		song : "Без бою"
 	},
 	{
+		pack : 4,
 		group : "Ва-Банкъ",
 		song : "Украла"
 	}
 ];
 
+let ru_2000_gr_1 =	ru_2000_gr.filter(item => item.pack == 1);
+let ru_2000_gr_2 =	ru_2000_gr.filter(item => item.pack == 2);
+let ru_2000_gr_3 =	ru_2000_gr.filter(item => item.pack == 3);
+let ru_2000_gr_4 =	ru_2000_gr.filter(item => item.pack == 4);
+
 let ru_2000_m = [
 	{
+		pack : 1,
 		group : 'Стас Пьеха',
 		song : "Одна звезда"
 	},
 	{
+		pack : 1,
 		group : 'Дима Билан',
 		song : "На берегу неба"
 	},
 	{
+		pack : 1,
 		group : 'Валерий Кипелов',
 		song : "Я свободен"
 	},
 	{
+		pack : 1,
 		group : 'Иракли',
 		song : "Лондон-Париж"
 	},
 	{
+		pack : 1,
 		group : 'Вячеслав Бутусов',
 		song : "Девушка по городу"
 	},
 	{
+		pack : 1,
 		group : 'Николай Расторгуев',
 		song : "Берёзы (ft Сергей Безруков)"
 	},
 	{
+		pack : 1,
 		group : 'Андрей Губин',
 		song : "Такие девушки как звезды"
 	},
 	{
+		pack : 1,
 		group : 'Андрей Губин',
 		song : "Танцы"
 	},
 	{
+		pack : 1,
 		group : 'Валерий Меладзе',
 		song : "Параллельные"
 	},
 	{
+		pack : 1,
 		group : 'Дима Билан',
 		song : "Невозможное возможно"
 	},
 	{
+		pack : 1,
 		group : 'Дима Билан',
 		song : "Мулатка"
 	},
 	{
+		pack : 1,
 		group : 'Филипп Киркоров',
 		song : "Просто подари"
 	},
 	{
+		pack : 1,
 		group : 'Валерий Леонтьев',
 		song : "Августин"
 	},
 	{
+		pack : 1,
 		group : 'Влад Топалов',
 		song : "За любовь твою"
 	},
 	{
+		pack : 1,
 		group : 'Александр Маршал',
 		song : "Белый пепел"
 	},
 	{
+		pack : 1,
 		group : 'Игорь Корнелюк',
 		song : "Город, которого нет"
 	},
 	{
+		pack : 1,
 		group : 'Григорий Лепс',
 		song : "Рюмка водки"
 	},
 	{
+		pack : 1,
 		group : 'Григорий Лепс',
 		song : "Водопадом"
 	},
 	{
+		pack : 1,
 		group : 'Данко',
 		song : "Малыш"
 	},
 	{
+		pack : 1,
 		group : 'Иракли',
 		song : "Капли абсента"
 	},
 	{
+		pack : 1,
 		group : 'Игорёк и ЭНДИ',
 		song : "Грачи"
 	},
 	{
+		pack : 1,
 		group : 'Александр Буйнов',
 		song : "Песня о Настоящей Любви"
 	},
 	{
+		pack : 1,
 		group : 'Стас Пьеха',
 		song : "На ладони линия"
 	},
 	{
+		pack : 1,
 		group : 'Сергей Трофимов',
 		song : "Город в пробках"
 	},
 	{
+		pack : 1,
 		group : 'Денис Майданов',
 		song : "Вечная любовь"
 	},
 	{
+		pack : 1,
 		group : 'Владимир Кузьмин',
 		song : "Зачем уходишь ты?"
 	},
 	{
+		pack : 1,
 		group : 'Шура',
 		song : "Осень пришла"
 	},
 	{
+		pack : 1,
 		group : 'Леонид Агутин',
 		song : "Граница (ft Отпетые мошенники)"
 	},
 	{
+		pack : 1,
 		group : 'Леонид Агутин',
 		song : "Аэропорты (ft Владимир Пресняков)"
 	},
 	{
+		pack : 1,
 		group : 'Аркадиас',
 		song : "Художник"
 	},
 	{
+		pack : 1,
 		group : 'Абдулла',
 		song : "Губки не целованы"
 	},
 	{
+		pack : 1,
 		group : 'Mr Credo',
 		song : "Чудная долина"
 	},
 	{
+		pack : 1,
 		group : 'Эд Шульжевский',
 		song : "My Baby"
 	},
 	{
+		pack : 1,
 		group : 'Андрей Алексин',
 		song : "Страшная"
 	},
 	{
+		pack : 1,
 		group : 'Тимати',
 		song : "Не сходи с ума"
 	},
 	{
+		pack : 1,
 		group : 'DJ SMASH',
 		song : "Moscow Never Sleeps"
 	},
 	{
+		pack : 1,
 		group : 'DJ Дождик',
 		song : "Почему же"
 	},
 	{
+		pack : 1,
 		group : 'Noise MC',
 		song : "За Закрытой Дверью"
 	},
 	{
+		pack : 1,
 		group : 'Серёга',
 		song : "Черный бумер"
 	},
 	{
+		pack : 1,
 		group : 'Серёга',
 		song : "Возле дома твоего"
 	},
 	{
+		pack : 1,
 		group : 'Серёга',
 		song : "Кружим по району"
 	},
 	{
+		pack : 1,
 		group : 'Лигалайз',
 		song : "Ностальгия (ft Lg)"
 	},
 	{
+		pack : 1,
 		group : 'Лигалайз',
 		song : "Джаная (ft Dato)"
 	},
 	{
+		pack : 1,
 		group : 'Лигалайз',
 		song : "Я Хочу Быть С Тобой (ft Бархат)"
 	},
 	{
+		pack : 1,
 		group : 'Лигалайз',
 		song : "Моя Москва"
 	},
 	{
+		pack : 1,
 		group : 'Юрий Шатунов',
 		song : "Забудь"
 	},
 	{
+		pack : 1,
 		group : 'Баста',
 		song : "Моя игра"
 	},
 	{
+		pack : 1,
 		group : 'Юрий Титов',
 		song : "Понарошку"
 	},
 	{
+		pack : 1,
 		group : 'Сергей Зверев',
 		song : "Алла"
 	},
 	{
+		pack : 1,
 		group : 'Джанго',
 		song : "Холодная весна"
 	},
 	{
+		pack : 1,
 		group : 'Никита',
 		song : "Верёвки"
 	},
 	{
+		pack : 1,
 		group : 'Айдамир Мугу',
 		song : "Чёрные Глаза"
 	},
 	{
+		pack : 1,
 		group : 'Паскаль',
 		song : "Шёлковое Сердце"
 	},
 	{
+		pack : 1,
 		group : 'Дмитрий Колдун',
 		song : "Я для тебя"
 	},
 	{
+		pack : 1,
 		group : 'Дмитрий Колдун',
 		song : "Звезда"
 	},
 	{
+		pack : 1,
 		group : 'Дмитрий Колдун',
 		song : "Настройся на меня"
 	}
 ];
 
-let ru_2000_f_1 = [
+let ru_2000_m_1 =	ru_2000_m.filter(item => item.pack == 1);
+
+let ru_2000_f = [
 	{
+		pack : 1,
 		group : 'Надежда Кадышева',
 		song : "Широка река (ft. Антон Зацепин)"
 	},
 	{
+		pack : 1,
 		group : 'Кристина Орбакайте',
 		song : "Губки бантиком"
 	},
 	{
+		pack : 1,
 		group : 'Ирина Дубцова',
 		song : "О нём"
 	},
 	{
+		pack : 1,
 		group : 'Верка Сердючка',
 		song : "Жениха хотела (ft. Глюк'oZa)"
 	},
 	{
+		pack : 1,
 		group : 'Мика Ньютон',
 		song : "Белые лошади"
 	},
 	{
+		pack : 1,
 		group : 'Жанна Фриске',
 		song : "Малинки (ft Дискотека Авария)"
 	},
 	{
+		pack : 1,
 		group : 'Жанна Фриске',
 		song : "Ла-ла-ла"
 	},
 	{
+		pack : 1,
 		group : 'Жанна Фриске',
 		song : "А на море белый песок"
 	},
 	{
+		pack : 1,
 		group : 'Жанна Фриске',
 		song : "Я была"
 	},
 	{
+		pack : 1,
 		group : 'Жасмин',
 		song : "Головоломка"
 	},
 	{
+		pack : 1,
 		group : 'Жасмин',
 		song : "Дольче вита"
 	},
 	{
+		pack : 1,
 		group : 'Мара',
 		song : "Холодным мужчинам"
 	},
 	{
+		pack : 1,
 		group : 'Блондинка Ксю',
 		song : "Вместо жизни"
 	},
 	{
+		pack : 1,
 		group : 'Вика Дайнеко',
 		song : "Я просто сразу от тебя уйду"
 	},
 	{
+		pack : 1,
 		group : 'Вика Дайнеко',
 		song : "Лейла"
 	},
 	{
+		pack : 1,
 		group : 'Вика Дайнеко',
 		song : "Клякса"
 	},
 	{
+		pack : 1,
 		group : 'Катя Лель',
 		song : "Мой мармеладный"
 	},
 	{
+		pack : 1,
 		group : 'Катя Лель',
 		song : "Долетай"
 	},
 	{
+		pack : 1,
 		group : 'Катя Лель',
 		song : "Муси-пуси"
 	},
 	{
+		pack : 1,
 		group : 'Слава',
 		song : "Попутчица"
 	},
 	{
+		pack : 1,
 		group : 'Юлия Савичева',
 		song : "Если в сердце живет любовь"
 	},
 	{
+		pack : 1,
 		group : 'Юлия Савичева',
 		song : "Привет"
 	},
 	{
+		pack : 1,
 		group : 'Нюша',
 		song : "Вою на луну"
 	},
 	{
+		pack : 1,
 		group : 'Ирина Дубцова',
 		song : "Как ты там"
 	},
 	{
+		pack : 1,
 		group : 'Ани Лорак',
 		song : "Солнце"
 	},
 	{
+		pack : 1,
 		group : 'Юлианна Караулова',
 		song : "Я попала в сети"
 	},
 	{
+		pack : 1,
 		group : 'Юлианна Караулова',
 		song : "Я кину джокер на стол"
 	},
 	{
+		pack : 1,
 		group : 'Настя Задорожная',
 		song : "Буду"
 	},
 	{
+		pack : 1,
 		group : 'Елена Терлеева',
 		song : "Солнце"
 	},
 	{
+		pack : 1,
 		group : 'Татьяна Буланова',
 		song : "Мой сон (ft DJ Цветкоff)"
 	},
 	{
+		pack : 1,
 		group : 'Кристина Орбакайте',
 		song : "Перелётная птица"
 	},
 	{
+		pack : 1,
 		group : 'Кристина Орбакайте',
 		song : "Просто любить тебя (ft Авраам Руссо)"
 	},
 	{
+		pack : 1,
 		group : 'Кристина Орбакайте',
 		song : "Да-ди-дам"
 	},
 	{
+		pack : 1,
 		group : 'Кристина Орбакайте',
 		song : "Свет твоей любви"
 	},
 	{
+		pack : 1,
 		group : 'Ирина Тонева',
 		song : "Понимаешь (ft Павел Артемьев)"
 	},
 	{
+		pack : 1,
 		group : 'Зара',
 		song : "Недолюбила"
 	},
 	{
+		pack : 1,
 		group : 'Евгения Отрадная',
 		song : "Зачем Любовь"
 	},
 	{
+		pack : 1,
 		group : 'Евгения Отрадная',
 		song : "Уходи и дверь закрой"
 	},
 	{
+		pack : 1,
 		group : 'Алла Пугачёва',
 		song : "Опять Метель"
 	},
 	{
+		pack : 1,
 		group : 'Елена Ваенга',
 		song : "Курю"
 	},
 	{
+		pack : 1,
 		group : 'Лариса Черникова',
 		song : "Тебя я ждала"
 	},
 	{
+		pack : 1,
 		group : 'Дайкири',
 		song : "Любишь - таешь"
 	},
 	{
+		pack : 1,
 		group : 'Наталья Ветлицкая',
 		song : "Изучай Меня"
 	},
 	{
+		pack : 1,
 		group : 'Наталья Ветлицкая',
 		song : "Половинки"
 	},
 	{
+		pack : 1,
 		group : 'Анжелика Варум',
 		song : "Не жди меня"
 	},
 	{
+		pack : 1,
 		group : 'Анжелика Варум',
 		song : "Стоп, любопытство"
 	},
 	{
+		pack : 1,
 		group : 'Алена Иванцова',
 		song : "Все пройдет"
 	},
 	{
+		pack : 1,
 		group : 'Катя Чехова',
 		song : "Я — робот"
 	},
 	{
+		pack : 1,
 		group : 'МакSим',
 		song : "Сон"
 	},
 	{
+		pack : 1,
 		group : 'МакSим',
 		song : "Знаешь ли ты"
 	},
 	{
+		pack : 1,
 		group : 'МакSим',
 		song : "Небо засыпай (ft Лигалайз)"
 	},
 	{
+		pack : 1,
 		group : 'Акула',
 		song : "Мало"
 	},
 	{
+		pack : 1,
 		group : 'Акула',
 		song : "Кислотный DJ"
 	},
 	{
+		pack : 1,
 		group : 'Света',
 		song : "Твои глаза"
 	},
 	{
+		pack : 1,
 		group : 'Полина Гагарина',
 		song : "Колыбельная"
 	},
 	{
+		pack : 1,
 		group : 'Полина Гагарина',
 		song : "Кому, зачем? (ft Ирина Дубцова)"
 	},
 	{
+		pack : 1,
 		group : 'Полина Гагарина',
 		song : "Любовь под солнцем"
 	},
 	{
+		pack : 1,
 		group : 'Полина Гагарина',
 		song : "Я тебя не прощу никогда"
 	},
 	{
+		pack : 1,
 		group : 'Полина Гагарина',
 		song : "Я твоя"
 	},
 	{
+		pack : 1,
 		group : 'Анна Семенович',
 		song : "На моря (ft Arash)"
 	},
 	{
+		pack : 1,
 		group : 'Бьянка',
 		song : "Про лето"
 	},
 	{
+		pack : 1,
 		group : 'Бьянка',
 		song : "Несчастливая любовь"
 	},
 	{
+		pack : 1,
 		group : 'Бьянка',
 		song : "Были танцы"
 	},
 	{
+		pack : 1,
 		group : 'Лера Массква',
 		song : "7 этаж"
 	},
 	{
+		pack : 1,
 		group : 'Мария Ржевская',
 		song : "Когда я стану кошкой"
 	},
 	{
+		pack : 1,
 		group : 'Линда',
 		song : "Цепи и кольца"
 	},
 	{
+		pack : 1,
 		group : 'Мара',
 		song : "Самолеты"
 	},
 	{
+		pack : 1,
 		group : 'Мара',
 		song : "Дельфины"
 	},
 	{
+		pack : 1,
 		group : 'Мара',
 		song : "Целуя сердце"
 	},
 	{
+		pack : 1,
 		group : "Глюк'oZa",
 		song : "Танцуй, Россия!!!"
 	},
 	{
+		pack : 1,
 		group : "Глюк'oZa",
 		song : "Снег идёт"
 	},
 	{
+		pack : 1,
 		group : "Глюк'oZa",
 		song : "Невеста"
-	}
-];
-
-let ru_2000_f_2 = [
+	},
 	{
+		pack : 2,
 		group : 'Саша',
 		song : "Не получилось, не срослось"
 	},
 	{
+		pack : 2,
 		group : 'Саша',
 		song : "За туманом"
 	},
 	{
+		pack : 2,
 		group : 'Саша Project',
 		song : "Говорила мама"
 	},
 	{
+		pack : 2,
 		group : 'Саша Project',
 		song : "Очень Нужен Ты"
 	},
 	{
+		pack : 2,
 		group : 'Алекса',
 		song : "Где же ты"
 	},
 	{
+		pack : 2,
 		group : 'Алекса',
 		song : "Лунная Тропа"
 	},
 	{
+		pack : 2,
 		group : 'Алекса',
 		song : "Я живу тобой"
 	},
 	{
+		pack : 2,
 		group : 'Алекса',
 		song : "Когда ты рядом (ft Тимати)"
 	},
 	{
+		pack : 2,
 		group : 'Рита Дакота',
 		song : "Спички"
 	},
 	{
+		pack : 2,
 		group : 'Ангина',
 		song : "Болела"
 	},
 	{
+		pack : 2,
 		group : 'Ангина',
 		song : "Кому какое дело"
 	},
 	{
+		pack : 2,
 		group : 'Алёна Свиридова',
 		song : '17 лет'
 	},
 	{
+		pack : 2,
 		group : 'Алёна Свиридова',
 		song : 'Самба прошедшей любви'
 	},
 	{
+		pack : 2,
 		group : 'Алёна Свиридова',
 		song : 'Шу-би-ду'
 	},
 	{
+		pack : 2,
 		group : 'Алёна Свиридова',
 		song : 'Не дам скучать'
 	},
 	{
+		pack : 2,
 		group : 'Наталья Подольская',
 		song : 'Nobody Hurt No One'
 	},
 	{
+		pack : 2,
 		group : 'Наталья Подольская',
 		song : 'Поздно'
 	},
 	{
+		pack : 2,
 		group : 'Наталья Подольская',
 		song : 'Одна'
 	}
 ];
+
+let ru_2000_f_1 =	ru_2000_f.filter(item => item.pack == 1);
+let ru_2000_f_2 =	ru_2000_f.filter(item => item.pack == 2);
 
 let ru_2007 = [
 	{
@@ -18794,7 +17221,7 @@ function show_packages(num){
 function package_num(num){
 	back = back_to_packages;
 	$('.package').hide();
-	if(year == '1990'){
+	if(year == '1990' || year == '2000'){
 		setPathsByPack(num);
 	} else {
 		setPaths(artist_type, num, genre);
