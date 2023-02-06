@@ -13943,6 +13943,7 @@ let ru_2000_m = [
 ];
 
 let ru_2000_m_1 =	ru_2000_m.filter(item => item.pack == 1);
+let ru_2000_m_2 =	ru_2000_m.filter(item => item.pack == 2);
 
 let ru_2000_f = [
 	{
@@ -17018,45 +17019,351 @@ function show_chart(){
 	} 
 }
 
-let songs_for_mapping = [en_1990_gr_1, en_1990_gr_2];
-let packs_for_mapping = ['EN 1990s Rock Medium', 'EN 1990s Rock Hard'];
-// let songs_for_mapping = [en_1990_gr, en_1990_m, en_1990_f, ru_1990_gr, ru_1990_m, ru_1990_f,
-						 // en_2000_gr, en_2000_m, en_2000_f, ru_2000_gr, ru_2000_m, ru_2000_f];
+let music = [
+	{
+		arr: en_1990_gr,
+		lang: 'en',
+		year: '1990',
+		type: 'gr',
+		packs: [
+				{
+					arr: en_1990_gr_1,
+					name: 'EN 1990s Groups: Rock Medium',
+				},
+				{
+					arr: en_1990_gr_2,
+					name: 'EN 1990s Groups: Rock Hard',
+				},
+				{
+					arr: en_1990_gr_3,
+					name: 'EN 1990s Groups: Pop Medium',
+				},
+				{
+					arr: en_1990_gr_4,
+					name: 'EN 1990s Groups: Pop Hard',
+				},
+				{
+					arr: en_1990_gr_5,
+					name: "EN 1990s Groups: Women's Vocals",
+				},
+				{
+					arr: en_1990_gr_6,
+					name: 'EN 1990s Groups: Eurodance',
+				}
+			]
+	},
+	{
+		arr: en_1990_m,
+		lang: 'en',
+		year: '1990',
+		type: 'm',
+		packs: [
+				{
+					arr: en_1990_m_1,
+					name: 'EN 1990s Male: Easy',
+				},
+				{
+					arr: en_1990_m_2,
+					name: 'EN 1990s Male: Medium',
+				},
+				{
+					arr: en_1990_m_3,
+					name: 'EN 1990s Male: Hard',
+				}
+			]
+	},
+	{
+		arr: en_1990_f,
+		lang: 'en',
+		year: '1990',
+		type: 'f',
+		packs: [
+				{
+					arr: en_1990_f_1,
+					name: 'EN 1990s Female: Many Songs',
+				},
+				{
+					arr: en_1990_f_2,
+					name: 'EN 1990s Female: Few Songs',
+				}
+			]
+	},
+	{
+		arr: ru_1990_gr,
+		lang: 'ru',
+		year: '1990',
+		type: 'gr',
+		packs: [
+				{
+					arr: ru_1990_gr_1,
+					name: 'RU 1990s Groups: Pop Men',
+				},
+				{
+					arr: ru_1990_gr_2,
+					name: 'RU 1990s Groups: Pop Women',
+				},
+				{
+					arr: ru_1990_gr_3,
+					name: 'RU 1990s Groups: Rock#1',
+				},
+				{
+					arr: ru_1990_gr_4,
+					name: 'RU 1990s Groups: Rock#2',
+				}
+			]
+	},
+	{
+		arr: ru_1990_m,
+		lang: 'ru',
+		year: '1990',
+		type: 'm',
+		packs: [
+				{
+					arr: ru_1990_m_1,
+					name: 'RU 1990s Male: Easy',
+				},
+				{
+					arr: ru_1990_m_2,
+					name: 'RU 1990s Male: Medium',
+				},
+				{
+					arr: ru_1990_m_3,
+					name: 'RU 1990s Male: Hard',
+				}
+			]
+	},
+	{
+		arr: ru_1990_f,
+		lang: 'ru',
+		year: '1990',
+		type: 'f',
+		packs: [
+				{
+					arr: ru_1990_f_1,
+					name: 'RU 1990s Female: Easy',
+				},
+				{
+					arr: ru_1990_f_2,
+					name: 'RU 1990s Female: Medium',
+				},
+				{
+					arr: ru_1990_f_3,
+					name: 'RU 1990s Female: Hard',
+				}
+			]
+	},
+	{
+		arr: en_2000_gr,
+		lang: 'en',
+		year: '2000',
+		type: 'gr',
+		packs: [
+				{
+					arr: en_2000_gr_1,
+					name: 'EN 1990s Groups: Rock#1',
+				},
+				{
+					arr: en_2000_gr_2,
+					name: 'EN 2000s Groups: Rock#2',
+				},
+				{
+					arr: en_2000_gr_3,
+					name: 'EN 2000s Groups: Rock Hard',
+				},
+				{
+					arr: en_2000_gr_4,
+					name: "EN 2000s Groups: Women's Vocals",
+				},
+				{
+					arr: en_2000_gr_5,
+					name: "EN 2000s Groups: Pop Medium",
+				},
+				{
+					arr: en_2000_gr_6,
+					name: 'EN 2000s Groups: Pop Hard',
+				}
+			]
+	},
+	{
+		arr: en_2000_m,
+		lang: 'en',
+		year: '2000',
+		type: 'm',
+		packs: [
+				{
+					arr: en_2000_m_1,
+					name: 'EN 2000s Male: Pop',
+				},
+				{
+					arr: en_2000_m_2,
+					name: 'EN 2000s Male: Dj',
+				},
+				{
+					arr: en_2000_m_3,
+					name: 'EN 2000s Male: Rap',
+				}
+			]
+	},
+	{
+		arr: en_2000_f,
+		lang: 'en',
+		year: '2000',
+		type: 'f',
+		packs: [
+				{
+					arr: en_2000_f_1,
+					name: 'EN 2000s Female: Easy',
+				},
+				{
+					arr: en_2000_f_2,
+					name: 'EN 2000s Female: Medium',
+				},
+				{
+					arr: en_2000_f_3,
+					name: 'EN 2000s Female: RnB',
+				}
+			]
+	},
+	{
+		arr: ru_2000_gr,
+		lang: 'ru',
+		year: '2000',
+		type: 'gr',
+		packs: [
+				{
+					arr: ru_2000_gr_1,
+					name: 'RU 2000s Groups: Pop Men',
+				},
+				{
+					arr: ru_2000_gr_2,
+					name: 'RU 2000s Groups: Pop Women Medium#1',
+				},
+				{
+					arr: ru_2000_gr_3,
+					name: 'RU 2000s Groups: Pop Women Medium#2',
+				},
+				{
+					arr: ru_2000_gr_4,
+					name: 'RU 2000s Groups: Rock',
+				}
+			]
+	},
+	{
+		arr: ru_2000_m,
+		lang: 'ru',
+		year: '2000',
+		type: 'm',
+		packs: [
+				{
+					arr: ru_2000_m_1,
+					name: 'RU 2000s Male: Easy',
+				},
+				{
+					arr: ru_2000_m_2,
+					name: 'RU 2000s Male: Medium',
+				}
+			]
+	},
+	{
+		arr: ru_2000_f,
+		lang: 'ru',
+		year: '2000',
+		type: 'f',
+		packs: [
+				{
+					arr: ru_2000_f_1,
+					name: 'RU 2000s Female: Medium',
+				},
+				{
+					arr: ru_2000_f_2,
+					name: 'RU 2000s Female: Hard',
+				}
+			]
+	}
+]
 
 let songs_to_map;
-
+let mapping_result;
 function map_songs(){
-	/* $('#ru').hide();
+	$('#ru').hide();
 	$('#en').hide();
 	$('#mirror').hide();
 	let h1_start = `<h1>`;
 	let h1_end = `</h1>`;
+	let div_mapped_pack = `<div id='mapped_pack' />`;
 	let br = `<br/>`;
-	for(var i=0; i < songs_for_mapping.length; i++){
-		// songs_for_mapping[i] = 
-		// generateSongIdsWithPrefix(arr, Object.keys({songs_for_mapping[i]})[0] + '_');
-		console.log(Object.keys(songs_for_mapping[i])[0]);
+	let hr = `<hr/>`;
+	let space = '&nbsp;';
+	let img_start = `<img id='btn_`;
+	let img_1 = `' class="pointer onhover `;
+	let img_2 = `" width="100" height="100" src="img/chart/`
+	let img_3 = `.png" onclick="showMapping(`;
+	let img_end = `)" />`;
+	for(var j=0; j < music.length; j++){
+		music[j].arr = generateSongIdsWithPrefix(music[j].arr, music[j].lang, 
+												music[j].year, music[j].type);
 	}
-	let result;
-	let period;
-	for(var i=0; i < songs_for_mapping.length; i++){
-		period = Object.keys({en_1990_gr})[0].replaceAll('_', '/') + '/';
-		result = h1_start + packs_for_mapping[i] + h1_end + br;
-		result += map_songs_format(songs_for_mapping[i],
-				'audio/' + period, 'img/' + period);
-	}
-	$('#package_content').html(result);
-	$('#package_content').show(); */
+	mapping_result = h1_start 
+				+ '1990s EN' + space
+				+ img_start + 'en_1990_gr' + img_1 + 'gr' + img_2 + 'gr' + img_3 + 0 + ", 'en_1990_gr', 'gr'" + img_end
+				+ img_start + 'en_1990_m' + img_1 + 'm' + img_2 + 'm' + img_3 + 1 + ", 'en_1990_m', 'm'" + img_end
+				+ img_start + 'en_1990_f' + img_1 + 'f' + img_2 + 'f' + img_3 + 2 + ", 'en_1990_f', 'f'" + img_end + space
+				+ '2000s EN' + space
+				+ img_start + 'en_2000_gr' + img_1 + 'gr' + img_2 + 'gr' + img_3 + 6 + ", 'en_2000_gr', 'gr'" + img_end
+				+ img_start + 'en_2000_m' + img_1 + 'm' + img_2 + 'm' + img_3 + 7 + ", 'en_2000_m', 'm'" + img_end
+				+ img_start + 'en_2000_f' + img_1 + 'f' + img_2 + 'f' + img_3 + 8 + ", 'en_2000_f', 'f'" + img_end
+				+ '1990s RU' + space
+				+ img_start + 'ru_1990_gr' + img_1 + 'gr' + img_2 + 'gr' + img_3 + 3 + ", 'ru_1990_gr', 'gr'" + img_end
+				+ img_start + 'ru_1990_m' + img_1 + 'm' + img_2 + 'm' + img_3 + 4 + ", 'ru_1990_m', 'm'" + img_end
+				+ img_start + 'ru_1990_f' + img_1 + 'f' + img_2 + 'f' + img_3 + 5 + ", 'ru_1990_f', 'f'" + img_end + space
+				+ '2000s RU' + space
+				+ img_start + 'ru_2000_gr' + img_1 + 'gr' + img_2 + 'gr' + img_3 + 9 + ", 'ru_2000_gr', 'gr'" + img_end
+				+ img_start + 'ru_2000_m' + img_1 + 'm' + img_2 + 'm' + img_3 + 10 + ", 'ru_2000_m', 'm'" + img_end
+				+ img_start + 'ru_2000_f' + img_1 + 'f' + img_2 + 'f' + img_3 + 11 + ", 'ru_2000_f', 'f'" + img_end
+				+ h1_end
+				+ div_mapped_pack;
+	$('#package_content').html(mapping_result);
+	$('#package_content').show();
 }
 
-function generateSongIdsWithPrefix(arr, prefix){
-	for(var i=0; i < arr.length; i++){
-		arr[i].id = prefix + 'Song (' + i++ + ')';
+function select_mapping_button(suffix, type){
+	$('.gr').attr('src', 'img/chart/gr.png');
+	$('.m').attr('src', 'img/chart/m.png');
+	$('.f').attr('src', 'img/chart/f.png');
+	let selected = 'img/chart/' + type + '_selected.png';
+	$('#btn_' + suffix).attr('src', selected);
+}
+
+function showMapping(index, suffix, type){
+	select_mapping_button(suffix, type);
+	mapping_result = '';
+	let h1_start = `<h1>`;
+	let h1_end = `</h1>`;
+	let br = `<br/>`;
+	let hr = `<hr/>`;
+	for(var j=0; j < music[index].packs.length; j++){
+		mapping_result += h1_start + music[index].packs[j].name + h1_end + br;
+		mapping_result += map_songs_format(music[index].packs[j].arr);
+		mapping_result += hr;
+	}
+	$('#mapped_pack').html(mapping_result);
+}
+
+function generateSongIdsWithPrefix(arr, lang, year, type){
+	let prefix = lang + '_' + year + '_' + type + '_';
+	let audioPath = 'audio/' + lang + '/' + year + '/' + type + '/';
+	let imgPath = 'img/' + lang + '/' + year + '/' + type + '/';
+	let id;
+	for(var i=1; i <= arr.length; i++){
+		id = 'Song (' + i + ')';
+		arr[i-1].id = prefix + id;
+		arr[i-1].audioPath = audioPath + id;
+		arr[i-1].imgPath = imgPath + id;
 	}
 	return arr;
 }
 
-function map_songs_format(arr, audioPath, imgPath){
+function map_songs_format(arr){
 	let h2_start = `<h2>`;
 	let h2_end = `</h2>`;
 	let h3_start = `<h3 style='font-family: serif;' >`;
@@ -17064,25 +17371,28 @@ function map_songs_format(arr, audioPath, imgPath){
 	let br = `<br/>`;
 	let img_start = `<img width="300" height="300" src="`;
 	let img_end = `.jpg" />`;
-	let img_play_start = `<img class='pointer onhover song_btn' width="30" height="30" src="img/navi/play.png" onclick="playSong('`;
-	let img_play_middle = `)" id='song_`;
+	let img_play_start = `<img class='pointer onhover' width="30" height="30" src="img/navi/play.png" onclick="playSong('`;
+	let img_play_middle = `')" id='`;
 	let img_play_end = `'" />`;
 	let space = '&nbsp;';
-	songs_to_map = set_mediaPaths(arr, audioPath, imgPath);
-	songs_to_map = songs_to_map.sort((a,b) => (a.group > b.group) ? 1 : ((b.group > a.group) ? -1 : 0));
+	songs_to_map = arr.sort((a,b) => (a.group > b.group) ? 1 : ((b.group > a.group) ? -1 : 0));
 	let curr_group = songs_to_map[0].group;
 	let result = img_start + songs_to_map[0].imgPath + img_end + br
 		+ h2_start + curr_group + ':' + h2_end;
+	let id;
 	for(let i = 0; i < songs_to_map.length; i++){
+		id = songs_to_map[i].id.replace(' ', '_').replace('(', '').replace(')', '');
 		if(curr_group != songs_to_map[i].group){
 			curr_group = songs_to_map[i].group;
 			result += br + img_start + songs_to_map[i].imgPath + img_end + br
 			+ h2_start + songs_to_map[i].group + ':' + h2_end 
 			+ h3_start + songs_to_map[i].song + space
-			+ img_play_start + songs_to_map[i].audioPath + "', " + i + img_play_middle + i + img_play_end + h3_end;
+			+ img_play_start + songs_to_map[i].audioPath + "', '" + id
+			+ img_play_middle + id + img_play_end + h3_end;
 		} else {
 			result += h3_start + songs_to_map[i].song + space
-			+ img_play_start + songs_to_map[i].audioPath + "', " + i + img_play_middle + i + img_play_end
+			+ img_play_start + songs_to_map[i].audioPath + "', '" + id 
+			+ img_play_middle + id + img_play_end
 			+ h3_end;
 		}
 	}
@@ -17095,21 +17405,21 @@ function playSong(audioPath, id){
 	if(id == last_song_id){
 		if(is_playing){
 			audio.pause();
-			$('#song_' + id).attr('src', 'img/navi/play.png');
+			$('#' + id).attr('src', 'img/navi/play.png');
 			is_playing = false;
 		} else {
 			audio.play();
-			$('#song_' + id).attr('src', 'img/navi/pause.png');
+			$('#' + id).attr('src', 'img/navi/pause.png');
 			is_playing = true;
 		}
 	} else {
 		if(audio){
 			audio.pause();
 		}
-		$('#song_' + last_song_id).attr('src', 'img/navi/play.png');
+		$('#' + last_song_id).attr('src', 'img/navi/play.png');
 		last_song_id = id;
 		is_playing = true;
-		$('#song_' + id).attr('src', 'img/navi/pause.png');
+		$('#' + id).attr('src', 'img/navi/pause.png');
 		audio = new Audio(audioPath + '.mp3');
 		audio.play();
 	}
