@@ -40,7 +40,7 @@ let withoutAnswers = false;
 let isSingle = true;
 let isP1Turn = true;
 let isTournement = false;
-let audio = '';
+let audio;
 let start_count_down = false;
 let rating = [];
 let songs_backup;
@@ -13726,7 +13726,7 @@ let ru_2000_m = [
 		song : "Августин"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Влад Топалов',
 		song : "За любовь твою"
 	},
@@ -13751,7 +13751,7 @@ let ru_2000_m = [
 		song : "Водопадом"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Данко',
 		song : "Малыш"
 	},
@@ -13761,7 +13761,7 @@ let ru_2000_m = [
 		song : "Капли абсента"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Игорёк и ЭНДИ',
 		song : "Грачи"
 	},
@@ -13776,12 +13776,12 @@ let ru_2000_m = [
 		song : "На ладони линия"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Сергей Трофимов',
 		song : "Город в пробках"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Денис Майданов',
 		song : "Вечная любовь"
 	},
@@ -13806,82 +13806,82 @@ let ru_2000_m = [
 		song : "Аэропорты (ft Владимир Пресняков)"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Аркадиас',
 		song : "Художник"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Абдулла',
 		song : "Губки не целованы"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Mr Credo',
 		song : "Чудная долина"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Эд Шульжевский',
 		song : "My Baby"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Андрей Алексин',
 		song : "Страшная"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Тимати',
 		song : "Не сходи с ума"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'DJ SMASH',
 		song : "Moscow Never Sleeps"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'DJ Дождик',
 		song : "Почему же"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Noise MC',
 		song : "За Закрытой Дверью"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Серёга',
 		song : "Черный бумер"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Серёга',
 		song : "Возле дома твоего"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Серёга',
 		song : "Кружим по району"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Лигалайз',
 		song : "Ностальгия (ft Lg)"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Лигалайз',
 		song : "Джаная (ft Dato)"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Лигалайз',
 		song : "Я Хочу Быть С Тобой (ft Бархат)"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Лигалайз',
 		song : "Моя Москва"
 	},
@@ -13891,37 +13891,37 @@ let ru_2000_m = [
 		song : "Забудь"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Баста',
 		song : "Моя игра"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Юрий Титов',
 		song : "Понарошку"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Сергей Зверев',
 		song : "Алла"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Джанго',
 		song : "Холодная весна"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Никита',
 		song : "Верёвки"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Айдамир Мугу',
 		song : "Чёрные Глаза"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Паскаль',
 		song : "Шёлковое Сердце"
 	},
@@ -13966,7 +13966,7 @@ let ru_2000_f = [
 		song : "Жениха хотела (ft. Глюк'oZa)"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Мика Ньютон',
 		song : "Белые лошади"
 	},
@@ -14006,22 +14006,22 @@ let ru_2000_f = [
 		song : "Холодным мужчинам"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Блондинка Ксю',
 		song : "Вместо жизни"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Вика Дайнеко',
 		song : "Я просто сразу от тебя уйду"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Вика Дайнеко',
 		song : "Лейла"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Вика Дайнеко',
 		song : "Клякса"
 	},
@@ -14041,7 +14041,7 @@ let ru_2000_f = [
 		song : "Муси-пуси"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Слава',
 		song : "Попутчица"
 	},
@@ -14056,7 +14056,7 @@ let ru_2000_f = [
 		song : "Привет"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Нюша',
 		song : "Вою на луну"
 	},
@@ -14066,27 +14066,27 @@ let ru_2000_f = [
 		song : "Как ты там"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Ани Лорак',
 		song : "Солнце"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Юлианна Караулова',
 		song : "Я попала в сети"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Юлианна Караулова',
 		song : "Я кину джокер на стол"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Настя Задорожная',
 		song : "Буду"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Елена Терлеева',
 		song : "Солнце"
 	},
@@ -14121,17 +14121,17 @@ let ru_2000_f = [
 		song : "Понимаешь (ft Павел Артемьев)"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Зара',
 		song : "Недолюбила"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Евгения Отрадная',
 		song : "Зачем Любовь"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Евгения Отрадная',
 		song : "Уходи и дверь закрой"
 	},
@@ -14151,7 +14151,7 @@ let ru_2000_f = [
 		song : "Тебя я ждала"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Дайкири',
 		song : "Любишь - таешь"
 	},
@@ -14181,7 +14181,7 @@ let ru_2000_f = [
 		song : "Все пройдет"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Катя Чехова',
 		song : "Я — робот"
 	},
@@ -14216,47 +14216,47 @@ let ru_2000_f = [
 		song : "Твои глаза"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Полина Гагарина',
 		song : "Колыбельная"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Полина Гагарина',
 		song : "Кому, зачем? (ft Ирина Дубцова)"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Полина Гагарина',
 		song : "Любовь под солнцем"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Полина Гагарина',
 		song : "Я тебя не прощу никогда"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Полина Гагарина',
 		song : "Я твоя"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Анна Семенович',
 		song : "На моря (ft Arash)"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Бьянка',
 		song : "Про лето"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Бьянка',
 		song : "Несчастливая любовь"
 	},
 	{
-		pack : 1,
+		pack : 2,
 		group : 'Бьянка',
 		song : "Были танцы"
 	},
@@ -14361,22 +14361,22 @@ let ru_2000_f = [
 		song : "Кому какое дело"
 	},
 	{
-		pack : 2,
+		pack : 1,
 		group : 'Алёна Свиридова',
 		song : '17 лет'
 	},
 	{
-		pack : 2,
+		pack : 1,
 		group : 'Алёна Свиридова',
 		song : 'Самба прошедшей любви'
 	},
 	{
-		pack : 2,
+		pack : 1,
 		group : 'Алёна Свиридова',
 		song : 'Шу-би-ду'
 	},
 	{
-		pack : 2,
+		pack : 1,
 		group : 'Алёна Свиридова',
 		song : 'Не дам скучать'
 	},
@@ -17018,6 +17018,111 @@ function show_chart(){
 	} 
 }
 
+let songs_for_mapping = [en_1990_gr_1, en_1990_gr_2];
+let packs_for_mapping = ['EN 1990s Rock Medium', 'EN 1990s Rock Hard'];
+// let songs_for_mapping = [en_1990_gr, en_1990_m, en_1990_f, ru_1990_gr, ru_1990_m, ru_1990_f,
+						 // en_2000_gr, en_2000_m, en_2000_f, ru_2000_gr, ru_2000_m, ru_2000_f];
+
+let songs_to_map;
+
+function map_songs(){
+	/* $('#ru').hide();
+	$('#en').hide();
+	$('#mirror').hide();
+	let h1_start = `<h1>`;
+	let h1_end = `</h1>`;
+	let br = `<br/>`;
+	for(var i=0; i < songs_for_mapping.length; i++){
+		// songs_for_mapping[i] = 
+		// generateSongIdsWithPrefix(arr, Object.keys({songs_for_mapping[i]})[0] + '_');
+		console.log(Object.keys(songs_for_mapping[i])[0]);
+	}
+	let result;
+	let period;
+	for(var i=0; i < songs_for_mapping.length; i++){
+		period = Object.keys({en_1990_gr})[0].replaceAll('_', '/') + '/';
+		result = h1_start + packs_for_mapping[i] + h1_end + br;
+		result += map_songs_format(songs_for_mapping[i],
+				'audio/' + period, 'img/' + period);
+	}
+	$('#package_content').html(result);
+	$('#package_content').show(); */
+}
+
+function generateSongIdsWithPrefix(arr, prefix){
+	for(var i=0; i < arr.length; i++){
+		arr[i].id = prefix + 'Song (' + i++ + ')';
+	}
+	return arr;
+}
+
+function map_songs_format(arr, audioPath, imgPath){
+	let h2_start = `<h2>`;
+	let h2_end = `</h2>`;
+	let h3_start = `<h3 style='font-family: serif;' >`;
+	let h3_end = `</h3>`;
+	let br = `<br/>`;
+	let img_start = `<img width="300" height="300" src="`;
+	let img_end = `.jpg" />`;
+	let img_play_start = `<img class='pointer onhover song_btn' width="30" height="30" src="img/navi/play.png" onclick="playSong('`;
+	let img_play_middle = `)" id='song_`;
+	let img_play_end = `'" />`;
+	let space = '&nbsp;';
+	songs_to_map = set_mediaPaths(arr, audioPath, imgPath);
+	songs_to_map = songs_to_map.sort((a,b) => (a.group > b.group) ? 1 : ((b.group > a.group) ? -1 : 0));
+	let curr_group = songs_to_map[0].group;
+	let result = img_start + songs_to_map[0].imgPath + img_end + br
+		+ h2_start + curr_group + ':' + h2_end;
+	for(let i = 0; i < songs_to_map.length; i++){
+		if(curr_group != songs_to_map[i].group){
+			curr_group = songs_to_map[i].group;
+			result += br + img_start + songs_to_map[i].imgPath + img_end + br
+			+ h2_start + songs_to_map[i].group + ':' + h2_end 
+			+ h3_start + songs_to_map[i].song + space
+			+ img_play_start + songs_to_map[i].audioPath + "', " + i + img_play_middle + i + img_play_end + h3_end;
+		} else {
+			result += h3_start + songs_to_map[i].song + space
+			+ img_play_start + songs_to_map[i].audioPath + "', " + i + img_play_middle + i + img_play_end
+			+ h3_end;
+		}
+	}
+	return result;
+}
+
+let last_song_id;
+let is_playing = false;
+function playSong(audioPath, id){
+	if(id == last_song_id){
+		if(is_playing){
+			audio.pause();
+			$('#song_' + id).attr('src', 'img/navi/play.png');
+			is_playing = false;
+		} else {
+			audio.play();
+			$('#song_' + id).attr('src', 'img/navi/pause.png');
+			is_playing = true;
+		}
+	} else {
+		if(audio){
+			audio.pause();
+		}
+		$('#song_' + last_song_id).attr('src', 'img/navi/play.png');
+		last_song_id = id;
+		is_playing = true;
+		$('#song_' + id).attr('src', 'img/navi/pause.png');
+		audio = new Audio(audioPath + '.mp3');
+		audio.play();
+	}
+}
+
+function set_mediaPaths(arr, audioPath, imgPath){
+	arr.forEach(song => {
+		song.audioPath = audioPath + song.id;
+		song.imgPath = imgPath + song.id;
+	});
+	return arr;
+}
+
 let artists_num;
 let songs_num;
 function wheel(){
@@ -17167,10 +17272,7 @@ function randomScore(team){
 function en(){
 	lang = 'en';
 	lang_letter = 'латинскую';
-	$('#wheel').hide();
-	$('#ru').hide();
-	$('#en').hide();
-	$('.settings').hide();
+	hide_navi_icons();
 	if(!alphabetMode){
 		$('.en').show();
 	} else {
@@ -17182,16 +17284,22 @@ function en(){
 function ru(){
 	lang = 'ru';
 	lang_letter = 'русскую';
-	$('#wheel').hide();
-	$('#ru').hide();
-	$('#en').hide();
-	$('.settings').hide();
+	hide_navi_icons();
 	if(!alphabetMode){
 		$('.ru').show();
 	} else {
 		$('.ru_alphabet').show();
 	}
 	count_time();
+}
+
+function hide_navi_icons(){
+	$('#wheel').hide();
+	$('#map').hide();
+	$('#sec_15').show();
+	$('#ru').hide();
+	$('#en').hide();
+	$('.settings').hide();
 }
 
 function group(){
@@ -17615,11 +17723,16 @@ function mode(num){
 	if(num == 21){
 		year = '2000';
 		gr_packages = 4;
-		gr_package_names[0] = 'quest_pistols';
-		gr_package_names[1] = 'vintazh';
-		gr_package_names[2] = 'infinity';
+		gr_package_names[0] = 'ru_pop_m';
+		gr_package_names[1] = 'ru_pop_f_medium_1';
+		gr_package_names[2] = 'ru_pop_f_medium_2';
 		gr_package_names[3] = 'ru_rock';
 		f_packages = 2;
+		f_package_names[0] = 'medium';
+		f_package_names[1] = 'hard';
+		m_packages = 2;
+		m_package_names[0] = 'easy';
+		m_package_names[1] = 'medium';
 		$('#song').hide();
 		if(!alphabetMode){
 			$('.artist').show();
