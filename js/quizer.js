@@ -13656,6 +13656,11 @@ let ru_2000_gr = [
 		pack : 4,
 		group : "Ва-Банкъ",
 		song : "Украла"
+	},
+	{
+		pack : 3,
+		group : 'NikitA',
+		song : "Верёвки"
 	}
 ];
 
@@ -13918,7 +13923,7 @@ let ru_2000_m = [
 	{
 		pack : 2,
 		group : 'Никита',
-		song : "Верёвки"
+		song : "Отель"
 	},
 	{
 		pack : 2,
@@ -13949,6 +13954,11 @@ let ru_2000_m = [
 		pack : 1,
 		group : 'Дмитрий Колдун',
 		song : "Work Your Magic"
+	},
+	{
+		pack : 2,
+		group : 'Никита',
+		song : "Слова Как Пули"
 	}
 ];
 
