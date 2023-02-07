@@ -6952,6 +6952,26 @@ let en_2000_m = [
 			pack : 3,
 			group : "Lil Wayne",
 			song : "Lollipop (ft Static Major)"
+		},
+		{
+			pack : 3,
+			group : "Lil Wayne",
+			song : "Lollipop (ft Static Major)"
+		},
+		{
+			pack : 2,
+			group : "Fatboy Slim",
+			song : "Star 69"
+		},
+		{
+			pack : 2,
+			group : "Fatboy Slim",
+			song : "Weapon Of Choice"
+		},
+		{
+			pack : 2,
+			group : "Fatboy Slim",
+			song : "Slash Dot Dash"
 		}
 ];
 
