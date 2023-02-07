@@ -14475,6 +14475,36 @@ let ru_2000_f = [
 		pack : 2,
 		group : 'Слава',
 		song : 'Восьмёрка на нули'
+	},
+	{
+		pack : 2,
+		group : 'Анастасия Стоцкая',
+		song : "Can't take my eyes off you"
+	},
+	{
+		pack : 2,
+		group : 'Анастасия Стоцкая',
+		song : "Вены-реки"
+	},
+	{
+		pack : 2,
+		group : 'Анастасия Стоцкая',
+		song : "Дай мне 5 минут"
+	},
+	{
+		pack : 2,
+		group : 'Анастасия Стоцкая',
+		song : "И ты скажешь (ft Филипп Киркоров)"
+	},
+	{
+		pack : 2,
+		group : 'Анастасия Стоцкая',
+		song : "Tease"
+	},
+	{
+		pack : 2,
+		group : 'Анастасия Стоцкая',
+		song : "Shadows dance all around me"
 	}
 ];
 
