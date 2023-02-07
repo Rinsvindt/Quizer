@@ -4752,6 +4752,21 @@ let en_1990_m = [
 			pack : 3,
 			group : 'Everlast',
 			song : "Ends"
+		},
+		{
+			pack : 3,
+			group : 'Fatboy Slim',
+			song : "Gangster Trippin'"
+		},
+		{
+			pack : 3,
+			group : 'Fatboy Slim',
+			song : "Sunset (Bird Of Prey)"
+		},
+		{
+			pack : 3,
+			group : 'Fatboy Slim',
+			song : "Going Out of My Head"
 		}
 ];
 
@@ -16639,7 +16654,7 @@ let all_songs = [
 	en_1980_gr_1, en_1980_gr_2, en_1980_gr_3, en_1980_gr_4, en_1980_gr_5, en_1980_gr_6,
 	en_1980_m_1, en_1980_m_2, en_1980_m_3, en_1980_f_1, en_1980_f_2,
 	en_1990_gr_1, en_1990_gr_2, en_1990_gr_3, en_1990_gr_4, en_1990_gr_5, en_1990_gr_6, 
-	en_1990_m_1, en_1990_m_2, en_1990_f_1, en_1990_f_2,
+	en_1990_m_1, en_1990_m_2, en_1990_m_3, en_1990_f_1, en_1990_f_2,
 	en_2000_gr_1, en_2000_gr_2, en_2000_gr_3, en_2000_gr_4, en_2000_gr_5, en_2000_m_1, en_2000_m_2, en_2000_m_3, en_2000_f_1, en_2000_f_2, en_2000_f_3,
 	en_2007_gr_1, en_2007_gr_2, en_2007_m_1, en_2007_m_2, en_2007_f_1, en_2007_f_2,
 	en_2010_gr, en_2010_m, en_2010_f, 
@@ -17408,6 +17423,8 @@ function map_songs(){
 	$('#ru').hide();
 	$('#en').hide();
 	$('#mirror').hide();
+	$('#wheel').hide();
+	$('#map').hide();
 	$('#mapping').show();
 	for(var j=0; j < music.length; j++){
 		music[j].arr = generateSongIdsWithPrefix(music[j].arr, music[j].lang, 
@@ -17514,20 +17531,14 @@ function playSong(audioPath, id){
 	}
 }
 
-function set_mediaPaths(arr, audioPath, imgPath){
-	arr.forEach(song => {
-		song.audioPath = audioPath + song.id;
-		song.imgPath = imgPath + song.id;
-	});
-	return arr;
-}
-
 let artists_num;
 let songs_num;
 function wheel(){
 	$('#ru').hide();
 	$('#en').hide();
 	$('#mirror').hide();
+	$('#wheel').hide();
+	$('#map').hide();
 	$('#year_graph').show();
 	
 	distinct_artists = removeDuplicates(all_songs.flat().map(item => item.group)).sort();
