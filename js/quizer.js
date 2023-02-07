@@ -4767,6 +4767,11 @@ let en_1990_m = [
 			pack : 3,
 			group : 'Fatboy Slim',
 			song : "Going Out of My Head"
+		},
+		{
+			pack : 3,
+			group : 'Fatboy Slim',
+			song : "Right Here Right Now"
 		}
 ];
 
