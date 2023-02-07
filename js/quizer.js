@@ -17288,42 +17288,11 @@ function map_songs(){
 	$('#ru').hide();
 	$('#en').hide();
 	$('#mirror').hide();
-	let h1_start = `<h1>`;
-	let h1_end = `</h1>`;
-	let div_mapped_pack = `<div id='mapped_pack' />`;
-	let br = `<br/>`;
-	let hr = `<hr/>`;
-	let space = '&nbsp;';
-	let img_start = `<img id='btn_`;
-	let img_1 = `' class="pointer onhover `;
-	let img_2 = `" width="100" height="100" src="img/chart/`
-	let img_3 = `.png" onclick="showMapping(`;
-	let img_end = `)" />`;
+	$('#mapping').show();
 	for(var j=0; j < music.length; j++){
 		music[j].arr = generateSongIdsWithPrefix(music[j].arr, music[j].lang, 
 												music[j].year, music[j].type);
 	}
-	mapping_result = h1_start 
-				+ '1990s EN' + space
-				+ img_start + 'en_1990_gr' + img_1 + 'gr' + img_2 + 'gr' + img_3 + 0 + ", 'en_1990_gr', 'gr'" + img_end
-				+ img_start + 'en_1990_m' + img_1 + 'm' + img_2 + 'm' + img_3 + 1 + ", 'en_1990_m', 'm'" + img_end
-				+ img_start + 'en_1990_f' + img_1 + 'f' + img_2 + 'f' + img_3 + 2 + ", 'en_1990_f', 'f'" + img_end + space
-				+ '2000s EN' + space
-				+ img_start + 'en_2000_gr' + img_1 + 'gr' + img_2 + 'gr' + img_3 + 6 + ", 'en_2000_gr', 'gr'" + img_end
-				+ img_start + 'en_2000_m' + img_1 + 'm' + img_2 + 'm' + img_3 + 7 + ", 'en_2000_m', 'm'" + img_end
-				+ img_start + 'en_2000_f' + img_1 + 'f' + img_2 + 'f' + img_3 + 8 + ", 'en_2000_f', 'f'" + img_end
-				+ '1990s RU' + space
-				+ img_start + 'ru_1990_gr' + img_1 + 'gr' + img_2 + 'gr' + img_3 + 3 + ", 'ru_1990_gr', 'gr'" + img_end
-				+ img_start + 'ru_1990_m' + img_1 + 'm' + img_2 + 'm' + img_3 + 4 + ", 'ru_1990_m', 'm'" + img_end
-				+ img_start + 'ru_1990_f' + img_1 + 'f' + img_2 + 'f' + img_3 + 5 + ", 'ru_1990_f', 'f'" + img_end + space
-				+ '2000s RU' + space
-				+ img_start + 'ru_2000_gr' + img_1 + 'gr' + img_2 + 'gr' + img_3 + 9 + ", 'ru_2000_gr', 'gr'" + img_end
-				+ img_start + 'ru_2000_m' + img_1 + 'm' + img_2 + 'm' + img_3 + 10 + ", 'ru_2000_m', 'm'" + img_end
-				+ img_start + 'ru_2000_f' + img_1 + 'f' + img_2 + 'f' + img_3 + 11 + ", 'ru_2000_f', 'f'" + img_end
-				+ h1_end
-				+ div_mapped_pack;
-	$('#package_content').html(mapping_result);
-	$('#package_content').show();
 }
 
 function select_mapping_button(suffix, type){
@@ -17346,7 +17315,7 @@ function showMapping(index, suffix, type){
 		mapping_result += map_songs_format(music[index].packs[j].arr);
 		mapping_result += hr;
 	}
-	$('#mapped_pack').html(mapping_result);
+	$('#mapping_content').html(mapping_result);
 }
 
 function generateSongIdsWithPrefix(arr, lang, year, type){
