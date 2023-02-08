@@ -6130,11 +6130,10 @@ let en_2000_gr = [
 			group : "MGMT",
 			song : 'Kids'
 		},
-		//to_delete
 		{
-			pack : 5,
-			group : "M.O.P.",
-			song : "Ante Up Remix (ft Busta Rhymes, Teflon, Remi Martin)"
+			pack : 3,
+			group : 'Backstreet Boys',
+			song : "Straight through my heart"
 		},
 		{
 			pack : 6,
@@ -6336,11 +6335,6 @@ let en_2000_gr = [
 			pack : 3,
 			group : 'Backstreet Boys',
 			song : "Inconsolable"
-		},
-		{
-			pack : 3,
-			group : 'Backstreet Boys',
-			song : "Straight through my heart"
 		}
 ];
 
@@ -17941,6 +17935,9 @@ function setPathsByPack(num){
 	songs.forEach(song => {
 		song.audioPath = 'audio/' + lang + '/' + year + '/' + artist_type + '/' + song.id;
 		song.imgPath = 'img/' + lang + '/' + year + '/' + artist_type + '/' + song.id;
+		/* if(lang == 'en' && year == '2000' && artist_type == 'gr'){
+			song.imgPath = 'img/' + lang + '/' + year + '/' + artist_type + '/avatar/' + song.group;
+		} */
 	});
 	finalMessage = ' Ура! Вы освоили "Дискотеку ' + year + '-х"!';
 	$('#total').html(songs.length);
