@@ -6140,7 +6140,6 @@ let en_2000_gr = [
 			group : "Hi Tack",
 			song : "Say Say Say"
 		},
-		//to_cut
 		{
 			pack : 4,
 			group : "Global Deejays",
@@ -6148,7 +6147,7 @@ let en_2000_gr = [
 		},
 		{
 			pack : 4,
-			group : "Benassi Bros.",
+			group : "Benassi Bros",
 			song : "Hit My Heart"
 		},
 		{
