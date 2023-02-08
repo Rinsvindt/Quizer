@@ -4195,6 +4195,26 @@ let en_1990_gr = [
 			pack : 3,
 			group : 'Savage Garden',
 			song : 'I Knew I Loved You'
+		},
+		{
+			pack : 3,
+			group : 'Backstreet Boys',
+			song : "We've Got It Goin' On"
+		},
+		{
+			pack : 3,
+			group : 'Backstreet Boys',
+			song : "I'll never break your heart"
+		},
+		{
+			pack : 3,
+			group : 'Backstreet Boys',
+			song : "Larger than life"
+		},
+		{
+			pack : 3,
+			group : 'Backstreet Boys',
+			song : "I want it that way"
 		}
 ];
 
@@ -4772,6 +4792,21 @@ let en_1990_m = [
 			pack : 3,
 			group : 'Fatboy Slim',
 			song : "Right Here Right Now"
+		},
+		{
+			pack : 3,
+			group : 'ATB',
+			song : "9 PM - Till I Come"
+		},
+		{
+			pack : 3,
+			group : 'ATB',
+			song : "Don’t Stop"
+		},
+		{
+			pack : 3,
+			group : 'ATB',
+			song : "Killer"
 		}
 ];
 
@@ -6286,6 +6321,26 @@ let en_2000_gr = [
 			pack : 6,
 			group : 'Lighthouse Family',
 			song : "Run"
+		},
+		{
+			pack : 3,
+			group : 'Backstreet Boys',
+			song : "Shape of My Heart"
+		},
+		{
+			pack : 3,
+			group : 'Backstreet Boys',
+			song : "Incomplete"
+		},
+		{
+			pack : 3,
+			group : 'Backstreet Boys',
+			song : "Inconsolable"
+		},
+		{
+			pack : 3,
+			group : 'Backstreet Boys',
+			song : "Straight through my heart"
 		}
 ];
 
@@ -6972,6 +7027,21 @@ let en_2000_m = [
 			pack : 2,
 			group : "Fatboy Slim",
 			song : "Slash Dot Dash"
+		},
+		{
+			pack : 2,
+			group : "ATB",
+			song : "The Summer"
+		},
+		{
+			pack : 2,
+			group : "ATB",
+			song : "Ecstasy"
+		},
+		{
+			pack : 2,
+			group : "ATB",
+			song : "Let U Go"
 		}
 ];
 
