@@ -10918,6 +10918,16 @@ let ru_1990_gr = [
 			pack : 1,
 			group : 'Лесоповал',
 			song : 'Столыпинский вагон'
+		},
+		{
+			pack : 1,
+			group : 'Bad Balance',
+			song : 'Дети Сатаны'
+		},
+		{
+			pack : 1,
+			group : 'Bad Balance',
+			song : 'Город джунглей'
 		}
 ];
 
