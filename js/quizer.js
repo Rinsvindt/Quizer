@@ -10928,6 +10928,11 @@ let ru_1990_gr = [
 			pack : 1,
 			group : 'Bad Balance',
 			song : 'Город джунглей'
+		},
+		{
+			pack : 1,
+			group : 'Господин Дадуда',
+			song : 'Даду Внедреж'
 		}
 ];
 
