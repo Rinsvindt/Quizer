@@ -6334,6 +6334,36 @@ let en_2000_gr = [
 			pack : 3,
 			group : 'Backstreet Boys',
 			song : "Inconsolable"
+		},
+		{
+			pack : 2,
+			group : 'Pearl Jam',
+			song : "Alive"
+		},
+		{
+			pack : 2,
+			group : 'Pearl Jam',
+			song : "Jeremy"
+		},
+		{
+			pack : 2,
+			group : 'Pearl Jam',
+			song : "Black"
+		},
+		{
+			pack : 2,
+			group : 'Alice In Chains',
+			song : "Would?"
+		},
+		{
+			pack : 2,
+			group : 'Alice In Chains',
+			song : "Man in the Box"
+		},
+		{
+			pack : 2,
+			group : 'Alice In Chains',
+			song : "Down in a Hole"
 		}
 ];
 
@@ -10926,6 +10956,16 @@ let ru_1990_gr = [
 			pack : 1,
 			group : 'Господин Дадуда',
 			song : 'Даду Внедреж'
+		},
+		{
+			pack : 3,
+			group : 'Агата Кристи',
+			song : 'Чёрная луна'
+		},
+		{
+			pack : 1,
+			group : 'Русский размер',
+			song : 'Это весна'
 		}
 ];
 
@@ -11812,6 +11852,36 @@ let ru_1990_m = [
 			pack : 3,
 			group : 'Игорь Саруханов',
 			song : 'Парень с гитарой'
+		},
+		{
+			pack : 2,
+			group : 'Mr Credo',
+			song : 'Lambada'
+		},
+		{
+			pack : 2,
+			group : 'Mr Credo',
+			song : 'Давай, лавэ'
+		},
+		{
+			pack : 2,
+			group : 'Mr Credo',
+			song : 'HSH-Bola'
+		},
+		{
+			pack : 1,
+			group : 'Валерий Меладзе',
+			song : 'Красиво'
+		},
+		{
+			pack : 1,
+			group : 'Валерий Меладзе',
+			song : 'Разведи огонь'
+		},
+		{
+			pack : 1,
+			group : 'Валерий Меладзе',
+			song : 'Сэра'
 		}
 ];
 
@@ -13829,6 +13899,21 @@ let ru_2000_gr = [
 		pack : 3,
 		group : 'Монокини',
 		song : "До встречи на звезде"
+	},
+	{
+		pack : 1,
+		group : 'Русский размер',
+		song : 'Льдами'
+	},
+	{
+		pack : 1,
+		group : 'Русский размер',
+		song : '!Слушай'
+	},
+	{
+		pack : 1,
+		group : 'Русский размер',
+		song : 'До тебя'
 	}
 ];
 
@@ -14147,6 +14232,36 @@ let ru_2000_m = [
 		pack : 2,
 		group : 'Никита',
 		song : "Я не люблю тебя (ft Анастасия Стоцкая)"
+	},
+	{
+		pack : 2,
+		group : 'Mr Credo',
+		song : "Звезда востока"
+	},
+	{
+		pack : 2,
+		group : 'Mr Credo',
+		song : "Буду, думать"
+	},
+	{
+		pack : 2,
+		group : 'Mr Credo',
+		song : "Автобан"
+	},
+	{
+		pack : 1,
+		group : 'Валерий Меладзе',
+		song : "Небеса"
+	},
+	{
+		pack : 1,
+		group : 'Валерий Меладзе',
+		song : "Иностранец"
+	},
+	{
+		pack : 1,
+		group : 'Валерий Меладзе',
+		song : "Вопреки"
 	}
 ];
 
