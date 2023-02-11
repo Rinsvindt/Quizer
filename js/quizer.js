@@ -17592,7 +17592,11 @@ function generateSongIdsWithPrefix(arr, lang, year, type){
 		id = 'Song (' + i + ')';
 		arr[i-1].id = prefix + id;
 		arr[i-1].audioPath = audioPath + id;
-		arr[i-1].imgPath = imgPath + id;
+		if(year == '1990' || year == '2000'){
+			arr[i-1].imgPath = imgPath + '/avatar/' + arr[i-1].group;
+		} else {
+			arr[i-1].imgPath = imgPath + id;
+		}
 	}
 	return arr;
 }
