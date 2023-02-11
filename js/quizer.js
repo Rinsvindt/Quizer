@@ -4215,6 +4215,36 @@ let en_1990_gr = [
 			pack : 3,
 			group : 'Backstreet Boys',
 			song : "I want it that way"
+		},
+		{
+			pack : 2,
+			group : 'Pearl Jam',
+			song : "Alive"
+		},
+		{
+			pack : 2,
+			group : 'Pearl Jam',
+			song : "Jeremy"
+		},
+		{
+			pack : 2,
+			group : 'Pearl Jam',
+			song : "Black"
+		},
+		{
+			pack : 2,
+			group : 'Alice In Chains',
+			song : "Would?"
+		},
+		{
+			pack : 2,
+			group : 'Alice In Chains',
+			song : "Man in the Box"
+		},
+		{
+			pack : 2,
+			group : 'Alice In Chains',
+			song : "Down in a Hole"
 		}
 ];
 
@@ -6334,36 +6364,6 @@ let en_2000_gr = [
 			pack : 3,
 			group : 'Backstreet Boys',
 			song : "Inconsolable"
-		},
-		{
-			pack : 2,
-			group : 'Pearl Jam',
-			song : "Alive"
-		},
-		{
-			pack : 2,
-			group : 'Pearl Jam',
-			song : "Jeremy"
-		},
-		{
-			pack : 2,
-			group : 'Pearl Jam',
-			song : "Black"
-		},
-		{
-			pack : 2,
-			group : 'Alice In Chains',
-			song : "Would?"
-		},
-		{
-			pack : 2,
-			group : 'Alice In Chains',
-			song : "Man in the Box"
-		},
-		{
-			pack : 2,
-			group : 'Alice In Chains',
-			song : "Down in a Hole"
 		}
 ];
 
