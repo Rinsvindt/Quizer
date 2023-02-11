@@ -1641,12 +1641,12 @@ let en_1980_gr_6 = [
 	},
 	{
 		id : 15,
-		group : 'AC/DC',
+		group : 'ACDC',
 		song : "Hells Bells"
 	},
 	{
 		id : 16,
-		group : 'AC/DC',
+		group : 'ACDC',
 		song : "You Shook Me All Night Long"
 	},
 	{
@@ -1757,7 +1757,7 @@ let en_1980_gr_6 = [
 		song : "Knockin' On Heaven's Door"
 	},
 	{
-		group : 'AC/DC',
+		group : 'ACDC',
 		song : "Back In Black"
 	},
 	{
@@ -2767,32 +2767,32 @@ let en_1990_gr = [
 		},
 		{
 			pack : 1,
-			group : 'AC/DC',
+			group : 'ACDC',
 			song : "Thunderstuck"
 		},
 		{
 			pack : 1,
-			group : 'AC/DC',
+			group : 'ACDC',
 			song : "Moneytalks"
 		},
 		{
 			pack : 1,
-			group : 'AC/DC',
+			group : 'ACDC',
 			song : "Are You Ready"
 		},
 		{
 			pack : 1,
-			group : 'AC/DC',
+			group : 'ACDC',
 			song : "Highway to Hell"
 		},
 		{
 			pack : 1,
-			group : 'AC/DC',
+			group : 'ACDC',
 			song : "Big Gun"
 		},
 		{
 			pack : 1,
-			group : 'AC/DC',
+			group : 'ACDC',
 			song : "Hard as a Rock"
 		},
 		{
@@ -4989,12 +4989,12 @@ let en_1990_f = [
 		},
 		{
 			pack : EN_1990_F_FEW_SONGS,
-			group : "Des'ree",
+			group : "Desree",
 			song : "Life"
 		},
 		{
 			pack : EN_1990_F_FEW_SONGS,
-			group : "Des'ree",
+			group : "Desree",
 			song : "You Gotta Be"
 		},
 		{
@@ -5324,7 +5324,7 @@ let en_1990_f_2 =	en_1990_f.filter(item => item.pack == 2);
 
 let en_1990_minus = [
 	{
-		group : 'AC/DC',
+		group : 'ACDC',
 		song : "Highway to Hell",
 		letter : 'A',
 		type : 'Группа',
@@ -6393,7 +6393,7 @@ let en_2000_m = [
 		{
 			pack : 1,
 			group : 'Justin Timberlake',
-			song : 'My Love (ft T.I.)'
+			song : 'My Love (ft TI)'
 		},
 		{
 			pack : 1,
@@ -6547,7 +6547,7 @@ let en_2000_m = [
 		},
 		{
 			pack : 1,
-			group : "B.o.B.",
+			group : "BoB",
 			song : "Nothin' on You (ft Bruno Mars)"
 		},
 		{
@@ -6978,12 +6978,12 @@ let en_2000_m = [
 		},
 		{
 			pack : 3,
-			group : "T.I.",
+			group : "TI",
 			song : "Whatever You Like"
 		},
 		{
 			pack : 3,
-			group : "T.I.",
+			group : "TI",
 			song : "Live Your Life (ft Rihanna)"
 		},
 		{
@@ -7060,7 +7060,7 @@ let en_2000_f = [
 		},
 		{
 			pack : 1,
-			group : 'P!nk',
+			group : 'Pink',
 			song : 'So What'
 		},
 		{
@@ -7071,7 +7071,7 @@ let en_2000_f = [
 		{
 			pack : 1,
 			group : "Christina Aguilera",
-			song : "Lady Marmalade (ft P!nk, Mya, Lil' Kim)"
+			song : "Lady Marmalade (ft Pink, Mya, Lil' Kim)"
 		},
 		{
 			pack : 1,
@@ -7184,12 +7184,12 @@ let en_2000_f = [
 		},
 		{
 			pack : 1,
-			group : 'P!nk',
+			group : 'Pink',
 			song : 'Get the Party Started'
 		},
 		{
 			pack : 1,
-			group : 'P!nk',
+			group : 'Pink',
 			song : 'Trouble'
 		},
 		{
@@ -7324,7 +7324,7 @@ let en_2000_f = [
 		},
 		{
 			pack : 2,
-			group : "M.I.A.",
+			group : "MIA",
 			song : "Paper Planes"
 		},
 		{
@@ -7379,7 +7379,7 @@ let en_2000_f = [
 		},
 		{
 			pack : 2,
-			group : 'Ke$ha',
+			group : 'Kesha',
 			song : 'Tick Tock'
 		},
 		{
@@ -7535,7 +7535,7 @@ let en_2000_f = [
 		{
 			pack : 3,
 			group : "Rihanna",
-			song : 'Live Your Life (ft T.I.)'
+			song : 'Live Your Life (ft TI)'
 		},
 		{
 			pack : 3,
@@ -8088,7 +8088,7 @@ let en_2010_m = [
 	{
 		id : 4,
 		group : 'Pharrell Williams',
-		song : "Blurred Lines (ft T.I., Robin Thicke)"
+		song : "Blurred Lines (ft TI, Robin Thicke)"
 	},
 	{
 		id : 5,
@@ -8228,7 +8228,7 @@ let en_2010_m = [
 	{
 		id : 32,
 		group : 'Pitbull',
-		song : "Timber (ft. Ke$ha)"
+		song : "Timber (ft. Kesha)"
 	},
 	{
 		id : 33,
@@ -9900,9 +9900,9 @@ let ru_1990_gr = [
 		},
 		{
 			pack : 1,
-			group : "А-Студио",
+			group : "A’Studio",
 			song : 'Нелюбимая',
-			state: " по А-Студио"
+			state: " по A’Studio"
 		},
 		{
 			pack : 1,
@@ -10147,7 +10147,7 @@ let ru_1990_gr = [
 		},
 		{
 			pack : 1,
-			group : "А-Студио",
+			group : "A’Studio",
 			song : 'Солдат любви'
 		},
 		{
@@ -11605,7 +11605,7 @@ let ru_1990_m = [
 		},
 		{
 			pack : 3,
-			group : 'Игорек',
+			group : 'Игорёк',
 			song : 'Подождем мою маму'
 		},
 		{
@@ -12822,7 +12822,7 @@ let ru_2000_gr = [
 	},
 	{
 		pack : 1,
-		group : 'Uma2rman',
+		group : 'Уматурман',
 		song : "Проститься"
 	},
 	{
@@ -12933,21 +12933,21 @@ let ru_2000_gr = [
 	{
 		pack : 1,
 		group : 'Отпетые мошенники',
-		song : "Моя звезда (ft ВИА «Сливки»)"
+		song : "Моя звезда (ft Сливки)"
 	},
 	{
 		pack : 1,
-		group : 'Uma2rman',
+		group : 'Уматурман',
 		song : "Прасковья"
 	},
 	{
 		pack : 1,
-		group : 'Uma2rman',
+		group : 'Уматурман',
 		song : "Дождь"
 	},
 	{
 		pack : 1,
-		group : 'Uma2rman',
+		group : 'Уматурман',
 		song : "Ночной дозор"
 	},
 	{
@@ -12992,7 +12992,7 @@ let ru_2000_gr = [
 	},
 	{
 		pack : 1,
-		group : "5'nizza",
+		group : "Пятница",
 		song : "Солдат"
 	},
 	{
@@ -13337,17 +13337,17 @@ let ru_2000_gr = [
 	},
 	{
 		pack : 3,
-		group : 'ВИА «Сливки»',
+		group : 'Сливки',
 		song : "Самая лучшая (ft Анжелика Варум)"
 	},
 	{
 		pack : 3,
-		group : 'ВИА «Сливки»',
+		group : 'Сливки',
 		song : "Иногда"
 	},
 	{
 		pack : 3,
-		group : 'ВИА «Сливки»',
+		group : 'Сливки',
 		song : "Летели недели"
 	},
 	{
@@ -13402,77 +13402,77 @@ let ru_2000_gr = [
 	},
 	{
 		pack : 3,
-		group : "Банд’Эрос",
+		group : "БандЭрос",
 		song : "Наоми я бы Кэмпбел"
 	},
 	{
 		pack : 3,
-		group : "Банд’Эрос",
+		group : "БандЭрос",
 		song : "Про красивую жизнь"
 	},
 	{
 		pack : 3,
-		group : "Банд’Эрос",
+		group : "БандЭрос",
 		song : "Манхэттен"
 	},
 	{
 		pack : 3,
-		group : "Банд’Эрос",
+		group : "БандЭрос",
 		song : "Адьос"
 	},
 	{
 		pack : 3,
-		group : "Банд’Эрос",
+		group : "БандЭрос",
 		song : "Синьорита"
 	},
 	{
 		pack : 3,
-		group : "Банд’Эрос",
+		group : "БандЭрос",
 		song : "Не зарекайся"
 	},
 	{
 		pack : 3,
-		group : "Банд’Эрос",
+		group : "БандЭрос",
 		song : "Коламбия Пикчерз не представляет"
 	},
 	{
 		pack : 3,
-		group : "Банд’Эрос",
+		group : "БандЭрос",
 		song : "Полосы"
 	},
 	{
 		pack : 3,
-		group : "Банд’Эрос",
+		group : "БандЭрос",
 		song : "Не вспоминай"
 	},
 	{
 		pack : 3,
-		group : "Банд’Эрос",
+		group : "БандЭрос",
 		song : "До весны"
 	},
 	{
 		pack : 3,
-		group : "Банд’Эрос",
+		group : "БандЭрос",
 		song : "Не под этим солнцем"
 	},
 	{
 		pack : 3,
-		group : "А-Студио",
+		group : "A’Studio",
 		song : "Улетаю"
 	},
 	{
 		pack : 3,
-		group : "А-Студио",
+		group : "A’Studio",
 		song : "S.O.S."
 	},
 	{
 		pack : 3,
-		group : "А-Студио",
+		group : "A’Studio",
 		song : "Две половинки"
 	},
 	{
 		pack : 3,
-		group : "А-Студио",
+		group : "A’Studio",
 		song : "Ещё люблю"
 	},
 	{
@@ -13642,7 +13642,7 @@ let ru_2000_gr = [
 	},
 	{
 		pack : 4,
-		group : 'МультFильмы',
+		group : 'Мультфильмы',
 		song : "Яды"
 	},
 	{
@@ -13667,7 +13667,7 @@ let ru_2000_gr = [
 	},
 	{
 		pack : 4,
-		group : 'Мертвые дельфины',
+		group : 'Мёртвые дельфины',
 		song : "На моей луне"
 	},
 	{
@@ -13762,17 +13762,17 @@ let ru_2000_gr = [
 	},
 	{
 		pack : 4,
-		group : 'МультFильмы',
+		group : 'Мультфильмы',
 		song : "За нами следят"
 	},
 	{
 		pack : 4,
-		group : 'МультFильмы',
+		group : 'Мультфильмы',
 		song : "Магнитофон"
 	},
 	{
 		pack : 4,
-		group : 'МультFильмы',
+		group : 'Мультфильмы',
 		song : "Пистолет"
 	},
 	{
@@ -13940,8 +13940,8 @@ let ru_2000_m = [
 	},
 	{
 		pack : 2,
-		group : 'Игорёк и ЭНДИ',
-		song : "Грачи"
+		group : 'Игорёк',
+		song : "Грачи (ft ЭНДИ)"
 	},
 	{
 		pack : 1,
@@ -14172,7 +14172,7 @@ let ru_2000_f = [
 	{
 		pack : 1,
 		group : 'Верка Сердючка',
-		song : "Жениха хотела (ft. Глюк'oZa)"
+		song : "Жениха хотела (ft. Глюкоза)"
 	},
 	{
 		pack : 2,
@@ -14386,7 +14386,7 @@ let ru_2000_f = [
 	},
 	{
 		pack : 1,
-		group : 'Алена Иванцова',
+		group : 'Алёна Иванцова',
 		song : "Все пройдет"
 	},
 	{
@@ -14396,17 +14396,17 @@ let ru_2000_f = [
 	},
 	{
 		pack : 1,
-		group : 'МакSим',
+		group : 'Максим',
 		song : "Сон"
 	},
 	{
 		pack : 1,
-		group : 'МакSим',
+		group : 'Максим',
 		song : "Знаешь ли ты"
 	},
 	{
 		pack : 1,
-		group : 'МакSим',
+		group : 'Максим',
 		song : "Небо засыпай (ft Лигалайз)"
 	},
 	{
@@ -14501,17 +14501,17 @@ let ru_2000_f = [
 	},
 	{
 		pack : 1,
-		group : "Глюк'oZa",
+		group : "Глюкоза",
 		song : "Танцуй, Россия!!!"
 	},
 	{
 		pack : 1,
-		group : "Глюк'oZa",
+		group : "Глюкоза",
 		song : "Снег идёт"
 	},
 	{
 		pack : 1,
-		group : "Глюк'oZa",
+		group : "Глюкоза",
 		song : "Невеста"
 	},
 	{
@@ -14667,7 +14667,7 @@ let ru_2000_f_2 =	ru_2000_f.filter(item => item.pack == 2);
 let ru_2007 = [
 	{
 		id : 1,
-		group : 'МакSим',
+		group : 'Максим',
 		song : 'Знаешь ли ты'
 	},
 	{
@@ -15336,7 +15336,7 @@ let ru_2020 = [
 	},
 	{
 		id : 16,
-		group : 'МакSим',
+		group : 'Максим',
 		song : "Спасибо"
 	},
 	{
@@ -17934,9 +17934,9 @@ function setPathsByPack(num){
 	songs.forEach(song => {
 		song.audioPath = 'audio/' + lang + '/' + year + '/' + artist_type + '/' + song.id;
 		song.imgPath = 'img/' + lang + '/' + year + '/' + artist_type + '/' + song.id;
-		/* if(lang == 'en' && year == '2000' && artist_type == 'gr'){
+		if(year == '1990' || year == '2000'){
 			song.imgPath = 'img/' + lang + '/' + year + '/' + artist_type + '/avatar/' + song.group;
-		} */
+		}
 	});
 	finalMessage = ' Ура! Вы освоили "Дискотеку ' + year + '-х"!';
 	$('#total').html(songs.length);
