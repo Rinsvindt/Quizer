@@ -4245,6 +4245,66 @@ let en_1990_gr = [
 			pack : 2,
 			group : 'Alice In Chains',
 			song : "Down in a Hole"
+		},
+		{
+			pack : 3,
+			group : "Bomfunk MCs",
+			song : "Rocking, Just To Make Ya Move"
+		},
+		{
+			pack : 3,
+			group : "Bomfunk MCs",
+			song : "Uprocking Beats"
+		},
+		{
+			pack : 3,
+			group : "Bomfunk MCs",
+			song : "B-Boys & Flygirls"
+		},
+		{
+			pack : 3,
+			group : "Digital Underground",
+			song : "The Humpty Dance"
+		},
+		{
+			pack : 3,
+			group : "Digital Underground",
+			song : "Kiss You Back"
+		},
+		{
+			pack : 3,
+			group : "Black Box",
+			song : "Everybody Everybody"
+		},
+		{
+			pack : 3,
+			group : "Black Box",
+			song : "Strike It Up"
+		},
+		{
+			pack : 3,
+			group : "New Radicals",
+			song : "You Get What You Give"
+		},
+		{
+			pack : 3,
+			group : "New Radicals",
+			song : "Someday We’ll Know"
+		},
+		{
+			pack : 5,
+			group : "RIO",
+			song : "Shine On"
+		},
+		{
+			pack : 5,
+			group : "RIO",
+			song : "When the Sun Comes Down"
+		},
+		{
+			pack : 5,
+			group : "RIO",
+			song : "After the Love"
 		}
 ];
 
@@ -4837,6 +4897,21 @@ let en_1990_m = [
 			pack : 3,
 			group : 'ATB',
 			song : "Killer"
+		},
+		{
+			pack : 3,
+			group : 'ATB',
+			song : "Killer"
+		},
+		{
+			pack : 3,
+			group : 'Snoop Dogg',
+			song : "Who Am I (What's My Name?)"
+		},
+		{
+			pack : 3,
+			group : 'Snoop Dogg',
+			song : "Still A G Thang"
 		}
 ];
 
@@ -5346,6 +5421,21 @@ let en_1990_f = [
 			pack : EN_1990_F_MANY_SONGS,
 			group : 'Kylie Minogue',
 			song : "On A Night Like This"
+		},
+		{
+			pack : EN_1990_F_FEW_SONGS,
+			group : 'Gina G',
+			song : "Ooh Aah (Just A Little Bit)"
+		},
+		{
+			pack : EN_1990_F_FEW_SONGS,
+			group : 'Gina G',
+			song : "I Belong to You"
+		},
+		{
+			pack : EN_1990_F_FEW_SONGS,
+			group : 'Gina G',
+			song : "Fresh"
 		}
 ];
 
@@ -6364,6 +6454,76 @@ let en_2000_gr = [
 			pack : 3,
 			group : 'Backstreet Boys',
 			song : "Inconsolable"
+		},
+		{
+			pack : 6,
+			group : "Bomfunk MCs",
+			song : "Super Electric"
+		},
+		{
+			pack : 6,
+			group : "Bomfunk MCs",
+			song : "Hypnotic"
+		},
+		{
+			pack : 6,
+			group : "Bomfunk MCs",
+			song : "Live Your Life"
+		},
+		{
+			pack : 3,
+			group : "Fall Out Boy",
+			song : "Dance, Dance"
+		},
+		{
+			pack : 3,
+			group : "Fall Out Boy",
+			song : "Sugar, We're Goin Down"
+		},
+		{
+			pack : 3,
+			group : "Fall Out Boy",
+			song : "This Ain’t a Scene, It’s an Arms Race"
+		},
+		{
+			pack : 3,
+			group : "Fall Out Boy",
+			song : "Thanks for the Memories"
+		},
+		{
+			pack : 3,
+			group : "Fall Out Boy",
+			song : "Thanks for the Memories"
+		},
+		{
+			pack : 4,
+			group : "Tokio Hotel",
+			song : "By Your Side"
+		},
+		{
+			pack : 4,
+			group : "Tokio Hotel",
+			song : "1000 Oceans"
+		},
+		{
+			pack : 4,
+			group : "Tokio Hotel",
+			song : "Darkside of the Sun"
+		},
+		{
+			pack : 5,
+			group : "Gorillaz",
+			song : "On Melancholy Hill"
+		},
+		{
+			pack : 5,
+			group : "Gorillaz",
+			song : "Dirty Harry"
+		},
+		{
+			pack : 5,
+			group : "Gorillaz",
+			song : "Kids With Guns"
 		}
 ];
 
@@ -7065,6 +7225,51 @@ let en_2000_m = [
 			pack : 2,
 			group : "ATB",
 			song : "Let U Go"
+		},
+		{
+			pack : 2,
+			group : "ATB",
+			song : "Let U Go"
+		},
+		{
+			pack : 3,
+			group : "Jay Sean",
+			song : "Do You Remember (ft Sean Paul, Lil Jon)"
+		},
+		{
+			pack : 3,
+			group : "Jay Sean",
+			song : "Ride It"
+		},
+		{
+			pack : 3,
+			group : 'Snoop Dogg',
+			song : "Beautiful (ft Pharell Williams, Uncle Charlie Wilson)"
+		},
+		{
+			pack : 3,
+			group : 'Snoop Dogg',
+			song : "Sexual Eruption"
+		},
+		{
+			pack : 2,
+			group : 'Pakito',
+			song : "Living on Video"
+		},
+		{
+			pack : 2,
+			group : 'Pakito',
+			song : "Moving on Stereo"
+		},
+		{
+			pack : 2,
+			group : 'Pakito',
+			song : "Are You Ready"
+		},
+		{
+			pack : 2,
+			group : 'Laurent Wolf',
+			song : "No Stress"
 		}
 ];
 
@@ -7696,12 +7901,95 @@ let en_2000_f = [
 			pack : 3,
 			group : "Missy Elliott",
 			song : 'Gossip Folks'
+		},
+		{
+			pack : 2,
+			group : "Sia",
+			song : 'Clap Your Hands'
+		},
+		{
+			pack : 2,
+			group : "Sia",
+			song : 'The Girl You Lost To Cocaine'
+		},
+		{
+			pack : 2,
+			group : "Sia",
+			song : "Soon We’ll Be Found"
+		},
+		{
+			pack : 3,
+			group : "Nelly Furtado",
+			song : 'Forca'
 		}
 ];
 
 let en_2000_f_1 =	en_2000_f.filter(item => item.pack == 1);
 let en_2000_f_2 =	en_2000_f.filter(item => item.pack == 2);
 let en_2000_f_3 =	en_2000_f.filter(item => item.pack == 3);
+
+let en_2000_minus = [
+	{
+		group : 'Killers',
+		song : "Mr. Brightside",
+		type: "Группа"
+	},
+	{
+		group : 'Nickelback',
+		song : "Rockstar",
+		type: "Группа"
+	},
+	{
+		group : 'U2',
+		song : "Vertigo",
+		type: "Группа"
+	},
+	{
+		group : 'Kaiser Chiefs',
+		song : "Ruby",
+		type: "Группа"
+	},
+	{
+		group : 'Garbage',
+		song : "Androgyny",
+		type: "Группа"
+	},
+	{
+		group : 'Adam Lambert',
+		song : "Whataya Want from Me",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Gnarls Barkley',
+		song : "Crazy",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Sean Paul',
+		song : "Temperature",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Eminem',
+		song : "The Real Slim Shady",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Avril Lavigne',
+		song : "Complicated",
+		type: "Исполнительница"
+	},
+	{
+		group : 'Inna',
+		song : "Sun Is Up",
+		type: "Исполнительница"
+	},
+	{
+		group : 'Katy Perry',
+		song : "I Kissed A Girl",
+		type: "Исполнительница"
+	}
+]
 
 let en_2007_gr_1 = [
 	{
@@ -9898,10 +10186,9 @@ let ru_1990_gr = [
 			state: ' по Русскому Размеру'
 		},
 		{
-			pack : 1,
-			group : 'Дискотека Авария',
-			song : 'Некуда деваться',
-			state: ' по Дискотеке Аварии'
+			pack : 3,
+			group : 'Ногу свело',
+			song : 'Московский романс'
 		},
 		{
 			pack : 1,
@@ -9952,10 +10239,9 @@ let ru_1990_gr = [
 			state: " по Фристайл"
 		},
 		{
-			pack : 1,
-			group : 'Дискотека Авария',
-			song : 'Труба зовёт',
-			state: ' по Дискотеке Аварии'
+			pack : 3,
+			group : 'Леприконсы',
+			song : 'Москвич'
 		},
 		{
 			pack : 1,
@@ -10814,43 +11100,43 @@ let ru_1990_gr = [
 		},
 		{
 			pack : 1,
-			group : 'Дюна',
-			song : 'Женька'
+			group : 'Русский размер',
+			song : 'Это весна'
+		},
+		{
+			pack : 3,
+			group : 'Агата Кристи',
+			song : 'Чёрная луна'
 		},
 		{
 			pack : 1,
-			group : 'Дюна',
-			song : 'Коммунальная квартира'
+			group : 'Господин Дадуда',
+			song : 'Даду Внедреж'
 		},
 		{
 			pack : 1,
-			group : 'Дюна',
-			song : 'Фонарики'
+			group : 'Bad Balance',
+			song : 'Город джунглей'
 		},
 		{
 			pack : 1,
-			group : 'Дюна',
-			song : 'Борька-бабник'
+			group : 'Bad Balance',
+			song : 'Дети Сатаны'
 		},
 		{
 			pack : 1,
-			group : 'Дюна',
-			song : 'Наш Вася'
+			group : 'Лесоповал',
+			song : 'Столыпинский вагон'
 		},
 		{
 			pack : 1,
-			group : 'Дюна',
-			song : 'Корефана'
+			group : 'Лесоповал',
+			song : 'Я куплю тебе дом'
 		},
 		{
-			pack : 1,
-			group : 'Дюна',
-			song : 'Мечта (Море пива)'
-		},
-		{
-			pack : 1,
-			group : 'Дюна',
-			song : 'Караганда'
+			pack : 2,
+			group : 'Гости из будущего',
+			song : 'Время песок'
 		},
 		{
 			pack : 2,
@@ -10868,9 +11154,9 @@ let ru_1990_gr = [
 			song : 'Поезд на Ленинград'
 		},
 		{
-			pack : 1,
-			group : 'Дискотека Авария',
-			song : 'Новогодняя'
+			pack : 3,
+			group : 'Леприконсы',
+			song : 'Лена'
 		},
 		{
 			pack : 1,
@@ -10878,9 +11164,9 @@ let ru_1990_gr = [
 			song : 'Пей пиво!'
 		},
 		{
-			pack : 1,
-			group : 'Дискотека Авария',
-			song : 'Влечение'
+			pack : 2,
+			group : 'Кабаре-дуэт «Академия»',
+			song : 'Ту-ту-ту'
 		},
 		{
 			pack : 1,
@@ -10906,66 +11192,6 @@ let ru_1990_gr = [
 			pack : 3,
 			group : 'Ногу свело',
 			song : 'Сибирская любовь'
-		},
-		{
-			pack : 3,
-			group : 'Ногу свело',
-			song : 'Московский романс'
-		},
-		{
-			pack : 3,
-			group : 'Леприконсы',
-			song : 'Москвич'
-		},
-		{
-			pack : 3,
-			group : 'Леприконсы',
-			song : 'Лена'
-		},
-		{
-			pack : 2,
-			group : 'Кабаре-дуэт «Академия»',
-			song : 'Ту-ту-ту'
-		},
-		{
-			pack : 2,
-			group : 'Гости из будущего',
-			song : 'Время песок'
-		},
-		{
-			pack : 1,
-			group : 'Лесоповал',
-			song : 'Я куплю тебе дом'
-		},
-		{
-			pack : 1,
-			group : 'Лесоповал',
-			song : 'Столыпинский вагон'
-		},
-		{
-			pack : 1,
-			group : 'Bad Balance',
-			song : 'Дети Сатаны'
-		},
-		{
-			pack : 1,
-			group : 'Bad Balance',
-			song : 'Город джунглей'
-		},
-		{
-			pack : 1,
-			group : 'Господин Дадуда',
-			song : 'Даду Внедреж'
-		},
-		{
-			pack : 3,
-			group : 'Агата Кристи',
-			song : 'Чёрная луна'
-		},
-		{
-			pack : 1,
-			group : 'Русский размер',
-			song : 'Это весна'
 		}
 ];
 
@@ -11882,6 +12108,21 @@ let ru_1990_m = [
 			pack : 1,
 			group : 'Валерий Меладзе',
 			song : 'Сэра'
+		},
+		{
+			pack : 1,
+			group : 'Александр Серов',
+			song : 'Мадонна'
+		},
+		{
+			pack : 1,
+			group : 'Александр Серов',
+			song : 'Как быть'
+		},
+		{
+			pack : 1,
+			group : 'Александр Серов',
+			song : 'Ворованная ночь'
 		}
 ];
 
@@ -13914,6 +14155,66 @@ let ru_2000_gr = [
 		pack : 1,
 		group : 'Русский размер',
 		song : 'До тебя'
+	},
+	{
+		pack : 3,
+		group : 'Непара',
+		song : 'Другая причина'
+	},
+	{
+		pack : 3,
+		group : 'Непара',
+		song : 'Плачь и смотри'
+	},
+	{
+		pack : 3,
+		group : 'Непара',
+		song : 'Бог тебя выдумал'
+	},
+	{
+		pack : 2,
+		group : 'Рефлекс',
+		song : "Первый раз"
+	},
+	{
+		pack : 1,
+		group : 'Каста',
+		song : "Горячее время"
+	},
+	{
+		pack : 1,
+		group : 'Челси',
+		song : "Самая любимая"
+	},
+	{
+		pack : 1,
+		group : 'Челси',
+		song : "Почему"
+	},
+	{
+		pack : 1,
+		group : 'Токио',
+		song : "Мы будем вместе всегда"
+	},
+	{
+		pack : 1,
+		group : 'Токио',
+		song : "Кто я без тебя"
+	},
+	{
+		pack : 1,
+		group : 'Токио',
+		song : "Когда ты плачешь"
+	},
+	{
+		pack : 3,
+		group : 'Инфинити',
+		song : "Где ты"
+	},
+	{
+		pack : 3,
+		group : 'Инфинити',
+		song : "Я не боюсь"
 	}
 ];
 
@@ -14262,6 +14563,56 @@ let ru_2000_m = [
 		pack : 1,
 		group : 'Валерий Меладзе',
 		song : "Вопреки"
+	},
+	{
+		pack : 1,
+		group : 'Дима Билан',
+		song : "Это была любовь"
+	},
+	{
+		pack : 1,
+		group : 'Дима Билан',
+		song : "Changes"
+	},
+	{
+		pack : 1,
+		group : 'Дима Билан',
+		song : "Я твой номер один"
+	},
+	{
+		pack : 2,
+		group : 'Антон Зацепин',
+		song : "Ниже ростом только Губин"
+	},
+	{
+		pack : 2,
+		group : 'Антон Зацепин',
+		song : "Книжки о любви"
+	},
+	{
+		pack : 2,
+		group : 'Антон Зацепин',
+		song : "Улетаю"
+	},
+	{
+		pack : 2,
+		group : 'DJ SMASH',
+		song : "Волна (ft Fast Food, Люды Соколовой и Павла «Снежка» Воли)"
+	},
+	{
+		pack : 2,
+		group : 'DJ SMASH',
+		song : "Любовь побеждает время (ft Дмитрий Дибров)"
+	},
+	{
+		pack : 1,
+		group : 'Юрий Шатунов',
+		song : "Не бойся"
+	},
+	{
+		pack : 1,
+		group : 'Юрий Шатунов',
+		song : "Запиши мой голос на кассету"
 	}
 ];
 
@@ -17708,7 +18059,7 @@ function generateSongIdsWithPrefix(arr, lang, year, type){
 		arr[i-1].id = prefix + id;
 		arr[i-1].audioPath = audioPath + id;
 		if(year == '1990' || year == '2000'){
-			arr[i-1].imgPath = imgPath + '/avatar/' + arr[i-1].group;
+			arr[i-1].imgPath = imgPath + 'avatar/' + arr[i-1].group;
 		} else {
 			arr[i-1].imgPath = imgPath + id;
 		}
@@ -18279,6 +18630,20 @@ function mode(num){
 			$('.artist').show();
 		}
 	}
+	// 2000 minus
+	if(num == 26){
+		year = 2000;
+		minusMode = true;
+		$('.en_alphabet').hide();
+		audioPath = 'audio/en/2000/minus/';
+		imgPath = 'img/en/2000/minus/';
+		songs = generateSongIdsWithPrefix(en_2000_minus, lang, year, 'minus');
+		answers = songs.map(item=>item.group);
+		finalMessage = ' Ура! Вы освоили "Дискотеку ' + year + '-х"!';
+		$('#total').html(songs.length);
+		shuffle(songs);
+		toggleLearn();
+	}
 	// 2007
 	if(num == 6){
 		year = '2007';
@@ -18461,6 +18826,8 @@ function mode(num){
 	}
 	
 	if(alphabetMode && !minusMode){
+		$('.en_alphabet').hide();
+		$('.ru_alphabet').hide();
 		setMusicalAlphabet();
 	} 
 		
