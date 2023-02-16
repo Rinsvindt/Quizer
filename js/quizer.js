@@ -4290,21 +4290,6 @@ let en_1990_gr = [
 			pack : 3,
 			group : "New Radicals",
 			song : "Someday We’ll Know"
-		},
-		{
-			pack : 5,
-			group : "RIO",
-			song : "Shine On"
-		},
-		{
-			pack : 5,
-			group : "RIO",
-			song : "When the Sun Comes Down"
-		},
-		{
-			pack : 5,
-			group : "RIO",
-			song : "After the Love"
 		}
 ];
 
@@ -6183,7 +6168,7 @@ let en_2000_gr = [
 		{
 			pack : 5,
 			group : "Black Eyed Peas",
-			song : "Boom Boom Pow"
+			song : "Meet Me Half Way"
 		},
 		{
 			pack : 4,
@@ -6251,7 +6236,7 @@ let en_2000_gr = [
 			song : 'Kids'
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Backstreet Boys',
 			song : "Straight through my heart"
 		},
@@ -6441,17 +6426,17 @@ let en_2000_gr = [
 			song : "Run"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Backstreet Boys',
 			song : "Shape of My Heart"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Backstreet Boys',
 			song : "Incomplete"
 		},
 		{
-			pack : 3,
+			pack : 5,
 			group : 'Backstreet Boys',
 			song : "Inconsolable"
 		},
@@ -6471,6 +6456,21 @@ let en_2000_gr = [
 			song : "Live Your Life"
 		},
 		{
+			pack : 5,
+			group : "RIO",
+			song : "Shine On"
+		},
+		{
+			pack : 5,
+			group : "RIO",
+			song : "When the Sun Comes Down"
+		},
+		{
+			pack : 5,
+			group : "RIO",
+			song : "After the Love"
+		},
+		{
 			pack : 3,
 			group : "Fall Out Boy",
 			song : "Dance, Dance"
@@ -6484,11 +6484,6 @@ let en_2000_gr = [
 			pack : 3,
 			group : "Fall Out Boy",
 			song : "This Ain’t a Scene, It’s an Arms Race"
-		},
-		{
-			pack : 3,
-			group : "Fall Out Boy",
-			song : "Thanks for the Memories"
 		},
 		{
 			pack : 3,
@@ -6524,6 +6519,26 @@ let en_2000_gr = [
 			pack : 5,
 			group : "Gorillaz",
 			song : "Kids With Guns"
+		},
+		{
+			pack : 6,
+			group : "Jakarta",
+			song : "One Desire"
+		},
+		{
+			pack : 6,
+			group : "Jakarta",
+			song : "Superstar"
+		},
+		{
+			pack : 4,
+			group : "Sylver",
+			song : "Forgiven"
+		},
+		{
+			pack : 4,
+			group : "Sylver",
+			song : "Turn The Tide"
 		}
 ];
 
@@ -6922,7 +6937,7 @@ let en_2000_m = [
 		},
 		{
 			pack : 2,
-			group : 'Beni Benassi',
+			group : 'Benny Benassi',
 			song : 'Satisfaction'
 		},
 		{
@@ -7192,11 +7207,6 @@ let en_2000_m = [
 			song : "Lollipop (ft Static Major)"
 		},
 		{
-			pack : 3,
-			group : "Lil Wayne",
-			song : "Lollipop (ft Static Major)"
-		},
-		{
 			pack : 2,
 			group : "Fatboy Slim",
 			song : "Star 69"
@@ -7220,11 +7230,6 @@ let en_2000_m = [
 			pack : 2,
 			group : "ATB",
 			song : "Ecstasy"
-		},
-		{
-			pack : 2,
-			group : "ATB",
-			song : "Let U Go"
 		},
 		{
 			pack : 2,
@@ -7563,7 +7568,7 @@ let en_2000_f = [
 			song : "Paper Planes"
 		},
 		{
-			pack : 2,
+			pack : 3,
 			group : "Ida Corr",
 			song : "Let Me Think About It (ft Fedde Le Grand)"
 		},
@@ -7668,7 +7673,7 @@ let en_2000_f = [
 			song : 'This Is The Life'
 		},
 		{
-			pack : 2,
+			pack : 3,
 			group : 'Aaliyah',
 			song : 'Try Again'
 		},
@@ -7921,6 +7926,11 @@ let en_2000_f = [
 			pack : 3,
 			group : "Nelly Furtado",
 			song : 'Forca'
+		},
+		{
+			pack : 2,
+			group : "Titiyo",
+			song : 'Come Along'
 		}
 ];
 
@@ -14215,6 +14225,16 @@ let ru_2000_gr = [
 		pack : 3,
 		group : 'Инфинити',
 		song : "Я не боюсь"
+	},
+	{
+		pack : 3,
+		group : 'Тутси',
+		song : "Чашка капучино"
+	},
+	{
+		pack : 3,
+		group : 'Тутси',
+		song : "Сама по себе"
 	}
 ];
 
@@ -14613,6 +14633,16 @@ let ru_2000_m = [
 		pack : 1,
 		group : 'Юрий Шатунов',
 		song : "Запиши мой голос на кассету"
+	},
+	{
+		pack : 2,
+		group : 'Евгений Анегин',
+		song : "Луна"
+	},
+	{
+		pack : 2,
+		group : 'Евгений Анегин',
+		song : "Песня О Любви"
 	}
 ];
 
@@ -15124,11 +15154,124 @@ let ru_2000_f = [
 		pack : 2,
 		group : 'Анастасия Стоцкая',
 		song : "Shadows dance all around me"
+	},
+	{
+		pack : 1,
+		group : 'Валерия',
+		song : "Ты грустишь (ft Стас Пьеха)"
+	},
+	{
+		pack : 1,
+		group : 'Валерия',
+		song : "Маленький самолёт"
+	},
+	{
+		pack : 1,
+		group : 'Валерия',
+		song : "Нежность моя"
+	},
+	{
+		pack : 1,
+		group : 'Валерия',
+		song : "Я лечу"
+	},
+	{
+		pack : 1,
+		group : 'Валерия',
+		song : "Мы вместе"
+	},
+	{
+		pack : 1,
+		group : 'Валерия',
+		song : "Разрушить любовь"
+	},
+	{
+		pack : 1,
+		group : 'Валерия',
+		song : "Никто, как ты"
+	},
+	{
+		pack : 1,
+		group : 'Валерия',
+		song : "Капелькою"
 	}
 ];
 
 let ru_2000_f_1 =	ru_2000_f.filter(item => item.pack == 1);
 let ru_2000_f_2 =	ru_2000_f.filter(item => item.pack == 2);
+
+let ru_2000_minus = [
+	{
+		group : 'Бумбокс',
+		song : "Вахтерам",
+		type: "Группа"
+	},
+	{
+		group : 'Звери',
+		song : "Брюнетки и блондинки",
+		type: "Группа"
+	},
+	{
+		group : 'Иванушки International',
+		song : "Золотые облака",
+		type: "Группа"
+	},
+	{
+		group : 'Уматурман',
+		song : "Прасковья",
+		type: "Группа"
+	},
+	{
+		group : 'Чай вдвоём',
+		song : "День рождения",
+		type: "Группа"
+	},
+	{
+		group : 'Блестящие',
+		song : "Пальмы парами",
+		type: "Группа"
+	},
+	{
+		group : 'Винтаж',
+		song : "Роман",
+		type: "Группа"
+	},
+	{
+		group : 'Пропаганда',
+		song : "Мелом",
+		type: "Группа"
+	},
+	{
+		group : 'Валерий Кипелов',
+		song : "Я свободен",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Валерий Леонтьев',
+		song : "Августин",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Григорий Лепс',
+		song : "Рюмка водки",
+		type: "Исполнитель"
+	},
+	{
+		group : 'Елена Ваенга',
+		song : "Курю",
+		type: "Исполнительница"
+	},
+	{
+		group : 'Жасмин',
+		song : "Головоломка",
+		type: "Исполнительница"
+	},
+	{
+		group : 'Максим',
+		song : "Знаешь ли ты",
+		type: "Исполнительница"
+	} 
+];
 
 let ru_2007 = [
 	{
@@ -17210,6 +17353,549 @@ let ru_kish_gr = [
 	}
 ];
 
+let ru_kish_gr_1 = [
+	{
+		group : 'Смельчак и ветер',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Проказник скоморох',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Верная жена',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Садовник',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Блуждают тени',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Внезапная голова',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Шар голубой',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Злодей и шапка',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'От женщин кругом голова',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Рыбак',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Мотоцикл',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Холодное тело',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Дурак и молния',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Леший обиделся',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Два вора и монета',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Любовь и пропеллер',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Камнем по голове',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'С тех пор, как он ушел',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'В доме суета',
+		song : "Камнем по голове"
+	},
+	{
+		group : 'Мария',
+		song : "Камнем по голове"
+	}
+];
+
+let ru_kish_gr_2 = [
+	{
+		group : 'Король и шут',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Два друга и разбойники',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Сапоги мертвеца',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Охотник',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Паника в селе',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Истинный убийца',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Лесник',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Помоги мне',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'История о мертвой женщине',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Кукольный театр',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Валет и дама',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Веселые тролли',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Он не знает, что такое жить',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Отец и маски',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Сказка про дракона',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Инструмент',
+		song : "Будь как дома, путник"
+	},
+	{
+		group : 'Собрание',
+		song : "Будь как дома, путник"
+	}
+];
+
+let ru_kish_gr_3 = [
+    {
+		group : 'Кукла колдуна',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Наблюдатель',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Бедняжка',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Прыгну со скалы',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Девушка и Граф',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Песня мушкетёров',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Тяни',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Утренний рассвет',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Сосиска',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Спятил отец',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Ведьма и осёл',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Екатерина',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Прерванная любовь, или Арбузная корка',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Мотоцикл',
+		song : "Акустический Альбом"
+	},
+	{
+		group : 'Забытые ботинки',
+		song : "Акустический Альбом"
+	}
+];
+
+let ru_kish_gr_4 = [
+	{
+		group : 'Дед на свадьбе',
+		song : "Герои и Злодеи"
+	},
+	{
+		group : 'Запрет отца',
+		song : "Герои и Злодеи"
+	},
+	{
+		group : 'Кузнец',
+		song : "Герои и Злодеи"
+	},
+	{
+		group : 'Разговор с гоблином',
+		song : "Герои и Злодеи"
+	},
+	{
+		group : 'Что делал малыш',
+		song : "Герои и Злодеи"
+	},
+	{
+		group : 'Невеста палача',
+		song : "Герои и Злодеи"
+	},
+	{
+		group : 'Мастер приглашает в гости',
+		song : "Герои и Злодеи"
+	},
+	{
+		group : 'Бродяга и старик',
+		song : "Герои и Злодеи"
+	},
+	{
+		group : 'Смерть халдея',
+		song : "Герои и Злодеи"
+	},
+	{
+		group : 'Помнят с горечью древляне',
+		song : "Герои и Злодеи"
+	},
+	{
+		group : 'Про Ивана',
+		song : "Герои и Злодеи"
+	},
+	{
+		group : 'Воспоминания о былой любви',
+		song : "Герои и Злодеи"
+	}
+];
+
+let ru_kish_gr_5 = [
+	{
+		group : 'Гимн шута',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Проклятый старый дом',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Тайна хозяйки старинных часов',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Кузьма и барин',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Пират',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Скотный двор',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Возвращение колдуна',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Зловещий кузен',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Ответ – лютая месть',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Ответ – лютая месть',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Двухголовый отпрыск',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Два монаха в одну ночь',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Кто это все придумал',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Пивной череп',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Парень и леший',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Похороны панка',
+		song : "Как в старой сказке"
+	},
+	{
+		group : 'Воспоминания о былой любви',
+		song : "Как в старой сказке"
+	}
+];
+
+let ru_kish_gr_6 = [
+	{
+		group : 'Волосокрад',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Мертвый анархист',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Смешной совет',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Некромант',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Защитник свиней',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Генрих и смерть',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Жаль, нет ружья',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Представляю я',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Мой характер',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Песенка пьяного деда',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Вдова и Горбун',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Вино хоббитов',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Утопленник',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Медведь',
+		song : "Жаль, нет ружья"
+	},
+	{
+		group : 'Пьянка',
+		song : "Жаль, нет ружья"
+	}
+];
+
+let ru_kish_gr_7 = [
+	{
+		group : 'Хардкор по-русски',
+		song : "Бунт на корабле"
+	},
+	{
+		group : 'Исповедь вампира',
+		song : "Бунт на корабле"
+	},
+	{
+		group : 'Месть Гарри',
+		song : "Бунт на корабле"
+	},
+	{
+		group : 'Северный флот',
+		song : "Бунт на корабле"
+	},
+	{
+		group : 'Идол',
+		song : "Бунт на корабле"
+	},
+	{
+		group : 'Бунт на корабле',
+		song : "Бунт на корабле"
+	},
+	{
+		group : 'Хороший пират – мертвый пират',
+		song : "Бунт на корабле"
+	},
+	{
+		group : 'Рыцарь',
+		song : "Бунт на корабле"
+	},
+	{
+		group : 'Звонок',
+		song : "Бунт на корабле"
+	},
+	{
+		group : 'Задира и солдат',
+		song : "Бунт на корабле"
+	},
+	{
+		group : 'Хозяин леса',
+		song : "Бунт на корабле"
+	}
+];
+
+let ru_kish_gr_8 = [
+	{
+		group : 'Марионетки',
+		song : "Продавец кошмаров"
+	},
+	{
+		group : 'Маска',
+		song : "Продавец кошмаров"
+	},
+	{
+		group : 'Ром',
+		song : "Продавец кошмаров"
+	},
+	{
+		group : 'Гробовщик',
+		song : "Продавец кошмаров"
+	},
+	{
+		group : 'Дочка вурдалака',
+		song : "Продавец кошмаров"
+	},
+	{
+		group : 'Отражение',
+		song : "Продавец кошмаров"
+	},
+	{
+		group : 'Та, что смотрит из пруда',
+		song : "Продавец кошмаров"
+	},
+	{
+		group : 'В гостях у соседа',
+		song : "Продавец кошмаров"
+	},
+	{
+		group : 'Хозяин таверны',
+		song : "Продавец кошмаров"
+	},
+	{
+		group : 'Писатель Гудвин',
+		song : "Продавец кошмаров"
+	},
+	{
+		group : 'Джокер',
+		song : "Продавец кошмаров"
+	},
+	{
+		group : 'Пляски на могиле',
+		song : "Продавец кошмаров"
+	},
+	{
+		group : 'Продавец кошмаров',
+		song : "Продавец кошмаров"
+	},
+	{
+		group : 'Город мертвецов',
+		song : "Продавец кошмаров"
+	}
+];
+
+let ru_kish_gr_9 = [
+    {
+		group : 'Тень Клоуна',
+		song : "Тень Клоуна"
+	},
+	{
+		group : 'Дагон',
+		song : "Тень Клоуна"
+	},
+	{
+		group : 'Двое против всех',
+		song : "Тень Клоуна"
+	},
+	{
+		group : 'В Париж – домой',
+		song : "Тень Клоуна"
+	},
+	{
+		group : 'Фред',
+		song : "Тень Клоуна"
+	},
+	{
+		group : 'Кода',
+		song : "Тень Клоуна"
+	},
+	{
+		group : 'A.M.T.V.',
+		song : "Тень Клоуна"
+	},
+	{
+		group : 'Смешной пистолет',
+		song : "Тень Клоуна"
+	}
+];
+
 let states = ["Знаток", "Специалист", "Профессионал", "Дока", "Гуру", "Профессор", "Мастер", 
 			  "Эксперт", "Виртуоз", "Маэстро", "Эрудит", "Мастак", "Всезнайка"];
 			  
@@ -18067,6 +18753,15 @@ function generateSongIdsWithPrefix(arr, lang, year, type){
 	return arr;
 }
 
+function generateSongIdsByPaths(arr, audioPath, imgPath){
+	for(var i=1; i <= arr.length; i++){
+		arr[i-1].id = 'Song (' + i + ')';
+		arr[i-1].audioPath = audioPath + 'Song (' + i + ')';
+		arr[i-1].imgPath = imgPath + arr[i-1].song;
+	}
+	return arr;
+}
+
 function map_songs_format(arr){
 	let h2_start = `<h2>`;
 	let h2_end = `</h2>`;
@@ -18362,6 +19057,8 @@ function show_packages(num){
 }
 
 function package_num(num){
+	$('#current_pack').show();
+	$('#current_pack').attr('src', $('#package_' + num).attr('src'));
 	back = back_to_packages;
 	$('.package').hide();
 	if(year == '1990' || year == '2000'){
@@ -18511,6 +19208,7 @@ function back_to_year(){
 
 function back_to_packages(){
 	back = back_to_year;
+	$('#current_pack').hide();
 	$('#package_content').hide();
 	toggleLearn();
 	if(artist_type == 'gr'){
@@ -18524,7 +19222,7 @@ function back_to_packages(){
 
 let back = back_to_mode;
 		
-function mode(num){
+function mode(num, album, album_num){
 	$('.mode').hide();
 	$('#mirror').hide();
 	$('#back').show();
@@ -18763,6 +19461,20 @@ function mode(num){
 			$('.artist').show();
 		}
 	}
+	// 2000 минус
+	if(num == 27){
+		year = 2000;
+		minusMode = true;
+		$('.ru_alphabet').hide();
+		audioPath = 'audio/ru/2000/minus/';
+		imgPath = 'img/ru/2000/minus/';
+		songs = generateSongIdsWithPrefix(ru_2000_minus, lang, year, 'minus');
+		answers = songs.map(item=>item.group);
+		finalMessage = ' Ура! Вы освоили "Дискотеку ' + year + '-х"!';
+		$('#total').html(songs.length);
+		shuffle(songs);
+		toggleLearn();
+	}
 	// 2007
 	if(num == 5){
 		audioPath = 'audio/ru_2007/';
@@ -18788,7 +19500,13 @@ function mode(num){
 		finalMessage = ' Ура! Вы освоили "Дискотеку 2020-х"!';
 	}
 	// Король и Шут!!!
+	if(num == 28){
+		$('#back').hide();
+		$('.submode').show();
+	}
 	if(num == 22){
+		$('#back').hide();
+		$('.submode').hide();
 		year = 'kish';
 		sec_per_turn = 20;
 		$('#learn').html('Угадай песню КиШа');
@@ -18799,6 +19517,26 @@ function mode(num){
 		finalMessage = ' Ура! Вы освоили "КиШа"!';
 		$('#total').html(songs.length);
 		showGroupNames();
+	}
+	if(num == 29){
+		$('#back').hide();
+		$('.submode').hide();
+		$('.kish_minus').show();
+	}
+	if(num == 30){
+		$('#back').hide();
+		$('.kish_minus').hide();
+		year = 2000;
+		minusMode = true;
+		$('.en_alphabet').hide();
+		audioPath = 'audio/ru_kish_gr/minus/' + album + '/';
+		imgPath = 'img/ru_kish_gr/avatar/';
+		songs = generateSongIdsByPaths(eval('ru_kish_gr_' + album_num), audioPath, imgPath);
+		answers = songs.map(item=>item.group);
+		finalMessage = ' Ура! Вы освоили "Тень клоуна"!';
+		$('#total').html(songs.length);
+		shuffle(songs);
+		toggleLearn();
 	}
 	
 	// Media
