@@ -4290,6 +4290,31 @@ let en_1990_gr = [
 			pack : 3,
 			group : "New Radicals",
 			song : "Someday We’ll Know"
+		},
+		{
+			pack : 2,
+			group : "Semisonic",
+			song : "Singing in My Sleep"
+		},
+		{
+			pack : 2,
+			group : "Semisonic",
+			song : "Secret Smile"
+		},
+		{
+			pack : 3,
+			group : "Faithless",
+			song : "Insomnia"
+		},
+		{
+			pack : 3,
+			group : "Faithless",
+			song : "Salva Mea"
+		},
+		{
+			pack : 3,
+			group : "Faithless",
+			song : "God Is a DJ"
 		}
 ];
 
@@ -6539,6 +6564,41 @@ let en_2000_gr = [
 			pack : 4,
 			group : "Sylver",
 			song : "Turn The Tide"
+		},
+		{
+			pack : 3,
+			group : "Guns N Roses",
+			song : "Chinese Democracy"
+		},
+		{
+			pack : 3,
+			group : "Semisonic",
+			song : "Chemistry"
+		},
+		{
+			pack : 6,
+			group : "INXS",
+			song : "Afterglow"
+		},
+		{
+			pack : 6,
+			group : "INXS",
+			song : "Original Sin"
+		},
+		{
+			pack : 4,
+			group : "Pussycat Dolls",
+			song : "I don't need a man"
+		},
+		{
+			pack : 6,
+			group : "Faithless",
+			song : "We Come 1"
+		},
+		{
+			pack : 6,
+			group : "Faithless",
+			song : "One Step Too Far (ft Dido)"
 		}
 ];
 
@@ -11202,6 +11262,31 @@ let ru_1990_gr = [
 			pack : 3,
 			group : 'Ногу свело',
 			song : 'Сибирская любовь'
+		},
+		{
+			pack : 2,
+			group : 'Земфира',
+			song : 'Ромашки'
+		},
+		{
+			pack : 1,
+			group : 'Амега',
+			song : 'Новый год (ft Блестящие)'
+		},
+		{
+			pack : 1,
+			group : 'Амега',
+			song : 'Ноги'
+		},
+		{
+			pack : 1,
+			group : 'Амега',
+			song : 'Лететь'
+		},
+		{
+			pack : 1,
+			group : 'Амега',
+			song : 'Это была она'
 		}
 ];
 
@@ -13070,1171 +13155,1191 @@ let ru_1990_minus = [
 	}
 ];
 
+const RU_2000_GR_MVOCAL = 2;
+const RU_2000_GR_FVOCAL_MEDIUM_1 = 3;
+const RU_2000_GR_FVOCAL_MEDIUM_2 = 4;
+const RU_2000_GR_ROCK = 1;
+
 let ru_2000_gr = [
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Hi-Fi',
 		song : "А мы любили"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Hi-Fi',
 		song : "Седьмой лепесток"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Отпетые мошенники',
 		song : "Девушки бывают разные"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Отпетые мошенники',
 		song : "Граница (ft Леонид Агутин)"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Отпетые мошенники',
 		song : "А у реки"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Отпетые мошенники',
 		song : "Обратите внимание"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Дискотека Авария',
 		song : "Малинки (ft Жанна Фриске)"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Дискотека Авария',
 		song : "Небо"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Бумбокс',
 		song : "Вахтерам"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Иванушки International',
 		song : "Реви"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Иванушки International',
 		song : "Золотые облака"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Иванушки International',
 		song : "Тополиный пух"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Чай вдвоём',
 		song : "День рождения"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Чай вдвоём',
 		song : "А ты все ждешь"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Уматурман',
 		song : "Проститься"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Многоточие',
 		song : "Щемит в душе тоска"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Звери',
 		song : "Районы-кварталы"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Звери',
 		song : "До скорой встречи!"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Quest Pistols',
 		song : "Белая стрекоза любви"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Корни',
 		song : "Вика"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Корни',
 		song : "Ты узнаешь её"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Корни',
 		song : "Плакала береза"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Другие правила',
 		song : "Лети! Беги!"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Дыши',
 		song : "Взгляни на небо"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Сценакардия',
 		song : "Времена года"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Градусы',
 		song : "Режиссер"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Звери',
 		song : "Всё, что тебя касается"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Корни',
 		song : "25 этаж"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Hi-Fi',
 		song : "Глупые люди"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Quest Pistols',
 		song : "Я устал"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Бумбокс',
 		song : "Eva"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Дискотека Авария',
 		song : "Если хочешь остаться"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Дискотека Авария',
 		song : "Модный танец Арам Зам Зам"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Звери',
 		song : "Напитки покрепче"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Звери',
 		song : "Просто такая сильная любовь"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Звери',
 		song : "Капканы"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Отпетые мошенники',
 		song : "Моя звезда (ft Сливки)"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Уматурман',
 		song : "Прасковья"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Уматурман',
 		song : "Дождь"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Уматурман',
 		song : "Ночной дозор"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Звери',
 		song : "Брюнетки и блондинки"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Чай вдвоём',
 		song : "Ласковая моя"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Бутырка',
 		song : "Запахло весной"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Бутырка',
 		song : "Аттестат"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Игра слов',
 		song : "Алина Кабаева"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Нэнси',
 		song : "Ты такая заводная"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'БиС',
 		song : "Кораблики"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Банда',
 		song : "Плачут небеса"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : "Пятница",
 		song : "Солдат"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : "Triplex",
 		song : "Бригада"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : "5ivesta family",
 		song : "Я буду (23-45)"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : "Revoльvers",
 		song : "Ты у меня одна"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : "Revoльvers",
 		song : "Целуешь меня"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : "Каста",
 		song : "Ревность"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : "Т9",
 		song : "Ода нашей любви"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : "Бумер",
 		song : "Не плачь"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : '140 ударов в минуту',
 		song : 'Не сходи с ума'
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Блестящие',
 		song : "А я всё летала"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Блестящие',
 		song : "За четыре моря"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Виагра',
 		song : "Моя попытка номер пять"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Виагра',
 		song : "Бриллианты"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Виагра',
 		song : "Я не вернусь"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Пропаганда',
 		song : "Мелом"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Пропаганда',
 		song : "Никто"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Фабрика',
 		song : "Про любовь"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Фабрика',
 		song : "Не виноватая я"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Серебро',
 		song : "Song No.1"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Серебро',
 		song : "Дыши (ft Баста)"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Серебро',
 		song : "Опиум"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Серебро',
 		song : "Скажи, не молчи"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Серебро',
 		song : "Сладко"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Пропаганда',
 		song : "Холодно"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Пропаганда',
 		song : "Кто?"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Пропаганда',
 		song : "Пять минут на любовь"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Рефлекс',
 		song : "Падали звезды"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Рефлекс',
 		song : "Non-stop"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Краски',
 		song : "Я люблю тебя, Сергей"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Краски',
 		song : "Те, кто любит (ft Андрей Губин)"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Краски',
 		song : "Хочешь"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Краски',
 		song : "Всего 15 лет"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Краски',
 		song : "Фанат"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Краски',
 		song : "Мальчик с открытки"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Краски',
 		song : "Девочка танцует"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Краски',
 		song : "Старший брат"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Краски',
 		song : "Оранжевое солнце"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Краски',
 		song : "Такси"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Краски',
 		song : "Солнце моё"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Краски',
 		song : "Весна"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Краски',
 		song : "Мне мальчик твой не нужен"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Винтаж',
 		song : "Роман"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Винтаж',
 		song : "Плохая девочка"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Винтаж',
 		song : "Одиночество любви"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Винтаж',
 		song : "Ева"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Пропаганда',
 		song : "Так и быть"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Пропаганда',
 		song : "Дождь по крыше"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Лицей',
 		song : "Она не верит больше в любовь"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Лицей',
 		song : "Падает дождь"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Лицей',
 		song : "Как ты о нем мечтала"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Лицей',
 		song : "Планета Пять"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Лицей',
 		song : "Ты станешь взрослой"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Фабрика',
 		song : "Рыбка"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Пропаганда',
 		song : "Ай-я"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Пропаганда',
 		song : "Супер детка"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Пропаганда',
 		song : "Quanto Costa"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Фабрика',
 		song : "Зажигают огоньки"
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Блестящие',
 		song : "Пальмы парами"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Тату',
 		song : "Нас не догонят"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Тату',
 		song : "Я сошла с ума"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Любовные Истории',
 		song : "Школа"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Подиум',
 		song : "Танцуй, пока молодая"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Тотал',
 		song : "Бьет по глазам"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Тутси',
 		song : "Самый-самый"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Город 312',
 		song : "Останусь"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Город 312',
 		song : "Вне зоны доступа"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Тату',
 		song : "All about us"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Fleur',
 		song : "Отречение"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Горячий шоколад',
 		song : "Береги"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Сливки',
 		song : "Самая лучшая (ft Анжелика Варум)"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Сливки',
 		song : "Иногда"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Сливки',
 		song : "Летели недели"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Ранетки',
 		song : "Ангелы"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Ранетки',
 		song : "Это все о ней"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Гости из будущего',
 		song : "Грустные сказки"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Гости из будущего',
 		song : "Зима в сердце"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Гости из будущего',
 		song : "Метко"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Гости из будущего',
 		song : "Почему ты"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Чили',
 		song : "Лето"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Чили',
 		song : "Сердце"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Вельвет',
 		song : "Прости"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Инфинити',
 		song : "Слезы вода"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "БандЭрос",
 		song : "Наоми я бы Кэмпбел"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "БандЭрос",
 		song : "Про красивую жизнь"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "БандЭрос",
 		song : "Манхэттен"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "БандЭрос",
 		song : "Адьос"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "БандЭрос",
 		song : "Синьорита"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "БандЭрос",
 		song : "Не зарекайся"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "БандЭрос",
 		song : "Коламбия Пикчерз не представляет"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "БандЭрос",
 		song : "Полосы"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "БандЭрос",
 		song : "Не вспоминай"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "БандЭрос",
 		song : "До весны"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "БандЭрос",
 		song : "Не под этим солнцем"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "A’Studio",
 		song : "Улетаю"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "A’Studio",
 		song : "S.O.S."
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "A’Studio",
 		song : "Две половинки"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "A’Studio",
 		song : "Ещё люблю"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "Потап и Настя",
 		song : "Непара"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "Потап и Настя",
 		song : "Почему молчишь"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : "Потап и Настя",
 		song : "Новый год"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Би-2',
 		song : "Серебро"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Неприкасаемые',
 		song : "Моя бабушка курит трубку"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Ленинград',
 		song : "Мне бы в небо"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Земфира',
 		song : "До свиданья"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Мумий Тролль',
 		song : "Невеста"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Танцы минус',
 		song : "Половинка"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Сплин',
 		song : "Моё сердце"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Смысловые Галлюцинации',
 		song : "Вечно молодой"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Чичерина',
 		song : "Ту-лу-ла"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Кукрыниксы',
 		song : "По раскрашенной душе"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Ляпис Трубецкой',
 		song : "Сочи"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Пикник',
 		song : "Фиолетово-чёрный"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Агата Кристи',
 		song : "Секрет"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Алиса',
 		song : "Веретено"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'ДДТ',
 		song : "Новое сердце"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Чайф',
 		song : "Время не ждёт"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Крематорий',
 		song : "Катманду"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Ю-питер',
 		song : "Девушка по городу"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Пилот',
 		song : "Тюрьма"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Тараканы',
 		song : "Я смотрю на них"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Наив',
 		song : "Суперзвезда"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Кирпичи',
 		song : "Данила Блюз"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Мельница',
 		song : "Ночная Кобыла"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Ночные снайперы',
 		song : "Катастрофически"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Сурганова и Оркестр',
 		song : "Мураками"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Чичерина',
 		song : "Жара"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Маша и медведи',
 		song : "Земля"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Юта',
 		song : "Хмель и солод"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Zdob si Zdub',
 		song : "Видели ночь"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Ундервуд',
 		song : "Гагарин, я вас любила"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Мультфильмы',
 		song : "Яды"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : '7Б',
 		song : "Молодые ветра"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Animal ДжаZ',
 		song : "Три полоски"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Воплi вiдоплясова',
 		song : "День нароDjення"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Lumen',
 		song : "Сид и Нэнси"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Мёртвые дельфины',
 		song : "На моей луне"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Amatory',
 		song : "Дыши со мной"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Слот',
 		song : "2 войны"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Catharsis',
 		song : "Крылья"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Элизиум',
 		song : "Острова"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Мумий Тролль',
 		song : "Владивосток 2000"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Мумий Тролль',
 		song : "Такие девчонки"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Мумий Тролль',
 		song : "Контрабанды"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Алиса',
 		song : "Пересмотри"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Танцы минус',
 		song : "Ю"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Король и Шут',
 		song : "В Париж — домой"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Король и Шут',
 		song : "MTV"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Би-2',
 		song : "Варвара"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Би-2',
 		song : "Полковнику никто не пишет"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Би-2',
 		song : "Моя любовь"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Сплин',
 		song : "Весь этот бред"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Чайф',
 		song : "Нахреноза"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Смысловые Галлюцинации',
 		song : "Зачем топтать мою любовь"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Смысловые Галлюцинации',
 		song : "Полюса"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Мультфильмы',
 		song : "За нами следят"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Мультфильмы',
 		song : "Магнитофон"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Мультфильмы',
 		song : "Пистолет"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Земфира',
 		song : "Хочешь?"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Земфира',
 		song : "Кто?"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : 'Ляпис Трубецкой',
 		song : "Капитал"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : "Театр Теней",
 		song : "Дорога всех ветров"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : "Stigmata",
 		song : "Сентябрь"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : "Океан Эльзы",
 		song : "Без бою"
 	},
 	{
-		pack : 4,
+		pack : RU_2000_GR_ROCK,
 		group : "Ва-Банкъ",
 		song : "Украла"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'NikitA',
 		song : "Верёвки"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Монокини',
 		song : "Дотянуться до солнца"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Монокини',
 		song : "Сидим на облаках"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Монокини',
 		song : "До встречи на звезде"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Русский размер',
 		song : 'Льдами'
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Русский размер',
 		song : '!Слушай'
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Русский размер',
 		song : 'До тебя'
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Непара',
 		song : 'Другая причина'
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Непара',
 		song : 'Плачь и смотри'
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Непара',
 		song : 'Бог тебя выдумал'
 	},
 	{
-		pack : 2,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
 		group : 'Рефлекс',
 		song : "Первый раз"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Каста',
 		song : "Горячее время"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Челси',
 		song : "Самая любимая"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Челси',
 		song : "Почему"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Токио',
 		song : "Мы будем вместе всегда"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Токио',
 		song : "Кто я без тебя"
 	},
 	{
-		pack : 1,
+		pack : RU_2000_GR_MVOCAL,
 		group : 'Токио',
 		song : "Когда ты плачешь"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Инфинити',
 		song : "Где ты"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Инфинити',
 		song : "Я не боюсь"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Тутси',
 		song : "Чашка капучино"
 	},
 	{
-		pack : 3,
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
 		group : 'Тутси',
 		song : "Сама по себе"
+	},
+	{
+		pack : RU_2000_GR_MVOCAL,
+		group : 'Амега',
+		song : 'Десант'
+	},
+	{
+		pack : RU_2000_GR_MVOCAL,
+		group : 'Амега',
+		song : 'Я летая пою'
+	},
+	{
+		pack : RU_2000_GR_MVOCAL,
+		group : 'Амега',
+		song : 'Убегаю'
 	}
 ];
 
@@ -19446,10 +19551,10 @@ function mode(num, album, album_num){
 	if(num == 21){
 		year = '2000';
 		gr_packages = 4;
-		gr_package_names[0] = 'ru_pop_m';
-		gr_package_names[1] = 'ru_pop_f_medium_1';
-		gr_package_names[2] = 'ru_pop_f_medium_2';
-		gr_package_names[3] = 'ru_rock';
+		gr_package_names[0] = 'ru_rock';
+		gr_package_names[1] = 'ru_pop_m';
+		gr_package_names[2] = 'ru_pop_f_medium_1';
+		gr_package_names[3] = 'ru_pop_f_medium_2';
 		f_packages = 2;
 		f_package_names[0] = 'medium';
 		f_package_names[1] = 'hard';
