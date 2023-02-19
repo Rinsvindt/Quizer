@@ -13045,6 +13045,26 @@ let ru_1990_f = [
 			pack : 2,
 			group : 'Каролина',
 			song : 'Дискобар'
+		},
+		{
+			pack : 3,
+			group : 'Ани Лорак',
+			song : 'Манекенщица'
+		},
+		{
+			pack : 3,
+			group : 'Ани Лорак',
+			song : 'Я вернусь'
+		},
+		{
+			pack : 3,
+			group : 'Ани Лорак',
+			song : 'Считалочка'
+		},
+		{
+			pack : 3,
+			group : 'Ани Лорак',
+			song : 'Зеркала'
 		}
 ];
 
@@ -15299,6 +15319,31 @@ let ru_2000_f = [
 		pack : 1,
 		group : 'Валерия',
 		song : "Капелькою"
+	},
+	{
+		pack : 2,
+		group : 'Ани Лорак',
+		song : "Smile"
+	},
+	{
+		pack : 2,
+		group : 'Ани Лорак',
+		song : "Верни мою любовь (ft Валерий Меладзе)"
+	},
+	{
+		pack : 2,
+		group : 'Ани Лорак',
+		song : "С первого взгляда"
+	},
+	{
+		pack : 2,
+		group : 'Ани Лорак',
+		song : "Shady Lady"
+	},
+	{
+		pack : 2,
+		group : 'Ани Лорак',
+		song : "Небеса-ладони"
 	}
 ];
 
@@ -19276,6 +19321,9 @@ function setMusicalAlphabetPack(arr, type, audioPath, imgPath){
 		song.type = type;
 		song.audioPath = audioPath + song.id;
 		song.imgPath = imgPath + song.id;
+		if(year == '1990' || year == '2000'){
+			song.imgPath = imgPath + 'avatar/' + song.group;
+		}
 	});
 	return result;
 }
