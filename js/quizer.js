@@ -7335,6 +7335,31 @@ let en_2000_m = [
 			pack : 2,
 			group : 'Laurent Wolf',
 			song : "No Stress"
+		},
+		{
+			pack : 3,
+			group : 'Eminem',
+			song : "Ass Like That"
+		},
+		{
+			pack : 1,
+			group : 'Mustafa Sandal',
+			song : "All My Life"
+		},
+		{
+			pack : 2,
+			group : 'Calvin Harris',
+			song : "Acceptable in the 80s"
+		},
+		{
+			pack : 2,
+			group : 'Calvin Harris',
+			song : "The Girls"
+		},
+		{
+			pack : 2,
+			group : 'Panjabi MC',
+			song : "Mundian to Bach Ke"
 		}
 ];
 
@@ -7991,6 +8016,21 @@ let en_2000_f = [
 			pack : 2,
 			group : "Titiyo",
 			song : 'Come Along'
+		},
+		{
+			pack : 2,
+			group : "Natasha Bedingfield",
+			song : 'These Words'
+		},
+		{
+			pack : 2,
+			group : "Natasha Bedingfield",
+			song : 'Single'
+		},
+		{
+			pack : 2,
+			group : "Natasha Bedingfield",
+			song : 'Unwritten'
 		}
 ];
 
@@ -14360,6 +14400,21 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_MVOCAL,
 		group : 'Амега',
 		song : 'Убегаю'
+	},
+	{
+		pack : RU_2000_GR_ROCK,
+		group : 'Lumen',
+		song : 'Кофе'
+	},
+	{
+		pack : RU_2000_GR_ROCK,
+		group : 'Ногу свело',
+		song : 'Наши юные смешные голоса'
+	},
+	{
+		pack : RU_2000_GR_MVOCAL,
+		group : 'Отпетые мошенники',
+		song : 'Насосы'
 	}
 ];
 
@@ -14768,6 +14823,16 @@ let ru_2000_m = [
 		pack : 2,
 		group : 'Евгений Анегин',
 		song : "Песня О Любви"
+	},
+	{
+		pack : 2,
+		group : 'Серёга',
+		song : "Мой бит"
+	},
+	{
+		pack : 2,
+		group : 'Никита Малинин',
+		song : "Вспышка в ночи"
 	}
 ];
 
@@ -15344,6 +15409,11 @@ let ru_2000_f = [
 		pack : 2,
 		group : 'Ани Лорак',
 		song : "Небеса-ладони"
+	},
+	{
+		pack : 1,
+		group : 'Кристина Орбакайте',
+		song : "Май"
 	}
 ];
 
@@ -17974,6 +18044,10 @@ let ru_kish_gr_8 = [
 		song : "Продавец кошмаров"
 	},
 	{
+		group : 'Свой среди чужих',
+		song : "Продавец кошмаров"
+	},
+	{
 		group : 'Отражение',
 		song : "Продавец кошмаров"
 	},
@@ -17995,10 +18069,6 @@ let ru_kish_gr_8 = [
 	},
 	{
 		group : 'Джокер',
-		song : "Продавец кошмаров"
-	},
-	{
-		group : 'Пляски на могиле',
 		song : "Продавец кошмаров"
 	},
 	{
@@ -18043,6 +18113,76 @@ let ru_kish_gr_9 = [
 	{
 		group : 'Смешной пистолет',
 		song : "Тень Клоуна"
+	}
+];
+
+let ru_kish_gr_10 = [
+	{
+		group : 'Театральный демон',
+		song : "Театр Демона"
+	},
+	{
+		group : 'Киногерой',
+		song : "Театр Демона"
+	},
+	{
+		group : 'Фокусник',
+		song : "Театр Демона"
+	},
+	{
+		group : 'Танец злобного гения',
+		song : "Театр Демона"
+	},
+	{
+		group : 'Мадам Жоржетт',
+		song : "Театр Демона"
+	},
+	{
+		group : 'Бунтарь',
+		song : "Театр Демона"
+	},
+	{
+		group : 'Темный учитель',
+		song : "Театр Демона"
+	},
+	{
+		group : 'Король вечного сна',
+		song : "Театр Демона"
+	},
+	{
+		group : 'Бал лицемеров',
+		song : "Театр Демона"
+	}
+];
+
+let ru_kish_gr_11 = [
+	{
+		group : 'Добрые люди (Хор нищих)',
+		song : "Todd. Акт 1 – Праздник Крови"
+	},
+	{
+		group : 'Смертный приговор (Ария Тодда и Мясника)',
+		song : "Todd. Акт 1 – Праздник Крови"
+	},
+	{
+		group : 'Признание Ловетт (Ария Ловетт)',
+		song : "Todd. Акт 1 – Праздник Крови"
+	},
+	{
+		group : 'Счастье? (Ария Тодда)',
+		song : "Todd. Акт 1 – Праздник Крови"
+	},
+	{
+		group : 'Смерть на балу (Ария Солиста и Тодда)',
+		song : "Todd. Акт 2 – На краю"
+	},
+	{
+		group : 'Маленький остров (Ария Ловетт)',
+		song : "Todd. Акт 2 – На краю"
+	},
+	{
+		group : 'На краю (Последняя ария Тодда)',
+		song : "Todd. Акт 2 – На краю"
 	}
 ];
 
@@ -19686,7 +19826,7 @@ function mode(num, album, album_num){
 		imgPath = 'img/ru_kish_gr/avatar/';
 		songs = generateSongIdsByPaths(eval('ru_kish_gr_' + album_num), audioPath, imgPath);
 		answers = songs.map(item=>item.group);
-		finalMessage = ' Ура! Вы освоили "Тень клоуна"!';
+		finalMessage = ' Ура! Вы освоили "' + album + '"!';
 		$('#total').html(songs.length);
 		shuffle(songs);
 		toggleLearn();
