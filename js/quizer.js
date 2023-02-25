@@ -3513,12 +3513,12 @@ let en_1990_gr = [
 		},
 		{
 			pack : 3,
-			group : "NSYNK",
+			group : "NSYNC",
 			song : "Bye Bye Bye"
 		},
 		{
 			pack : 3,
-			group : "NSYNK",
+			group : "NSYNC",
 			song : "It's Gonna Be Me"
 		},
 		{
@@ -4113,7 +4113,7 @@ let en_1990_gr = [
 		},
 		{
 			pack : 3,
-			group : 'NSYNK',
+			group : 'NSYNC',
 			song : "Tearing up my heart"
 		},
 		{
@@ -4922,6 +4922,11 @@ let en_1990_m = [
 			pack : 3,
 			group : 'Snoop Dogg',
 			song : "Still A G Thang"
+		},
+		{
+			pack : 3,
+			group : 'Paul Van Dyk',
+			song : "For an Angel"
 		}
 ];
 
@@ -6332,7 +6337,7 @@ let en_2000_gr = [
 		},
 		{
 			pack : 6,
-			group : "NSYNK",
+			group : "NSYNC",
 			song : 'Bye Bye Bye'
 		},
 		{
@@ -6599,6 +6604,56 @@ let en_2000_gr = [
 			pack : 6,
 			group : "Faithless",
 			song : "One Step Too Far (ft Dido)"
+		},
+		{
+			pack : 4,
+			group : "Da Buzz",
+			song : "Dangerous"
+		},
+		{
+			pack : 4,
+			group : "Da Buzz",
+			song : "Wonder Where You Are"
+		},
+		{
+			pack : 4,
+			group : "Da Buzz",
+			song : "Dangerous"
+		},
+		{
+			pack : 3,
+			group : 'Papa Roach',
+			song : 'Lifeline'
+		},
+		{
+			pack : 3,
+			group : 'Papa Roach',
+			song : 'Forever'
+		},
+		{
+			pack : 3,
+			group : 'Papa Roach',
+			song : 'Scars'
+		},
+		{
+			pack : 3,
+			group : 'Papa Roach',
+			song : 'Getting Away with Murder'
+		},
+		{
+			pack : 3,
+			group : 'Papa Roach',
+			song : 'She Loves Me Not'
+		},
+		{
+			pack : 6,
+			group : 'Klubbheads',
+			song : 'Hiphopping'
+		},
+		{
+			pack : 6,
+			group : 'OK Go',
+			song : 'Here It Goes Again'
 		}
 ];
 
@@ -7360,6 +7415,36 @@ let en_2000_m = [
 			pack : 2,
 			group : 'Panjabi MC',
 			song : "Mundian to Bach Ke"
+		},
+		{
+			pack : 2,
+			group : 'Yves Larock',
+			song : "By Your Side"
+		},
+		{
+			pack : 2,
+			group : 'Lexter',
+			song : "Freedom to Love"
+		},
+		{
+			pack : 3,
+			group : 'Afroman',
+			song : "Because I Got High"
+		},
+		{
+			pack : 2,
+			group : 'Dim Chris',
+			song : "Sucker"
+		},
+		{
+			pack : 2,
+			group : 'Paul Van Dyk',
+			song : "Nothing But You"
+		},
+		{
+			pack : 2,
+			group : 'Roger Sanchez',
+			song : "Another Chance"
 		}
 ];
 
@@ -8031,6 +8116,51 @@ let en_2000_f = [
 			pack : 2,
 			group : "Natasha Bedingfield",
 			song : 'Unwritten'
+		},
+		{
+			pack : 1,
+			group : "Lady Gaga",
+			song : "Boys Boys Boys"
+		},
+		{
+			pack : 2,
+			group : "Madonna",
+			song : "Hollywood"
+		},
+		{
+			pack : 3,
+			group : "Fergie",
+			song : 'Party People (ft Nelly)'
+		},
+		{
+			pack : 2,
+			group : "Despina Vandi",
+			song : "Opa Opa"
+		},
+		{
+			pack : 1,
+			group : "Christina Aguilera",
+			song : 'Candy Man'
+		},
+		{
+			pack : 1,
+			group : "Christina Aguilera",
+			song : 'Fighter'
+		},
+		{
+			pack : 1,
+			group : "Christina Aguilera",
+			song : "Keeps Gettin' Better"
+		},
+		{
+			pack : 2,
+			group : "Hilary Duff",
+			song : "So Yesterday"
+		},
+		{
+			pack : 2,
+			group : "Hilary Duff",
+			song : "Come Clean"
 		}
 ];
 
@@ -10752,9 +10882,9 @@ let ru_1990_gr = [
 			song : 'Какао'
 		},
 		{
-			pack : 2,
-			group : 'Каникулы',
-			song : 'Завтра я на все забью'
+			pack : 1,
+			group : 'Амега',
+			song : 'Это была она'
 		},
 		{
 			pack : 2,
@@ -11325,8 +11455,8 @@ let ru_1990_gr = [
 		},
 		{
 			pack : 1,
-			group : 'Амега',
-			song : 'Это была она'
+			group : 'Турбомода',
+			song : 'Позови'
 		}
 ];
 
@@ -12258,6 +12388,26 @@ let ru_1990_m = [
 			pack : 1,
 			group : 'Александр Серов',
 			song : 'Ворованная ночь'
+		},
+		{
+			pack : 3,
+			group : 'Борис Моисеев',
+			song : "Звёздочка"
+		},
+		{
+			pack : 3,
+			group : 'Борис Моисеев',
+			song : "Чёрный бархат"
+		},
+		{
+			pack : 2,
+			group : 'Оскар',
+			song : "Мажь вазелином"
+		},
+		{
+			pack : 2,
+			group : 'Оскар',
+			song : "Паноптикум"
 		}
 ];
 
@@ -14415,6 +14565,131 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_MVOCAL,
 		group : 'Отпетые мошенники',
 		song : 'Насосы'
+	},
+	{
+		pack : RU_2000_GR_MVOCAL,
+		group : 'Звери',
+		song : 'Дожди-пистолеты'
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
+		group : 'Виагра',
+		song : "Притяженья больше нет"
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
+		group : 'Виагра',
+		song : "ЛМЛ"
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
+		group : 'Виагра',
+		song : "Перемирие"
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
+		group : 'Виагра',
+		song : "Поцелуи"
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
+		group : 'Виагра',
+		song : "Не оставляй меня, любимый"
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
+		group : 'Виагра',
+		song : "Обмани, но останься"
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
+		group : 'Виагра',
+		song : "Океан и три реки"
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
+		group : 'Виагра',
+		song : "Биология"
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_1,
+		group : 'Виагра',
+		song : "Стоп стоп стоп"
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
+		group : 'Турбомода',
+		song : "Школа"
+	},
+	{
+		pack : RU_2000_GR_MVOCAL,
+		group : 'БиС',
+		song : "Твой или ничей"
+	},
+	{
+		pack : RU_2000_GR_MVOCAL,
+		group : 'БиС',
+		song : "Катя, возьми телефон"
+	},
+	{
+		pack : RU_2000_GR_MVOCAL,
+		group : 'БиС',
+		song : "Катя, возьми телефон"
+	},
+	{
+		pack : RU_2000_GR_MVOCAL,
+		group : 'Чай Вдвоём',
+		song : "Желанная"
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
+		group : 'Турбомода',
+		song : 'Каникулы'
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
+		group : 'Ассорти',
+		song : 'Красивая любовь'
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
+		group : 'Ассорти',
+		song : 'Зажги моё тело'
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
+		group : 'Турбомода',
+		song : 'Хитрое солнышко'
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
+		group : 'Турбомода',
+		song : 'Лето'
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
+		group : 'Турбомода',
+		song : 'Мы будем вместе'
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
+		group : 'Турбомода',
+		song : 'Море'
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
+		group : 'Турбомода',
+		song : 'Зацелую'
+	},
+	{
+		pack : RU_2000_GR_FVOCAL_MEDIUM_2,
+		group : 'Любовные Истории',
+		song : 'Путь домой'
+	},
+	{
+		pack : RU_2000_GR_MVOCAL,
+		group : 'Як-40',
+		song : "Девочка-луна"
 	}
 ];
 
@@ -14833,6 +15108,41 @@ let ru_2000_m = [
 		pack : 2,
 		group : 'Никита Малинин',
 		song : "Вспышка в ночи"
+	},
+	{
+		pack : 1,
+		group : 'Борис Моисеев',
+		song : "Петербург - Ленинград (ft Людмила Гурченко)"
+	},
+	{
+		pack : 1,
+		group : 'Борис Моисеев',
+		song : "Sexual revolution (ft Стрелки)"
+	},
+	{
+		pack : 1,
+		group : 'Борис Моисеев',
+		song : "Две свечи (ft Алла Пугачёва)"
+	},
+	{
+		pack : 2,
+		group : 'Децл',
+		song : "Письмо"
+	},
+	{
+		pack : 2,
+		group : 'Децл',
+		song : "Legalize"
+	},
+	{
+		pack : 2,
+		group : 'Децл',
+		song : "Потабачим"
+	},
+	{
+		pack : 2,
+		group : 'Леонид Руденко',
+		song : "Everybody"
 	}
 ];
 
@@ -15414,6 +15724,26 @@ let ru_2000_f = [
 		pack : 1,
 		group : 'Кристина Орбакайте',
 		song : "Май"
+	},
+	{
+		pack : 1,
+		group : 'Наталья Ветлицкая',
+		song : "Мальчики"
+	},
+	{
+		pack : 1,
+		group : 'Лера Массква',
+		song : "Разные"
+	},
+	{
+		pack : 1,
+		group : "Глюкоза",
+		song : "Юра"
+	},
+	{
+		pack : 2,
+		group : 'Бьянка',
+		song : "Мулен Руж"
 	}
 ];
 
@@ -18284,8 +18614,8 @@ let songs_names_en_1990 = ['1990 Группы (Rock Medium)', '1990 Группы
 	'1990 Группы (Pop Hard)', '1990 Группы (Women)', '1990 Группы (Eurodance)',
 	'1990 Исполнители (Easy)', '1990 Исполнители (Medium)', '1990 Исполнители (Hard)',
 	'1990 Исполнительницы (Donna Lewis+)', '1990 Исполнительницы (Gala+)'];
-	
-let songs_en_2000 = [en_2000_gr_1, en_2000_gr_2, en_2000_gr_3, en_2000_gr_4, en_2000_gr_5, en_2000_m_1, en_2000_m_2, en_2000_m_3, en_2000_f_1, en_2000_f_2, en_2000_f_3];
+
+let songs_en_2000 = [en_2000_gr, en_2000_m, en_2000_f];
 let songs_names_en_2000 = ['2000 Группы (Рок: Green Day+)', '2000 Группы (Рок: U2+)', '2000 Группы (Рок, менее известный)', '2000 Группы (Европа Плюс)',
 	'2000 Группы (Европа Плюс, менее известные)', '2000 Исполнители (Pop)', '2000 Исполнители (Dj)', '2000 Исполнители (Rap)',
 	'2000 Исполнительницы (популярные)', '2000 Исполнительницы (менее известные)', '2000 Исполнительницы (RnB)'];
@@ -18315,7 +18645,7 @@ let songs_names_ru_1990 = ['1990 Группы (Мужские)', '1990 Груп�
 	'1990 Исполнительницы (EASY)', '1990 Исполнительницы (MEDIUM)',
 	'1990 Исполнительницы (HARD)'];
 	
-let songs_ru_2000 =	[ru_2000_gr_1, ru_2000_gr_2, ru_2000_gr_3, ru_2000_gr_4, ru_2000_m, ru_2000_f_1, ru_2000_f_2];
+let songs_ru_2000 =	[ru_2000_gr, ru_2000_m, ru_2000_f];
 let songs_names_ru_2000 = ['2000 Группы (Поп, мужские)', '2000 Группы (Поп, женские)',
 	'2000 Группы (Поп, женские, менее популярные)', '2000 Группы (Рок)',
 	'2000 Исполнители', '2000 Исполнительницы 1', '2000 Исполнительницы 2'];
@@ -18335,6 +18665,9 @@ let songs_names_en_clips = ['Иностранные клипы: Евродэнс
 
 let songs_ru_clips = [ru_clips];
 let songs_names_ru_clips = ['Русские клипы (1990-е)'];
+
+let songs_1990 = [songs_en_1990.flat(), songs_ru_1990.flat()];
+let songs_2000 = [songs_en_2000.flat(), songs_ru_2000.flat()];
 
 //Arrays for charts
 
