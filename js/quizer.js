@@ -1437,7 +1437,7 @@ let en_1980_gr = [
 		song : "Land Of Confusion"
 	},
 	{
-		pack : EN_1980_GR_PACK_4,
+		pack : EN_1980_GR_PACK_3,
 		group : 'Flock Of Seagulls',
 		song : "I Ran"
 	},
@@ -1467,7 +1467,7 @@ let en_1980_gr = [
 		song : "Out of Touch"
 	},
 	{
-		pack : EN_1980_GR_PACK_4,
+		pack : EN_1980_GR_PACK_3,
 		group : 'Soul II Soul',
 		song : "Back to Life (ft Caron Wheeler)"
 	},
@@ -1482,7 +1482,7 @@ let en_1980_gr = [
 		song : "Who Can It Be Now?"
 	},
 	{
-		pack : EN_1980_GR_PACK_4,
+		pack : EN_1980_GR_PACK_3,
 		group : 'Beach Boys',
 		song : "Wipeout (ft Fat Boys)"
 	},
@@ -1512,7 +1512,7 @@ let en_1980_gr = [
 		song : "Manic Monday"
 	},
 	{
-		pack : EN_1980_GR_PACK_4,
+		pack : EN_1980_GR_PACK_3,
 		group : "Go-Go's",
 		song : "Vacation"
 	},
@@ -1527,7 +1527,7 @@ let en_1980_gr = [
 		song : "Love Is a Stranger"
 	},
 	{
-		pack : EN_1980_GR_PACK_4,
+		pack : EN_1980_GR_PACK_3,
 		group : "Outfield",
 		song : "Your Love"
 	},
@@ -1567,7 +1567,7 @@ let en_1980_gr = [
 		song : "That’s all"
 	},
 	{
-		pack : EN_1980_GR_PACK_4,
+		pack : EN_1980_GR_PACK_3,
 		group : "Flock Of Seagulls",
 		song : "Wishing (If I Had A Photograph Of You)"
 	},
@@ -1951,14 +1951,18 @@ let en_1980_gr_5 =	en_1980_gr.filter(item => item.pack == 5);
 let en_1980_gr_6 =	en_1980_gr.filter(item => item.pack == 6);
 
 const en_1980_m_icon = [
-	'pop',
+	'easy',
+	'medium',
+	'hard',
 	'disco',
-	'rock'
+	'italo_disco'
 ];
 
 const EN_1980_M_PACK_1 = 1;
-const EN_1980_M_PACK_2 = 2;
-const EN_1980_M_PACK_3 = 3;
+const EN_1980_M_PACK_2 = 4;
+const EN_1980_M_PACK_3 = 2;
+const EN_1980_M_PACK_4 = 3;
+const EN_1980_M_PACK_5 = 5;
 
 let en_1980_m = [
 	{
@@ -1972,37 +1976,37 @@ let en_1980_m = [
 		song : "Born in the U.S.A."
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : 'Richard Marx',
 		song : "Right Here Waiting"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_4,
 		group : 'Willie Nelson',
 		song : "Always On My Mind"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Roy Orbison",
 		song : "You Got It"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : 'Stevie Wonder',
 		song : "Ebony And Ivory (ft Paul McCartney)"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_4,
 		group : 'Bob Marley',
 		song : "Redemption Song (ft The Wailers)"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_4,
 		group : 'Bob Marley',
 		song : "Could You be Loved (ft The Wailers)"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_4,
 		group : 'Willie Nelson',
 		song : "Seven Spanish Angels (ft Ray Charles)"
 	},
@@ -2012,7 +2016,7 @@ let en_1980_m = [
 		song : "Dont Worry, Be Happy"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_4,
 		group : "Bobby Brown",
 		song : "My Prerogative"
 	},
@@ -2057,27 +2061,27 @@ let en_1980_m = [
 		song : "I'm on Fire"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : 'Stevie Wonder',
 		song : "Master Blaster (Jammin')"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : 'Stevie Wonder',
 		song : "I Just Called To Say I Love You"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Lionel Richie",
 		song : "Truly"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Lionel Richie",
 		song : "All Night Long (All Night)"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Lionel Richie",
 		song : "Hello"
 	},
@@ -2092,77 +2096,77 @@ let en_1980_m = [
 		song : "Another Day In Paradise"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Chris Norman",
 		song : "Stumblin' In"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Lionel Richie",
 		song : "Endless Love (ft Diana Ross)"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Billy Joel",
 		song : "A matter of trust"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Billy Joel",
 		song : "Allentown"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Billy Joel",
 		song : "It’s still rock and roll to me"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Billy Joel",
 		song : "Uptown girl"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Billy Joel",
 		song : "Tell her about it"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Bryan Ferry",
 		song : "Don’t stop the dance"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Chris De Burgh",
 		song : "Missing you"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Chris Isaak",
 		song : "Wicked game"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Chris Norman",
 		song : "Hunters of the Night"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Chris Norman",
 		song : "Midnight lady"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Chris Norman",
 		song : "Some hearts are diamonds"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Chris Rea",
 		song : "Looking for the summer"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Chris Rea",
 		song : "The road to hell"
 	},
@@ -2182,7 +2186,7 @@ let en_1980_m = [
 		song : "Got My Mind Set On You"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Joe Esposito",
 		song : "You're The Best Around"
 	},
@@ -2197,7 +2201,7 @@ let en_1980_m = [
 		song : "Up where we belong"
 	},
 	{
-		pack : EN_1980_M_PACK_1,
+		pack : EN_1980_M_PACK_3,
 		group : "Lionel Richie",
 		song : "Say you. say me"
 	},
@@ -2312,67 +2316,67 @@ let en_1980_m = [
 		song : "Masterpiece"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_5,
 		group : "Detto Mariano",
 		song : "La pigiatura (ft Clown, Patrizia Tapparelli)"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_5,
 		group : "Adriano Celentano",
 		song : "Uh Uh"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_5,
 		group : "Adriano Celentano",
 		song : "Pay - Pay - Pay"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_5,
 		group : "Adriano Celentano",
 		song : "Soli"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_5,
 		group : "Adriano Celentano",
 		song : "Susanna"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_5,
 		group : "Adriano Celentano",
 		song : "Azzurro"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_5,
 		group : "Adriano Celentano",
 		song : "Stivali E Colbacco"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_5,
 		group : "Toto Cutugno",
 		song : "Serenata"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_5,
 		group : "Toto Cutugno",
 		song : "L'italiano"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_5,
 		group : "Toto Cutugno",
 		song : "La Mia Musica"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_5,
 		group : "Toto Cutugno",
 		song : "Solo Noi"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_5,
 		group : "Toto Cutugno",
 		song : "Donna Donna Mia"
 	},
 	{
-		pack : EN_1980_M_PACK_2,
+		pack : EN_1980_M_PACK_5,
 		group : "Toto Cutugno",
 		song : "Enamorados"
 	},
@@ -2387,32 +2391,32 @@ let en_1980_m = [
 		song : "Pick Up the Phone"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : 'Michael Jackson',
 		song : "Billie Jean"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : 'Michael Jackson',
 		song : "Beat It"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : 'Michael Jackson',
 		song : "Smooth Criminal"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : 'Michael Jackson',
 		song : "Thriller"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : 'Michael Jackson',
 		song : "Rock with You"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : 'Morrissey',
 		song : "Everyday Is Like Sunday"
 	},
@@ -2432,7 +2436,7 @@ let en_1980_m = [
 		song : "Crazy Train"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : 'Danzig',
 		song : "Mother"
 	},
@@ -2457,127 +2461,127 @@ let en_1980_m = [
 		song : "Raspberry Beret"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : "Freddie Mercury",
 		song : "Living on my own"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : "Freddie Mercury",
 		song : "The great pretender"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "Rupert Holmes",
 		song : "Escape (The Pina Colada Song)"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "Christopher Cross",
 		song : "Sailing"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "Christopher Cross",
 		song : "Arthur's Theme (Best That You Can Do)"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "Kenny Rogers",
 		song : "Lady"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "Kenny Rogers",
 		song : "Islands In The Stream"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : "John Lennon",
 		song : "(Just Like) Starting Over"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : "John Lennon",
 		song : "Woman"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : "Elton John",
 		song : "Sacrifice"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : "Elton John",
 		song : "A Word In Spanish"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : "Elton John",
 		song : "Candle In The Wind"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : "Elton John",
 		song : "I'm Still Standing"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "Rick Springfield",
 		song : "Jessie's Girl"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "Vangelis",
 		song : "Chariots Of Fire"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "John Waite",
 		song : "Missing You"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "Marvin Gaye",
 		song : "Sexual Healing"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "Tom Petty",
 		song : "Free Fallin'"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "Tom Petty",
 		song : "I Won't Back Down"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "Tom Petty",
 		song : "American Girl (ft The Heartbreakers)"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "Howard Jones",
 		song : "What Is Love?"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_4,
 		group : "Dave Stewart",
 		song : "Lily Was Here (ft Candy Dulfer)"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : "Sting",
 		song : "Englishman In New York"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : "Sting",
 		song : "Fields Of Gold"
 	},
 	{
-		pack : EN_1980_M_PACK_3,
+		pack : EN_1980_M_PACK_1,
 		group : "Sting",
 		song : "Fragile"
 	},
@@ -2641,6 +2645,8 @@ let en_1980_m = [
 let en_1980_m_1 =	en_1980_m.filter(item => item.pack == 1);
 let en_1980_m_2 =	en_1980_m.filter(item => item.pack == 2);
 let en_1980_m_3 =	en_1980_m.filter(item => item.pack == 3);
+let en_1980_m_4 =	en_1980_m.filter(item => item.pack == 4);
+let en_1980_m_5 =	en_1980_m.filter(item => item.pack == 5);
 
 const en_1980_f_icon = [
 	'pop',
@@ -4872,7 +4878,7 @@ let en_1990_m = [
 			song : "Aisha"
 		},
 		{
-			pack : EN_1990_M_PACK_1,
+			pack : EN_1990_M_PACK_2,
 			group : 'Adriano Celentano',
 			song : "Angel"
 		},
@@ -4897,22 +4903,22 @@ let en_1990_m = [
 			song : "Something About The Way You Look Tonight"
 		},
 		{
-			pack : EN_1990_M_PACK_2,
+			pack : EN_1990_M_PACK_1,
 			group : 'Bryan Adams',
 			song : "All For Love (ft Sting, Rod Stewart)"
 		},
 		{
-			pack : EN_1990_M_PACK_2,
+			pack : EN_1990_M_PACK_1,
 			group : 'Bryan Adams',
 			song : "Please Forgive Me"
 		},
 		{
-			pack : EN_1990_M_PACK_2,
+			pack : EN_1990_M_PACK_1,
 			group : 'Bryan Adams',
 			song : "(Everything I Do) I Do It For You"
 		},
 		{
-			pack : EN_1990_M_PACK_2,
+			pack : EN_1990_M_PACK_1,
 			group : 'Bryan Adams',
 			song : "Have You Ever Really Loved A Woman?"
 		},
@@ -7009,7 +7015,7 @@ let en_2000_m = [
 		},
 		{
 			pack : 1,
-			group : 'Leonard Kohen',
+			group : 'Leonard Cohen',
 			song : 'A Thousand Kisses Deep'
 		},
 		{
@@ -10168,343 +10174,404 @@ let ru_1980_gr_2 =	ru_1980_gr.filter(item => item.pack == 2);
 let ru_1980_gr_3 =	ru_1980_gr.filter(item => item.pack == 3);
 let ru_1980_gr_4 =	ru_1980_gr.filter(item => item.pack == 4);
 
+const ru_1980_m_icon = [
+	'easy',
+	'medium'
+];
+
+const RU_1980_M_PACK_1 = 1;
+const RU_1980_M_PACK_2 = 2;
+
 let ru_1980_m = [
 	{
-		id : 15,
+		pack : RU_1980_M_PACK_1,
 		group : 'Виктор Салтыков',
 		song : "Белая ночь"
 	},
 	{
-		id : 16,
+		pack : RU_1980_M_PACK_1,
 		group : 'Игорь Корнелюк',
 		song : "Билет на балет"
 	},
 	{
-		id : 17,
+		pack : RU_1980_M_PACK_1,
 		group : 'Игорь Корнелюк',
 		song : "Возвращайся"
 	},
 	{
-		id : 18,
+		pack : RU_1980_M_PACK_2,
 		group : 'Вячеслав Добрынин',
 		song : "Не сыпь мне соль на рану"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Лоза',
 		song : "Плот"
 	},
 	{
-		id : 20,
+		pack : RU_1980_M_PACK_2,
 		group : 'Александр Барыкин',
 		song : "Букет"
 	},
 	{
-		id : 21,
+		pack : RU_1980_M_PACK_1,
 		group : 'Владимир Кузьмин',
 		song : "Пристань твоей надежды"
 	},
 	{
-		id : 22,
+		pack : RU_1980_M_PACK_2,
 		group : 'Владимир Маркин',
 		song : "Сиреневый туман"
 	},
 	{
-		id : 23,
+		pack : RU_1980_M_PACK_2,
 		group : 'Владимир Маркин',
 		song : "Я готов целовать песок"
 	},
 	{
-		id : 24,
+		pack : RU_1980_M_PACK_1,
 		group : 'Игорь Николаев',
 		song : "Королевство кривых зеркал"
 	},
 	{
-		id : 25,
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Антонов',
 		song : "Поверь в мечту"
 	},
 	{
-		id : 26,
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Антонов',
 		song : "Золотая лестница"
 	},
 	{
-		id : 27,
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Антонов',
 		song : "Лунная дорожка"
 	},
 	{
-		id : 28,
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Антонов',
 		song : "Зеркало"
 	},
 	{
-		id : 29,
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Антонов',
 		song : "Море"
 	},
 	{
-		id : 30,
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Антонов',
 		song : "Дорога к морю"
 	},
 	{
-		id : 31,
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Антонов',
 		song : "На улице Каштановой"
 	},
 	{
-		id : 32,
+		pack : RU_1980_M_PACK_1,
 		group : 'Игорь Тальков',
 		song : "Чистые пруды"
 	},
 	{
-		id : 33,
+		pack : RU_1980_M_PACK_1,
 		group : 'Игорь Скляр',
 		song : "Комарово"
 	},
 	{
-		id : 34,
+		pack : RU_1980_M_PACK_2,
 		group : 'Тынис Мяги',
 		song : "Я не умею танцевать"
 	},
 	{
-		id : 35,
+		pack : RU_1980_M_PACK_2,
 		group : 'Сергей Рогожин',
 		song : "На соседней улице"
 	},
 	{
-		id : 38,
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Антонов',
 		song : "Анастасия"
 	},
 	{
-		id : 43,
+		pack : RU_1980_M_PACK_1,
 		group : 'Михаил Боярский',
 		song : "Сивка-Бурка"
 	},
 	{
-		id : 44,
+		pack : RU_1980_M_PACK_1,
 		group : 'Ярослав Евдокимов',
 		song : "Фантазёр"
 	},
 	{
-		id : 45,
+		pack : RU_1980_M_PACK_1,
 		group : 'Ярослав Евдокимов',
 		song : "Колодец"
 	},
 	{
-		id : 46,
+		pack : RU_1980_M_PACK_2,
 		group : 'Вячеслав Добрынин',
 		song : "Синий Туман"
 	},
 	{
-		id : 47,
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Антонов',
 		song : "20 лет спустя"
 	},
 	{
-		id : 71,
+		pack : RU_1980_M_PACK_1,
 		group : 'Игорь Николаев',
 		song : "Старая Мельница"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Лоза',
 		song : "Я умею мечтать"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Лоза',
 		song : "Сто часов"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Лоза',
 		song : "Баба Люба"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Крис Кельми',
 		song : "Ночное рандеву"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Владимир Маркин',
 		song : "Белая Черемуха"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Антонов',
 		song : "О тебе и обо мне"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Юрий Антонов',
 		song : "Крыша дома твоего"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Игорь Скляр',
 		song : "Старый рояль (ft Ольга Пирагс)"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Тынис Мяги',
 		song : "Спасите разбитое сердце моё (Детектив)"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Тынис Мяги',
 		song : "Олимпиада-80"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Андрей Державин',
 		song : "Катя-Катерина"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Игорь Саруханов',
 		song : "Дорогие мои старики"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Игорь Саруханов',
 		song : "Зелёные глаза"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Виктор Попов',
 		song : "Ты не забывай (ft Твой день)"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Дмитрий Маликов',
 		song : "До завтра"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Дмитрий Маликов',
 		song : "Студент"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Дмитрий Маликов',
 		song : "Брачный кортеж"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Дмитрий Маликов',
 		song : "Ты моей никогда не будешь"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Дмитрий Маликов',
 		song : "Все Вернется"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Дмитрий Маликов',
 		song : "Сторона родная"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Лев Лещенко',
 		song : "До свидания, Москва (ft Татьяна Анциферова)"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Лев Лещенко',
 		song : "Где мой дом родной"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Михаил Муромов',
 		song : "Яблоки на снегу"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Александр Серов',
 		song : "Мадонна"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Александр Серов',
 		song : "Ты меня любишь"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Александр Серов',
 		song : "Круиз (ft Ольга Зарубина)"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Александр Серов',
 		song : "Как быть"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Александр Серов',
 		song : "Междугородный разговор (ft Татьяна Анциферова)"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Сергей Беликов',
 		song : "Снится мне деревня"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Сергей Беликов',
 		song : "Радуга"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Сергей Беликов',
 		song : "Живи родник"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Вилли Токарев',
 		song : "В шумном балагане"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Вилли Токарев',
 		song : "Над Гудзоном"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Вилли Токарев',
 		song : "Небоскребы"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Вахтанг Кикабидзе',
 		song : "Проводы любви"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Вахтанг Кикабидзе',
 		song : "Мои года – моё богатство"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Владимир Пресняков',
 		song : "Белый снег"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Владимир Пресняков',
 		song : "Зурбаган"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Алексей Глызин',
 		song : "Зимний сад"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Николай Гнатюк',
 		song : "Птица счастья"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Николай Гнатюк',
 		song : "Танец на барабане"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Валерий Леонтьев',
 		song : "Полет на дельтаплане"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Валерий Леонтьев',
 		song : "Маргарита"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Валерий Леонтьев',
 		song : "Разноцветные ярмарки"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Валерий Леонтьев',
 		song : "Зеленый свет"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Валерий Леонтьев',
 		song : "Наедине со всеми"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Александр Розенбаум',
 		song : "Утинная охота"
 	},
 	{
+		pack : RU_1980_M_PACK_1,
 		group : 'Владимир Высоцкий',
 		song : "Все не так, ребята"
 	},
 	{
+		pack : RU_1980_M_PACK_2,
 		group : 'Алексей Вишня',
 		song : "Танцы на битом стекле"
 	}
 ];
+
+let ru_1980_m_1 =	ru_1980_m.filter(item => item.pack == 1);
+let ru_1980_m_2 =	ru_1980_m.filter(item => item.pack == 2);
 
 let ru_1980_f = [
 	{
@@ -20416,6 +20483,7 @@ function mode(num, album, album_num){
 	if(num == 16){
 		year = '1980';
 		gr_package_names = ru_1980_gr_icon;
+		m_package_names = ru_1980_m_icon;
 		$('.artist').show();
 	}
 	// 1980 Эстрада
