@@ -1940,6 +1940,11 @@ let en_1980_gr = [
 		pack : EN_1980_GR_PACK_6,
 		group : 'Chicago',
 		song : "Hard To Say I'M Sorry"
+	},
+	{
+		pack : EN_1980_GR_PACK_4,
+		group : 'Bangles',
+		song : "Eternal Flame"
 	}
 ];
 
@@ -2709,6 +2714,26 @@ let en_1980_m = [
 		pack : EN_1980_M_PACK_5,
 		group : "Eros Ramazotti",
 		song : "La Luce Buona Delle Stelle"
+	},
+	{
+		pack : EN_1980_M_PACK_3,
+		group : "Bryan Ferry",
+		song : "Slave To Love"
+	},
+	{
+		pack : EN_1980_M_PACK_1,
+		group : "Taco",
+		song : "Puttin’ On The Ritz"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Rocky M',
+		song : "Disco Lady"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Rocky M',
+		song : "Fly with Me to Wonderland"
 	}
 ];
 
