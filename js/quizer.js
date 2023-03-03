@@ -2734,6 +2734,11 @@ let en_1980_m = [
 		pack : EN_1980_GR_PACK_3,
 		group : 'Rocky M',
 		song : "Fly with Me to Wonderland"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Eros Ramazotti",
+		song : "Gloria"
 	}
 ];
 
