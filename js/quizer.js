@@ -890,8 +890,8 @@ const en_1980_gr_icon = [
 
 const EN_1980_GR_PACK_1 = 1;
 const EN_1980_GR_PACK_2 = 2;
-const EN_1980_GR_PACK_3 = 3;
-const EN_1980_GR_PACK_4 = 4;
+const EN_1980_GR_PACK_3 = 4;
+const EN_1980_GR_PACK_4 = 3;
 const EN_1980_GR_PACK_5 = 5;
 const EN_1980_GR_PACK_6 = 6;
 
@@ -2639,6 +2639,76 @@ let en_1980_m = [
 		pack : EN_1980_M_PACK_3,
 		group : "David Bowie",
 		song : "Modern Love"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Pupo",
+		song : "Gelato al cioccolato"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Pupo",
+		song : "Burattino Telecomandato"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Pupo",
+		song : "Su Di Noi"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Pupo",
+		song : "Lo Devo Solo A Te"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Riccardo Fogli",
+		song : "Malinconia"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Riccardo Fogli",
+		song : "Storie di tutti i giorni"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Riccardo Fogli",
+		song : "Storie di tutti i giorni"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Umberto Tozzi",
+		song : "Tu"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Umberto Tozzi",
+		song : "Ti amo"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Eros Ramazotti",
+		song : "Ad un amico"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Eros Ramazotti",
+		song : "Terra promessa"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Eros Ramazotti",
+		song : "Una storia importante"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Eros Ramazotti",
+		song : "Adesso tu"
+	},
+	{
+		pack : EN_1980_M_PACK_5,
+		group : "Eros Ramazotti",
+		song : "La Luce Buona Delle Stelle"
 	}
 ];
 
