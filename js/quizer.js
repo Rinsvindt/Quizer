@@ -19977,9 +19977,9 @@ function check_package_num(num){
 	}
 }
 
-let gr_package_names = ['', '', '', '', ''];
-let m_package_names = ['', '', '', '', ''];
-let f_package_names = ['', '', '', '', ''];
+let gr_package_names = [];
+let m_package_names = [];
+let f_package_names = [];
 let package_names;
 
 function show_packages(num){
