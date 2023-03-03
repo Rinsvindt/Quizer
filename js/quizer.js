@@ -19373,6 +19373,74 @@ function show_chart(){
 
 let music = [
 	{
+		arr: en_1980_gr,
+		lang: 'en',
+		year: '1980',
+		type: 'gr',
+		packs: [
+				{
+					arr: en_1980_gr_1,
+					name: 'EN 1980s Groups: Pop-Rock',
+				},
+				{
+					arr: en_1980_gr_2,
+					name: 'EN 1980s Groups: Rock',
+				},
+				{
+					arr: en_1980_gr_3,
+					name: 'EN 1980s Groups: Pop Medium',
+				},
+				{
+					arr: en_1980_gr_4,
+					name: 'EN 1980s Groups: Pop Hard',
+				},
+				{
+					arr: en_1980_gr_5,
+					name: "EN 1980s Groups: Pop Very Hard",
+				},
+				{
+					arr: en_1980_gr_6,
+					name: 'EN 1980s Groups: Disco',
+				}
+			]
+	},
+	{
+		arr: en_1980_m,
+		lang: 'en',
+		year: '1980',
+		type: 'm',
+		packs: [
+				{
+					arr: en_1980_m_1,
+					name: 'EN 1980s Male: Pop',
+				},
+				{
+					arr: en_1980_m_2,
+					name: 'EN 1980s Male: Disco',
+				},
+				{
+					arr: en_1980_m_3,
+					name: 'EN 1980s Male: Rock',
+				}
+			]
+	},
+	{
+		arr: en_1980_f,
+		lang: 'en',
+		year: '1980',
+		type: 'f',
+		packs: [
+				{
+					arr: en_1980_f_1,
+					name: 'EN 1980s Female: Pop',
+				},
+				{
+					arr: en_1980_f_2,
+					name: 'EN 1980s Female: Disco',
+				}
+			]
+	},
+	{
 		arr: en_1990_gr,
 		lang: 'en',
 		year: '1990',
@@ -19437,70 +19505,6 @@ let music = [
 				{
 					arr: en_1990_f_2,
 					name: 'EN 1990s Female: Few Songs',
-				}
-			]
-	},
-	{
-		arr: ru_1990_gr,
-		lang: 'ru',
-		year: '1990',
-		type: 'gr',
-		packs: [
-				{
-					arr: ru_1990_gr_1,
-					name: 'RU 1990s Groups: Pop Men',
-				},
-				{
-					arr: ru_1990_gr_2,
-					name: 'RU 1990s Groups: Pop Women',
-				},
-				{
-					arr: ru_1990_gr_3,
-					name: 'RU 1990s Groups: Rock#1',
-				},
-				{
-					arr: ru_1990_gr_4,
-					name: 'RU 1990s Groups: Rock#2',
-				}
-			]
-	},
-	{
-		arr: ru_1990_m,
-		lang: 'ru',
-		year: '1990',
-		type: 'm',
-		packs: [
-				{
-					arr: ru_1990_m_1,
-					name: 'RU 1990s Male: Easy',
-				},
-				{
-					arr: ru_1990_m_2,
-					name: 'RU 1990s Male: Medium',
-				},
-				{
-					arr: ru_1990_m_3,
-					name: 'RU 1990s Male: Hard',
-				}
-			]
-	},
-	{
-		arr: ru_1990_f,
-		lang: 'ru',
-		year: '1990',
-		type: 'f',
-		packs: [
-				{
-					arr: ru_1990_f_1,
-					name: 'RU 1990s Female: Easy',
-				},
-				{
-					arr: ru_1990_f_2,
-					name: 'RU 1990s Female: Medium',
-				},
-				{
-					arr: ru_1990_f_3,
-					name: 'RU 1990s Female: Hard',
 				}
 			]
 	},
@@ -19573,6 +19577,118 @@ let music = [
 				{
 					arr: en_2000_f_3,
 					name: 'EN 2000s Female: RnB',
+				}
+			]
+	},
+	{
+		arr: ru_1980_gr,
+		lang: 'ru',
+		year: '1980',
+		type: 'gr',
+		packs: [
+				{
+					arr: ru_1980_gr_1,
+					name: 'RU 1980s Groups: Pop',
+				},
+				{
+					arr: ru_1980_gr_2,
+					name: 'RU 1980s Groups: VIA',
+				},
+				{
+					arr: ru_1980_gr_3,
+					name: 'RU 1980s Groups: Rock#1',
+				},
+				{
+					arr: ru_1980_gr_4,
+					name: 'RU 1980s Groups: Rock#2',
+				}
+			]
+	},
+	{
+		arr: ru_1980_m,
+		lang: 'ru',
+		year: '1980',
+		type: 'm',
+		packs: [
+				{
+					arr: ru_1980_m,
+					name: 'RU 1980s Male: Medium',
+				}
+			]
+	},
+	{
+		arr: ru_1980_f,
+		lang: 'ru',
+		year: '1980',
+		type: 'f',
+		packs: [
+				{
+					arr: ru_1980_f,
+					name: 'RU 1980s Female: Medium',
+				}
+			]
+	},
+	{
+		arr: ru_1990_gr,
+		lang: 'ru',
+		year: '1990',
+		type: 'gr',
+		packs: [
+				{
+					arr: ru_1990_gr_1,
+					name: 'RU 1990s Groups: Pop Men',
+				},
+				{
+					arr: ru_1990_gr_2,
+					name: 'RU 1990s Groups: Pop Women',
+				},
+				{
+					arr: ru_1990_gr_3,
+					name: 'RU 1990s Groups: Rock#1',
+				},
+				{
+					arr: ru_1990_gr_4,
+					name: 'RU 1990s Groups: Rock#2',
+				}
+			]
+	},
+	{
+		arr: ru_1990_m,
+		lang: 'ru',
+		year: '1990',
+		type: 'm',
+		packs: [
+				{
+					arr: ru_1990_m_1,
+					name: 'RU 1990s Male: Easy',
+				},
+				{
+					arr: ru_1990_m_2,
+					name: 'RU 1990s Male: Medium',
+				},
+				{
+					arr: ru_1990_m_3,
+					name: 'RU 1990s Male: Hard',
+				}
+			]
+	},
+	{
+		arr: ru_1990_f,
+		lang: 'ru',
+		year: '1990',
+		type: 'f',
+		packs: [
+				{
+					arr: ru_1990_f_1,
+					name: 'RU 1990s Female: Easy',
+				},
+				{
+					arr: ru_1990_f_2,
+					name: 'RU 1990s Female: Medium',
+				},
+				{
+					arr: ru_1990_f_3,
+					name: 'RU 1990s Female: Hard',
 				}
 			]
 	},
@@ -19681,7 +19797,7 @@ function generateSongIdsWithPrefix(arr, lang, year, type){
 		id = 'Song (' + i + ')';
 		arr[i-1].id = prefix + id;
 		arr[i-1].audioPath = audioPath + id;
-		if(year == '1990' || year == '2000'){
+		if(year == '1980' || year == '1990' || year == '2000'){
 			arr[i-1].imgPath = imgPath + 'avatar/' + arr[i-1].group;
 		} else {
 			arr[i-1].imgPath = imgPath + id;
