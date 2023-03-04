@@ -13729,9 +13729,9 @@ let ru_1990_f = [
 			song : 'Прости меня'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
-			group : 'Лада Дэнс',
-			song : 'Один раз в год сады цветут'
+			pack : RU_1990_F_PACK_3,
+			group : 'Ани Лорак',
+			song : 'Зеркала'
 		},
 		{
 			pack : RU_1990_F_PACK_2,
@@ -13802,11 +13802,6 @@ let ru_1990_f = [
 			pack : RU_1990_F_PACK_3,
 			group : 'Ани Лорак',
 			song : 'Считалочка'
-		},
-		{
-			pack : RU_1990_F_PACK_3,
-			group : 'Ани Лорак',
-			song : 'Зеркала'
 		}
 ];
 
@@ -20713,7 +20708,7 @@ function mode(num, album, album_num){
 		year = '1990';
 		gr_package_names = ru_1990_gr_icon;
 		m_package_names = ru_1990_m_icon;
-		m_package_names = ru_1990_f_icon;
+		f_package_names = ru_1990_f_icon;
 		$('#song').hide();
 		if(!alphabetMode){
 			$('.artist').show();
