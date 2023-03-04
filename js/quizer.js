@@ -9909,7 +9909,7 @@ let ru_1980_gr = [
 	{
 		pack : RU_1980_GR_PACK_3,
 		group : 'Круиз',
-		song : "Не позволяй душе ленится"
+		song : "Не позволяй душе лениться"
 	},
 	{
 		pack : RU_1980_GR_PACK_3,
@@ -10707,198 +10707,220 @@ let ru_1980_m = [
 let ru_1980_m_1 =	ru_1980_m.filter(item => item.pack == 1);
 let ru_1980_m_2 =	ru_1980_m.filter(item => item.pack == 2);
 
+const ru_1980_f_icon = [
+	'medium'
+];
+
+const RU_1980_F_PACK_1 = 1;
+
 let ru_1980_f = [
 	{
-		id : 36,
+		pack : RU_1980_F_PACK_1,
 		group : 'Анне Веске',
 		song : "Радоваться жизни"
 	},
 	{
-		id : 37,
+		pack : RU_1980_F_PACK_1,
 		group : 'Анне Веске',
 		song : "Позади крутой поворот"
 	},
 	{
-		id : 48,
+		pack : RU_1980_F_PACK_1,
 		group : 'Валентина Толкунова',
 		song : "Я не могу иначе"
 	},
 	{
-		id : 49,
+		pack : RU_1980_F_PACK_1,
 		group : 'София Ротару',
 		song : "Было, но прошло"
 	},
 	{
-		id : 50,
+		pack : RU_1980_F_PACK_1,
 		group : 'София Ротару',
 		song : "Лаванда"
 	},
 	{
-		id : 51,
+		pack : RU_1980_F_PACK_1,
 		group : 'София Ротару',
 		song : "Только этого мало"
 	},
 	{
-		id : 52,
+		pack : RU_1980_F_PACK_1,
 		group : 'София Ротару',
 		song : "Луна, луна"
 	},
 	{
-		id : 53,
+		pack : RU_1980_F_PACK_1,
 		group : 'Ольга Зарубина',
 		song : "На теплоходе музыка играет"
 	},
 	{
-		id : 54,
+		pack : RU_1980_F_PACK_1,
 		group : 'Алла Пугачёва',
 		song : "Миллион алых роз"
 	},
 	{
-		id : 55,
+		pack : RU_1980_F_PACK_1,
 		group : 'Алла Пугачёва',
 		song : "Айсберг"
 	},
 	{
-		id : 56,
+		pack : RU_1980_F_PACK_1,
 		group : 'Алла Пугачёва',
 		song : "Старинные часы"
 	},
 	{
-		id : 57,
+		pack : RU_1980_F_PACK_1,
 		group : 'Алла Пугачёва',
 		song : "Надо же"
 	},
 	{
-		id : 58,
+		pack : RU_1980_F_PACK_1,
 		group : 'Алла Пугачёва',
 		song : "А знаешь, всё ещё будет (ft Кристина Орбакайте)"
 	},
 	{
-		id : 59,
+		pack : RU_1980_F_PACK_1,
 		group : 'Ольга Седова',
 		song : "Радоваться жизни"
 	},
 	{
-		id : 60,
+		pack : RU_1980_F_PACK_1,
 		group : 'Ирина Муравьёва',
 		song : "Позвони мне, позвони"
 	},
 	{
-		id : 61,
+		pack : RU_1980_F_PACK_1,
 		group : 'Лариса Долина',
 		song : "Половинка"
 	},
 	{
-		id : 62,
+		pack : RU_1980_F_PACK_1,
 		group : 'Лайма Вайкуле',
 		song : "Вернисаж (ft Валерий Леонтьев)"
 	},
 	{
-		id : 63,
+		pack : RU_1980_F_PACK_1,
 		group : 'Ирина Аллегрова',
 		song : "Найди меня"
 	},
 	{
-		id : 72,
+		pack : RU_1980_F_PACK_1,
 		group : 'Валентина Легкоступова',
 		song : "Хамелион"
 	},
 	{
-		id : 73,
+		pack : RU_1980_F_PACK_1,
 		group : 'Валентина Легкоступова',
 		song : "Где искать тебя"
 	},
 	{
-		id : 74,
+		pack : RU_1980_F_PACK_1,
 		group : 'Валентина Легкоступова',
 		song : "Хрустальные башмачки"
 	},
 	{
-		id : 75,
+		pack : RU_1980_F_PACK_1,
 		group : 'Ирина Понаровская',
 		song : "Музыка любви"
 	},
 	{
-		id : 76,
+		pack : RU_1980_F_PACK_1,
 		group : 'Ирина Понаровская',
 		song : "Однажды"
 	},
 	{
-		id : 77,
+		pack : RU_1980_F_PACK_1,
 		group : 'Ирина Понаровская',
 		song : "Кроссворд"
 	},
 	{
-		id : 78,
+		pack : RU_1980_F_PACK_1,
 		group : 'Маша Распутина',
 		song : "Городская сумасшедшая"
 	},
 	{
-		id : 79,
+		pack : RU_1980_F_PACK_1,
 		group : 'Маша Распутина',
 		song : "Рыжая корова"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Маша Распутина',
 		song : "Дождь прошёл"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Эдита Пьеха',
 		song : "Город детства"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Эдита Пьеха',
 		song : "Дорога домой"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Эдита Пьеха',
 		song : "Нам рано жить воспоминаниями"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Эдита Пьеха',
 		song : "Ссорятся люди"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Эдита Пьеха',
 		song : "Дети Земли"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Ирина Отиева',
 		song : "Последняя поэма"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Ирина Отиева',
 		song : "Карточный домик"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Ирина Отиева',
 		song : "Ведьма-речка"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Алиса Мон',
 		song : "Подорожник"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Алиса Мон',
 		song : "Возьми моё сердце"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Янка Дягилева',
 		song : "От большого ума"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Татьяна Дасковская',
 		song : "Прекрасное Далеко"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Людмила Сенчина',
 		song : "Страна детства"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Алла Пугачёва',
 		song : "Воздушный змей"
 	},
 	{
+		pack : RU_1980_F_PACK_1,
 		group : 'Алла Пугачёва',
 		song : "Делу время"
 	}
@@ -20337,7 +20359,7 @@ function male(){
 
 function check_package_num(num){
 	$('.artist').hide();
-	if(num > 1){
+	if(num > 0){
 		show_packages(num);
 	} else {
 		if(!genre){
@@ -20661,6 +20683,7 @@ function mode(num, album, album_num){
 		year = '1980';
 		gr_package_names = ru_1980_gr_icon;
 		m_package_names = ru_1980_m_icon;
+		f_package_names = ru_1980_f_icon;
 		$('.artist').show();
 	}
 	// 1980 Эстрада
